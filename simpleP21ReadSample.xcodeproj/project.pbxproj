@@ -3,11 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F4245EF1270B9F2E000E728C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4245EF0270B9F2E000E728C /* main.swift */; };
+		F46CE5E7271184B4004A122F /* SwiftSDAIcore in Frameworks */ = {isa = PBXBuildFile; productRef = F46CE5E6271184B4004A122F /* SwiftSDAIcore */; };
+		F46CE5EB271184CE004A122F /* SwiftSDAIap242 in Frameworks */ = {isa = PBXBuildFile; productRef = F46CE5EA271184CE004A122F /* SwiftSDAIap242 */; };
+		F46CE5EF271184E5004A122F /* SwiftAP242PDMkit in Frameworks */ = {isa = PBXBuildFile; productRef = F46CE5EE271184E5004A122F /* SwiftAP242PDMkit */; };
+		F46CE5F3271188CB004A122F /* MyActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46CE5F2271188CB004A122F /* MyActivityMonitor.swift */; };
+		F46CE5F4271188CB004A122F /* MyValidationMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46CE5F1271188CB004A122F /* MyValidationMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,8 @@
 /* Begin PBXFileReference section */
 		F4245EED270B9F2E000E728C /* simpleP21ReadSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = simpleP21ReadSample; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4245EF0270B9F2E000E728C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F46CE5F1271188CB004A122F /* MyValidationMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyValidationMonitor.swift; sourceTree = "<group>"; };
+		F46CE5F2271188CB004A122F /* MyActivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityMonitor.swift; sourceTree = "<group>"; };
 		F4A35134270E4B1B0020434A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,6 +40,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46CE5E7271184B4004A122F /* SwiftSDAIcore in Frameworks */,
+				F46CE5EF271184E5004A122F /* SwiftAP242PDMkit in Frameworks */,
+				F46CE5EB271184CE004A122F /* SwiftSDAIap242 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				F4245EF0270B9F2E000E728C /* main.swift */,
+				F46CE5F2271188CB004A122F /* MyActivityMonitor.swift */,
+				F46CE5F1271188CB004A122F /* MyValidationMonitor.swift */,
 			);
 			path = simpleP21ReadSample;
 			sourceTree = "<group>";
@@ -80,6 +92,11 @@
 			dependencies = (
 			);
 			name = simpleP21ReadSample;
+			packageProductDependencies = (
+				F46CE5E6271184B4004A122F /* SwiftSDAIcore */,
+				F46CE5EA271184CE004A122F /* SwiftSDAIap242 */,
+				F46CE5EE271184E5004A122F /* SwiftAP242PDMkit */,
+			);
 			productName = simpleP21ReadSample;
 			productReference = F4245EED270B9F2E000E728C /* simpleP21ReadSample */;
 			productType = "com.apple.product-type.tool";
@@ -107,6 +124,11 @@
 				Base,
 			);
 			mainGroup = F4245EE4270B9F2E000E728C;
+			packageReferences = (
+				F46CE5E5271184B4004A122F /* XCRemoteSwiftPackageReference "SwiftSDAIcore" */,
+				F46CE5E9271184CE004A122F /* XCRemoteSwiftPackageReference "SwiftSDAIap242" */,
+				F46CE5ED271184E5004A122F /* XCRemoteSwiftPackageReference "SwiftAP242PDMkit" */,
+			);
 			productRefGroup = F4245EEE270B9F2E000E728C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -121,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46CE5F4271188CB004A122F /* MyValidationMonitor.swift in Sources */,
 				F4245EF1270B9F2E000E728C /* main.swift in Sources */,
+				F46CE5F3271188CB004A122F /* MyActivityMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +311,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F46CE5E5271184B4004A122F /* XCRemoteSwiftPackageReference "SwiftSDAIcore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tsun7170/SwiftSDAIcore.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F46CE5E9271184CE004A122F /* XCRemoteSwiftPackageReference "SwiftSDAIap242" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tsun7170/SwiftSDAIap242.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F46CE5ED271184E5004A122F /* XCRemoteSwiftPackageReference "SwiftAP242PDMkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tsun7170/SwiftAP242PDMkit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F46CE5E6271184B4004A122F /* SwiftSDAIcore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F46CE5E5271184B4004A122F /* XCRemoteSwiftPackageReference "SwiftSDAIcore" */;
+			productName = SwiftSDAIcore;
+		};
+		F46CE5EA271184CE004A122F /* SwiftSDAIap242 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F46CE5E9271184CE004A122F /* XCRemoteSwiftPackageReference "SwiftSDAIap242" */;
+			productName = SwiftSDAIap242;
+		};
+		F46CE5EE271184E5004A122F /* SwiftAP242PDMkit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F46CE5ED271184E5004A122F /* XCRemoteSwiftPackageReference "SwiftAP242PDMkit" */;
+			productName = SwiftAP242PDMkit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4245EE5270B9F2E000E728C /* Project object */;
 }

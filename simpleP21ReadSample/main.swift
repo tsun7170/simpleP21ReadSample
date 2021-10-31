@@ -133,8 +133,8 @@ for (i, productDefinition) in productDefinitions(in: schemaInstance).enumerated(
 				if let definitionalShape = try? definitionalShapeDefinitions(of: aspectRep) {
 					print("\t\t\t\(aspectRep.complexEntity.leafEntityReferences) name:\(aspectRep.NAME.asSwiftType)")
 					print("\t\t\t\tdefinitionalShape:\(definitionalShape.complexEntity.leafEntityReferences)")
-					for docSource in fileLocation(of: definitionalShape) {
-						print("\t\t\t\t\tfilename:\(docSource.filename),\tpath:\(docSource.path ?? na),\tmechanism:\(docSource.mechanism ?? na)")
+					for docSource in fileLocations(of: definitionalShape) {
+						print("\t\t\t\t\tfilename:\(docSource.fileName),\tpath:\(docSource.path ?? na),\tmechanism:\(docSource.mechanism ?? na)")
 					}
 				}
 			}
@@ -153,16 +153,16 @@ for (i, productDefinition) in productDefinitions(in: schemaInstance).enumerated(
 		print("\t\t\t\(doctype.complexEntity.leafEntityReferences) type:\(doctype.PRODUCT_DATA_TYPE.asSwiftType)")
 		
 		if let docfile = documentFile(as: doc) {
-			for docSource in fileLocation(of: docfile) {
-				print("\t\t\tfilename:\(docSource.filename),\tpath:\(docSource.path ?? na),\tmechanism:\(docSource.mechanism ?? na)")
+			for docSource in fileLocations(of: docfile) {
+				print("\t\t\tfilename:\(docSource.fileName),\tpath:\(docSource.path ?? na),\tmechanism:\(docSource.mechanism ?? na)")
 			}
 		}
 		else if let managedDoc = try? managedDocument(of: doc) {
 			if let docversion = ap242.ePRODUCT_DEFINITION_FORMATION(managedDoc) {
 				for docview in documentViews(of: docversion) {
 					for docfile in docview.DOCUMENTATION_IDS.compactMap({ documentFile(as: $0) }) {
-						for docSource in fileLocation(of: docfile) {
-							print("\t\t\tfilename:\(docSource.filename),\tpath:\(docSource.path ?? na),\tmechanism:\(docSource.mechanism ?? na)")
+						for docSource in fileLocations(of: docfile) {
+							print("\t\t\tfilename:\(docSource.fileName),\tpath:\(docSource.path ?? na),\tmechanism:\(docSource.mechanism ?? na)")
 						}
 					}
 				}

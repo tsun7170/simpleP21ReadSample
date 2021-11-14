@@ -16,8 +16,8 @@ let na = "n/a"
 //MARK: identify the input p21 data file
 let testDataFolder = ProcessInfo.processInfo.environment["TEST_DATA_FOLDER"]!
 
-let url = URL(fileURLWithPath: testDataFolder + "NIST_CTC_STEP_PMI/nist_ctc_02_asme1_ap242-e2.stp")
-//let url = URL(fileURLWithPath: testDataFolder + "CAx STEP FILE LIBRARY/s1-c5-214/s1-c5-214.stp")
+//let url = URL(fileURLWithPath: testDataFolder + "NIST_CTC_STEP_PMI/nist_ctc_02_asme1_ap242-e2.stp")
+let url = URL(fileURLWithPath: testDataFolder + "CAx STEP FILE LIBRARY/s1-c5-214/s1-c5-214.stp")
 
 //MARK: create input character stream
 let stepsource = try String(contentsOf: url) 
@@ -26,7 +26,7 @@ let charstream = stepsource.makeIterator()
 //MARK: create output repository
 let repository = SDAISessionSchema.SdaiRepository(name: "examle", description: "example repository")
 
-//MARK: prepare a acceptable step schema list
+//MARK: prepare the acceptable step schema list
 let schemaList: P21Decode.SchemaList = [
 	"AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 3 1 4 }": AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.self,
 	"AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 1 1 4 }": AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.self,
@@ -108,7 +108,8 @@ for (i, productDefinition) in productDefinitions(in: schemaInstance).enumerated(
 	
 	if let productShape = try? shape(of: productDefinition) {
 		// shape reps
-		for shapeRep in representations(of: productShape) {
+		for shapeDefRep in representations(of: productShape) {
+			let shapeRep = shapeDefRep.USED_REPRESENTATION
 			if let definitionalShape = try? definitionalShapeDefinitions(of: shapeRep) {
 				print("\t\t\(shapeRep.complexEntity.leafEntityReferences) name:\(shapeRep.NAME.asSwiftType)")
 				print("\t\t\tdefinitionalShape:\(definitionalShape.complexEntity.leafEntityReferences)")
@@ -119,7 +120,8 @@ for (i, productDefinition) in productDefinitions(in: schemaInstance).enumerated(
 		for aspect in shapeAspects(of: productShape) {
 			print("\t\(aspect.complexEntity.leafEntityReferences) name:\(aspect.NAME.asSwiftType)")
 			
-			for aspectRep in representations(of: aspect) {
+			for shapeDefRep in representations(of: aspect) {
+				let aspectRep = shapeDefRep.USED_REPRESENTATION
 				print("\t\t\(aspectRep.complexEntity.leafEntityReferences) name:\(aspectRep.NAME.asSwiftType)")
 				
 				if let contex = try? context(of: aspectRep) {
@@ -232,7 +234,7 @@ if doWhereRuleValidation {
 }	
 
 //MARK: all validations
-var doAllValidaton = false
+var doAllValidaton = true
 if doAllValidaton {
 	let validationPassed = schemaInstance.validateAllConstraints(monitor: MyValidationMonitor())
 	print("validationPassed:", validationPassed)

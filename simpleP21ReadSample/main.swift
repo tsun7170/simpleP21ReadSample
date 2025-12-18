@@ -22,8 +22,8 @@ let testDataFolder = ProcessInfo.processInfo.environment["TEST_DATA_FOLDER"]!
 
 
 ///https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
-let url = URL(fileURLWithPath: testDataFolder + "NIST-PMI-STEP-Files/" +
-              "nist_ctc_01_asme1_ap242-e1.stp"
+//let url = URL(fileURLWithPath: testDataFolder + "NIST-PMI-STEP-Files/" +
+//              "nist_ctc_01_asme1_ap242-e1.stp"
 //              "nist_ctc_02_asme1_ap242-e2.stp"
 //              "nist_ctc_03_asme1_ap242-e2.stp"
 //              "nist_ctc_04_asme1_ap242-e1.stp"
@@ -40,13 +40,13 @@ let url = URL(fileURLWithPath: testDataFolder + "NIST-PMI-STEP-Files/" +
 //              "nist_stc_08_asme1_ap242-e3.stp"
 //              "nist_stc_09_asme1_ap242-e3.stp"
 //              "nist_stc_10_asme1_ap242-e2.stp"
-)
+//)
 
 ///https://www.cax-if.org/cax/cax_stepLib.php
 ///(not accessible any more.)
-//let url = URL(fileURLWithPath: testDataFolder + "CAx STEP FILE LIBRARY/" +
-//              "s1-c5-214/MAINBODY_BACK.stp"
-//)
+let url = URL(fileURLWithPath: testDataFolder + "CAx STEP FILE LIBRARY/" +
+              "s1-c5-214/MAINBODY_BACK.stp"
+)
 
 print("\n input: \(url.lastPathComponent)\n\n")
 

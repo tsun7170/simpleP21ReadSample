@@ -1,0 +1,986 @@
+2025/12/18 7:07
+
+ input: nist_ctc_01_asme1_ap242-e1.stp
+
+
+
+ parsing header section: 
+ parsing data section: .........+.........+.........+.........+.......
+ completed parsing.
+ resolving entity instances: .........*.........*.........*.........*...
+ completed resolving.
+
+ source p21 file: FILE_NAME(headerEntity: SimpleRecord(keyword:FILE_NAME, parameters:[STRING(nist_ctc_01_asme1_ap242-e1.stp), STRING(2021-12-21T09:14:03), [STRING()], [STRING()], STRING(), STRING(), STRING()]))
+
+ created models: ["nist_ctc_01_asme1_ap242-e1.stp.PRIMARY"]
+
+(1) decode complete
+
+
+APPLICATION_CONTEXT[0] #4376: APPLICATION(tLABEL(rep: STRING(managed model based 3d engineering))), ID(nil), DESCRIPTION(nil) 
+
+APPLICATION_PROTOCOL_DEFINITION #4375: tLABEL(rep: STRING(ap242_managed_model_based_3d_engineering_mim_lf))
+
+
+
+product identification[0] [PRODUCT_DEFINITION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4368] id:'design'
+	[PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4369] id:''
+	[PRODUCT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4374] id:'NIST Test Case 1', name:'NIST Complex Test Case 1'
+
+	product category:[PRODUCT_RELATED_PRODUCT_CATEGORY-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4372] name:'detail'
+	product context:[PRODUCT_DEFINITION_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4367] name:'part definition'
+
+	*** TOP LEVEL ASSEMBLY ***
+
+	product property[0.0][PROPERTY_DEFINITION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4333] name:'Company'
+		[REPRESENTATION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4318] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351] type:'3D'
+0.				unit:[LENGTH_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4366, CONVERSION_BASED_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4366]
+0.					MILLIMETRE factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(1.0)))) times ...
+0.						unit:[LENGTH_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4360, SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4360]
+0.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4358, PLANE_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4358]
+1.					DEGREE factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._PLANE_ANGLE_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tPLANE_ANGLE_MEASURE(rep: REAL(0.0174532925199433)))) times ...
+1.						unit:[SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4354, PLANE_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4354]
+1.							nil RADIAN
+2.				unit:[SOLID_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4353, SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4353]
+2.					nil STERADIAN
+
+			rep[0.0.0][DESCRIPTIVE_REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4348]
+	product property[0.1][PROPERTY_DEFINITION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4332] name:'CAGE Code'
+		[REPRESENTATION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4317] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351] type:'3D'
+0.				unit:[LENGTH_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4366, CONVERSION_BASED_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4366]
+0.					MILLIMETRE factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(1.0)))) times ...
+0.						unit:[LENGTH_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4360, SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4360]
+0.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4358, PLANE_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4358]
+1.					DEGREE factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._PLANE_ANGLE_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tPLANE_ANGLE_MEASURE(rep: REAL(0.0174532925199433)))) times ...
+1.						unit:[SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4354, PLANE_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4354]
+1.							nil RADIAN
+2.				unit:[SOLID_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4353, SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4353]
+2.					nil STERADIAN
+
+			rep[0.1.0][DESCRIPTIVE_REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4347]
+	product property[0.2][PROPERTY_DEFINITION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4334] name:'attribute validation property'
+		[REPRESENTATION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4319] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351] type:'3D'
+0.				unit:[LENGTH_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4366, CONVERSION_BASED_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4366]
+0.					MILLIMETRE factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(1.0)))) times ...
+0.						unit:[LENGTH_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4360, SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4360]
+0.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4358, PLANE_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4358]
+1.					DEGREE factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._PLANE_ANGLE_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tPLANE_ANGLE_MEASURE(rep: REAL(0.0174532925199433)))) times ...
+1.						unit:[SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4354, PLANE_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4354]
+1.							nil RADIAN
+2.				unit:[SOLID_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4353, SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4353]
+2.					nil STERADIAN
+
+			rep[0.2.0][INTEGER_REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4274]
+			rep[0.2.1][INTEGER_REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4270]
+			rep[0.2.2][INTEGER_REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4273]
+			rep[0.2.3][INTEGER_REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4272]
+			rep[0.2.4][INTEGER_REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4271]
+	product property[0.3][PRODUCT_DEFINITION_SHAPE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4269] name:''
+		[SHAPE_REPRESENTATION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4267] name:'NIST Complex Test Case 1'
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351] type:'3D'
+0.				unit:[LENGTH_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4366, CONVERSION_BASED_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4366]
+0.					MILLIMETRE factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(1.0)))) times ...
+0.						unit:[LENGTH_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4360, SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4360]
+0.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4358, PLANE_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4358]
+1.					DEGREE factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._PLANE_ANGLE_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tPLANE_ANGLE_MEASURE(rep: REAL(0.0174532925199433)))) times ...
+1.						unit:[SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4354, PLANE_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4354]
+1.							nil RADIAN
+2.				unit:[SOLID_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4353, SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4353]
+2.					nil STERADIAN
+
+			rep[0.3.0][AXIS2_PLACEMENT_3D-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#3964]
+	product property[0.4][PROPERTY_DEFINITION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4331] name:'Modeled By'
+		[REPRESENTATION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4316] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4351] type:'3D'
+0.				unit:[LENGTH_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4366, CONVERSION_BASED_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4366]
+0.					MILLIMETRE factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(1.0)))) times ...
+0.						unit:[LENGTH_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4360, SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4360]
+0.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4358, PLANE_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4358]
+1.					DEGREE factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._PLANE_ANGLE_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tPLANE_ANGLE_MEASURE(rep: REAL(0.0174532925199433)))) times ...
+1.						unit:[SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4354, PLANE_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4354]
+1.							nil RADIAN
+2.				unit:[SOLID_ANGLE_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4353, SI_UNIT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4353]
+2.					nil STERADIAN
+
+			rep[0.4.0][DESCRIPTIVE_REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#4346]
+
+	product shape:SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.ePRODUCT_DEFINITION_SHAPE>
+	shape aspect[0.0][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#315] name:''
+	shape aspect[0.1][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#311] name:''
+	shape aspect[0.2][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#323] name:''
+	shape aspect[0.3][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#310] name:''
+	shape aspect[0.4][DATUM_SYSTEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#52] name:'Datum System .2'
+	shape aspect[0.5][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#220] name:''
+	shape aspect[0.6][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#313] name:''
+	shape aspect[0.7][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#306] name:''
+	shape aspect[0.8][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#236] name:''
+	shape aspect[0.9][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#324] name:''
+	shape aspect[0.10][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#303] name:''
+	shape aspect[0.11][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#295] name:''
+	shape aspect[0.12][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#314] name:''
+	shape aspect[0.13][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#219] name:''
+	shape aspect[0.14][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#234] name:''
+	shape aspect[0.15][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#325] name:''
+	shape aspect[0.16][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#40] name:''
+	shape aspect[0.17][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#226] name:''
+	shape aspect[0.18][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#221] name:''
+	shape aspect[0.19][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#302] name:''
+	shape aspect[0.20][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#327] name:''
+	shape aspect[0.21][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#333] name:''
+	shape aspect[0.22][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#289] name:''
+	shape aspect[0.23][DATUM_FEATURE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#34] name:'Simple Datum.1'
+	shape aspect[0.24][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#224] name:''
+	shape aspect[0.25][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#296] name:''
+	shape aspect[0.26][DATUM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#39] name:''
+	shape aspect[0.27][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#43] name:''
+	shape aspect[0.28][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#309] name:''
+	shape aspect[0.29][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#318] name:''
+	shape aspect[0.30][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#317] name:''
+	shape aspect[0.31][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#228] name:''
+	shape aspect[0.32][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#41] name:''
+	shape aspect[0.33][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#334] name:''
+	shape aspect[0.34][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#335] name:''
+	shape aspect[0.35][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#301] name:''
+	shape aspect[0.36][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#304] name:''
+	shape aspect[0.37][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#291] name:''
+	shape aspect[0.38][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#326] name:''
+	shape aspect[0.39][DATUM_FEATURE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#36] name:'Simple Datum.3'
+	shape aspect[0.40][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#316] name:''
+	shape aspect[0.41][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#300] name:''
+	shape aspect[0.42][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#290] name:''
+	shape aspect[0.43][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#293] name:''
+	shape aspect[0.44][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#231] name:''
+	shape aspect[0.45][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#331] name:''
+	shape aspect[0.46][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#298] name:''
+	shape aspect[0.47][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#235] name:''
+	shape aspect[0.48][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#230] name:''
+	shape aspect[0.49][ALL_AROUND_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#23] name:''
+	shape aspect[0.50][DATUM_FEATURE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#35] name:'Simple Datum.2'
+	shape aspect[0.51][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#297] name:''
+	shape aspect[0.52][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#229] name:''
+	shape aspect[0.53][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#223] name:''
+	shape aspect[0.54][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#222] name:''
+	shape aspect[0.55][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#227] name:''
+	shape aspect[0.56][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#330] name:''
+	shape aspect[0.57][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#299] name:''
+	shape aspect[0.58][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#292] name:''
+	shape aspect[0.59][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#322] name:''
+	shape aspect[0.60][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#339] name:''
+	shape aspect[0.61][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#337] name:''
+	shape aspect[0.62][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#329] name:''
+	shape aspect[0.63][DATUM_SYSTEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#51] name:'Datum System .1'
+	shape aspect[0.64][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#312] name:''
+	shape aspect[0.65][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#305] name:''
+	shape aspect[0.66][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#308] name:''
+	shape aspect[0.67][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#338] name:''
+	shape aspect[0.68][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#328] name:''
+	shape aspect[0.69][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#332] name:''
+	shape aspect[0.70][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#232] name:''
+	shape aspect[0.71][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#319] name:''
+	shape aspect[0.72][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#294] name:''
+	shape aspect[0.73][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#321] name:''
+	shape aspect[0.74][DATUM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#37] name:''
+	shape aspect[0.75][DATUM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#38] name:''
+	shape aspect[0.76][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#307] name:''
+	shape aspect[0.77][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#233] name:''
+	shape aspect[0.78][COMPOSITE_SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#225] name:''
+	shape aspect[0.79][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#42] name:''
+	shape aspect[0.80][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#336] name:''
+	shape aspect[0.81][SHAPE_ASPECT-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#320] name:''
+
+
+
+(2) inspection complete
+
+
+
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[136]:	 #lookups: 1883, #hits: 1747, %hit rate: 92.777483%
+ model   cache[2]:	 #lookups: 446, #hits: 444, %hit rate: 99.55157%
+
+ validating instance reference domain for 16012 application instances:
+ b
+....+....1....+....2....+....3....+....4....+....5....+....6....+..
+
+VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-17 22:27:47 +0000 
+failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
+..7....+....8....+....9....+....10
+ duration: 0:24:39
+
+
+ validating 55 global rules:
+ .........+.........+.........+.........+.........+.....
+ duration: 0:00:02
+
+
+ validating 49 uniqueness rules:
+ .........+..
+FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1)
+.......+.........+.........+.........
+ duration: 0:00:00
+
+
+ validating where rules for 4350 complex entities:
+ 
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#411 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#487 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#431 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#359 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#439 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#443 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#391 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#387 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#527 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#499 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#75 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#419 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#375 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#495 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#83 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#71 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#379 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#507 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#535 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#475 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#447 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#415 .WHERE_wr1
+
+FAILED:  GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#631 .WHERE_wr4
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#471 .WHERE_wr1
+..
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#95 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#343 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#531 .WHERE_wr1
+1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#515 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#347 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#451 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#367 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#519 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#503 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#399 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#479 .WHERE_wr1
+.
+FAILED:  DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#123 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#435 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#395 .WHERE_wr1
+.+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#511 .WHERE_wr1
+..
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#407 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#523 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#371 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#483 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#463 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#355 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#31 .WHERE_wr1
+
+FAILED:  DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#127 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#403 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#351 .WHERE_wr1
+2
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#383 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#467 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#427 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#459 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#423 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#491 .WHERE_wr1
+..
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#438 .WHERE_wr1
++
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#534 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#434 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#78 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#494 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#386 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#74 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#514 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#346 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#526 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#382 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#402 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#482 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#94 .WHERE_wr1
+3
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#486 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#455 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#363 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#390 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#458 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#422 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#374 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#358 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#522 .WHERE_wr1
+
+FAILED:  DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#126 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#454 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#506 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#362 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#394 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#418 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#426 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#502 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#342 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#398 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#414 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#430 .WHERE_wr1
+..
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#466 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#366 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#82 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#446 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#450 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#406 .WHERE_wr1
+4
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#478 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#410 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#490 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#90 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#470 .WHERE_wr1
+..
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#474 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#354 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#510 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#518 .WHERE_wr1
++.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#498 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#370 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#442 .WHERE_wr1
+..
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#530 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#462 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#350 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#378 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#493 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#449 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#477 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#445 .WHERE_wr1
+5
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#457 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#369 .WHERE_wr1
+
+FAILED:  DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#122 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#349 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#353 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#525 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#345 .WHERE_wr1
+
+FAILED:  DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#121 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#533 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#521 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#385 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#465 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#529 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#393 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#469 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#473 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#489 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#409 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#505 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#341 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#453 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#441 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#373 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#433 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#509 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#413 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#497 .WHERE_wr1
+6
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#481 .WHERE_wr1
+..
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#81 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#389 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#437 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#365 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#429 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#537 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#93 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#501 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#405 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#401 .WHERE_wr1
+..
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#381 .WHERE_wr1
+
+FAILED:  DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#125 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#417 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#377 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#517 .WHERE_wr1
+7
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#461 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#357 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#77 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#513 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#397 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#425 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#485 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#421 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#464 .WHERE_wr1
++.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#361 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#520 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#384 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#92 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#412 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#368 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#496 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#432 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#404 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#484 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#416 .WHERE_wr1
+8
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#400 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#344 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#360 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#480 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#380 .WHERE_wr1
+.
+FAILED:  MECHANICAL_DESIGN_GEOMETRIC_PRESENTATION_REPRESENTATION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#3568 .WHERE_wr8
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#500 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#388 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#352 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#32 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#492 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#376 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#436 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#508 .WHERE_wr1
+
+FAILED:  DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#128 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#340 .WHERE_wr1
++
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#532 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#468 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#364 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#72 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#448 .WHERE_wr1
+
+FAILED:  DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#120 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#528 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#460 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#456 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#348 .WHERE_wr1
+.
+FAILED:  DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#124 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#96 .WHERE_wr1
+9
+FAILED:  REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#80 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#428 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#440 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#356 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#444 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#516 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#476 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#396 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#452 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#472 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#536 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#420 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#524 .WHERE_wr1
++.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#372 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#512 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#504 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#488 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#408 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#424 .WHERE_wr1
+
+SDAI Thread Local Cache Statistics [SDAI.UniqueRuleValidation_1]
+ complex cache[4223]:	 #lookups: 39562470, #hits: 39558247, %hit rate: 99.989326%
+ model   cache[2]:	 #lookups: 453093, #hits: 453091, %hit rate: 99.999559%
+.
+FAILED:  TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#392 .WHERE_wr1
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_0]
+ complex cache[4206]:	 #lookups: 39315283, #hits: 39311077, %hit rate: 99.989302%
+ model   cache[2]:	 #lookups: 442169, #hits: 442167, %hit rate: 99.999548%
+
+SDAI Thread Local Cache Statistics [SdaiTransactionVA]
+ complex cache[4184]:	 #lookups: 33167247, #hits: 33163063, %hit rate: 99.987385%
+ model   cache[2]:	 #lookups: 295007, #hits: 295005, %hit rate: 99.999322%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_15812]
+ complex cache[4211]:	 #lookups: 72212030, #hits: 72207819, %hit rate: 99.994169%
+ model   cache[2]:	 #lookups: 745183, #hits: 745181, %hit rate: 99.999732%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_7]
+ complex cache[4197]:	 #lookups: 39420053, #hits: 39415856, %hit rate: 99.989353%
+ model   cache[2]:	 #lookups: 456023, #hits: 456021, %hit rate: 99.999561%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_15692]
+ complex cache[4197]:	 #lookups: 71341969, #hits: 71337772, %hit rate: 99.994117%
+ model   cache[2]:	 #lookups: 725547, #hits: 725545, %hit rate: 99.999724%
+10
+ duration: 0:17:52
+
+
+ SCHEMA INSTANCE VALIDATION RESULT
+ validationPassed?: LOGICAL(FALSE)
+
+ instanceReferenceDomainValidationRecord: InstanceReferenceDomainValidationResult( result:LOGICAL(UNKNOWN)
+
+
+
+ globalRuleValidationRecord: GlobalRuleValidationResult 0 records
+
+
+
+ uniquenessRuleValidationRecord: UniquenessRuleValidationResult  1 records
+[0]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1): #duplicates(43) / #instances(100)
+
+
+
+ whereRuleValidationRecord: WhereRuleValidationResult( result:LOGICAL(FALSE)
+[0]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#515 .WHERE_wr1: LOGICAL(FALSE)
+[1]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#516 .WHERE_wr1: LOGICAL(FALSE)
+[2]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#517 .WHERE_wr1: LOGICAL(FALSE)
+[3]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#518 .WHERE_wr1: LOGICAL(FALSE)
+[4]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#519 .WHERE_wr1: LOGICAL(FALSE)
+[5]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#520 .WHERE_wr1: LOGICAL(FALSE)
+[6]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#521 .WHERE_wr1: LOGICAL(FALSE)
+[7]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#522 .WHERE_wr1: LOGICAL(FALSE)
+[8]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#523 .WHERE_wr1: LOGICAL(FALSE)
+[9]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#524 .WHERE_wr1: LOGICAL(FALSE)
+[10]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#525 .WHERE_wr1: LOGICAL(FALSE)
+[11]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#526 .WHERE_wr1: LOGICAL(FALSE)
+[12]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#527 .WHERE_wr1: LOGICAL(FALSE)
+[13]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#528 .WHERE_wr1: LOGICAL(FALSE)
+[14]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#529 .WHERE_wr1: LOGICAL(FALSE)
+[15]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#530 .WHERE_wr1: LOGICAL(FALSE)
+[16]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#531 .WHERE_wr1: LOGICAL(FALSE)
+[17]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#532 .WHERE_wr1: LOGICAL(FALSE)
+[18]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#533 .WHERE_wr1: LOGICAL(FALSE)
+[19]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#534 .WHERE_wr1: LOGICAL(FALSE)
+[20]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#535 .WHERE_wr1: LOGICAL(FALSE)
+[21]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#536 .WHERE_wr1: LOGICAL(FALSE)
+[22]	 ANNOTATION_OCCURRENCE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#537 .WHERE_wr1: LOGICAL(FALSE)
+[23]	 DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#120 .WHERE_wr1: LOGICAL(FALSE)
+[24]	 DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#121 .WHERE_wr1: LOGICAL(FALSE)
+[25]	 DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#122 .WHERE_wr1: LOGICAL(FALSE)
+[26]	 DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#123 .WHERE_wr1: LOGICAL(FALSE)
+[27]	 DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#124 .WHERE_wr1: LOGICAL(FALSE)
+[28]	 DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#125 .WHERE_wr1: LOGICAL(FALSE)
+[29]	 DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#126 .WHERE_wr1: LOGICAL(FALSE)
+[30]	 DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#127 .WHERE_wr1: LOGICAL(FALSE)
+[31]	 DIMENSIONAL_SIZE-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#128 .WHERE_wr1: LOGICAL(FALSE)
+[32]	 GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#631 .WHERE_wr4: LOGICAL(FALSE)
+[33]	 MECHANICAL_DESIGN_GEOMETRIC_PRESENTATION_REPRESENTATION-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#3568 .WHERE_wr8: LOGICAL(FALSE)
+[34]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#31 .WHERE_wr1: LOGICAL(FALSE)
+[35]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#32 .WHERE_wr1: LOGICAL(FALSE)
+[36]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#71 .WHERE_wr1: LOGICAL(FALSE)
+[37]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#72 .WHERE_wr1: LOGICAL(FALSE)
+[38]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#74 .WHERE_wr1: LOGICAL(FALSE)
+[39]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#75 .WHERE_wr1: LOGICAL(FALSE)
+[40]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#77 .WHERE_wr1: LOGICAL(FALSE)
+[41]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#78 .WHERE_wr1: LOGICAL(FALSE)
+[42]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#80 .WHERE_wr1: LOGICAL(FALSE)
+[43]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#81 .WHERE_wr1: LOGICAL(FALSE)
+[44]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#82 .WHERE_wr1: LOGICAL(FALSE)
+[45]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#83 .WHERE_wr1: LOGICAL(FALSE)
+[46]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#90 .WHERE_wr1: LOGICAL(FALSE)
+[47]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#92 .WHERE_wr1: LOGICAL(FALSE)
+[48]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#93 .WHERE_wr1: LOGICAL(FALSE)
+[49]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#94 .WHERE_wr1: LOGICAL(FALSE)
+[50]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#95 .WHERE_wr1: LOGICAL(FALSE)
+[51]	 REPRESENTATION_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#96 .WHERE_wr1: LOGICAL(FALSE)
+[52]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#340 .WHERE_wr1: LOGICAL(FALSE)
+[53]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#341 .WHERE_wr1: LOGICAL(FALSE)
+[54]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#342 .WHERE_wr1: LOGICAL(FALSE)
+[55]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#343 .WHERE_wr1: LOGICAL(FALSE)
+[56]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#344 .WHERE_wr1: LOGICAL(FALSE)
+[57]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#345 .WHERE_wr1: LOGICAL(FALSE)
+[58]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#346 .WHERE_wr1: LOGICAL(FALSE)
+[59]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#347 .WHERE_wr1: LOGICAL(FALSE)
+[60]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#348 .WHERE_wr1: LOGICAL(FALSE)
+[61]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#349 .WHERE_wr1: LOGICAL(FALSE)
+[62]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#350 .WHERE_wr1: LOGICAL(FALSE)
+[63]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#351 .WHERE_wr1: LOGICAL(FALSE)
+[64]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#352 .WHERE_wr1: LOGICAL(FALSE)
+[65]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#353 .WHERE_wr1: LOGICAL(FALSE)
+[66]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#354 .WHERE_wr1: LOGICAL(FALSE)
+[67]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#355 .WHERE_wr1: LOGICAL(FALSE)
+[68]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#356 .WHERE_wr1: LOGICAL(FALSE)
+[69]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#357 .WHERE_wr1: LOGICAL(FALSE)
+[70]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#358 .WHERE_wr1: LOGICAL(FALSE)
+[71]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#359 .WHERE_wr1: LOGICAL(FALSE)
+[72]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#360 .WHERE_wr1: LOGICAL(FALSE)
+[73]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#361 .WHERE_wr1: LOGICAL(FALSE)
+[74]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#362 .WHERE_wr1: LOGICAL(FALSE)
+[75]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#363 .WHERE_wr1: LOGICAL(FALSE)
+[76]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#364 .WHERE_wr1: LOGICAL(FALSE)
+[77]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#365 .WHERE_wr1: LOGICAL(FALSE)
+[78]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#366 .WHERE_wr1: LOGICAL(FALSE)
+[79]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#367 .WHERE_wr1: LOGICAL(FALSE)
+[80]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#368 .WHERE_wr1: LOGICAL(FALSE)
+[81]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#369 .WHERE_wr1: LOGICAL(FALSE)
+[82]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#370 .WHERE_wr1: LOGICAL(FALSE)
+[83]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#371 .WHERE_wr1: LOGICAL(FALSE)
+[84]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#372 .WHERE_wr1: LOGICAL(FALSE)
+[85]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#373 .WHERE_wr1: LOGICAL(FALSE)
+[86]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#374 .WHERE_wr1: LOGICAL(FALSE)
+[87]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#375 .WHERE_wr1: LOGICAL(FALSE)
+[88]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#376 .WHERE_wr1: LOGICAL(FALSE)
+[89]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#377 .WHERE_wr1: LOGICAL(FALSE)
+[90]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#378 .WHERE_wr1: LOGICAL(FALSE)
+[91]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#379 .WHERE_wr1: LOGICAL(FALSE)
+[92]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#380 .WHERE_wr1: LOGICAL(FALSE)
+[93]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#381 .WHERE_wr1: LOGICAL(FALSE)
+[94]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#382 .WHERE_wr1: LOGICAL(FALSE)
+[95]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#383 .WHERE_wr1: LOGICAL(FALSE)
+[96]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#384 .WHERE_wr1: LOGICAL(FALSE)
+[97]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#385 .WHERE_wr1: LOGICAL(FALSE)
+[98]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#386 .WHERE_wr1: LOGICAL(FALSE)
+[99]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#387 .WHERE_wr1: LOGICAL(FALSE)
+[100]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#388 .WHERE_wr1: LOGICAL(FALSE)
+[101]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#389 .WHERE_wr1: LOGICAL(FALSE)
+[102]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#390 .WHERE_wr1: LOGICAL(FALSE)
+[103]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#391 .WHERE_wr1: LOGICAL(FALSE)
+[104]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#392 .WHERE_wr1: LOGICAL(FALSE)
+[105]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#393 .WHERE_wr1: LOGICAL(FALSE)
+[106]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#394 .WHERE_wr1: LOGICAL(FALSE)
+[107]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#395 .WHERE_wr1: LOGICAL(FALSE)
+[108]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#396 .WHERE_wr1: LOGICAL(FALSE)
+[109]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#397 .WHERE_wr1: LOGICAL(FALSE)
+[110]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#398 .WHERE_wr1: LOGICAL(FALSE)
+[111]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#399 .WHERE_wr1: LOGICAL(FALSE)
+[112]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#400 .WHERE_wr1: LOGICAL(FALSE)
+[113]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#401 .WHERE_wr1: LOGICAL(FALSE)
+[114]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#402 .WHERE_wr1: LOGICAL(FALSE)
+[115]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#403 .WHERE_wr1: LOGICAL(FALSE)
+[116]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#404 .WHERE_wr1: LOGICAL(FALSE)
+[117]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#405 .WHERE_wr1: LOGICAL(FALSE)
+[118]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#406 .WHERE_wr1: LOGICAL(FALSE)
+[119]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#407 .WHERE_wr1: LOGICAL(FALSE)
+[120]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#408 .WHERE_wr1: LOGICAL(FALSE)
+[121]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#409 .WHERE_wr1: LOGICAL(FALSE)
+[122]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#410 .WHERE_wr1: LOGICAL(FALSE)
+[123]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#411 .WHERE_wr1: LOGICAL(FALSE)
+[124]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#412 .WHERE_wr1: LOGICAL(FALSE)
+[125]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#413 .WHERE_wr1: LOGICAL(FALSE)
+[126]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#414 .WHERE_wr1: LOGICAL(FALSE)
+[127]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#415 .WHERE_wr1: LOGICAL(FALSE)
+[128]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#416 .WHERE_wr1: LOGICAL(FALSE)
+[129]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#417 .WHERE_wr1: LOGICAL(FALSE)
+[130]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#418 .WHERE_wr1: LOGICAL(FALSE)
+[131]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#419 .WHERE_wr1: LOGICAL(FALSE)
+[132]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#420 .WHERE_wr1: LOGICAL(FALSE)
+[133]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#421 .WHERE_wr1: LOGICAL(FALSE)
+[134]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#422 .WHERE_wr1: LOGICAL(FALSE)
+[135]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#423 .WHERE_wr1: LOGICAL(FALSE)
+[136]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#424 .WHERE_wr1: LOGICAL(FALSE)
+[137]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#425 .WHERE_wr1: LOGICAL(FALSE)
+[138]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#426 .WHERE_wr1: LOGICAL(FALSE)
+[139]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#427 .WHERE_wr1: LOGICAL(FALSE)
+[140]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#428 .WHERE_wr1: LOGICAL(FALSE)
+[141]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#429 .WHERE_wr1: LOGICAL(FALSE)
+[142]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#430 .WHERE_wr1: LOGICAL(FALSE)
+[143]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#431 .WHERE_wr1: LOGICAL(FALSE)
+[144]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#432 .WHERE_wr1: LOGICAL(FALSE)
+[145]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#433 .WHERE_wr1: LOGICAL(FALSE)
+[146]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#434 .WHERE_wr1: LOGICAL(FALSE)
+[147]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#435 .WHERE_wr1: LOGICAL(FALSE)
+[148]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#436 .WHERE_wr1: LOGICAL(FALSE)
+[149]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#437 .WHERE_wr1: LOGICAL(FALSE)
+[150]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#438 .WHERE_wr1: LOGICAL(FALSE)
+[151]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#439 .WHERE_wr1: LOGICAL(FALSE)
+[152]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#440 .WHERE_wr1: LOGICAL(FALSE)
+[153]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#441 .WHERE_wr1: LOGICAL(FALSE)
+[154]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#442 .WHERE_wr1: LOGICAL(FALSE)
+[155]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#443 .WHERE_wr1: LOGICAL(FALSE)
+[156]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#444 .WHERE_wr1: LOGICAL(FALSE)
+[157]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#445 .WHERE_wr1: LOGICAL(FALSE)
+[158]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#446 .WHERE_wr1: LOGICAL(FALSE)
+[159]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#447 .WHERE_wr1: LOGICAL(FALSE)
+[160]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#448 .WHERE_wr1: LOGICAL(FALSE)
+[161]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#449 .WHERE_wr1: LOGICAL(FALSE)
+[162]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#450 .WHERE_wr1: LOGICAL(FALSE)
+[163]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#451 .WHERE_wr1: LOGICAL(FALSE)
+[164]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#452 .WHERE_wr1: LOGICAL(FALSE)
+[165]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#453 .WHERE_wr1: LOGICAL(FALSE)
+[166]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#454 .WHERE_wr1: LOGICAL(FALSE)
+[167]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#455 .WHERE_wr1: LOGICAL(FALSE)
+[168]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#456 .WHERE_wr1: LOGICAL(FALSE)
+[169]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#457 .WHERE_wr1: LOGICAL(FALSE)
+[170]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#458 .WHERE_wr1: LOGICAL(FALSE)
+[171]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#459 .WHERE_wr1: LOGICAL(FALSE)
+[172]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#460 .WHERE_wr1: LOGICAL(FALSE)
+[173]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#461 .WHERE_wr1: LOGICAL(FALSE)
+[174]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#462 .WHERE_wr1: LOGICAL(FALSE)
+[175]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#463 .WHERE_wr1: LOGICAL(FALSE)
+[176]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#464 .WHERE_wr1: LOGICAL(FALSE)
+[177]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#465 .WHERE_wr1: LOGICAL(FALSE)
+[178]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#466 .WHERE_wr1: LOGICAL(FALSE)
+[179]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#467 .WHERE_wr1: LOGICAL(FALSE)
+[180]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#468 .WHERE_wr1: LOGICAL(FALSE)
+[181]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#469 .WHERE_wr1: LOGICAL(FALSE)
+[182]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#470 .WHERE_wr1: LOGICAL(FALSE)
+[183]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#471 .WHERE_wr1: LOGICAL(FALSE)
+[184]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#472 .WHERE_wr1: LOGICAL(FALSE)
+[185]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#473 .WHERE_wr1: LOGICAL(FALSE)
+[186]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#474 .WHERE_wr1: LOGICAL(FALSE)
+[187]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#475 .WHERE_wr1: LOGICAL(FALSE)
+[188]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#476 .WHERE_wr1: LOGICAL(FALSE)
+[189]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#477 .WHERE_wr1: LOGICAL(FALSE)
+[190]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#478 .WHERE_wr1: LOGICAL(FALSE)
+[191]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#479 .WHERE_wr1: LOGICAL(FALSE)
+[192]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#480 .WHERE_wr1: LOGICAL(FALSE)
+[193]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#481 .WHERE_wr1: LOGICAL(FALSE)
+[194]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#482 .WHERE_wr1: LOGICAL(FALSE)
+[195]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#483 .WHERE_wr1: LOGICAL(FALSE)
+[196]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#484 .WHERE_wr1: LOGICAL(FALSE)
+[197]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#485 .WHERE_wr1: LOGICAL(FALSE)
+[198]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#486 .WHERE_wr1: LOGICAL(FALSE)
+[199]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#487 .WHERE_wr1: LOGICAL(FALSE)
+[200]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#488 .WHERE_wr1: LOGICAL(FALSE)
+[201]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#489 .WHERE_wr1: LOGICAL(FALSE)
+[202]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#490 .WHERE_wr1: LOGICAL(FALSE)
+[203]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#491 .WHERE_wr1: LOGICAL(FALSE)
+[204]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#492 .WHERE_wr1: LOGICAL(FALSE)
+[205]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#493 .WHERE_wr1: LOGICAL(FALSE)
+[206]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#494 .WHERE_wr1: LOGICAL(FALSE)
+[207]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#495 .WHERE_wr1: LOGICAL(FALSE)
+[208]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#496 .WHERE_wr1: LOGICAL(FALSE)
+[209]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#497 .WHERE_wr1: LOGICAL(FALSE)
+[210]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#498 .WHERE_wr1: LOGICAL(FALSE)
+[211]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#499 .WHERE_wr1: LOGICAL(FALSE)
+[212]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#500 .WHERE_wr1: LOGICAL(FALSE)
+[213]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#501 .WHERE_wr1: LOGICAL(FALSE)
+[214]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#502 .WHERE_wr1: LOGICAL(FALSE)
+[215]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#503 .WHERE_wr1: LOGICAL(FALSE)
+[216]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#504 .WHERE_wr1: LOGICAL(FALSE)
+[217]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#505 .WHERE_wr1: LOGICAL(FALSE)
+[218]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#506 .WHERE_wr1: LOGICAL(FALSE)
+[219]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#507 .WHERE_wr1: LOGICAL(FALSE)
+[220]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#508 .WHERE_wr1: LOGICAL(FALSE)
+[221]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#509 .WHERE_wr1: LOGICAL(FALSE)
+[222]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#510 .WHERE_wr1: LOGICAL(FALSE)
+[223]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#511 .WHERE_wr1: LOGICAL(FALSE)
+[224]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#512 .WHERE_wr1: LOGICAL(FALSE)
+[225]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#513 .WHERE_wr1: LOGICAL(FALSE)
+[226]	 TESSELLATED_ITEM-> nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#514 .WHERE_wr1: LOGICAL(FALSE)
+
+
+
+(3) validation complete
+
+
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_23]
+ complex cache[4286]:	 #lookups: 40029085, #hits: 40024799, %hit rate: 99.989293%
+ model   cache[1]:	 #lookups: 447645, #hits: 447643, %hit rate: 99.999553%
+#29: source = simpleRecord(SimpleRecord(keyword:ITEM_IDENTIFIED_REPRESENTATION_USAGE, parameters:[STRING(), $, #36, #643, SET_REPRESENTATION_ITEM([#839, #840])]), p21DataSection(PRIMARY))
+ complex = nist_ctc_01_asme1_ap242-e1.stp.PRIMARY#29
+ [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.ITEM_IDENTIFIED_REPRESENTATION_USAGE
+	_name: 	tLABEL(rep: STRING())
+	_description: 	nil
+	_definition: 	_REPRESENTED_DEFINITION(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sREPRESENTED_DEFINITION._SHAPE_ASPECT(SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eSHAPE_ASPECT>))
+	_used_representation: 	SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eREPRESENTATION>
+	_identified_item: 	_SET_REPRESENTATION_ITEM(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tSET_REPRESENTATION_ITEM(rep: SwiftSDAIcore.SDAI.SET<SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eREPRESENTATION_ITEM>>(rep: Set([SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eREPRESENTATION_ITEM>, SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eREPRESENTATION_ITEM>]), bound1: 0, bound2: nil)))
+
+
+
+
+SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_4250]
+ complex cache[4196]:	 #lookups: 39245492, #hits: 39241296, %hit rate: 99.989308%
+ model   cache[2]:	 #lookups: 431249, #hits: 431247, %hit rate: 99.999536%
+normal end of execution
+2025/12/18 7:49
+total duration: 0:42:41
+Program ended with exit code: 0

@@ -1,0 +1,144 @@
+2025/12/18 15:33
+
+ input: MAINBODY_BACK.stp
+
+
+
+ parsing header section: 
+ parsing data section: .........+.....
+ completed parsing.
+ resolving entity instances: .........*....
+ completed resolving.
+
+ source p21 file: FILE_NAME(headerEntity: SimpleRecord(keyword:FILE_NAME, parameters:[STRING(E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp), STRING(2008-08-18T12:41:46+00:00), [STRING(none)], [STRING(none)], STRING(CATIA Version 5 Release 19 SP 1 (IN-PROTO)), STRING(CATIA V5 STEP AP214), STRING(none)]))
+
+ created models: ["E:\\Public\\Archive_PDES\\TR22\\NativeFiles\\s1\\MAINBODY_BACK.stp.PRIMARY"]
+
+(1) decode complete
+
+
+APPLICATION_CONTEXT[0] #1: APPLICATION(tLABEL(rep: STRING(automotive design))), ID(nil), DESCRIPTION(nil) 
+
+APPLICATION_PROTOCOL_DEFINITION #4: tLABEL(rep: STRING(automotive_design))
+
+
+
+product identification[0] [PRODUCT_DEFINITION-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#10] id:' '
+	[PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#6] id:' '
+	[PRODUCT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#5] id:'MAINBODY_BACK', name:'MAINBODY_BACK'
+
+	product category:[PRODUCT_RELATED_PRODUCT_CATEGORY-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#8] name:'part'
+	product context:[PRODUCT_DEFINITION_CONTEXT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#3] name:'part definition'
+
+	*** TOP LEVEL ASSEMBLY ***
+
+	product property[0.0][PRODUCT_DEFINITION_SHAPE-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#11] name:' '
+		[SHAPE_REPRESENTATION-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#23] name:' '
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#20, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#20, GEOMETRIC_REPRESENTATION_CONTEXT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#20] type:' '
+0.				unit:[CONVERSION_BASED_UNIT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#18, LENGTH_UNIT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#18]
+0.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+0.						unit:[SI_UNIT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#12, LENGTH_UNIT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#12]
+0.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[SI_UNIT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#13, PLANE_ANGLE_UNIT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#13]
+1.					nil RADIAN
+2.				unit:[SI_UNIT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#15, SOLID_ANGLE_UNIT-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#15]
+2.					nil STERADIAN
+
+			rep[0.0.0][AXIS2_PLACEMENT_3D-> E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#22]
+
+	product shape:SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.ePRODUCT_DEFINITION_SHAPE>
+
+
+
+(2) inspection complete
+
+
+
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[17]:	 #lookups: 53, #hits: 36, %hit rate: 67.924528%
+ model   cache[2]:	 #lookups: 54, #hits: 52, %hit rate: 96.296296%
+
+ validating instance reference domain for 6091 application instances:
+ ....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....10
+ duration: 0:01:56
+
+
+ validating 55 global rules:
+ .........+...
+FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
+......+.........+.........+.........+.....
+ duration: 0:00:01
+
+
+ validating 49 uniqueness rules:
+ .........+.........+.........+.........+.........
+ duration: 0:00:00
+
+
+ validating where rules for 1487 complex entities:
+ ....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....10
+ duration: 0:02:41
+
+
+ SCHEMA INSTANCE VALIDATION RESULT
+ validationPassed?: LOGICAL(FALSE)
+
+ instanceReferenceDomainValidationRecord: InstanceReferenceDomainValidationResult( result:LOGICAL(UNKNOWN)
+
+
+
+ globalRuleValidationRecord: GlobalRuleValidationResult 1 records
+[0]LOGICAL(FALSE)	AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED:	(WHERE_wr1: LOGICAL(FALSE)) 
+
+
+
+ uniquenessRuleValidationRecord: UniquenessRuleValidationResult  0 records
+
+
+
+ whereRuleValidationRecord: WhereRuleValidationResult( result:LOGICAL(TRUE)
+
+
+
+(3) validation complete
+
+
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_5941]
+ complex cache[1481]:	 #lookups: 226636, #hits: 225155, %hit rate: 99.346529%
+ model   cache[1]:	 #lookups: 9323, #hits: 9321, %hit rate: 99.978548%
+#29: source = simpleRecord(SimpleRecord(keyword:SURFACE_STYLE_FILL_AREA, parameters:[#28]), p21DataSection(PRIMARY))
+ complex = E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp.PRIMARY#29
+ [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SURFACE_STYLE_FILL_AREA
+	_fill_area: 	SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eFILL_AREA_STYLE>
+
+ [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.FOUNDED_ITEM
+
+
+
+users.count = 5
+[0] user = #[33]
+[1] user = #[30]
+[2] user = #[31]
+[3] user = #[32]
+[4] user = #[28]
+normal end of execution
+
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[1481]:	 #lookups: 230173, #hits: 228692, %hit rate: 99.356571%
+ model   cache[2]:	 #lookups: 8387, #hits: 8385, %hit rate: 99.976154%
+2025/12/18 15:37
+total duration: 0:04:41
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_7]
+ complex cache[1482]:	 #lookups: 333816, #hits: 332334, %hit rate: 99.556043%
+ model   cache[2]:	 #lookups: 14694, #hits: 14692, %hit rate: 99.986389%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_31]
+ complex cache[1482]:	 #lookups: 328289, #hits: 326807, %hit rate: 99.548568%
+ model   cache[2]:	 #lookups: 12518, #hits: 12516, %hit rate: 99.984023%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_0]
+ complex cache[1482]:	 #lookups: 328939, #hits: 327457, %hit rate: 99.549461%
+ model   cache[2]:	 #lookups: 12795, #hits: 12793, %hit rate: 99.984369%
+Program ended with exit code: 0

@@ -16,5 +16,5 @@ by Tsutomu Yoshida, Minokamo Japan.
 
 
 ## Development environment
-* Xcode version 12.4
-* macOS Catalina version 10.15.7
+* Xcode version 26.0.1
+* macOS Tahoe 26.0.1

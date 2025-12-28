@@ -1,4 +1,4 @@
-2025/12/18 8:06
+2025/12/27 15:34
 
  input: nist_ftc_08_asme1_ap242-e2.stp
 
@@ -7,9 +7,19 @@
  parsing header section: 
  parsing data section: .........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+..
  completed parsing.
- resolving entity instances: ....
+ resolving entity instances: .......
 
-VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-17 23:08:12 +0000 
+VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-27 06:36:13 +0000 
+missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
+ while recovering required parameter of type(tTEXT),
+ while resolving external mapping [
+	SimpleRecord(keyword:REPRESENTATION_ITEM, parameters:[STRING()])
+	SimpleRecord(keyword:DESCRIPTIVE_REPRESENTATION_ITEM, parameters:[$])
+ ].
+ Fall back to utilize the default initialized data instance.
+..*.........*......
+
+VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-27 06:36:13 +0000 
 missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering required parameter of type(tTEXT),
  while resolving external mapping [
@@ -18,7 +28,7 @@ missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  ].
  Fall back to utilize the default initialized data instance.
 
-VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-17 23:08:12 +0000 
+VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-27 06:36:13 +0000 
 missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering required parameter of type(tTEXT),
  while resolving external mapping [
@@ -27,7 +37,7 @@ missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  ].
  Fall back to utilize the default initialized data instance.
 
-VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-17 23:08:12 +0000 
+VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-27 06:36:13 +0000 
 missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering required parameter of type(tTEXT),
  while resolving external mapping [
@@ -36,7 +46,7 @@ missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  ].
  Fall back to utilize the default initialized data instance.
 
-VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-17 23:08:12 +0000 
+VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-27 06:36:13 +0000 
 missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering required parameter of type(tTEXT),
  while resolving external mapping [
@@ -44,21 +54,12 @@ missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
 	SimpleRecord(keyword:DESCRIPTIVE_REPRESENTATION_ITEM, parameters:[$])
  ].
  Fall back to utilize the default initialized data instance.
-
-VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-17 23:08:12 +0000 
-missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
- while recovering required parameter of type(tTEXT),
- while resolving external mapping [
-	SimpleRecord(keyword:REPRESENTATION_ITEM, parameters:[STRING()])
-	SimpleRecord(keyword:DESCRIPTIVE_REPRESENTATION_ITEM, parameters:[$])
- ].
- Fall back to utilize the default initialized data instance.
-.....*.........*.........*.........*.........*.........*.........*.........*.........*.........*
+...*.........*.........*.........*.........*.........*.........*.........*
  completed resolving.
 
  source p21 file: FILE_NAME(headerEntity: SimpleRecord(keyword:FILE_NAME, parameters:[STRING(nist_ftc_08_asme1_ap242-e2.stp), STRING(2019-09-24T16:03:21+01:00), [STRING()], [STRING()], STRING(), STRING(), STRING()]))
 
- created models: ["nist_ftc_08_asme1_ap242-e2.stp.PRIMARY"]
+ created models: [(name: "nist_ftc_08_asme1_ap242-e2.stp.PRIMARY", modeID: 6A84A763-04A8-4D44-A630-5D006344956E)]
 
 (1) decode complete
 
@@ -80,215 +81,215 @@ product identification[0] [PRODUCT_DEFINITION-> nist_ftc_08_asme1_ap242-e2.stp.P
 
 	product property[0.0][PRODUCT_DEFINITION_SHAPE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10072] name:''
 		[SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#6326] name:'nist_ftc_08_asme1_rc'
-			[GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10064, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10064, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10064] type:'TOP_LEVEL_ASSEMBLY_PART'
-0.				unit:[LENGTH_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10068, CONVERSION_BASED_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10068]
-0.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-0.						unit:[LENGTH_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10071, SI_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10071]
-0.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-1.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10067, SI_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10067]
-1.					nil RADIAN
-2.				unit:[SOLID_ANGLE_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10066, SI_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10066]
-2.					nil STERADIAN
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10064, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10064, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10064] type:'TOP_LEVEL_ASSEMBLY_PART'
+0.				unit:[SI_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10066, SOLID_ANGLE_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10066]
+0.					nil STERADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10068, LENGTH_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10068]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[LENGTH_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10071, SI_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10071]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+2.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10067, SI_UNIT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10067]
+2.					nil RADIAN
 
 			rep[0.0.0][AXIS2_PLACEMENT_3D-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#6327]
 
-	product shape:SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.ePRODUCT_DEFINITION_SHAPE>
-	shape aspect[0.0][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1008] name:''
-	shape aspect[0.1][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#995] name:''
-	shape aspect[0.2][DATUM_REFERENCE_ELEMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#76] name:''
-	shape aspect[0.3][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1019] name:''
-	shape aspect[0.4][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1067] name:''
-	shape aspect[0.5][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1011] name:''
-	shape aspect[0.6][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#438] name:''
-	shape aspect[0.7][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1047] name:''
-	shape aspect[0.8][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#447] name:''
-	shape aspect[0.9][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#992] name:''
-	shape aspect[0.10][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1087] name:''
-	shape aspect[0.11][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1002] name:''
-	shape aspect[0.12][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#395] name:'Linear Dimension (35)'
-	shape aspect[0.13][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1052] name:''
-	shape aspect[0.14][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1076] name:''
-	shape aspect[0.15][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#449] name:''
-	shape aspect[0.16][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#108] name:'Datum Feature Symbol C (10)'
-	shape aspect[0.17][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1030] name:''
-	shape aspect[0.18][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#112] name:'Datum Feature Symbol D (57)'
-	shape aspect[0.19][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1024] name:''
-	shape aspect[0.20][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#463] name:''
-	shape aspect[0.21][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1075] name:''
-	shape aspect[0.22][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#410] name:''
-	shape aspect[0.23][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#445] name:''
-	shape aspect[0.24][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#389] name:'Radial Dimension (6)'
-	shape aspect[0.25][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#448] name:''
-	shape aspect[0.26][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#441] name:'Datum Feature Symbol J (51)'
-	shape aspect[0.27][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1036] name:''
-	shape aspect[0.28][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#453] name:''
-	shape aspect[0.29][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#990] name:''
-	shape aspect[0.30][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1051] name:''
-	shape aspect[0.31][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1049] name:''
-	shape aspect[0.32][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#115] name:'Datum Feature Symbol L (39)'
-	shape aspect[0.33][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1000] name:''
-	shape aspect[0.34][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#996] name:''
-	shape aspect[0.35][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1077] name:''
-	shape aspect[0.36][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#436] name:'Datum Feature Symbol F (58)'
-	shape aspect[0.37][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1057] name:''
-	shape aspect[0.38][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1062] name:''
-	shape aspect[0.39][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#107] name:'Datum Feature Symbol B (54)'
-	shape aspect[0.40][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1078] name:''
-	shape aspect[0.41][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#446] name:''
-	shape aspect[0.42][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#455] name:''
-	shape aspect[0.43][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#981] name:''
-	shape aspect[0.44][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1028] name:''
-	shape aspect[0.45][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#71] name:'Feature Control Frame (30)'
-	shape aspect[0.46][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#110] name:'Datum Feature Symbol F (58)'
-	shape aspect[0.47][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#437] name:'Datum Feature Symbol E (59)'
-	shape aspect[0.48][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1069] name:''
-	shape aspect[0.49][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1063] name:''
-	shape aspect[0.50][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#394] name:'Feature Control Frame (30)'
-	shape aspect[0.51][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1044] name:''
-	shape aspect[0.52][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1048] name:''
-	shape aspect[0.53][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1046] name:''
-	shape aspect[0.54][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1060] name:''
-	shape aspect[0.55][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#443] name:''
-	shape aspect[0.56][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#75] name:'Feature Control Frame (44)'
-	shape aspect[0.57][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#393] name:'Feature Control Frame (28)'
-	shape aspect[0.58][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#993] name:''
-	shape aspect[0.59][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#465] name:''
-	shape aspect[0.60][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#398] name:'Feature Control Frame (32)'
-	shape aspect[0.61][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#117] name:'Datum Feature Symbol H (48)'
-	shape aspect[0.62][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#439] name:''
-	shape aspect[0.63][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1054] name:''
-	shape aspect[0.64][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1010] name:''
-	shape aspect[0.65][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1053] name:''
-	shape aspect[0.66][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#987] name:''
-	shape aspect[0.67][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#469] name:''
-	shape aspect[0.68][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#458] name:''
-	shape aspect[0.69][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#396] name:'Feature Control Frame (34)'
-	shape aspect[0.70][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1041] name:''
-	shape aspect[0.71][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1023] name:''
-	shape aspect[0.72][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#984] name:''
-	shape aspect[0.73][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#464] name:''
-	shape aspect[0.74][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1022] name:''
-	shape aspect[0.75][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#454] name:''
-	shape aspect[0.76][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1080] name:''
-	shape aspect[0.77][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#411] name:''
-	shape aspect[0.78][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1061] name:''
-	shape aspect[0.79][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1014] name:''
-	shape aspect[0.80][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1056] name:''
-	shape aspect[0.81][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1058] name:''
-	shape aspect[0.82][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#459] name:''
-	shape aspect[0.83][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#70] name:'Feature Control Frame (26)'
-	shape aspect[0.84][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1005] name:''
-	shape aspect[0.85][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#994] name:''
-	shape aspect[0.86][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#390] name:'Feature Control Frame (7)'
-	shape aspect[0.87][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#399] name:'Datum Feature Symbol G (33)'
-	shape aspect[0.88][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#989] name:''
-	shape aspect[0.89][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1026] name:''
-	shape aspect[0.90][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#452] name:''
-	shape aspect[0.91][DATUM_REFERENCE_ELEMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#78] name:''
-	shape aspect[0.92][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#412] name:''
-	shape aspect[0.93][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#403] name:''
-	shape aspect[0.94][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1040] name:''
-	shape aspect[0.95][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1004] name:''
-	shape aspect[0.96][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#462] name:''
-	shape aspect[0.97][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#460] name:''
-	shape aspect[0.98][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1027] name:''
-	shape aspect[0.99][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1084] name:''
-	shape aspect[0.100][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#434] name:''
-	shape aspect[0.101][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1037] name:''
-	shape aspect[0.102][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1021] name:''
-	shape aspect[0.103][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1006] name:''
-	shape aspect[0.104][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1071] name:''
-	shape aspect[0.105][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#414] name:''
-	shape aspect[0.106][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#440] name:''
-	shape aspect[0.107][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1086] name:''
-	shape aspect[0.108][DATUM_REFERENCE_ELEMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#79] name:''
-	shape aspect[0.109][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1081] name:''
-	shape aspect[0.110][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#407] name:''
-	shape aspect[0.111][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#405] name:''
-	shape aspect[0.112][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#401] name:'Feature Control Frame (44)'
-	shape aspect[0.113][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#451] name:''
-	shape aspect[0.114][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1025] name:''
-	shape aspect[0.115][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#109] name:'Datum Feature Symbol A (3)'
-	shape aspect[0.116][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1079] name:''
-	shape aspect[0.117][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#408] name:''
-	shape aspect[0.118][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#982] name:''
-	shape aspect[0.119][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#456] name:''
-	shape aspect[0.120][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#983] name:''
-	shape aspect[0.121][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1068] name:''
-	shape aspect[0.122][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1033] name:''
-	shape aspect[0.123][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1064] name:''
-	shape aspect[0.124][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1074] name:''
-	shape aspect[0.125][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#991] name:''
-	shape aspect[0.126][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1045] name:''
-	shape aspect[0.127][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1050] name:''
-	shape aspect[0.128][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1031] name:''
-	shape aspect[0.129][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#467] name:''
-	shape aspect[0.130][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#116] name:'Datum Feature Symbol K (43)'
-	shape aspect[0.131][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#442] name:''
-	shape aspect[0.132][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1009] name:''
-	shape aspect[0.133][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1032] name:''
-	shape aspect[0.134][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#73] name:'Feature Control Frame (34)'
-	shape aspect[0.135][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1039] name:''
-	shape aspect[0.136][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1020] name:''
-	shape aspect[0.137][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1003] name:''
-	shape aspect[0.138][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1012] name:''
-	shape aspect[0.139][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1043] name:''
-	shape aspect[0.140][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1015] name:''
-	shape aspect[0.141][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#392] name:'Radial Dimension (27)'
-	shape aspect[0.142][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#72] name:'Feature Control Frame (30)'
-	shape aspect[0.143][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1035] name:''
-	shape aspect[0.144][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1042] name:''
-	shape aspect[0.145][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1038] name:''
-	shape aspect[0.146][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1001] name:''
-	shape aspect[0.147][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#997] name:''
-	shape aspect[0.148][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#986] name:''
-	shape aspect[0.149][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#980] name:''
-	shape aspect[0.150][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1017] name:''
-	shape aspect[0.151][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#450] name:''
-	shape aspect[0.152][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#74] name:'Feature Control Frame (36)'
-	shape aspect[0.153][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#432] name:''
-	shape aspect[0.154][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#433] name:'Datum Feature Symbol B (54)'
-	shape aspect[0.155][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#397] name:'Radial Dimension (31)'
-	shape aspect[0.156][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#435] name:''
-	shape aspect[0.157][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1029] name:''
-	shape aspect[0.158][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#468] name:''
-	shape aspect[0.159][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#111] name:'Datum Feature Symbol E (59)'
-	shape aspect[0.160][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#413] name:''
-	shape aspect[0.161][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#409] name:''
-	shape aspect[0.162][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#461] name:''
-	shape aspect[0.163][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#113] name:'Datum Feature Symbol G (33)'
-	shape aspect[0.164][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#470] name:''
-	shape aspect[0.165][DATUM_REFERENCE_ELEMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#77] name:''
-	shape aspect[0.166][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1072] name:''
-	shape aspect[0.167][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1013] name:''
-	shape aspect[0.168][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1083] name:''
-	shape aspect[0.169][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1018] name:''
-	shape aspect[0.170][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#404] name:''
-	shape aspect[0.171][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#999] name:''
-	shape aspect[0.172][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#998] name:''
-	shape aspect[0.173][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#985] name:''
-	shape aspect[0.174][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#415] name:''
-	shape aspect[0.175][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#466] name:''
-	shape aspect[0.176][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#391] name:'Feature Control Frame (26)'
-	shape aspect[0.177][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1059] name:''
-	shape aspect[0.178][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#457] name:''
-	shape aspect[0.179][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#416] name:''
-	shape aspect[0.180][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#444] name:''
-	shape aspect[0.181][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1066] name:''
-	shape aspect[0.182][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#988] name:''
-	shape aspect[0.183][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#400] name:'Feature Control Frame (36)'
-	shape aspect[0.184][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1016] name:''
-	shape aspect[0.185][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1055] name:''
-	shape aspect[0.186][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1082] name:''
-	shape aspect[0.187][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1070] name:''
-	shape aspect[0.188][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1073] name:''
-	shape aspect[0.189][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1007] name:''
-	shape aspect[0.190][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1085] name:''
-	shape aspect[0.191][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1065] name:''
-	shape aspect[0.192][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#406] name:''
-	shape aspect[0.193][DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10] name:''
-	shape aspect[0.194][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#114] name:'Datum Feature Symbol J (51)'
-	shape aspect[0.195][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1034] name:''
+	product shape:PRODUCT_DEFINITION_SHAPE.PRef=> #10072_m6A84A763-04A8-4D44-A630-5D006344956E
+	shape aspect[0.0][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#459] name:''
+	shape aspect[0.1][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1083] name:''
+	shape aspect[0.2][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1085] name:''
+	shape aspect[0.3][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#989] name:''
+	shape aspect[0.4][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1004] name:''
+	shape aspect[0.5][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#433] name:'Datum Feature Symbol B (54)'
+	shape aspect[0.6][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#453] name:''
+	shape aspect[0.7][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1012] name:''
+	shape aspect[0.8][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#393] name:'Feature Control Frame (28)'
+	shape aspect[0.9][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1021] name:''
+	shape aspect[0.10][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1052] name:''
+	shape aspect[0.11][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1015] name:''
+	shape aspect[0.12][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1031] name:''
+	shape aspect[0.13][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#998] name:''
+	shape aspect[0.14][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#401] name:'Feature Control Frame (44)'
+	shape aspect[0.15][DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10] name:''
+	shape aspect[0.16][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#114] name:'Datum Feature Symbol J (51)'
+	shape aspect[0.17][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#398] name:'Feature Control Frame (32)'
+	shape aspect[0.18][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#392] name:'Radial Dimension (27)'
+	shape aspect[0.19][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1060] name:''
+	shape aspect[0.20][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1029] name:''
+	shape aspect[0.21][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1051] name:''
+	shape aspect[0.22][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#414] name:''
+	shape aspect[0.23][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1014] name:''
+	shape aspect[0.24][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1058] name:''
+	shape aspect[0.25][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1071] name:''
+	shape aspect[0.26][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#389] name:'Radial Dimension (6)'
+	shape aspect[0.27][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#460] name:''
+	shape aspect[0.28][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#447] name:''
+	shape aspect[0.29][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1046] name:''
+	shape aspect[0.30][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#983] name:''
+	shape aspect[0.31][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1036] name:''
+	shape aspect[0.32][DATUM_REFERENCE_ELEMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#78] name:''
+	shape aspect[0.33][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1061] name:''
+	shape aspect[0.34][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#71] name:'Feature Control Frame (30)'
+	shape aspect[0.35][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#115] name:'Datum Feature Symbol L (39)'
+	shape aspect[0.36][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1033] name:''
+	shape aspect[0.37][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#436] name:'Datum Feature Symbol F (58)'
+	shape aspect[0.38][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#407] name:''
+	shape aspect[0.39][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1035] name:''
+	shape aspect[0.40][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1080] name:''
+	shape aspect[0.41][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1030] name:''
+	shape aspect[0.42][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#416] name:''
+	shape aspect[0.43][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#997] name:''
+	shape aspect[0.44][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#107] name:'Datum Feature Symbol B (54)'
+	shape aspect[0.45][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1038] name:''
+	shape aspect[0.46][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1006] name:''
+	shape aspect[0.47][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#466] name:''
+	shape aspect[0.48][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#464] name:''
+	shape aspect[0.49][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#990] name:''
+	shape aspect[0.50][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1049] name:''
+	shape aspect[0.51][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#450] name:''
+	shape aspect[0.52][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1081] name:''
+	shape aspect[0.53][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#465] name:''
+	shape aspect[0.54][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#993] name:''
+	shape aspect[0.55][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#110] name:'Datum Feature Symbol F (58)'
+	shape aspect[0.56][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1079] name:''
+	shape aspect[0.57][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#397] name:'Radial Dimension (31)'
+	shape aspect[0.58][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#449] name:''
+	shape aspect[0.59][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#413] name:''
+	shape aspect[0.60][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1050] name:''
+	shape aspect[0.61][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#444] name:''
+	shape aspect[0.62][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#73] name:'Feature Control Frame (34)'
+	shape aspect[0.63][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1042] name:''
+	shape aspect[0.64][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#400] name:'Feature Control Frame (36)'
+	shape aspect[0.65][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1054] name:''
+	shape aspect[0.66][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1037] name:''
+	shape aspect[0.67][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#408] name:''
+	shape aspect[0.68][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1048] name:''
+	shape aspect[0.69][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#117] name:'Datum Feature Symbol H (48)'
+	shape aspect[0.70][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1018] name:''
+	shape aspect[0.71][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#443] name:''
+	shape aspect[0.72][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#985] name:''
+	shape aspect[0.73][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#113] name:'Datum Feature Symbol G (33)'
+	shape aspect[0.74][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#999] name:''
+	shape aspect[0.75][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1003] name:''
+	shape aspect[0.76][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#987] name:''
+	shape aspect[0.77][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#410] name:''
+	shape aspect[0.78][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#992] name:''
+	shape aspect[0.79][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#108] name:'Datum Feature Symbol C (10)'
+	shape aspect[0.80][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#415] name:''
+	shape aspect[0.81][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#437] name:'Datum Feature Symbol E (59)'
+	shape aspect[0.82][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#412] name:''
+	shape aspect[0.83][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#469] name:''
+	shape aspect[0.84][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1009] name:''
+	shape aspect[0.85][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1039] name:''
+	shape aspect[0.86][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1043] name:''
+	shape aspect[0.87][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#456] name:''
+	shape aspect[0.88][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#441] name:'Datum Feature Symbol J (51)'
+	shape aspect[0.89][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1062] name:''
+	shape aspect[0.90][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1047] name:''
+	shape aspect[0.91][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1028] name:''
+	shape aspect[0.92][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#994] name:''
+	shape aspect[0.93][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1086] name:''
+	shape aspect[0.94][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1026] name:''
+	shape aspect[0.95][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1019] name:''
+	shape aspect[0.96][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#395] name:'Linear Dimension (35)'
+	shape aspect[0.97][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1070] name:''
+	shape aspect[0.98][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1068] name:''
+	shape aspect[0.99][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1059] name:''
+	shape aspect[0.100][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1057] name:''
+	shape aspect[0.101][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1013] name:''
+	shape aspect[0.102][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#468] name:''
+	shape aspect[0.103][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#439] name:''
+	shape aspect[0.104][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1067] name:''
+	shape aspect[0.105][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#399] name:'Datum Feature Symbol G (33)'
+	shape aspect[0.106][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#116] name:'Datum Feature Symbol K (43)'
+	shape aspect[0.107][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1087] name:''
+	shape aspect[0.108][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#403] name:''
+	shape aspect[0.109][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#457] name:''
+	shape aspect[0.110][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1069] name:''
+	shape aspect[0.111][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1076] name:''
+	shape aspect[0.112][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#986] name:''
+	shape aspect[0.113][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#446] name:''
+	shape aspect[0.114][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1001] name:''
+	shape aspect[0.115][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1000] name:''
+	shape aspect[0.116][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1034] name:''
+	shape aspect[0.117][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#445] name:''
+	shape aspect[0.118][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#74] name:'Feature Control Frame (36)'
+	shape aspect[0.119][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1064] name:''
+	shape aspect[0.120][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1027] name:''
+	shape aspect[0.121][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#462] name:''
+	shape aspect[0.122][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#461] name:''
+	shape aspect[0.123][DATUM_REFERENCE_ELEMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#77] name:''
+	shape aspect[0.124][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#391] name:'Feature Control Frame (26)'
+	shape aspect[0.125][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1024] name:''
+	shape aspect[0.126][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1055] name:''
+	shape aspect[0.127][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#411] name:''
+	shape aspect[0.128][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#991] name:''
+	shape aspect[0.129][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#434] name:''
+	shape aspect[0.130][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#406] name:''
+	shape aspect[0.131][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1020] name:''
+	shape aspect[0.132][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1025] name:''
+	shape aspect[0.133][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#440] name:''
+	shape aspect[0.134][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1056] name:''
+	shape aspect[0.135][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#988] name:''
+	shape aspect[0.136][DATUM_REFERENCE_ELEMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#79] name:''
+	shape aspect[0.137][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1045] name:''
+	shape aspect[0.138][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1017] name:''
+	shape aspect[0.139][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#995] name:''
+	shape aspect[0.140][DATUM_REFERENCE_ELEMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#76] name:''
+	shape aspect[0.141][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#70] name:'Feature Control Frame (26)'
+	shape aspect[0.142][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#432] name:''
+	shape aspect[0.143][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1002] name:''
+	shape aspect[0.144][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1053] name:''
+	shape aspect[0.145][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#458] name:''
+	shape aspect[0.146][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#982] name:''
+	shape aspect[0.147][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1063] name:''
+	shape aspect[0.148][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#452] name:''
+	shape aspect[0.149][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1075] name:''
+	shape aspect[0.150][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1016] name:''
+	shape aspect[0.151][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1011] name:''
+	shape aspect[0.152][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#404] name:''
+	shape aspect[0.153][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#109] name:'Datum Feature Symbol A (3)'
+	shape aspect[0.154][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#980] name:''
+	shape aspect[0.155][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1010] name:''
+	shape aspect[0.156][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1077] name:''
+	shape aspect[0.157][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1082] name:''
+	shape aspect[0.158][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1084] name:''
+	shape aspect[0.159][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1066] name:''
+	shape aspect[0.160][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#442] name:''
+	shape aspect[0.161][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#984] name:''
+	shape aspect[0.162][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#463] name:''
+	shape aspect[0.163][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#454] name:''
+	shape aspect[0.164][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#394] name:'Feature Control Frame (30)'
+	shape aspect[0.165][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1074] name:''
+	shape aspect[0.166][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1078] name:''
+	shape aspect[0.167][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#396] name:'Feature Control Frame (34)'
+	shape aspect[0.168][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1072] name:''
+	shape aspect[0.169][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1022] name:''
+	shape aspect[0.170][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#112] name:'Datum Feature Symbol D (57)'
+	shape aspect[0.171][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1044] name:''
+	shape aspect[0.172][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#409] name:''
+	shape aspect[0.173][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#75] name:'Feature Control Frame (44)'
+	shape aspect[0.174][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#455] name:''
+	shape aspect[0.175][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#470] name:''
+	shape aspect[0.176][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#390] name:'Feature Control Frame (7)'
+	shape aspect[0.177][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#435] name:''
+	shape aspect[0.178][TOLERANCE_ZONE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#405] name:''
+	shape aspect[0.179][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1041] name:''
+	shape aspect[0.180][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1023] name:''
+	shape aspect[0.181][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1007] name:''
+	shape aspect[0.182][ALL_AROUND_SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#72] name:'Feature Control Frame (30)'
+	shape aspect[0.183][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#451] name:''
+	shape aspect[0.184][DATUM_SYSTEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#467] name:''
+	shape aspect[0.185][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#448] name:''
+	shape aspect[0.186][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#981] name:''
+	shape aspect[0.187][DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#438] name:''
+	shape aspect[0.188][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#996] name:''
+	shape aspect[0.189][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1005] name:''
+	shape aspect[0.190][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1008] name:''
+	shape aspect[0.191][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1040] name:''
+	shape aspect[0.192][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1065] name:''
+	shape aspect[0.193][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1032] name:''
+	shape aspect[0.194][DATUM_FEATURE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#111] name:'Datum Feature Symbol E (59)'
+	shape aspect[0.195][SHAPE_ASPECT-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1073] name:''
 
 
 
@@ -296,302 +297,310 @@ product identification[0] [PRODUCT_DEFINITION-> nist_ftc_08_asme1_ap242-e2.stp.P
 
 
 
+ validating instance reference domain for 37163 application instances:
+ 
+
 SDAI Thread Local Cache Statistics [SdaiTransactionRO]
- complex cache[224]:	 #lookups: 3330, #hits: 3106, %hit rate: 93.273273%
+ complex cache[224]:	 #lookups: 645, #hits: 421, %hit rate: 65.271318%
  model   cache[2]:	 #lookups: 882, #hits: 880, %hit rate: 99.773243%
 
- validating instance reference domain for 37163 application instances:
- b
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
+ model   cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
 ....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....10
- duration: 0:59:49
+ duration: 0:01:17
 
 
  validating 55 global rules:
- .........+.........+.........+.........+.
-FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
-....
+ .........+.........+.........+.........+..
 FAILED: VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES
-....+.....
- duration: 0:00:04
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_7]
+ complex cache[53]:	 #lookups: 364, #hits: 311, %hit rate: 85.43956%
+ model   cache[2]:	 #lookups: 64, #hits: 62, %hit rate: 96.875%
+.....
+FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
+..+.....
+ duration: 0:00:06
 
 
  validating 49 uniqueness rules:
- ....
-FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1)
-.
+ .........+
 FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2)
-....+.........+.........+.........+.
+.
+FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1)
+........+.........+.........+...
 FAILED: UniquenessRule(DATUM_SYSTEM.UNIQUE_ur1)
-........
+......
  duration: 0:00:00
 
 
  validating where rules for 10072 complex entities:
  
-FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#27 .WHERE_wr1
 
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#575 .WHERE_wr1
-..
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1323 .WHERE_wr1
+SDAI Thread Local Cache Statistics [SdaiTransactionVA]
+ complex cache[1412]:	 #lookups: 609554, #hits: 608142, %hit rate: 99.768355%
+ model   cache[2]:	 #lookups: 2177, #hits: 2175, %hit rate: 99.90813%
 
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#583 .WHERE_wr1
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_36340]
+ complex cache[2056]:	 #lookups: 604972, #hits: 602916, %hit rate: 99.66015%
+ model   cache[2]:	 #lookups: 3559, #hits: 3557, %hit rate: 99.943804%
 
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#587 .WHERE_wr1
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_36250]
+ complex cache[1912]:	 #lookups: 602076, #hits: 600164, %hit rate: 99.682432%
+ model   cache[2]:	 #lookups: 3055, #hits: 3053, %hit rate: 99.934534%
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1295 .WHERE_wr1
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_37071]
+ complex cache[2089]:	 #lookups: 605504, #hits: 603415, %hit rate: 99.654998%
+ model   cache[2]:	 #lookups: 3754, #hits: 3752, %hit rate: 99.946723%
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1303 .WHERE_wr1
-..
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1095 .WHERE_wr2
-+
-FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#31 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1299 .WHERE_wr1
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_36887]
+ complex cache[1437]:	 #lookups: 609316, #hits: 607879, %hit rate: 99.764162%
+ model   cache[2]:	 #lookups: 2091, #hits: 2089, %hit rate: 99.904352%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_36160]
+ complex cache[1617]:	 #lookups: 585893, #hits: 584276, %hit rate: 99.724011%
+ model   cache[2]:	 #lookups: 2302, #hits: 2300, %hit rate: 99.913119%
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1331 .WHERE_wr1
 
 FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#23 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#575 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#571 .WHERE_wr1
+..+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1291 .WHERE_wr1
+.
+FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#31 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#559 .WHERE_wr1
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1091 .WHERE_wr2
+.
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#595 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1299 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#555 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1315 .WHERE_wr1
+1
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1095 .WHERE_wr2
+
+FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#27 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#563 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1323 .WHERE_wr1
+...+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1295 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1311 .WHERE_wr1
 
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1327 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#571 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1319 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1331 .WHERE_wr1
-..1
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1315 .WHERE_wr1
-..
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#595 .WHERE_wr1
-.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1091 .WHERE_wr2
+...
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1283 .WHERE_wr1
+2..
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#587 .WHERE_wr1
 
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1287 .WHERE_wr1
 .
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#555 .WHERE_wr1
-+
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#563 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#559 .WHERE_wr1
-....
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1099 .WHERE_wr2
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1307 .WHERE_wr1
-2...
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1291 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1283 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#583 .WHERE_wr1
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1311 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1307 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1303 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1319 .WHERE_wr1
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1099 .WHERE_wr2
 +
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1334 .WHERE_wr1
-
-FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10 .WHERE_wr3
-
-FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10 .WHERE_wr2
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1330 .WHERE_wr1
-
+FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#26 .WHERE_wr1
+.
 FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#562 .WHERE_wr1
-.
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#566 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1318 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#594 .WHERE_wr1
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1302 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1314 .WHERE_wr1
-3
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1286 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#582 .WHERE_wr1
 .
 FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1098 .WHERE_wr2
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1310 .WHERE_wr1
-.
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#590 .WHERE_wr1
-.
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#566 .WHERE_wr1
+3.
 FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#30 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1290 .WHERE_wr1
-+.
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#574 .WHERE_wr1
-...
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1090 .WHERE_wr2
-4.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1094 .WHERE_wr2
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1322 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1306 .WHERE_wr1
-.
+FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10 .WHERE_wr2
+
+FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#10 .WHERE_wr3
+
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1326 .WHERE_wr1
 .
-FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#26 .WHERE_wr1
-
 FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#578 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#574 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1286 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1310 .WHERE_wr1
+.
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1094 .WHERE_wr2
 +
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#582 .WHERE_wr1
-.
-FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#34 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#590 .WHERE_wr1
 ..
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1294 .WHERE_wr1
-.
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#594 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1298 .WHERE_wr1
-5
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1317 .WHERE_wr1
-
 FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#570 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1305 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1289 .WHERE_wr1
 ..
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#589 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1314 .WHERE_wr1
+4....
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1306 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1322 .WHERE_wr1
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1090 .WHERE_wr2
++
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1330 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1290 .WHERE_wr1
 .
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1089 .WHERE_wr2
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1298 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1297 .WHERE_wr1
+FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#34 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1294 .WHERE_wr1
+..5
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1318 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1313 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1302 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1301 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#561 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1321 .WHERE_wr1
+..
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1293 .WHERE_wr1
+.
+FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#33 .WHERE_wr1
++...
+FAILED:  DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#433 .WHERE_wr4
 
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1333 .WHERE_wr1
-+
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1321 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1325 .WHERE_wr1
 
 FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#569 .WHERE_wr1
 .
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#573 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1297 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1325 .WHERE_wr1
-.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1093 .WHERE_wr2
-.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1097 .WHERE_wr2
-.6
 FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#577 .WHERE_wr1
-
-FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#25 .WHERE_wr1
-..
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1285 .WHERE_wr1
-
-FAILED:  DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#437 .WHERE_wr4
-..+
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#561 .WHERE_wr1
+6....+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1089 .WHERE_wr2
 .
-FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#33 .WHERE_wr1
+FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#25 .WHERE_wr1
 
-FAILED:  DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#433 .WHERE_wr4
-..
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#565 .WHERE_wr1
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1097 .WHERE_wr2
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1329 .WHERE_wr1
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1093 .WHERE_wr2
+
+FAILED:  DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#441 .WHERE_wr4
 .
 FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#29 .WHERE_wr1
-7
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1293 .WHERE_wr1
-.
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1285 .WHERE_wr1
+
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1309 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1305 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1301 .WHERE_wr1
+7
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#565 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1317 .WHERE_wr1
 ..
-FAILED:  DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#441 .WHERE_wr4
-.+
-FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#28 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#589 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1313 .WHERE_wr1
 
 FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#593 .WHERE_wr1
-....
-FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#32 .WHERE_wr1
-8.
+
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#573 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1289 .WHERE_wr1
+
+FAILED:  DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#437 .WHERE_wr4
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1329 .WHERE_wr1
++.
 FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#592 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#580 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1328 .WHERE_wr1
-
-FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#24 .WHERE_wr1
 .
 FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#576 .WHERE_wr1
+
+FAILED:  GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1596 .WHERE_wr3
 .
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#556 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1332 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#560 .WHERE_wr1
+8
+FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#28 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#572 .WHERE_wr1
+.
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1092 .WHERE_wr2
+
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#568 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1300 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1296 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#588 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1312 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1284 .WHERE_wr1
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1096 .WHERE_wr2
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1088 .WHERE_wr2
+..+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1100 .WHERE_wr2
+..
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1308 .WHERE_wr1
 
 FAILED:  DATUM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#436 .WHERE_wr4
 .
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#568 .WHERE_wr1
-
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1092 .WHERE_wr2
-+
-FAILED:  GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1596 .WHERE_wr3
-.
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1316 .WHERE_wr1
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1304 .WHERE_wr1
-..9
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#556 .WHERE_wr1
-
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1096 .WHERE_wr2
-.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1328 .WHERE_wr1
+9
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1292 .WHERE_wr1
 .
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1288 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1296 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1332 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1312 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#588 .WHERE_wr1
-
 FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#564 .WHERE_wr1
-+.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1284 .WHERE_wr1
-
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1088 .WHERE_wr2
-
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#560 .WHERE_wr1
 .
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1100 .WHERE_wr2
+FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#32 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1324 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#572 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#580 .WHERE_wr1
+.
+FAILED:  CAMERA_MODEL-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#24 .WHERE_wr1
 .
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1320 .WHERE_wr1
-
-SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_36979]
- complex cache[9904]:	 #lookups: 30044961, #hits: 30035057, %hit rate: 99.967036%
- model   cache[2]:	 #lookups: 119689, #hits: 119687, %hit rate: 99.998329%
-
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_31]
- complex cache[9708]:	 #lookups: 12039714, #hits: 12030006, %hit rate: 99.919367%
- model   cache[2]:	 #lookups: 64142, #hits: 64140, %hit rate: 99.996882%
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1300 .WHERE_wr1
-.
-
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_0]
- complex cache[9686]:	 #lookups: 11930853, #hits: 11921167, %hit rate: 99.918816%
- model   cache[2]:	 #lookups: 62972, #hits: 62970, %hit rate: 99.996824%
++.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1324 .WHERE_wr1
 
 FAILED:  REPRESENTATION_ITEM-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#596 .WHERE_wr1
+...
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#1304 .WHERE_wr1
 
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_15]
- complex cache[9701]:	 #lookups: 12186910, #hits: 12177209, %hit rate: 99.920398%
- model   cache[2]:	 #lookups: 65272, #hits: 65270, %hit rate: 99.996936%
-
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_23]
- complex cache[9695]:	 #lookups: 12025944, #hits: 12016249, %hit rate: 99.919383%
- model   cache[2]:	 #lookups: 61553, #hits: 61551, %hit rate: 99.996751%
-
-SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_36519]
- complex cache[9711]:	 #lookups: 30534053, #hits: 30524342, %hit rate: 99.968196%
- model   cache[2]:	 #lookups: 134023, #hits: 134021, %hit rate: 99.998508%
-
-SDAI Thread Local Cache Statistics [SDAI.UniqueRuleValidation_1]
- complex cache[9692]:	 #lookups: 12045142, #hits: 12035450, %hit rate: 99.919536%
- model   cache[2]:	 #lookups: 61128, #hits: 61126, %hit rate: 99.996728%
+SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_9829]
+ complex cache[4717]:	 #lookups: 5395510, #hits: 5390793, %hit rate: 99.912575%
+ model   cache[2]:	 #lookups: 50344, #hits: 50342, %hit rate: 99.996027%
 10
- duration: 0:35:30
+ duration: 0:12:14
 
 
  SCHEMA INSTANCE VALIDATION RESULT
@@ -602,14 +611,14 @@ SDAI Thread Local Cache Statistics [SDAI.UniqueRuleValidation_1]
 
 
  globalRuleValidationRecord: GlobalRuleValidationResult 2 records
-[0]LOGICAL(FALSE)	AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED:	(WHERE_wr1: LOGICAL(FALSE)) 
-[1]LOGICAL(FALSE)	VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES:	(WHERE_wr1: LOGICAL(FALSE)) 
+[0]LOGICAL(FALSE)	VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES:	(WHERE_wr1: LOGICAL(FALSE)) 
+[1]LOGICAL(FALSE)	AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED:	(WHERE_wr1: LOGICAL(FALSE)) 
 
 
 
  uniquenessRuleValidationRecord: UniquenessRuleValidationResult  3 records
-[0]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1): #duplicates(67) / #instances(223)
-[1]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2): #duplicates(21) / #instances(223)
+[0]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2): #duplicates(21) / #instances(223)
+[1]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1): #duplicates(67) / #instances(223)
 [2]LOGICAL(FALSE)	UniquenessRule(DATUM_SYSTEM.UNIQUE_ur1): #duplicates(8) / #instances(9)
 
 
@@ -735,33 +744,33 @@ SDAI Thread Local Cache Statistics [SDAI.UniqueRuleValidation_1]
 
 
 
-SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_9847]
- complex cache[9696]:	 #lookups: 12242731, #hits: 12233035, %hit rate: 99.920802%
- model   cache[1]:	 #lookups: 63933, #hits: 63931, %hit rate: 99.996872%
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_36070]
+ complex cache[1656]:	 #lookups: 619518, #hits: 617862, %hit rate: 99.732695%
+ model   cache[1]:	 #lookups: 2463, #hits: 2461, %hit rate: 99.918798%
 
 (3) validation complete
 
 
 #29: source = simpleRecord(SimpleRecord(keyword:CAMERA_MODEL_D3, parameters:[STRING(Isometric), #6978, #41]), p21DataSection(PRIMARY))
  complex = nist_ftc_08_asme1_ap242-e2.stp.PRIMARY#29
- [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.REPRESENTATION_ITEM
+ [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CAMERA_MODEL_D3
+	_view_reference_system: 	AXIS2_PLACEMENT_3D.PRef=> #6978_m6A84A763-04A8-4D44-A630-5D006344956E
+	_perspective_of_volume: 	VIEW_VOLUME.PRef=> #41_m6A84A763-04A8-4D44-A630-5D006344956E
+
+ [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.GEOMETRIC_REPRESENTATION_ITEM
+
+ [2]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CAMERA_MODEL
+
+ [3]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.REPRESENTATION_ITEM
 	_name: 	tLABEL(rep: STRING(Isometric))
 
- [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CAMERA_MODEL
-
- [2]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.GEOMETRIC_REPRESENTATION_ITEM
-
- [3]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CAMERA_MODEL_D3
-	_view_reference_system: 	SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eAXIS2_PLACEMENT_3D>
-	_perspective_of_volume: 	SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eVIEW_VOLUME>
 
 
 
-
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_7]
- complex cache[9697]:	 #lookups: 12150236, #hits: 12140539, %hit rate: 99.920191%
- model   cache[2]:	 #lookups: 61136, #hits: 61134, %hit rate: 99.996729%
+SDAI Thread Local Cache Statistics [SdaiTransactionVA]
+ complex cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
+ model   cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
 normal end of execution
-2025/12/18 9:43
-total duration: 1:36:38
+2025/12/27 15:49
+total duration: 0:14:52
 Program ended with exit code: 0

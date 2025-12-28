@@ -1,12 +1,18 @@
-2025/12/16 18:58
+2025/12/27 13:33
+
+ input: nist_ftc_07_asme1_ap242-e2.stp
+
+
 
  parsing header section: 
  parsing data section: .........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+
  completed parsing.
  resolving entity instances: .........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*
  completed resolving.
-source p21 file: FILE_NAME(headerEntity: SimpleRecord(keyword:FILE_NAME, parameters:[STRING(nist_ftc_07_asme1_ap242-e2.stp), STRING(2021-02-08T16:18:57), [STRING()], [STRING()], STRING(), STRING(), STRING()]))
-created models: ["nist_ftc_07_asme1_ap242-e2.stp.PRIMARY"]
+
+ source p21 file: FILE_NAME(headerEntity: SimpleRecord(keyword:FILE_NAME, parameters:[STRING(nist_ftc_07_asme1_ap242-e2.stp), STRING(2021-02-08T16:18:57), [STRING()], [STRING()], STRING(), STRING(), STRING()]))
+
+ created models: [(name: "nist_ftc_07_asme1_ap242-e2.stp.PRIMARY", modeID: BF909D54-AEFA-49F5-8608-04C25F1765D4)]
 
 (1) decode complete
 
@@ -34,451 +40,451 @@ product identification[0] [PRODUCT_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.P
 
 	*** TOP LEVEL ASSEMBLY ***
 
-	product property[0.0][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13571] name:'Mass'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13572] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.0.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13570]
-	product property[0.1][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13645] name:'Ixz'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13646] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.1.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13644]
-	product property[0.2][PRODUCT_DEFINITION_SHAPE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15] name:''
-		[SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13545] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.2.0][AXIS2_PLACEMENT_3D-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13540]
-	product property[0.3][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13585] name:'xCenterOfGravity'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13586] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.3.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13584]
-	product property[0.4][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13676] name:'attribute validation property'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13677] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.4.0][INTEGER_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13673]
-			rep[0.4.1][INTEGER_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13674]
-			rep[0.4.2][INTEGER_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13675]
-	product property[0.5][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13657] name:'Izz'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13658] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.5.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13656]
-	product property[0.6][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13591] name:'yCenterOfGravity'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13592] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.6.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13590]
-	product property[0.7][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13579] name:'Surface'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13580] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.7.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13578]
-	product property[0.8][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13609] name:'Ixx'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13610] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.8.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13608]
-	product property[0.9][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13627] name:'Ixy'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13628] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.9.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13626]
-	product property[0.10][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13633] name:'Iyy'
+	product property[0.0][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13633] name:'Iyy'
 		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13634] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
 0.					nil RADIAN
 1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
 1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
 1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
 1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
 
-			rep[0.10.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13632]
-	product property[0.11][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13651] name:'Iyz'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13652] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.11.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13650]
-	product property[0.12][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13615] name:'Iyx'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13616] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
-0.					nil RADIAN
-1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
-1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
-1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
-1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-
-			rep[0.12.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13614]
-	product property[0.13][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13565] name:'Volume'
+			rep[0.0.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13632]
+	product property[0.1][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13565] name:'Volume'
 		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13566] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
 0.					nil RADIAN
 1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
 1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
 1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
 1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
 
-			rep[0.13.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13564]
-	product property[0.14][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13597] name:'zCenterOfGravity'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13598] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+			rep[0.1.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13564]
+	product property[0.2][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13579] name:'Surface'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13580] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
 0.					nil RADIAN
 1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
 1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
 1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
 1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
 
-			rep[0.14.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13596]
-	product property[0.15][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13557] name:'Density'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13558] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+			rep[0.2.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13578]
+	product property[0.3][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13627] name:'Ixy'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13628] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
 0.					nil RADIAN
 1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
 1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
 1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
 1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
 
-			rep[0.15.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13556]
-	product property[0.16][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13621] name:'Izx'
-		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13622] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+			rep[0.3.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13626]
+	product property[0.4][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13651] name:'Iyz'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13652] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
 0.					nil RADIAN
 1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
 1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
 1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
 1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
 
-			rep[0.16.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13620]
-	product property[0.17][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13639] name:'Izy'
+			rep[0.4.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13650]
+	product property[0.5][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13609] name:'Ixx'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13610] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.5.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13608]
+	product property[0.6][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13645] name:'Ixz'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13646] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.6.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13644]
+	product property[0.7][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13657] name:'Izz'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13658] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.7.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13656]
+	product property[0.8][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13591] name:'yCenterOfGravity'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13592] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.8.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13590]
+	product property[0.9][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13639] name:'Izy'
 		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13640] name:''
-			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
-0.				unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
 0.					nil RADIAN
 1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
 1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
 1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
 1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
 
-			rep[0.17.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13638]
+			rep[0.9.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13638]
+	product property[0.10][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13597] name:'zCenterOfGravity'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13598] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
 
-	product shape:SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.ePRODUCT_DEFINITION_SHAPE>
-	shape aspect[0.0][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14164] name:'Position.3'
-	shape aspect[0.1][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14694] name:'Position.8'
-	shape aspect[0.2][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16096] name:'Linear Size.13'
-	shape aspect[0.3][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15165] name:'Oriented Linear Dimension.1'
-	shape aspect[0.4][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14188] name:'Position.3'
-	shape aspect[0.5][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15933] name:'Oriented Linear Dimension.5'
-	shape aspect[0.6][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15827] name:'Linear Size.11'
-	shape aspect[0.7][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16159] name:'Linear Size.13'
-	shape aspect[0.8][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14760] name:'Position.9'
-	shape aspect[0.9][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13978] name:''
-	shape aspect[0.10][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14427] name:'Position.5'
-	shape aspect[0.11][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15831] name:'Linear Size.11'
-	shape aspect[0.12][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14683] name:'Position.8'
-	shape aspect[0.13][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15479] name:'Oriented Linear Dimension.3'
-	shape aspect[0.14][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13814] name:'Simple Datum.4'
-	shape aspect[0.15][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15424] name:'Oriented Linear Dimension.3'
-	shape aspect[0.16][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14670] name:'Position.8'
-	shape aspect[0.17][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16167] name:'Linear Size.13'
-	shape aspect[0.18][DATUM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13766] name:''
-	shape aspect[0.19][DATUM_SYSTEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13982] name:''
-	shape aspect[0.20][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14370] name:'Position.4'
-	shape aspect[0.21][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14672] name:'Position.8'
-	shape aspect[0.22][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13773] name:'Simple Datum.3'
-	shape aspect[0.23][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14818] name:''
-	shape aspect[0.24][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15539] name:'Oriented Linear Dimension.4'
-	shape aspect[0.25][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14027] name:''
-	shape aspect[0.26][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16143] name:'Linear Size.13'
-	shape aspect[0.27][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14758] name:'Position.9'
-	shape aspect[0.28][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14355] name:'Position.4'
-	shape aspect[0.29][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13769] name:'Simple Datum.3'
-	shape aspect[0.30][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14938] name:'Position surfacic profile.6'
-	shape aspect[0.31][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15430] name:'Oriented Linear Dimension.3'
-	shape aspect[0.32][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14527] name:'Position.6'
-	shape aspect[0.33][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15842] name:'Linear Size.11'
-	shape aspect[0.34][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13728] name:'Simple Datum.2'
-	shape aspect[0.35][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14894] name:'Position surfacic profile.6'
-	shape aspect[0.36][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16109] name:'Linear Size.13'
-	shape aspect[0.37][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15951] name:'Oriented Linear Dimension.5'
-	shape aspect[0.38][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16163] name:'Linear Size.13'
-	shape aspect[0.39][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14756] name:'Position.9'
-	shape aspect[0.40][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15456] name:'Oriented Linear Dimension.3'
-	shape aspect[0.41][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14534] name:'Position.6'
-	shape aspect[0.42][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15436] name:'Oriented Linear Dimension.3'
-	shape aspect[0.43][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14357] name:'Position.4'
-	shape aspect[0.44][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14168] name:'Position.3'
-	shape aspect[0.45][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16131] name:'Linear Size.13'
-	shape aspect[0.46][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15452] name:'Oriented Linear Dimension.3'
-	shape aspect[0.47][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13732] name:'Simple Datum.2'
-	shape aspect[0.48][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14934] name:'Position surfacic profile.6'
-	shape aspect[0.49][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14363] name:'Position.4'
-	shape aspect[0.50][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14661] name:'Position.8'
-	shape aspect[0.51][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15853] name:'Linear Size.11'
-	shape aspect[0.52][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14061] name:'Position.2'
-	shape aspect[0.53][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15171] name:'Oriented Linear Dimension.1'
-	shape aspect[0.54][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14998] name:'Position surfacic profile.6'
-	shape aspect[0.55][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14665] name:'Position.8'
-	shape aspect[0.56][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14063] name:'Position.2'
-	shape aspect[0.57][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14711] name:''
-	shape aspect[0.58][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15829] name:'Linear Size.11'
-	shape aspect[0.59][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14385] name:'Position.4'
-	shape aspect[0.60][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15020] name:'Position surfacic profile.6'
-	shape aspect[0.61][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14190] name:'Position.3'
-	shape aspect[0.62][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15008] name:'Position surfacic profile.6'
-	shape aspect[0.63][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14440] name:'Position.5'
-	shape aspect[0.64][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15432] name:'Oriented Linear Dimension.3'
-	shape aspect[0.65][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13687] name:'Simple Datum.1'
-	shape aspect[0.66][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14783] name:''
-	shape aspect[0.67][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16068] name:'Linear Size.13'
-	shape aspect[0.68][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14914] name:'Position surfacic profile.6'
-	shape aspect[0.69][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14886] name:'Position surfacic profile.6'
-	shape aspect[0.70][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15448] name:'Oriented Linear Dimension.3'
-	shape aspect[0.71][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16042] name:'Linear Size.13'
-	shape aspect[0.72][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14698] name:'Position.8'
-	shape aspect[0.73][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16052] name:'Linear Size.13'
-	shape aspect[0.74][DATUM_SYSTEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13915] name:''
-	shape aspect[0.75][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16040] name:'Linear Size.13'
-	shape aspect[0.76][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14722] name:''
-	shape aspect[0.77][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14393] name:''
-	shape aspect[0.78][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14018] name:''
-	shape aspect[0.79][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16076] name:'Linear Size.13'
-	shape aspect[0.80][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14950] name:'Position surfacic profile.6'
-	shape aspect[0.81][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14769] name:'Position.9'
-	shape aspect[0.82][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14922] name:'Position surfacic profile.6'
-	shape aspect[0.83][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16151] name:'Linear Size.13'
-	shape aspect[0.84][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13860] name:'Simple Datum.5'
-	shape aspect[0.85][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14692] name:'Position.8'
-	shape aspect[0.86][DATUM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13725] name:''
-	shape aspect[0.87][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15846] name:'Linear Size.11'
-	shape aspect[0.88][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16056] name:'Linear Size.13'
-	shape aspect[0.89][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14455] name:'Position.5'
-	shape aspect[0.90][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15440] name:'Oriented Linear Dimension.3'
-	shape aspect[0.91][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16100] name:'Linear Size.13'
-	shape aspect[0.92][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14474] name:''
-	shape aspect[0.93][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15012] name:'Position surfacic profile.6'
-	shape aspect[0.94][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14946] name:'Position surfacic profile.6'
-	shape aspect[0.95][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16172] name:'Linear Size.13'
-	shape aspect[0.96][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15527] name:'Oriented Linear Dimension.4'
-	shape aspect[0.97][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14581] name:''
-	shape aspect[0.98][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15275] name:'Oriented Linear Dimension.2'
-	shape aspect[0.99][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14212] name:''
-	shape aspect[0.100][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13864] name:'Simple Datum.5'
-	shape aspect[0.101][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16111] name:'Linear Size.13'
-	shape aspect[0.102][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14942] name:'Position surfacic profile.6'
-	shape aspect[0.103][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15868] name:'Linear Size.11'
-	shape aspect[0.104][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16123] name:'Linear Size.13'
-	shape aspect[0.105][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14199] name:'Position.3'
-	shape aspect[0.106][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14906] name:'Position surfacic profile.6'
-	shape aspect[0.107][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14177] name:'Position.3'
-	shape aspect[0.108][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15857] name:'Linear Size.11'
-	shape aspect[0.109][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16155] name:'Linear Size.13'
-	shape aspect[0.110][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15929] name:'Oriented Linear Dimension.5'
-	shape aspect[0.111][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14523] name:'Position.6'
-	shape aspect[0.112][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15925] name:'Oriented Linear Dimension.5'
-	shape aspect[0.113][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14687] name:'Position.8'
-	shape aspect[0.114][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14957] name:'Position surfacic profile.6'
-	shape aspect[0.115][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15000] name:'Position surfacic profile.6'
-	shape aspect[0.116][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14194] name:'Position.3'
-	shape aspect[0.117][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13281] name:''
-	shape aspect[0.118][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14994] name:'Position surfacic profile.6'
-	shape aspect[0.119][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14166] name:'Position.3'
-	shape aspect[0.120][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16104] name:'Linear Size.13'
-	shape aspect[0.121][DATUM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13857] name:''
-	shape aspect[0.122][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14930] name:'Position surfacic profile.6'
-	shape aspect[0.123][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15919] name:'Oriented Linear Dimension.5'
-	shape aspect[0.124][DATUM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13680] name:''
-	shape aspect[0.125][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15460] name:'Oriented Linear Dimension.3'
-	shape aspect[0.126][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16135] name:'Linear Size.13'
-	shape aspect[0.127][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14973] name:'Position surfacic profile.6'
-	shape aspect[0.128][DATUM_SYSTEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14216] name:''
-	shape aspect[0.129][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14444] name:'Position.5'
-	shape aspect[0.130][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14210] name:''
-	shape aspect[0.131][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14850] name:'Position surfacic profile.5'
-	shape aspect[0.132][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14659] name:'Position.8'
-	shape aspect[0.133][DATUM_SYSTEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14023] name:''
-	shape aspect[0.134][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16072] name:'Linear Size.13'
-	shape aspect[0.135][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15525] name:'Oriented Linear Dimension.4'
-	shape aspect[0.136][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15851] name:'Linear Size.11'
-	shape aspect[0.137][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14961] name:'Position surfacic profile.6'
-	shape aspect[0.138][DATUM_FEATURE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13767, COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13767] name:'Simple Datum.3'
-	shape aspect[0.139][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15167] name:'Oriented Linear Dimension.1'
-	shape aspect[0.140][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15298] name:'Oriented Linear Dimension.2'
-	shape aspect[0.141][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14890] name:'Position surfacic profile.6'
-	shape aspect[0.142][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14460] name:'Position.5'
-	shape aspect[0.143][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14072] name:'Position.2'
-	shape aspect[0.144][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14172] name:'Position.3'
-	shape aspect[0.145][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14179] name:'Position.3'
-	shape aspect[0.146][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14451] name:'Position.5'
-	shape aspect[0.147][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13818] name:'Simple Datum.4'
-	shape aspect[0.148][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14704] name:''
-	shape aspect[0.149][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14183] name:'Position.3'
-	shape aspect[0.150][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13986] name:''
-	shape aspect[0.151][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14211] name:''
-	shape aspect[0.152][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14965] name:'Position surfacic profile.6'
-	shape aspect[0.153][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14657] name:'Position.8'
-	shape aspect[0.154][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14681] name:'Position.8'
-	shape aspect[0.155][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14703] name:''
-	shape aspect[0.156][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14532] name:'Position.6'
-	shape aspect[0.157][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14705] name:''
-	shape aspect[0.158][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16119] name:'Linear Size.13'
-	shape aspect[0.159][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15862] name:'Linear Size.11'
-	shape aspect[0.160][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14462] name:'Position.5'
-	shape aspect[0.161][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16139] name:'Linear Size.13'
-	shape aspect[0.162][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14546] name:''
-	shape aspect[0.163][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14888] name:'Position surfacic profile.6'
-	shape aspect[0.164][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15864] name:'Linear Size.11'
-	shape aspect[0.165][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14359] name:'Position.4'
-	shape aspect[0.166][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15004] name:'Position surfacic profile.6'
-	shape aspect[0.167][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13822] name:'Simple Datum.4'
-	shape aspect[0.168][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14775] name:'Position.9'
-	shape aspect[0.169][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16060] name:'Linear Size.13'
-	shape aspect[0.170][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14374] name:'Position.4'
-	shape aspect[0.171][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14977] name:'Position surfacic profile.6'
-	shape aspect[0.172][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14078] name:'Position.2'
-	shape aspect[0.173][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15558] name:'Oriented Linear Dimension.4'
-	shape aspect[0.174][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14074] name:'Position.2'
-	shape aspect[0.175][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16048] name:'Linear Size.13'
-	shape aspect[0.176][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15444] name:'Oriented Linear Dimension.3'
-	shape aspect[0.177][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14368] name:'Position.4'
-	shape aspect[0.178][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14538] name:'Position.6'
-	shape aspect[0.179][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14252] name:'Flatness.1'
-	shape aspect[0.180][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14676] name:'Position.8'
-	shape aspect[0.181][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14985] name:'Position surfacic profile.6'
-	shape aspect[0.182][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16115] name:'Linear Size.13'
-	shape aspect[0.183][DATUM_FEATURE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13726, COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13726] name:'Simple Datum.2'
-	shape aspect[0.184][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14438] name:'Position.5'
-	shape aspect[0.185][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14466] name:'Position.5'
-	shape aspect[0.186][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16080] name:'Linear Size.13'
-	shape aspect[0.187][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15835] name:'Linear Size.11'
-	shape aspect[0.188][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16084] name:'Linear Size.13'
-	shape aspect[0.189][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15191] name:'Oriented Linear Dimension.1'
-	shape aspect[0.190][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14969] name:'Position surfacic profile.6'
-	shape aspect[0.191][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15273] name:'Oriented Linear Dimension.2'
-	shape aspect[0.192][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14918] name:'Position surfacic profile.6'
-	shape aspect[0.193][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14926] name:'Position surfacic profile.6'
-	shape aspect[0.194][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14910] name:'Position surfacic profile.6'
-	shape aspect[0.195][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14019] name:''
-	shape aspect[0.196][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14067] name:'Position.2'
-	shape aspect[0.197][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13683] name:'Simple Datum.1'
-	shape aspect[0.198][DATUM_FEATURE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13681, COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13681] name:'Simple Datum.1'
-	shape aspect[0.199][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13912] name:''
-	shape aspect[0.200][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13872] name:'Simple Datum.5'
-	shape aspect[0.201][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15016] name:'Position surfacic profile.6'
-	shape aspect[0.202][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16064] name:'Linear Size.13'
-	shape aspect[0.203][DATUM_FEATURE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13808, COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13808] name:'Simple Datum.4'
-	shape aspect[0.204][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14425] name:'Position.5'
-	shape aspect[0.205][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14955] name:'Position surfacic profile.6'
-	shape aspect[0.206][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15535] name:'Oriented Linear Dimension.4'
-	shape aspect[0.207][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14764] name:'Position.9'
-	shape aspect[0.208][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15072] name:'Position surfacic profile.7'
-	shape aspect[0.209][DATUM_SYSTEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14707] name:''
-	shape aspect[0.210][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14379] name:'Position.4'
-	shape aspect[0.211][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13868] name:'Simple Datum.5'
-	shape aspect[0.212][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14059] name:'Position.2'
-	shape aspect[0.213][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14220] name:''
-	shape aspect[0.214][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15840] name:'Linear Size.11'
-	shape aspect[0.215][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13911] name:''
-	shape aspect[0.216][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14449] name:'Position.5'
-	shape aspect[0.217][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14088] name:''
-	shape aspect[0.218][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16088] name:'Linear Size.13'
-	shape aspect[0.219][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16044] name:'Linear Size.13'
-	shape aspect[0.220][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16092] name:'Linear Size.13'
-	shape aspect[0.221][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14771] name:'Position.9'
-	shape aspect[0.222][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13810] name:'Simple Datum.4'
-	shape aspect[0.223][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14205] name:'Position.3'
-	shape aspect[0.224][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16127] name:'Linear Size.13'
-	shape aspect[0.225][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14902] name:'Position surfacic profile.6'
-	shape aspect[0.226][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14519] name:'Position.6'
-	shape aspect[0.227][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15279] name:'Oriented Linear Dimension.2'
-	shape aspect[0.228][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14433] name:'Position.5'
-	shape aspect[0.229][DATUM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13807] name:''
-	shape aspect[0.230][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14381] name:'Position.4'
-	shape aspect[0.231][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14429] name:'Position.5'
-	shape aspect[0.232][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15921] name:'Oriented Linear Dimension.5'
-	shape aspect[0.233][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14485] name:''
-	shape aspect[0.234][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14521] name:'Position.6'
-	shape aspect[0.235][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16147] name:'Linear Size.13'
-	shape aspect[0.236][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13913] name:''
-	shape aspect[0.237][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14201] name:'Position.3'
-	shape aspect[0.238][DATUM_FEATURE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13858, COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13858] name:'Simple Datum.5'
-	shape aspect[0.239][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14989] name:'Position surfacic profile.6'
-	shape aspect[0.240][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14981] name:'Position surfacic profile.6'
-	shape aspect[0.241][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15531] name:'Oriented Linear Dimension.4'
-	shape aspect[0.242][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14898] name:'Position surfacic profile.6'
+			rep[0.10.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13596]
+	product property[0.11][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13676] name:'attribute validation property'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13677] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.11.0][INTEGER_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13675]
+			rep[0.11.1][INTEGER_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13674]
+			rep[0.11.2][INTEGER_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13673]
+	product property[0.12][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13571] name:'Mass'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13572] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.12.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13570]
+	product property[0.13][PRODUCT_DEFINITION_SHAPE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15] name:''
+		[SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13545] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.13.0][AXIS2_PLACEMENT_3D-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13540]
+	product property[0.14][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13585] name:'xCenterOfGravity'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13586] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.14.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13584]
+	product property[0.15][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13615] name:'Iyx'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13616] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.15.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13614]
+	product property[0.16][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13557] name:'Density'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13558] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.16.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13556]
+	product property[0.17][PROPERTY_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13621] name:'Izx'
+		[REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13622] name:''
+			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#8] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7, SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#7]
+0.					nil RADIAN
+1.				unit:[CONVERSION_BASED_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#6]
+1.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
+1.						unit:[SI_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3, LENGTH_UNIT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#3]
+1.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.17.0][MEASURE_REPRESENTATION_ITEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13620]
+
+	product shape:PRODUCT_DEFINITION_SHAPE.PRef=> #15_mBF909D54-AEFA-49F5-8608-04C25F1765D4
+	shape aspect[0.0][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14074] name:'Position.2'
+	shape aspect[0.1][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14368] name:'Position.4'
+	shape aspect[0.2][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15165] name:'Oriented Linear Dimension.1'
+	shape aspect[0.3][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14088] name:''
+	shape aspect[0.4][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14523] name:'Position.6'
+	shape aspect[0.5][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13868] name:'Simple Datum.5'
+	shape aspect[0.6][DATUM_FEATURE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13858, COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13858] name:'Simple Datum.5'
+	shape aspect[0.7][DATUM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13766] name:''
+	shape aspect[0.8][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16080] name:'Linear Size.13'
+	shape aspect[0.9][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16064] name:'Linear Size.13'
+	shape aspect[0.10][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15444] name:'Oriented Linear Dimension.3'
+	shape aspect[0.11][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16163] name:'Linear Size.13'
+	shape aspect[0.12][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15539] name:'Oriented Linear Dimension.4'
+	shape aspect[0.13][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13810] name:'Simple Datum.4'
+	shape aspect[0.14][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16076] name:'Linear Size.13'
+	shape aspect[0.15][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14687] name:'Position.8'
+	shape aspect[0.16][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14210] name:''
+	shape aspect[0.17][DATUM_SYSTEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13982] name:''
+	shape aspect[0.18][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14220] name:''
+	shape aspect[0.19][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15273] name:'Oriented Linear Dimension.2'
+	shape aspect[0.20][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14546] name:''
+	shape aspect[0.21][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16131] name:'Linear Size.13'
+	shape aspect[0.22][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16048] name:'Linear Size.13'
+	shape aspect[0.23][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16040] name:'Linear Size.13'
+	shape aspect[0.24][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16096] name:'Linear Size.13'
+	shape aspect[0.25][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14381] name:'Position.4'
+	shape aspect[0.26][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16042] name:'Linear Size.13'
+	shape aspect[0.27][DATUM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13857] name:''
+	shape aspect[0.28][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13281] name:''
+	shape aspect[0.29][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14998] name:'Position surfacic profile.6'
+	shape aspect[0.30][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16088] name:'Linear Size.13'
+	shape aspect[0.31][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14969] name:'Position surfacic profile.6'
+	shape aspect[0.32][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14918] name:'Position surfacic profile.6'
+	shape aspect[0.33][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14758] name:'Position.9'
+	shape aspect[0.34][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14538] name:'Position.6'
+	shape aspect[0.35][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14485] name:''
+	shape aspect[0.36][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15527] name:'Oriented Linear Dimension.4'
+	shape aspect[0.37][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14981] name:'Position surfacic profile.6'
+	shape aspect[0.38][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14938] name:'Position surfacic profile.6'
+	shape aspect[0.39][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14190] name:'Position.3'
+	shape aspect[0.40][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15008] name:'Position surfacic profile.6'
+	shape aspect[0.41][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14444] name:'Position.5'
+	shape aspect[0.42][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14067] name:'Position.2'
+	shape aspect[0.43][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14449] name:'Position.5'
+	shape aspect[0.44][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13769] name:'Simple Datum.3'
+	shape aspect[0.45][DATUM_SYSTEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14216] name:''
+	shape aspect[0.46][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14894] name:'Position surfacic profile.6'
+	shape aspect[0.47][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16143] name:'Linear Size.13'
+	shape aspect[0.48][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15430] name:'Oriented Linear Dimension.3'
+	shape aspect[0.49][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14199] name:'Position.3'
+	shape aspect[0.50][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15275] name:'Oriented Linear Dimension.2'
+	shape aspect[0.51][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14722] name:''
+	shape aspect[0.52][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14910] name:'Position surfacic profile.6'
+	shape aspect[0.53][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14760] name:'Position.9'
+	shape aspect[0.54][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14977] name:'Position surfacic profile.6'
+	shape aspect[0.55][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14063] name:'Position.2'
+	shape aspect[0.56][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14922] name:'Position surfacic profile.6'
+	shape aspect[0.57][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16167] name:'Linear Size.13'
+	shape aspect[0.58][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14061] name:'Position.2'
+	shape aspect[0.59][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15531] name:'Oriented Linear Dimension.4'
+	shape aspect[0.60][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15862] name:'Linear Size.11'
+	shape aspect[0.61][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14665] name:'Position.8'
+	shape aspect[0.62][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15448] name:'Oriented Linear Dimension.3'
+	shape aspect[0.63][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15525] name:'Oriented Linear Dimension.4'
+	shape aspect[0.64][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14474] name:''
+	shape aspect[0.65][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14433] name:'Position.5'
+	shape aspect[0.66][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14775] name:'Position.9'
+	shape aspect[0.67][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15432] name:'Oriented Linear Dimension.3'
+	shape aspect[0.68][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14930] name:'Position surfacic profile.6'
+	shape aspect[0.69][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16123] name:'Linear Size.13'
+	shape aspect[0.70][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14961] name:'Position surfacic profile.6'
+	shape aspect[0.71][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14078] name:'Position.2'
+	shape aspect[0.72][DATUM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13807] name:''
+	shape aspect[0.73][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14955] name:'Position surfacic profile.6'
+	shape aspect[0.74][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14783] name:''
+	shape aspect[0.75][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13911] name:''
+	shape aspect[0.76][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13732] name:'Simple Datum.2'
+	shape aspect[0.77][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14205] name:'Position.3'
+	shape aspect[0.78][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14898] name:'Position surfacic profile.6'
+	shape aspect[0.79][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15004] name:'Position surfacic profile.6'
+	shape aspect[0.80][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14252] name:'Flatness.1'
+	shape aspect[0.81][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14705] name:''
+	shape aspect[0.82][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16172] name:'Linear Size.13'
+	shape aspect[0.83][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13913] name:''
+	shape aspect[0.84][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14661] name:'Position.8'
+	shape aspect[0.85][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14534] name:'Position.6'
+	shape aspect[0.86][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14355] name:'Position.4'
+	shape aspect[0.87][DATUM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13725] name:''
+	shape aspect[0.88][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14769] name:'Position.9'
+	shape aspect[0.89][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14756] name:'Position.9'
+	shape aspect[0.90][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15298] name:'Oriented Linear Dimension.2'
+	shape aspect[0.91][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14676] name:'Position.8'
+	shape aspect[0.92][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15921] name:'Oriented Linear Dimension.5'
+	shape aspect[0.93][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14659] name:'Position.8'
+	shape aspect[0.94][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14019] name:''
+	shape aspect[0.95][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15012] name:'Position surfacic profile.6'
+	shape aspect[0.96][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16060] name:'Linear Size.13'
+	shape aspect[0.97][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14683] name:'Position.8'
+	shape aspect[0.98][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14527] name:'Position.6'
+	shape aspect[0.99][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14711] name:''
+	shape aspect[0.100][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15191] name:'Oriented Linear Dimension.1'
+	shape aspect[0.101][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16151] name:'Linear Size.13'
+	shape aspect[0.102][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14994] name:'Position surfacic profile.6'
+	shape aspect[0.103][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14906] name:'Position surfacic profile.6'
+	shape aspect[0.104][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15842] name:'Linear Size.11'
+	shape aspect[0.105][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15535] name:'Oriented Linear Dimension.4'
+	shape aspect[0.106][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13822] name:'Simple Datum.4'
+	shape aspect[0.107][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15846] name:'Linear Size.11'
+	shape aspect[0.108][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14059] name:'Position.2'
+	shape aspect[0.109][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13872] name:'Simple Datum.5'
+	shape aspect[0.110][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14438] name:'Position.5'
+	shape aspect[0.111][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14188] name:'Position.3'
+	shape aspect[0.112][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14771] name:'Position.9'
+	shape aspect[0.113][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14425] name:'Position.5'
+	shape aspect[0.114][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16100] name:'Linear Size.13'
+	shape aspect[0.115][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16056] name:'Linear Size.13'
+	shape aspect[0.116][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14694] name:'Position.8'
+	shape aspect[0.117][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13860] name:'Simple Datum.5'
+	shape aspect[0.118][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14370] name:'Position.4'
+	shape aspect[0.119][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14934] name:'Position surfacic profile.6'
+	shape aspect[0.120][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14902] name:'Position surfacic profile.6'
+	shape aspect[0.121][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15933] name:'Oriented Linear Dimension.5'
+	shape aspect[0.122][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14926] name:'Position surfacic profile.6'
+	shape aspect[0.123][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14211] name:''
+	shape aspect[0.124][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16109] name:'Linear Size.13'
+	shape aspect[0.125][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13986] name:''
+	shape aspect[0.126][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14850] name:'Position surfacic profile.5'
+	shape aspect[0.127][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15835] name:'Linear Size.11'
+	shape aspect[0.128][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14521] name:'Position.6'
+	shape aspect[0.129][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15436] name:'Oriented Linear Dimension.3'
+	shape aspect[0.130][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14429] name:'Position.5'
+	shape aspect[0.131][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15279] name:'Oriented Linear Dimension.2'
+	shape aspect[0.132][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16115] name:'Linear Size.13'
+	shape aspect[0.133][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14018] name:''
+	shape aspect[0.134][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13818] name:'Simple Datum.4'
+	shape aspect[0.135][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14888] name:'Position surfacic profile.6'
+	shape aspect[0.136][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14166] name:'Position.3'
+	shape aspect[0.137][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15827] name:'Linear Size.11'
+	shape aspect[0.138][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15929] name:'Oriented Linear Dimension.5'
+	shape aspect[0.139][DATUM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13680] name:''
+	shape aspect[0.140][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14363] name:'Position.4'
+	shape aspect[0.141][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16155] name:'Linear Size.13'
+	shape aspect[0.142][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13726, DATUM_FEATURE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13726] name:'Simple Datum.2'
+	shape aspect[0.143][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15840] name:'Linear Size.11'
+	shape aspect[0.144][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13767, DATUM_FEATURE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13767] name:'Simple Datum.3'
+	shape aspect[0.145][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13687] name:'Simple Datum.1'
+	shape aspect[0.146][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16044] name:'Linear Size.13'
+	shape aspect[0.147][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13681, DATUM_FEATURE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13681] name:'Simple Datum.1'
+	shape aspect[0.148][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15167] name:'Oriented Linear Dimension.1'
+	shape aspect[0.149][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13728] name:'Simple Datum.2'
+	shape aspect[0.150][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15864] name:'Linear Size.11'
+	shape aspect[0.151][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15424] name:'Oriented Linear Dimension.3'
+	shape aspect[0.152][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13864] name:'Simple Datum.5'
+	shape aspect[0.153][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15016] name:'Position surfacic profile.6'
+	shape aspect[0.154][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16084] name:'Linear Size.13'
+	shape aspect[0.155][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14172] name:'Position.3'
+	shape aspect[0.156][DATUM_SYSTEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13915] name:''
+	shape aspect[0.157][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13808, DATUM_FEATURE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13808] name:'Simple Datum.4'
+	shape aspect[0.158][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15829] name:'Linear Size.11'
+	shape aspect[0.159][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14385] name:'Position.4'
+	shape aspect[0.160][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14532] name:'Position.6'
+	shape aspect[0.161][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15919] name:'Oriented Linear Dimension.5'
+	shape aspect[0.162][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14672] name:'Position.8'
+	shape aspect[0.163][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14194] name:'Position.3'
+	shape aspect[0.164][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14950] name:'Position surfacic profile.6'
+	shape aspect[0.165][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14703] name:''
+	shape aspect[0.166][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14985] name:'Position surfacic profile.6'
+	shape aspect[0.167][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14427] name:'Position.5'
+	shape aspect[0.168][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16147] name:'Linear Size.13'
+	shape aspect[0.169][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14027] name:''
+	shape aspect[0.170][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14164] name:'Position.3'
+	shape aspect[0.171][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15000] name:'Position surfacic profile.6'
+	shape aspect[0.172][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14886] name:'Position surfacic profile.6'
+	shape aspect[0.173][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15020] name:'Position surfacic profile.6'
+	shape aspect[0.174][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14460] name:'Position.5'
+	shape aspect[0.175][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14657] name:'Position.8'
+	shape aspect[0.176][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15460] name:'Oriented Linear Dimension.3'
+	shape aspect[0.177][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14357] name:'Position.4'
+	shape aspect[0.178][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14704] name:''
+	shape aspect[0.179][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14393] name:''
+	shape aspect[0.180][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14965] name:'Position surfacic profile.6'
+	shape aspect[0.181][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14179] name:'Position.3'
+	shape aspect[0.182][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16111] name:'Linear Size.13'
+	shape aspect[0.183][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14168] name:'Position.3'
+	shape aspect[0.184][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14942] name:'Position surfacic profile.6'
+	shape aspect[0.185][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15857] name:'Linear Size.11'
+	shape aspect[0.186][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16092] name:'Linear Size.13'
+	shape aspect[0.187][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14989] name:'Position surfacic profile.6'
+	shape aspect[0.188][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15851] name:'Linear Size.11'
+	shape aspect[0.189][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15452] name:'Oriented Linear Dimension.3'
+	shape aspect[0.190][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15072] name:'Position surfacic profile.7'
+	shape aspect[0.191][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15925] name:'Oriented Linear Dimension.5'
+	shape aspect[0.192][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14581] name:''
+	shape aspect[0.193][TOLERANCE_ZONE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14818] name:''
+	shape aspect[0.194][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14466] name:'Position.5'
+	shape aspect[0.195][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14462] name:'Position.5'
+	shape aspect[0.196][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15831] name:'Linear Size.11'
+	shape aspect[0.197][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14946] name:'Position surfacic profile.6'
+	shape aspect[0.198][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13912] name:''
+	shape aspect[0.199][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16072] name:'Linear Size.13'
+	shape aspect[0.200][DATUM_SYSTEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14707] name:''
+	shape aspect[0.201][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16104] name:'Linear Size.13'
+	shape aspect[0.202][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14072] name:'Position.2'
+	shape aspect[0.203][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14440] name:'Position.5'
+	shape aspect[0.204][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16135] name:'Linear Size.13'
+	shape aspect[0.205][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14212] name:''
+	shape aspect[0.206][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14957] name:'Position surfacic profile.6'
+	shape aspect[0.207][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15456] name:'Oriented Linear Dimension.3'
+	shape aspect[0.208][DATUM_SYSTEM-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14023] name:''
+	shape aspect[0.209][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13683] name:'Simple Datum.1'
+	shape aspect[0.210][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13814] name:'Simple Datum.4'
+	shape aspect[0.211][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15440] name:'Oriented Linear Dimension.3'
+	shape aspect[0.212][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14379] name:'Position.4'
+	shape aspect[0.213][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14359] name:'Position.4'
+	shape aspect[0.214][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14455] name:'Position.5'
+	shape aspect[0.215][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16159] name:'Linear Size.13'
+	shape aspect[0.216][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14183] name:'Position.3'
+	shape aspect[0.217][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14698] name:'Position.8'
+	shape aspect[0.218][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14973] name:'Position surfacic profile.6'
+	shape aspect[0.219][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14764] name:'Position.9'
+	shape aspect[0.220][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16068] name:'Linear Size.13'
+	shape aspect[0.221][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14692] name:'Position.8'
+	shape aspect[0.222][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14890] name:'Position surfacic profile.6'
+	shape aspect[0.223][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15558] name:'Oriented Linear Dimension.4'
+	shape aspect[0.224][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15479] name:'Oriented Linear Dimension.3'
+	shape aspect[0.225][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14519] name:'Position.6'
+	shape aspect[0.226][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13978] name:''
+	shape aspect[0.227][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15951] name:'Oriented Linear Dimension.5'
+	shape aspect[0.228][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14681] name:'Position.8'
+	shape aspect[0.229][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14914] name:'Position surfacic profile.6'
+	shape aspect[0.230][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15868] name:'Linear Size.11'
+	shape aspect[0.231][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13773] name:'Simple Datum.3'
+	shape aspect[0.232][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15171] name:'Oriented Linear Dimension.1'
+	shape aspect[0.233][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16127] name:'Linear Size.13'
+	shape aspect[0.234][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16119] name:'Linear Size.13'
+	shape aspect[0.235][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14374] name:'Position.4'
+	shape aspect[0.236][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16139] name:'Linear Size.13'
+	shape aspect[0.237][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15853] name:'Linear Size.11'
+	shape aspect[0.238][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14201] name:'Position.3'
+	shape aspect[0.239][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14670] name:'Position.8'
+	shape aspect[0.240][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16052] name:'Linear Size.13'
+	shape aspect[0.241][COMPOSITE_SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14177] name:'Position.3'
+	shape aspect[0.242][SHAPE_ASPECT-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14451] name:'Position.5'
 
 
 
@@ -486,442 +492,409 @@ product identification[0] [PRODUCT_DEFINITION-> nist_ftc_07_asme1_ap242-e2.stp.P
 
 
 
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[350]:	 #lookups: 1092, #hits: 742, %hit rate: 67.948718%
+ model   cache[2]:	 #lookups: 1242, #hits: 1240, %hit rate: 99.838969%
+
  validating instance reference domain for 65065 application instances:
- 
-SDAI Thread Local Cache Statistics [SdaiTransactionRO]
- complex cache[614]:	 #lookups: 46527, #hits: 45913, %hit rate: 98.680336%
- model   cache[2]:	 #lookups: 1506, #hits: 1504, %hit rate: 99.867198%
-SDAI Thread Local Cache Statistics [SdaiTransactionRO]
- complex cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
- model   cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
-b
-..
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 10:28:18 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 10:33:06 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-#
-..#
-+...
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 10:54:27 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-.1.
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:00:16 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-...
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:05:22 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-+....2....+..
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:25:12 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-.
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:26:52 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-.3....+..
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:33:54 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-..4....+.
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:40:01 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-...5...
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:44:32 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-.+.
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:46:07 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-...6....+....7
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:53:20 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-.
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:53:33 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-...+....8..
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:57:31 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-.
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:58:13 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-.+
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 11:58:48 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-....9....+
-VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 178] @2025-12-16 12:02:23 +0000 
-failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
-...
-SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_64255]
- complex cache[16239]:	 #lookups: 45713438, #hits: 45697199, %hit rate: 99.964477%
- model   cache[2]:	 #lookups: 161163, #hits: 161161, %hit rate: 99.998759%
-.10
- duration: 2:04:49
+ ....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....10
+ duration: 0:01:50
 
 
  validating 55 global rules:
- .........+.........+.........+.........+.
-FAILED: VALID_PRODUCT_AND_MANUFACTURING_INFORMATION_VIEW_CONTEXTS
-...
+ .........+.........+.........+......
 FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
-.....+.....
- duration: 0:00:07
+...
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_64741]
+ complex cache[9435]:	 #lookups: 529541, #hits: 520106, %hit rate: 98.218268%
+ model   cache[2]:	 #lookups: 13970, #hits: 13968, %hit rate: 99.985684%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_0]
+ complex cache[212]:	 #lookups: 213, #hits: 1, %hit rate: 0.469484%
+ model   cache[2]:	 #lookups: 223, #hits: 221, %hit rate: 99.103139%
+
+SDAI Thread Local Cache Statistics [SDAI.usedIn _15591]
+ complex cache[940]:	 #lookups: 83702, #hits: 82762, %hit rate: 98.876968%
+ model   cache[2]:	 #lookups: 1939, #hits: 1937, %hit rate: 99.896854%
++.......
+FAILED: VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_0]
+ complex cache[17]:	 #lookups: 30, #hits: 13, %hit rate: 43.333333%
+ model   cache[2]:	 #lookups: 23, #hits: 21, %hit rate: 91.304348%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_15]
+ complex cache[26]:	 #lookups: 121, #hits: 95, %hit rate: 78.512397%
+ model   cache[2]:	 #lookups: 34, #hits: 32, %hit rate: 94.117647%
+..
+FAILED: VALID_PRODUCT_AND_MANUFACTURING_INFORMATION_VIEW_CONTEXTS
++.....
+ duration: 0:00:10
 
 
  validating 49 uniqueness rules:
- ..
-FAILED: UniquenessRule(DATUM_SYSTEM.UNIQUE_ur1)
-.......+.........+.....
+ ...
 FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1)
 .
 FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2)
-...+.........+.........
+.....+..
+FAILED: UniquenessRule(DATUM_SYSTEM.UNIQUE_ur1)
+.......+.........+.........+..
 FAILED: UniquenessRule(DRAUGHTING_MODEL.UNIQUE_ur1)
-
+.......
  duration: 0:00:01
 
 
  validating where rules for 17010 complex entities:
  
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16651 .WHERE_wr1
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_63779]
+ complex cache[2802]:	 #lookups: 558183, #hits: 555381, %hit rate: 99.498014%
+ model   cache[2]:	 #lookups: 5133, #hits: 5131, %hit rate: 99.961036%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_64741]
+ complex cache[2822]:	 #lookups: 558656, #hits: 555834, %hit rate: 99.494859%
+ model   cache[2]:	 #lookups: 7325, #hits: 7323, %hit rate: 99.972696%
+
+SDAI Thread Local Cache Statistics [SdaiTransactionVA]
+ complex cache[1973]:	 #lookups: 552342, #hits: 550369, %hit rate: 99.642794%
+ model   cache[2]:	 #lookups: 3946, #hits: 3944, %hit rate: 99.949316%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_7]
+ complex cache[15228]:	 #lookups: 27659, #hits: 12431, %hit rate: 44.94378%
+ model   cache[2]:	 #lookups: 15262, #hits: 15260, %hit rate: 99.986896%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_63938]
+ complex cache[3438]:	 #lookups: 561665, #hits: 558227, %hit rate: 99.387891%
+ model   cache[2]:	 #lookups: 12975, #hits: 12973, %hit rate: 99.984586%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_63145]
+ complex cache[3904]:	 #lookups: 567380, #hits: 563476, %hit rate: 99.311925%
+ model   cache[2]:	 #lookups: 9151, #hits: 9149, %hit rate: 99.978144%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_64419]
+ complex cache[3289]:	 #lookups: 575195, #hits: 571906, %hit rate: 99.428194%
+ model   cache[2]:	 #lookups: 7210, #hits: 7208, %hit rate: 99.972261%
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14635 .WHERE_wr1
+$
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16519 .WHERE_wr1
+
 .
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15815 .WHERE_wr3
-.
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14743 .WHERE_wr3
+..
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16199 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16295 .WHERE_wr3
+
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16823 .WHERE_wr2
++.
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16791 .WHERE_wr1
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13679 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15631 .WHERE_wr3
 
 FAILED:  GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13543 .WHERE_wr3
 
 FAILED:  GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13543 .WHERE_wr4
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14047 .WHERE_wr3
 .
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16019 .WHERE_wr1
 
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16831 .WHERE_wr2
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14635 .WHERE_wr1
-
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13679 .WHERE_wr2
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16287 .WHERE_wr1
-+
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14047 .WHERE_wr3
-
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16923 .WHERE_wr1
-
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16791 .WHERE_wr1
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17055 .WHERE_wr1
 .
 FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14803 .WHERE_wr3
-...
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13795 .WHERE_wr3
-1
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15723 .WHERE_wr3
 
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16695 .WHERE_wr2
-
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16687 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15367 .WHERE_wr3
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16287 .WHERE_wr1
 .
 FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13895 .WHERE_wr3
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15631 .WHERE_wr3
-.
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14151 .WHERE_wr3
-.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16963 .WHERE_wr2
-.
 FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16411 .WHERE_wr3
 
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17055 .WHERE_wr1
-+.
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16323 .WHERE_wr3
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16687 .WHERE_wr2
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14343 .WHERE_wr3
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13787 .WHERE_wr1
+1
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15367 .WHERE_wr3
 .
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17095 .WHERE_wr2
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16323 .WHERE_wr3
+.
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16831 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14151 .WHERE_wr3
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14039 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15723 .WHERE_wr3
+.
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17087 .WHERE_wr2
++.
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16439 .WHERE_wr3
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16963 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13795 .WHERE_wr3
 
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16315 .WHERE_wr1
 .
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14743 .WHERE_wr3
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14039 .WHERE_wr1
-
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17087 .WHERE_wr2
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15907 .WHERE_wr3
+.
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16651 .WHERE_wr1
 .
 FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13935 .WHERE_wr3
+
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16923 .WHERE_wr1
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17095 .WHERE_wr2
 2
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15907 .WHERE_wr3
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16295 .WHERE_wr3
-
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16955 .WHERE_wr2
-.
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13927 .WHERE_wr1
+.
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16955 .WHERE_wr2
 
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15359 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13787 .WHERE_wr1
-.
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16823 .WHERE_wr2
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16519 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16439 .WHERE_wr3
-+
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15106 .WHERE_wr3
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14734 .WHERE_wr1
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16695 .WHERE_wr2
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16498 .WHERE_wr3
-
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16614 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14142 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13998 .WHERE_wr1
-
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16798 .WHERE_wr2
-.
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15982 .WHERE_wr3
-3
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16382 .WHERE_wr3
-
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17062 .WHERE_wr2
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15815 .WHERE_wr3
 ..
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14506 .WHERE_wr3
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14343 .WHERE_wr3
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13958 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15714 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14310 .WHERE_wr3
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15806 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14566 .WHERE_wr3
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15314 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16402 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13886 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14334 .WHERE_wr1
 +
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16890 .WHERE_wr1
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16650 .WHERE_wr2
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15898 .WHERE_wr1
-..
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17054 .WHERE_wr2
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15058 .WHERE_wr3
 
 FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14874 .WHERE_wr3
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14794 .WHERE_wr1
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16798 .WHERE_wr2
+.
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16614 .WHERE_wr1
 
 FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16930 .WHERE_wr2
-4
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13754 .WHERE_wr3
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14310 .WHERE_wr3
-
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16650 .WHERE_wr2
 .
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16790 .WHERE_wr2
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14334 .WHERE_wr1
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16658 .WHERE_wr2
+3
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16402 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16430 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15322 .WHERE_wr3
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16382 .WHERE_wr3
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13966 .WHERE_wr3
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15898 .WHERE_wr1
 
 FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16758 .WHERE_wr1
+..
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13886 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14006 .WHERE_wr3
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14838 .WHERE_wr3
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13754 .WHERE_wr3
 .
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15622 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15058 .WHERE_wr3
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13958 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14006 .WHERE_wr3
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14734 .WHERE_wr1
 +
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13746 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16498 .WHERE_wr3
 ..
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13966 .WHERE_wr3
+.
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14838 .WHERE_wr3
+
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16790 .WHERE_wr2
+.
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14566 .WHERE_wr3
+4.
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17062 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15106 .WHERE_wr3
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14794 .WHERE_wr1
+
 FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16922 .WHERE_wr2
-
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16658 .WHERE_wr2
 ..
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17054 .WHERE_wr2
+.+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14142 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15714 .WHERE_wr1
+
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16890 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15322 .WHERE_wr3
+.
 FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17022 .WHERE_wr1
-5.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15973 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14301 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16430 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15314 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15806 .WHERE_wr1
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15505 .WHERE_wr1
-..
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16613 .WHERE_wr2
-
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16621 .WHERE_wr2
-+
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16469 .WHERE_wr3
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15049 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14277 .WHERE_wr3
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13998 .WHERE_wr1
 .
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17029 .WHERE_wr2
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15982 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14506 .WHERE_wr3
+5
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16765 .WHERE_wr2
 .
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15153 .WHERE_wr3
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16373 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15097 .WHERE_wr1
+FAILED:  GEOMETRIC_TOLERANCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13917 .WHERE_wr2
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16489 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14829 .WHERE_wr1
-.6
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14865 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15513 .WHERE_wr3
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14497 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13713 .WHERE_wr3
-.
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16757 .WHERE_wr2
-
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16889 .WHERE_wr2
-.
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14601 .WHERE_wr3
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15577 .WHERE_wr1
-+
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16725 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13705 .WHERE_wr1
-
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16857 .WHERE_wr1
-.
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17021 .WHERE_wr2
-
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14557 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15585 .WHERE_wr3
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15145 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15097 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14865 .WHERE_wr1
 ..
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15253 .WHERE_wr1
-7
-FAILED:  GEOMETRIC_TOLERANCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13917 .WHERE_wr2
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16897 .WHERE_wr2
++
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15513 .WHERE_wr3
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15261 .WHERE_wr3
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15153 .WHERE_wr3
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13845 .WHERE_wr3
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15769 .WHERE_wr3
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16373 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15505 .WHERE_wr1
 
 FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16989 .WHERE_wr1
 .
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14413 .WHERE_wr3
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15577 .WHERE_wr1
 
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16897 .WHERE_wr2
-
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16765 .WHERE_wr2
-.
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16577 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13713 .WHERE_wr3
 
 FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15677 .WHERE_wr3
-..+
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16724 .WHERE_wr2
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15760 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14497 .WHERE_wr1
+.
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16757 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15261 .WHERE_wr3
+.
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17021 .WHERE_wr2
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13705 .WHERE_wr1
+6
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16725 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14829 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15145 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14413 .WHERE_wr3
 ..
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16208 .WHERE_wr3
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16857 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15208 .WHERE_wr1
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16577 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13845 .WHERE_wr3
 
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14108 .WHERE_wr3
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15585 .WHERE_wr3
++..
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15769 .WHERE_wr3
+.
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16621 .WHERE_wr2
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15973 .WHERE_wr1
 
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16889 .WHERE_wr2
+7.
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17029 .WHERE_wr2
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15253 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15049 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16469 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14277 .WHERE_wr3
+
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16613 .WHERE_wr2
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14301 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14601 .WHERE_wr3
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16489 .WHERE_wr1
+.+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13836 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14592 .WHERE_wr1
+.
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16988 .WHERE_wr2
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14268 .WHERE_wr1
+.8
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15760 .WHERE_wr1
+.
 FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16956 .WHERE_wr1
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14592 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16528 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16028 .WHERE_wr3
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15404 .WHERE_wr1
+.
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17088 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14404 .WHERE_wr1
+.
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16576 .WHERE_wr2
++
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16688 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16460 .WHERE_wr1
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16996 .WHERE_wr2
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15208 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16208 .WHERE_wr3
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15668 .WHERE_wr1
+..
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14644 .WHERE_wr3
+9
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14100 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16344 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14232 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15216 .WHERE_wr3
+..
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14108 .WHERE_wr3
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16732 .WHERE_wr2
++
+FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16724 .WHERE_wr2
+.
+FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16824 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16352 .WHERE_wr3
+
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16864 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15412 .WHERE_wr3
 .
 FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16260 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16268 .WHERE_wr3
-8.
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16576 .WHERE_wr2
-
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16688 .WHERE_wr1
+.
+FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16584 .WHERE_wr2
+.
+FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14240 .WHERE_wr3
 
 FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16856 .WHERE_wr2
-.
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15216 .WHERE_wr3
-..
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16584 .WHERE_wr2
-+
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16864 .WHERE_wr2
-.
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15412 .WHERE_wr3
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14268 .WHERE_wr1
-.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16732 .WHERE_wr2
-..
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16344 .WHERE_wr1
-9.
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16352 .WHERE_wr3
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#13836 .WHERE_wr1
-.
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#17088 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16028 .WHERE_wr3
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14232 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14404 .WHERE_wr1
-
-FAILED:  VIEW_VOLUME-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16988 .WHERE_wr2
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15404 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16528 .WHERE_wr3
-+.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16460 .WHERE_wr1
-
-FAILED:  CAMERA_MODEL-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16824 .WHERE_wr1
-.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#16996 .WHERE_wr2
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14100 .WHERE_wr1
-.
-SDAI Thread Local Cache Statistics [SdaiTransactionVA]
- complex cache[16300]:	 #lookups: 110089058, #hits: 110072758, %hit rate: 99.985194%
- model   cache[2]:	 #lookups: 289908, #hits: 289906, %hit rate: 99.99931%
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_1]
- complex cache[16255]:	 #lookups: 64734061, #hits: 64717806, %hit rate: 99.97489%
- model   cache[2]:	 #lookups: 151675, #hits: 151673, %hit rate: 99.998681%
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_1]
- complex cache[16491]:	 #lookups: 64630009, #hits: 64613518, %hit rate: 99.974484%
- model   cache[2]:	 #lookups: 149687, #hits: 149685, %hit rate: 99.998664%
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14644 .WHERE_wr3
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_1]
- complex cache[16264]:	 #lookups: 65291460, #hits: 65275196, %hit rate: 99.97509%
- model   cache[2]:	 #lookups: 153806, #hits: 153804, %hit rate: 99.9987%
-.
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_1]
- complex cache[16234]:	 #lookups: 66188873, #hits: 66172639, %hit rate: 99.975473%
- model   cache[2]:	 #lookups: 160647, #hits: 160645, %hit rate: 99.998755%
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#15668 .WHERE_wr1
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_1]
- complex cache[16412]:	 #lookups: 63057706, #hits: 63041294, %hit rate: 99.973973%
- model   cache[2]:	 #lookups: 137343, #hits: 137341, %hit rate: 99.998544%
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_1]
- complex cache[16267]:	 #lookups: 65811195, #hits: 65794928, %hit rate: 99.975282%
- model   cache[2]:	 #lookups: 154415, #hits: 154413, %hit rate: 99.998705%
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_1]
- complex cache[16497]:	 #lookups: 65344697, #hits: 65328200, %hit rate: 99.974754%
- model   cache[2]:	 #lookups: 150983, #hits: 150981, %hit rate: 99.998675%
-
-FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14240 .WHERE_wr3
 10
- duration: 2:36:59
+ duration: 0:36:14
 
 
  SCHEMA INSTANCE VALIDATION RESULT
@@ -931,16 +904,17 @@ FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14240 .WHERE_
 
 
 
- globalRuleValidationRecord: GlobalRuleValidationResult 2 records
-[0]LOGICAL(FALSE)	VALID_PRODUCT_AND_MANUFACTURING_INFORMATION_VIEW_CONTEXTS:	(WHERE_wr11: LOGICAL(FALSE)) (WHERE_wr10: LOGICAL(FALSE)) 
-[1]LOGICAL(FALSE)	AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED:	(WHERE_wr1: LOGICAL(FALSE)) 
+ globalRuleValidationRecord: GlobalRuleValidationResult 3 records
+[0]LOGICAL(FALSE)	AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED:	(WHERE_wr1: LOGICAL(FALSE)) 
+[1]LOGICAL(FALSE)	VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES:	(WHERE_wr1: LOGICAL(FALSE)) 
+[2]LOGICAL(FALSE)	VALID_PRODUCT_AND_MANUFACTURING_INFORMATION_VIEW_CONTEXTS:	(WHERE_wr10: LOGICAL(FALSE)) (WHERE_wr11: LOGICAL(FALSE)) 
 
 
 
  uniquenessRuleValidationRecord: UniquenessRuleValidationResult  4 records
-[0]LOGICAL(FALSE)	UniquenessRule(DATUM_SYSTEM.UNIQUE_ur1): #duplicates(4) / #instances(5)
-[1]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1): #duplicates(64) / #instances(269)
-[2]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2): #duplicates(37) / #instances(269)
+[0]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1): #duplicates(64) / #instances(269)
+[1]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2): #duplicates(37) / #instances(269)
+[2]LOGICAL(FALSE)	UniquenessRule(DATUM_SYSTEM.UNIQUE_ur1): #duplicates(4) / #instances(5)
 [3]LOGICAL(FALSE)	UniquenessRule(DRAUGHTING_MODEL.UNIQUE_ur1): #duplicates(4) / #instances(17)
 
 
@@ -1110,29 +1084,31 @@ FAILED:  ANNOTATION_PLANE-> nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#14240 .WHERE_
 (3) validation complete
 
 
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_1]
- complex cache[16253]:	 #lookups: 66104862, #hits: 66088609, %hit rate: 99.975413%
- model   cache[1]:	 #lookups: 156324, #hits: 156322, %hit rate: 99.998721%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_40616]
+ complex cache[723]:	 #lookups: 54123, #hits: 53400, %hit rate: 98.664154%
+ model   cache[1]:	 #lookups: 801, #hits: 799, %hit rate: 99.750312%
 #29: source = simpleRecord(SimpleRecord(keyword:AXIS2_PLACEMENT_3D, parameters:[STRING(), #26, #27, #28]), p21DataSection(PRIMARY))
  complex = nist_ftc_07_asme1_ap242-e2.stp.PRIMARY#29
- [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.GEOMETRIC_REPRESENTATION_ITEM
-
- [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.REPRESENTATION_ITEM
+ [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.REPRESENTATION_ITEM
 	_name: 	tLABEL(rep: STRING())
 
- [2]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.AXIS2_PLACEMENT_3D
-	_axis: 	Optional(SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eDIRECTION>)
-	_ref_direction: 	Optional(SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eDIRECTION>)
+ [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.PLACEMENT
+	_location: 	CARTESIAN_POINT.PRef=> #26_mBF909D54-AEFA-49F5-8608-04C25F1765D4
 
- [3]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.PLACEMENT
-	_location: 	SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eCARTESIAN_POINT>
+ [2]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.GEOMETRIC_REPRESENTATION_ITEM
+
+ [3]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.AXIS2_PLACEMENT_3D
+	_axis: 	Optional(DIRECTION.PRef=> #27_mBF909D54-AEFA-49F5-8608-04C25F1765D4)
+	_ref_direction: 	Optional(DIRECTION.PRef=> #28_mBF909D54-AEFA-49F5-8608-04C25F1765D4)
 
 
 
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_1]
- complex cache[16503]:	 #lookups: 66193460, #hits: 66176957, %hit rate: 99.975069%
- model   cache[2]:	 #lookups: 152934, #hits: 152932, %hit rate: 99.998692%
+
+SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_16635]
+ complex cache[6752]:	 #lookups: 9713585, #hits: 9706833, %hit rate: 99.930489%
+ model   cache[2]:	 #lookups: 129089, #hits: 129087, %hit rate: 99.998451%
 normal end of execution
-2025/12/16 23:40
-total duration: 4:42:23
+2025/12/27 14:12
+total duration: 0:38:43
 Program ended with exit code: 0

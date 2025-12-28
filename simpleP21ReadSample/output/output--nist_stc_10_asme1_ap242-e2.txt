@@ -1,4 +1,4 @@
-2025/12/18 10:02
+2025/12/27 19:10
 
  input: nist_stc_10_asme1_ap242-e2.stp
 
@@ -12,7 +12,7 @@
 
  source p21 file: FILE_NAME(headerEntity: SimpleRecord(keyword:FILE_NAME, parameters:[STRING(nist_stc_10_asme1), STRING(2024-03-07T11:37:35+05:30), [STRING()], [STRING()], STRING(), STRING(), $]))
 
- created models: ["nist_stc_10_asme1.PRIMARY"]
+ created models: [(name: "nist_stc_10_asme1.PRIMARY", modeID: 42AC2938-E20A-483F-B210-75526FC73F2B)]
 
 (1) decode complete
 
@@ -34,271 +34,271 @@ product identification[0] [PRODUCT_DEFINITION-> nist_stc_10_asme1.PRIMARY#12074]
 
 	product property[0.0][PRODUCT_DEFINITION_SHAPE-> nist_stc_10_asme1.PRIMARY#12073] name:''
 		[SHAPE_REPRESENTATION-> nist_stc_10_asme1.PRIMARY#7492] name:'nist_stc_10_asme1'
-			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_stc_10_asme1.PRIMARY#11934, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_stc_10_asme1.PRIMARY#11934, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_stc_10_asme1.PRIMARY#11934] type:'TOP_LEVEL_ASSEMBLY_PART'
-0.				unit:[PLANE_ANGLE_UNIT-> nist_stc_10_asme1.PRIMARY#11937, SI_UNIT-> nist_stc_10_asme1.PRIMARY#11937]
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_stc_10_asme1.PRIMARY#11934, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_stc_10_asme1.PRIMARY#11934, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_stc_10_asme1.PRIMARY#11934] type:'TOP_LEVEL_ASSEMBLY_PART'
+0.				unit:[SI_UNIT-> nist_stc_10_asme1.PRIMARY#11937, PLANE_ANGLE_UNIT-> nist_stc_10_asme1.PRIMARY#11937]
 0.					nil RADIAN
-1.				unit:[SI_UNIT-> nist_stc_10_asme1.PRIMARY#11936, SOLID_ANGLE_UNIT-> nist_stc_10_asme1.PRIMARY#11936]
-1.					nil STERADIAN
-2.				unit:[LENGTH_UNIT-> nist_stc_10_asme1.PRIMARY#11938, SI_UNIT-> nist_stc_10_asme1.PRIMARY#11938]
-2.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[LENGTH_UNIT-> nist_stc_10_asme1.PRIMARY#11938, SI_UNIT-> nist_stc_10_asme1.PRIMARY#11938]
+1.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+2.				unit:[SI_UNIT-> nist_stc_10_asme1.PRIMARY#11936, SOLID_ANGLE_UNIT-> nist_stc_10_asme1.PRIMARY#11936]
+2.					nil STERADIAN
 
 			rep[0.0.0][AXIS2_PLACEMENT_3D-> nist_stc_10_asme1.PRIMARY#7493]
 
-	product shape:SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.ePRODUCT_DEFINITION_SHAPE>
-	shape aspect[0.0][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#116] name:'Datum Feature Symbol D (306)'
-	shape aspect[0.1][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2850] name:''
-	shape aspect[0.2][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#537] name:''
-	shape aspect[0.3][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2841] name:''
-	shape aspect[0.4][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2860] name:''
-	shape aspect[0.5][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#799] name:'Radial Dimension (290)'
-	shape aspect[0.6][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#531] name:''
-	shape aspect[0.7][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#505] name:''
-	shape aspect[0.8][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#805] name:'Radial Dimension (173)'
-	shape aspect[0.9][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#811] name:'Radial Hole and Thread Callout (330)'
-	shape aspect[0.10][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2886] name:''
-	shape aspect[0.11][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#113] name:'Datum Feature Symbol A (265)'
-	shape aspect[0.12][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2844] name:''
-	shape aspect[0.13][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2843] name:''
-	shape aspect[0.14][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2872] name:''
-	shape aspect[0.15][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#512] name:''
-	shape aspect[0.16][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#518] name:''
-	shape aspect[0.17][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2944] name:''
-	shape aspect[0.18][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#510] name:''
-	shape aspect[0.19][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2829] name:''
-	shape aspect[0.20][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#516] name:''
-	shape aspect[0.21][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2901] name:''
-	shape aspect[0.22][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#809] name:'Feature Control Frame (189)'
-	shape aspect[0.23][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#800] name:'Feature Control Frame (307)'
-	shape aspect[0.24][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2849] name:''
-	shape aspect[0.25][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2873] name:''
-	shape aspect[0.26][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2881] name:''
-	shape aspect[0.27][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2910] name:''
-	shape aspect[0.28][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#782] name:'Radial Hole and Thread Callout (343)'
-	shape aspect[0.29][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#776] name:'Feature Control Frame (215)'
-	shape aspect[0.30][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#780] name:'Linear Dimension (82)'
-	shape aspect[0.31][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#114] name:'Datum Feature Symbol C (209)'
-	shape aspect[0.32][DATUM-> nist_stc_10_asme1.PRIMARY#497] name:''
-	shape aspect[0.33][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2942] name:''
-	shape aspect[0.34][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#774] name:'Radial Dimension (161)'
-	shape aspect[0.35][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#509] name:''
-	shape aspect[0.36][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2939] name:''
-	shape aspect[0.37][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2908] name:''
-	shape aspect[0.38][DATUM-> nist_stc_10_asme1.PRIMARY#496] name:''
-	shape aspect[0.39][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2940] name:''
-	shape aspect[0.40][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#775] name:'Linear Dimension (309)'
-	shape aspect[0.41][ALL_AROUND_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#101] name:'Feature Control Frame (79)'
-	shape aspect[0.42][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#123] name:''
-	shape aspect[0.43][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#517] name:''
+	product shape:PRODUCT_DEFINITION_SHAPE.PRef=> #12073_m42AC2938-E20A-483F-B210-75526FC73F2B
+	shape aspect[0.0][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2948] name:''
+	shape aspect[0.1][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2835] name:''
+	shape aspect[0.2][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2895] name:''
+	shape aspect[0.3][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#504] name:''
+	shape aspect[0.4][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2914] name:''
+	shape aspect[0.5][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2861] name:''
+	shape aspect[0.6][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2865] name:''
+	shape aspect[0.7][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#804] name:'Feature Control Frame (354)'
+	shape aspect[0.8][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2855] name:''
+	shape aspect[0.9][DATUM-> nist_stc_10_asme1.PRIMARY#497] name:''
+	shape aspect[0.10][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2887] name:''
+	shape aspect[0.11][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2870] name:''
+	shape aspect[0.12][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#136] name:''
+	shape aspect[0.13][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2934] name:''
+	shape aspect[0.14][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2929] name:''
+	shape aspect[0.15][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#506] name:''
+	shape aspect[0.16][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2882] name:''
+	shape aspect[0.17][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2921] name:''
+	shape aspect[0.18][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#533] name:''
+	shape aspect[0.19][DATUM-> nist_stc_10_asme1.PRIMARY#499] name:''
+	shape aspect[0.20][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#537] name:''
+	shape aspect[0.21][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2884] name:''
+	shape aspect[0.22][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2868] name:''
+	shape aspect[0.23][DATUM-> nist_stc_10_asme1.PRIMARY#495] name:''
+	shape aspect[0.24][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2917] name:''
+	shape aspect[0.25][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2901] name:''
+	shape aspect[0.26][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2949] name:''
+	shape aspect[0.27][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2877] name:''
+	shape aspect[0.28][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#785] name:'Feature Control Frame (234)'
+	shape aspect[0.29][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2833] name:''
+	shape aspect[0.30][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2913] name:''
+	shape aspect[0.31][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#781] name:'Radial Hole and Thread Callout (326)'
+	shape aspect[0.32][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2898] name:''
+	shape aspect[0.33][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2842] name:''
+	shape aspect[0.34][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#789] name:'Linear Dimension (277)'
+	shape aspect[0.35][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2853] name:''
+	shape aspect[0.36][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2892] name:''
+	shape aspect[0.37][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#788] name:'Radial Hole and Thread Callout (333)'
+	shape aspect[0.38][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2850] name:''
+	shape aspect[0.39][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2849] name:''
+	shape aspect[0.40][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#529] name:''
+	shape aspect[0.41][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2899] name:''
+	shape aspect[0.42][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#120] name:'Datum Feature Symbol G (285)'
+	shape aspect[0.43][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2848] name:''
 	shape aspect[0.44][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2840] name:''
-	shape aspect[0.45][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#788] name:'Radial Hole and Thread Callout (333)'
-	shape aspect[0.46][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#120] name:'Datum Feature Symbol G (285)'
-	shape aspect[0.47][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2911] name:''
-	shape aspect[0.48][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2856] name:''
-	shape aspect[0.49][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#536] name:''
-	shape aspect[0.50][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2903] name:''
-	shape aspect[0.51][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2925] name:''
-	shape aspect[0.52][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2863] name:''
-	shape aspect[0.53][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#511] name:''
-	shape aspect[0.54][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#533] name:''
-	shape aspect[0.55][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2893] name:''
-	shape aspect[0.56][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2845] name:''
-	shape aspect[0.57][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2904] name:''
-	shape aspect[0.58][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#137] name:''
-	shape aspect[0.59][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2855] name:''
-	shape aspect[0.60][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2871] name:''
-	shape aspect[0.61][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2923] name:''
-	shape aspect[0.62][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2951] name:''
-	shape aspect[0.63][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#115] name:'Datum Feature Symbol B (327)'
-	shape aspect[0.64][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#532] name:''
-	shape aspect[0.65][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#781] name:'Radial Hole and Thread Callout (326)'
-	shape aspect[0.66][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2912] name:''
-	shape aspect[0.67][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2876] name:''
-	shape aspect[0.68][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#808] name:'Feature Control Frame (109)'
-	shape aspect[0.69][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#535] name:''
-	shape aspect[0.70][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2858] name:''
-	shape aspect[0.71][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#119] name:'Datum Feature Symbol E (295)'
-	shape aspect[0.72][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#813] name:'Radial Hole and Thread Callout (329)'
-	shape aspect[0.73][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#525] name:''
-	shape aspect[0.74][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#790] name:'Feature Control Frame (94)'
-	shape aspect[0.75][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#789] name:'Linear Dimension (277)'
-	shape aspect[0.76][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2927] name:''
-	shape aspect[0.77][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#815] name:'Linear Dimension (297)'
-	shape aspect[0.78][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#784] name:'Feature Control Frame (304)'
-	shape aspect[0.79][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#124] name:''
-	shape aspect[0.80][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2937] name:''
-	shape aspect[0.81][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#801] name:'Radial Hole and Thread Callout (332)'
-	shape aspect[0.82][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2916] name:''
-	shape aspect[0.83][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2947] name:''
-	shape aspect[0.84][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2864] name:''
-	shape aspect[0.85][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#133] name:''
-	shape aspect[0.86][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#130] name:''
-	shape aspect[0.87][DATUM-> nist_stc_10_asme1.PRIMARY#500] name:''
-	shape aspect[0.88][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2835] name:''
-	shape aspect[0.89][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#783] name:'Feature Control Frame (101)'
-	shape aspect[0.90][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#521] name:''
-	shape aspect[0.91][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#802] name:'Feature Control Frame (142)'
-	shape aspect[0.92][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#539] name:''
-	shape aspect[0.93][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2859] name:''
-	shape aspect[0.94][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#503] name:''
-	shape aspect[0.95][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2857] name:''
-	shape aspect[0.96][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2842] name:''
-	shape aspect[0.97][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#131] name:''
-	shape aspect[0.98][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2878] name:''
-	shape aspect[0.99][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2888] name:''
-	shape aspect[0.100][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2846] name:''
-	shape aspect[0.101][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2879] name:''
-	shape aspect[0.102][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2866] name:''
-	shape aspect[0.103][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#791] name:'Feature Control Frame (105)'
-	shape aspect[0.104][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2930] name:''
-	shape aspect[0.105][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#501] name:''
-	shape aspect[0.106][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#128] name:''
-	shape aspect[0.107][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2900] name:''
-	shape aspect[0.108][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2853] name:''
-	shape aspect[0.109][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#814] name:'Radial Hole and Thread Callout (331)'
-	shape aspect[0.110][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2924] name:''
-	shape aspect[0.111][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2890] name:''
-	shape aspect[0.112][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#136] name:''
-	shape aspect[0.113][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#121] name:'Datum Feature Symbol H (296)'
-	shape aspect[0.114][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2931] name:''
-	shape aspect[0.115][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2875] name:''
-	shape aspect[0.116][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2874] name:''
-	shape aspect[0.117][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2921] name:''
-	shape aspect[0.118][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#816] name:'Feature Control Frame (158)'
-	shape aspect[0.119][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2828] name:''
-	shape aspect[0.120][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#135] name:''
-	shape aspect[0.121][DATUM-> nist_stc_10_asme1.PRIMARY#493] name:''
-	shape aspect[0.122][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2896] name:''
-	shape aspect[0.123][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#506] name:''
-	shape aspect[0.124][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2902] name:''
-	shape aspect[0.125][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#785] name:'Feature Control Frame (234)'
-	shape aspect[0.126][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#507] name:''
-	shape aspect[0.127][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2892] name:''
-	shape aspect[0.128][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#502] name:''
-	shape aspect[0.129][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2834] name:''
-	shape aspect[0.130][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2887] name:''
-	shape aspect[0.131][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2913] name:''
-	shape aspect[0.132][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#779] name:'Label (359)'
-	shape aspect[0.133][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2898] name:''
-	shape aspect[0.134][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2933] name:''
-	shape aspect[0.135][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2883] name:''
-	shape aspect[0.136][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2950] name:''
-	shape aspect[0.137][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2848] name:''
-	shape aspect[0.138][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2831] name:''
-	shape aspect[0.139][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2918] name:''
-	shape aspect[0.140][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2880] name:''
-	shape aspect[0.141][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#796] name:'Feature Control Frame (278)'
-	shape aspect[0.142][DATUM-> nist_stc_10_asme1.PRIMARY#495] name:''
-	shape aspect[0.143][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2836] name:''
-	shape aspect[0.144][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#134] name:''
-	shape aspect[0.145][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2949] name:''
-	shape aspect[0.146][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2905] name:''
-	shape aspect[0.147][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2870] name:''
-	shape aspect[0.148][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#504] name:''
-	shape aspect[0.149][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#527] name:''
-	shape aspect[0.150][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#804] name:'Feature Control Frame (354)'
-	shape aspect[0.151][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2827] name:''
-	shape aspect[0.152][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#515] name:''
-	shape aspect[0.153][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#118] name:'Datum Feature Symbol F (289)'
-	shape aspect[0.154][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2907] name:''
-	shape aspect[0.155][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#126] name:''
-	shape aspect[0.156][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2867] name:''
-	shape aspect[0.157][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#129] name:''
-	shape aspect[0.158][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#773] name:'Feature Control Frame (300)'
-	shape aspect[0.159][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2928] name:''
-	shape aspect[0.160][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#529] name:''
-	shape aspect[0.161][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#817] name:'Feature Control Frame (157)'
-	shape aspect[0.162][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2868] name:''
-	shape aspect[0.163][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#803] name:'Radial Dimension (282)'
-	shape aspect[0.164][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#795] name:'Feature Control Frame (279)'
-	shape aspect[0.165][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2941] name:''
-	shape aspect[0.166][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#523] name:''
-	shape aspect[0.167][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#524] name:''
-	shape aspect[0.168][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2861] name:''
-	shape aspect[0.169][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2917] name:''
-	shape aspect[0.170][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#792] name:'Feature Control Frame (83)'
-	shape aspect[0.171][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2934] name:''
-	shape aspect[0.172][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2838] name:''
-	shape aspect[0.173][ALL_AROUND_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#100] name:'Feature Control Frame (304)'
-	shape aspect[0.174][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#526] name:''
-	shape aspect[0.175][DATUM-> nist_stc_10_asme1.PRIMARY#494] name:''
-	shape aspect[0.176][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#807] name:'Feature Control Frame (110)'
-	shape aspect[0.177][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2889] name:''
-	shape aspect[0.178][DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_stc_10_asme1.PRIMARY#15] name:''
-	shape aspect[0.179][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#777] name:'Note (64)'
-	shape aspect[0.180][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2839] name:''
-	shape aspect[0.181][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2895] name:''
-	shape aspect[0.182][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2929] name:''
-	shape aspect[0.183][DATUM_REFERENCE_ELEMENT-> nist_stc_10_asme1.PRIMARY#103] name:''
-	shape aspect[0.184][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#787] name:'Label (358)'
-	shape aspect[0.185][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#125] name:''
-	shape aspect[0.186][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#127] name:''
-	shape aspect[0.187][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2926] name:''
-	shape aspect[0.188][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2826] name:''
-	shape aspect[0.189][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#538] name:''
-	shape aspect[0.190][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2922] name:''
-	shape aspect[0.191][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2897] name:''
-	shape aspect[0.192][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#806] name:'Radial Hole and Thread Callout (351)'
-	shape aspect[0.193][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2948] name:''
-	shape aspect[0.194][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#138] name:''
-	shape aspect[0.195][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2833] name:''
-	shape aspect[0.196][DATUM-> nist_stc_10_asme1.PRIMARY#492] name:''
-	shape aspect[0.197][DATUM_REFERENCE_ELEMENT-> nist_stc_10_asme1.PRIMARY#104] name:''
-	shape aspect[0.198][DATUM-> nist_stc_10_asme1.PRIMARY#498] name:''
-	shape aspect[0.199][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2906] name:''
-	shape aspect[0.200][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2894] name:''
-	shape aspect[0.201][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2915] name:''
-	shape aspect[0.202][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#514] name:''
-	shape aspect[0.203][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#793] name:'Feature Control Frame (305)'
-	shape aspect[0.204][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2920] name:''
-	shape aspect[0.205][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#778] name:'Feature Control Frame (62)'
-	shape aspect[0.206][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#812] name:'Feature Control Frame (187)'
-	shape aspect[0.207][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#140] name:''
-	shape aspect[0.208][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2936] name:''
-	shape aspect[0.209][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2919] name:''
-	shape aspect[0.210][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2854] name:''
-	shape aspect[0.211][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2891] name:''
-	shape aspect[0.212][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2899] name:''
-	shape aspect[0.213][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2884] name:''
-	shape aspect[0.214][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2869] name:''
-	shape aspect[0.215][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#513] name:''
-	shape aspect[0.216][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2935] name:''
-	shape aspect[0.217][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#797] name:'Datum Feature Symbol J (280)'
-	shape aspect[0.218][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2943] name:''
+	shape aspect[0.45][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2937] name:''
+	shape aspect[0.46][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2876] name:''
+	shape aspect[0.47][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#790] name:'Feature Control Frame (94)'
+	shape aspect[0.48][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#811] name:'Radial Hole and Thread Callout (330)'
+	shape aspect[0.49][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2883] name:''
+	shape aspect[0.50][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2941] name:''
+	shape aspect[0.51][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#780] name:'Linear Dimension (82)'
+	shape aspect[0.52][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#799] name:'Radial Dimension (290)'
+	shape aspect[0.53][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#784] name:'Feature Control Frame (304)'
+	shape aspect[0.54][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2858] name:''
+	shape aspect[0.55][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2909] name:''
+	shape aspect[0.56][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2919] name:''
+	shape aspect[0.57][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#131] name:''
+	shape aspect[0.58][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2838] name:''
+	shape aspect[0.59][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#538] name:''
+	shape aspect[0.60][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2902] name:''
+	shape aspect[0.61][DATUM-> nist_stc_10_asme1.PRIMARY#496] name:''
+	shape aspect[0.62][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2891] name:''
+	shape aspect[0.63][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2908] name:''
+	shape aspect[0.64][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#534] name:''
+	shape aspect[0.65][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#117] name:'Datum Feature Symbol J (280)'
+	shape aspect[0.66][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2893] name:''
+	shape aspect[0.67][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2904] name:''
+	shape aspect[0.68][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2864] name:''
+	shape aspect[0.69][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2920] name:''
+	shape aspect[0.70][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#806] name:'Radial Hole and Thread Callout (351)'
+	shape aspect[0.71][DATUM-> nist_stc_10_asme1.PRIMARY#493] name:''
+	shape aspect[0.72][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#809] name:'Feature Control Frame (189)'
+	shape aspect[0.73][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2831] name:''
+	shape aspect[0.74][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#786] name:'Feature Control Frame (79)'
+	shape aspect[0.75][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2930] name:''
+	shape aspect[0.76][DATUM-> nist_stc_10_asme1.PRIMARY#494] name:''
+	shape aspect[0.77][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#521] name:''
+	shape aspect[0.78][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#519] name:''
+	shape aspect[0.79][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#523] name:''
+	shape aspect[0.80][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2851] name:''
+	shape aspect[0.81][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2928] name:''
+	shape aspect[0.82][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2897] name:''
+	shape aspect[0.83][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2829] name:''
+	shape aspect[0.84][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#814] name:'Radial Hole and Thread Callout (331)'
+	shape aspect[0.85][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#125] name:''
+	shape aspect[0.86][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2903] name:''
+	shape aspect[0.87][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2933] name:''
+	shape aspect[0.88][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#812] name:'Feature Control Frame (187)'
+	shape aspect[0.89][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2873] name:''
+	shape aspect[0.90][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#525] name:''
+	shape aspect[0.91][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2907] name:''
+	shape aspect[0.92][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#508] name:''
+	shape aspect[0.93][DATUM_REFERENCE_ELEMENT-> nist_stc_10_asme1.PRIMARY#104] name:''
+	shape aspect[0.94][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2889] name:''
+	shape aspect[0.95][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2896] name:''
+	shape aspect[0.96][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#524] name:''
+	shape aspect[0.97][DATUM-> nist_stc_10_asme1.PRIMARY#492] name:''
+	shape aspect[0.98][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#776] name:'Feature Control Frame (215)'
+	shape aspect[0.99][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2942] name:''
+	shape aspect[0.100][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2872] name:''
+	shape aspect[0.101][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#813] name:'Radial Hole and Thread Callout (329)'
+	shape aspect[0.102][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2890] name:''
+	shape aspect[0.103][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2894] name:''
+	shape aspect[0.104][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2837] name:''
+	shape aspect[0.105][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2935] name:''
+	shape aspect[0.106][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#796] name:'Feature Control Frame (278)'
+	shape aspect[0.107][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#531] name:''
+	shape aspect[0.108][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#797] name:'Datum Feature Symbol J (280)'
+	shape aspect[0.109][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#118] name:'Datum Feature Symbol F (289)'
+	shape aspect[0.110][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#774] name:'Radial Dimension (161)'
+	shape aspect[0.111][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2827] name:''
+	shape aspect[0.112][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2931] name:''
+	shape aspect[0.113][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#507] name:''
+	shape aspect[0.114][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#520] name:''
+	shape aspect[0.115][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#801] name:'Radial Hole and Thread Callout (332)'
+	shape aspect[0.116][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2854] name:''
+	shape aspect[0.117][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#536] name:''
+	shape aspect[0.118][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2926] name:''
+	shape aspect[0.119][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2938] name:''
+	shape aspect[0.120][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2925] name:''
+	shape aspect[0.121][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2879] name:''
+	shape aspect[0.122][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#778] name:'Feature Control Frame (62)'
+	shape aspect[0.123][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#787] name:'Label (358)'
+	shape aspect[0.124][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#516] name:''
+	shape aspect[0.125][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#124] name:''
+	shape aspect[0.126][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#142] name:''
+	shape aspect[0.127][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#816] name:'Feature Control Frame (158)'
+	shape aspect[0.128][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2881] name:''
+	shape aspect[0.129][ALL_AROUND_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#100] name:'Feature Control Frame (304)'
+	shape aspect[0.130][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2888] name:''
+	shape aspect[0.131][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2875] name:''
+	shape aspect[0.132][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2836] name:''
+	shape aspect[0.133][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2940] name:''
+	shape aspect[0.134][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#135] name:''
+	shape aspect[0.135][DATUM_REFERENCE_ELEMENT-> nist_stc_10_asme1.PRIMARY#103] name:''
+	shape aspect[0.136][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#129] name:''
+	shape aspect[0.137][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2869] name:''
+	shape aspect[0.138][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#793] name:'Feature Control Frame (305)'
+	shape aspect[0.139][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2834] name:''
+	shape aspect[0.140][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#517] name:''
+	shape aspect[0.141][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2906] name:''
+	shape aspect[0.142][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#535] name:''
+	shape aspect[0.143][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2912] name:''
+	shape aspect[0.144][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#514] name:''
+	shape aspect[0.145][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#522] name:''
+	shape aspect[0.146][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#779] name:'Label (359)'
+	shape aspect[0.147][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2910] name:''
+	shape aspect[0.148][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2916] name:''
+	shape aspect[0.149][DATUM_REFERENCE_ELEMENT-> nist_stc_10_asme1.PRIMARY#102] name:''
+	shape aspect[0.150][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#808] name:'Feature Control Frame (109)'
+	shape aspect[0.151][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#119] name:'Datum Feature Symbol E (295)'
+	shape aspect[0.152][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#798] name:'Radial Dimension (286)'
+	shape aspect[0.153][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#137] name:''
+	shape aspect[0.154][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#501] name:''
+	shape aspect[0.155][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2886] name:''
+	shape aspect[0.156][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#513] name:''
+	shape aspect[0.157][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2845] name:''
+	shape aspect[0.158][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2927] name:''
+	shape aspect[0.159][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2874] name:''
+	shape aspect[0.160][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#502] name:''
+	shape aspect[0.161][DATUM-> nist_stc_10_asme1.PRIMARY#498] name:''
+	shape aspect[0.162][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2945] name:''
+	shape aspect[0.163][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#817] name:'Feature Control Frame (157)'
+	shape aspect[0.164][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#510] name:''
+	shape aspect[0.165][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#128] name:''
+	shape aspect[0.166][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2922] name:''
+	shape aspect[0.167][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#807] name:'Feature Control Frame (110)'
+	shape aspect[0.168][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2944] name:''
+	shape aspect[0.169][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2936] name:''
+	shape aspect[0.170][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#777] name:'Note (64)'
+	shape aspect[0.171][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#133] name:''
+	shape aspect[0.172][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#530] name:''
+	shape aspect[0.173][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2866] name:''
+	shape aspect[0.174][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2880] name:''
+	shape aspect[0.175][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#503] name:''
+	shape aspect[0.176][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2844] name:''
+	shape aspect[0.177][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#113] name:'Datum Feature Symbol A (265)'
+	shape aspect[0.178][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#783] name:'Feature Control Frame (101)'
+	shape aspect[0.179][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2826] name:''
+	shape aspect[0.180][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2923] name:''
+	shape aspect[0.181][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#115] name:'Datum Feature Symbol B (327)'
+	shape aspect[0.182][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2885] name:''
+	shape aspect[0.183][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2857] name:''
+	shape aspect[0.184][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2847] name:''
+	shape aspect[0.185][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2859] name:''
+	shape aspect[0.186][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#539] name:''
+	shape aspect[0.187][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2867] name:''
+	shape aspect[0.188][DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_stc_10_asme1.PRIMARY#15] name:''
+	shape aspect[0.189][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2911] name:''
+	shape aspect[0.190][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2918] name:''
+	shape aspect[0.191][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#532] name:''
+	shape aspect[0.192][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#505] name:''
+	shape aspect[0.193][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#114] name:'Datum Feature Symbol C (209)'
+	shape aspect[0.194][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2856] name:''
+	shape aspect[0.195][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#794] name:'Datum Feature Symbol D (306)'
+	shape aspect[0.196][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2843] name:''
+	shape aspect[0.197][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2950] name:''
+	shape aspect[0.198][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2830] name:''
+	shape aspect[0.199][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#795] name:'Feature Control Frame (279)'
+	shape aspect[0.200][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#126] name:''
+	shape aspect[0.201][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#527] name:''
+	shape aspect[0.202][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#121] name:'Datum Feature Symbol H (296)'
+	shape aspect[0.203][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#116] name:'Datum Feature Symbol D (306)'
+	shape aspect[0.204][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2943] name:''
+	shape aspect[0.205][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#810] name:'Feature Control Frame (188)'
+	shape aspect[0.206][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#140] name:''
+	shape aspect[0.207][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#123] name:''
+	shape aspect[0.208][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#515] name:''
+	shape aspect[0.209][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2832] name:''
+	shape aspect[0.210][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2862] name:''
+	shape aspect[0.211][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2839] name:''
+	shape aspect[0.212][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2924] name:''
+	shape aspect[0.213][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2939] name:''
+	shape aspect[0.214][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2878] name:''
+	shape aspect[0.215][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#526] name:''
+	shape aspect[0.216][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2841] name:''
+	shape aspect[0.217][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#791] name:'Feature Control Frame (105)'
+	shape aspect[0.218][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2900] name:''
 	shape aspect[0.219][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#132] name:''
-	shape aspect[0.220][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#534] name:''
-	shape aspect[0.221][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#508] name:''
-	shape aspect[0.222][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2909] name:''
-	shape aspect[0.223][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2852] name:''
-	shape aspect[0.224][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2847] name:''
-	shape aspect[0.225][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#786] name:'Feature Control Frame (79)'
-	shape aspect[0.226][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2914] name:''
-	shape aspect[0.227][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2882] name:''
-	shape aspect[0.228][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2946] name:''
-	shape aspect[0.229][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2945] name:''
-	shape aspect[0.230][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#794] name:'Datum Feature Symbol D (306)'
-	shape aspect[0.231][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#142] name:''
-	shape aspect[0.232][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#520] name:''
-	shape aspect[0.233][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2938] name:''
-	shape aspect[0.234][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2932] name:''
-	shape aspect[0.235][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#522] name:''
-	shape aspect[0.236][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2851] name:''
-	shape aspect[0.237][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#139] name:''
-	shape aspect[0.238][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2885] name:''
-	shape aspect[0.239][DATUM_REFERENCE_ELEMENT-> nist_stc_10_asme1.PRIMARY#102] name:''
-	shape aspect[0.240][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#530] name:''
-	shape aspect[0.241][DATUM_FEATURE-> nist_stc_10_asme1.PRIMARY#117] name:'Datum Feature Symbol J (280)'
-	shape aspect[0.242][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2830] name:''
-	shape aspect[0.243][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2862] name:''
-	shape aspect[0.244][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2865] name:''
-	shape aspect[0.245][DATUM-> nist_stc_10_asme1.PRIMARY#499] name:''
-	shape aspect[0.246][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2832] name:''
-	shape aspect[0.247][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#798] name:'Radial Dimension (286)'
-	shape aspect[0.248][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2877] name:''
-	shape aspect[0.249][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2837] name:''
-	shape aspect[0.250][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#810] name:'Feature Control Frame (188)'
-	shape aspect[0.251][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#519] name:''
-	shape aspect[0.252][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#141] name:''
-	shape aspect[0.253][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#528] name:''
+	shape aspect[0.220][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2947] name:''
+	shape aspect[0.221][DATUM_SYSTEM-> nist_stc_10_asme1.PRIMARY#528] name:''
+	shape aspect[0.222][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2852] name:''
+	shape aspect[0.223][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#800] name:'Feature Control Frame (307)'
+	shape aspect[0.224][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#782] name:'Radial Hole and Thread Callout (343)'
+	shape aspect[0.225][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#139] name:''
+	shape aspect[0.226][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2863] name:''
+	shape aspect[0.227][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2846] name:''
+	shape aspect[0.228][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#518] name:''
+	shape aspect[0.229][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#803] name:'Radial Dimension (282)'
+	shape aspect[0.230][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2915] name:''
+	shape aspect[0.231][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#134] name:''
+	shape aspect[0.232][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#773] name:'Feature Control Frame (300)'
+	shape aspect[0.233][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#141] name:''
+	shape aspect[0.234][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#509] name:''
+	shape aspect[0.235][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#775] name:'Linear Dimension (309)'
+	shape aspect[0.236][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2946] name:''
+	shape aspect[0.237][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#792] name:'Feature Control Frame (83)'
+	shape aspect[0.238][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#138] name:''
+	shape aspect[0.239][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2860] name:''
+	shape aspect[0.240][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2932] name:''
+	shape aspect[0.241][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2951] name:''
+	shape aspect[0.242][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#127] name:''
+	shape aspect[0.243][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#511] name:''
+	shape aspect[0.244][DATUM_REFERENCE_COMPARTMENT-> nist_stc_10_asme1.PRIMARY#512] name:''
+	shape aspect[0.245][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2828] name:''
+	shape aspect[0.246][ALL_AROUND_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#101] name:'Feature Control Frame (79)'
+	shape aspect[0.247][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#805] name:'Radial Dimension (173)'
+	shape aspect[0.248][DATUM-> nist_stc_10_asme1.PRIMARY#500] name:''
+	shape aspect[0.249][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#815] name:'Linear Dimension (297)'
+	shape aspect[0.250][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#802] name:'Feature Control Frame (142)'
+	shape aspect[0.251][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2905] name:''
+	shape aspect[0.252][TOLERANCE_ZONE-> nist_stc_10_asme1.PRIMARY#130] name:''
+	shape aspect[0.253][SHAPE_ASPECT-> nist_stc_10_asme1.PRIMARY#2871] name:''
 
 
 
@@ -306,1402 +306,1416 @@ product identification[0] [PRODUCT_DEFINITION-> nist_stc_10_asme1.PRIMARY#12074]
 
 
 
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[288]:	 #lookups: 824, #hits: 536, %hit rate: 65.048544%
+ model   cache[2]:	 #lookups: 1144, #hits: 1142, %hit rate: 99.825175%
+
  validating instance reference domain for 42733 application instances:
- b
-
-SDAI Thread Local Cache Statistics [SdaiTransactionRO]
- complex cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
- model   cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
-
-.
-
-SDAI Thread Local Cache Statistics [SdaiTransactionRO]
- complex cache[427]:	 #lookups: 24504, #hits: 24077, %hit rate: 98.257427%
- model   cache[2]:	 #lookups: 1283, #hits: 1281, %hit rate: 99.844115%
-...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....10
- duration: 1:14:35
+ ....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....10
+ duration: 0:02:15
 
 
  validating 55 global rules:
- .........+.........+.........+.........+....
-FAILED: VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES
-.....+.
+ .........+.........+.........+.....
 FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
-....
- duration: 0:00:05
+....+.......
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_0]
+ complex cache[9784]:	 #lookups: 9794, #hits: 10, %hit rate: 0.102103%
+ model   cache[2]:	 #lookups: 9802, #hits: 9800, %hit rate: 99.979596%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_7]
+ complex cache[758]:	 #lookups: 981, #hits: 223, %hit rate: 22.731906%
+ model   cache[2]:	 #lookups: 762, #hits: 760, %hit rate: 99.737533%
+..+
+FAILED: VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES
+
+SDAI Thread Local Cache Statistics [SdaiTransactionVA]
+ complex cache[2256]:	 #lookups: 1360943, #hits: 1358687, %hit rate: 99.834233%
+ model   cache[2]:	 #lookups: 3867, #hits: 3865, %hit rate: 99.94828%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_42099]
+ complex cache[1826]:	 #lookups: 1366670, #hits: 1364844, %hit rate: 99.866391%
+ model   cache[2]:	 #lookups: 3032, #hits: 3030, %hit rate: 99.934037%
+.....
+ duration: 0:00:08
 
 
  validating 49 uniqueness rules:
- ......
+ .........+.
 FAILED: UniquenessRule(DATUM_SYSTEM.UNIQUE_ur1)
-..
+........+.......
 FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2)
 .
 FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1)
-+.........+.........+.........+.........
- duration: 0:00:00
+.+.........+.........
+ duration: 0:00:01
 
 
  validating where rules for 12073 complex entities:
  
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#451 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1639 .WHERE_wr1
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_41475]
+ complex cache[2303]:	 #lookups: 1437867, #hits: 1435564, %hit rate: 99.839832%
+ model   cache[2]:	 #lookups: 4023, #hits: 4021, %hit rate: 99.950286%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_42521]
+ complex cache[2354]:	 #lookups: 1401140, #hits: 1398786, %hit rate: 99.831994%
+ model   cache[2]:	 #lookups: 8172, #hits: 8170, %hit rate: 99.975526%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_15]
+ complex cache[754]:	 #lookups: 68241, #hits: 67487, %hit rate: 98.895092%
+ model   cache[2]:	 #lookups: 791, #hits: 789, %hit rate: 99.747155%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_41475]
+ complex cache[2171]:	 #lookups: 1439455, #hits: 1437284, %hit rate: 99.849179%
+ model   cache[2]:	 #lookups: 3872, #hits: 3870, %hit rate: 99.948347%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_23]
+ complex cache[1188]:	 #lookups: 69665, #hits: 68477, %hit rate: 98.294696%
+ model   cache[2]:	 #lookups: 1217, #hits: 1215, %hit rate: 99.835661%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_42309]
+ complex cache[1891]:	 #lookups: 1426837, #hits: 1424946, %hit rate: 99.867469%
+ model   cache[2]:	 #lookups: 3238, #hits: 3236, %hit rate: 99.938233%
+
+SDAI Thread Local Cache Statistics [SDAI.usedIn _11066]
+ complex cache[835]:	 #lookups: 127267, #hits: 126432, %hit rate: 99.343899%
+ model   cache[2]:	 #lookups: 928, #hits: 926, %hit rate: 99.784483%
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1719 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1087 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1087 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1715 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1779 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2023 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1795 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2003 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1871 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1763 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1651 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1787 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1783 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1551 .WHERE_wr3
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1771 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1631 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1079 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1647 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1079 .WHERE_wr2
+.
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1491 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1999 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1643 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#447 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#443 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1527 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1495 .WHERE_wr3
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1675 .WHERE_wr1
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1831 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1039 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1043 .WHERE_wr2
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1039 .WHERE_wr2
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2023 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1511 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1743 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1887 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1967 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2007 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1031 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1031 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1079 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1079 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1811 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1687 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1759 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1731 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1659 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1707 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1667 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1083 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1083 .WHERE_wr2
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1959 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1539 .WHERE_wr3
-+
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1635 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1907 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1047 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1047 .WHERE_wr2
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#435 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1975 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1043 .WHERE_wr1
 
 FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1671 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1067 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1067 .WHERE_wr2
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1507 .WHERE_wr3
 .
 FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1623 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1055 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1055 .WHERE_wr1
-
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1979 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1867 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1759 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1047 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1047 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1899 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1923 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2027 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1723 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1499 .WHERE_wr3
+
+FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#47 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1063 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1063 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2015 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1075 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1871 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1075 .WHERE_wr2
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2027 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1903 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2019 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2011 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1043 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1043 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1023 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1023 .WHERE_wr2
-.
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1507 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1727 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1795 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1939 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1519 .WHERE_wr3
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1987 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#427 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1927 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1999 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1851 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1495 .WHERE_wr3
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1523 .WHERE_wr3
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1027 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1027 .WHERE_wr2
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1679 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1735 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1803 .WHERE_wr1
-1
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1971 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1491 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1819 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1035 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1035 .WHERE_wr1
-
-FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_stc_10_asme1.PRIMARY#15 .WHERE_wr2
-
-FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_stc_10_asme1.PRIMARY#15 .WHERE_wr3
-
-FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_stc_10_asme1.PRIMARY#15 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1951 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1531 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1915 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1879 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1815 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1847 .WHERE_wr1
-
-FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#51 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1683 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1719 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1839 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1651 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#443 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1643 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1723 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#475 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1747 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1547 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1947 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1931 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1775 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1059 .WHERE_wr2
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1059 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1883 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1819 .WHERE_wr1
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1935 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1663 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1783 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1535 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1963 .WHERE_wr1
-+
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1503 .WHERE_wr3
-
+.
 FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1487 .WHERE_wr3
 
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#471 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1975 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2011 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1031 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1875 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1031 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1703 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1727 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1911 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1855 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1951 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1791 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1655 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1827 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#475 .WHERE_wr1
 .
 FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#419 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1751 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#467 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1943 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1899 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1683 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1891 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1799 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1699 .WHERE_wr1
 
 FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1627 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1515 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1875 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1051 .WHERE_wr2
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1083 .WHERE_wr2
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1051 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1083 .WHERE_wr1
 
-FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#47 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1863 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1995 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1923 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1987 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1543 .WHERE_wr3
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1075 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1075 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1499 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1855 .WHERE_wr1
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1895 .WHERE_wr1
 
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1803 .WHERE_wr1
+1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1635 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1971 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1503 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1739 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1915 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1767 .WHERE_wr1
+
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1843 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1755 .WHERE_wr1
-2
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1983 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1543 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1511 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1523 .WHERE_wr3
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1959 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2019 .WHERE_wr1
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1919 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1839 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1695 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1743 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1991 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1939 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1835 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1995 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1051 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1051 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1035 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1035 .WHERE_wr2
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1667 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#451 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1791 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#467 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1967 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1687 .WHERE_wr1
++
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1639 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1827 .WHERE_wr1
+
+FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#51 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1947 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1879 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1807 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1679 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1747 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#471 .WHERE_wr1
+
+FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_stc_10_asme1.PRIMARY#15 .WHERE_wr3
+
+FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_stc_10_asme1.PRIMARY#15 .WHERE_wr1
+
+FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_stc_10_asme1.PRIMARY#15 .WHERE_wr2
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1755 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1887 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1823 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#427 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2003 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1963 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1547 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1707 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1859 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1763 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1851 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1071 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1071 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1715 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1647 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1711 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1907 .WHERE_wr1
 
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#447 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1811 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1903 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1835 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1739 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1531 .WHERE_wr3
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1955 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1087 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2007 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1087 .WHERE_wr2
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1867 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1055 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1055 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1751 .WHERE_wr1
+2
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1663 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1027 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1027 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2015 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1911 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1731 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1927 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1711 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1931 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1891 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1799 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1631 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1787 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1775 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1023 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1767 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1023 .WHERE_wr2
 
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#459 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1847 .WHERE_wr1
 
 FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#43 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1699 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1535 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1991 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1527 .WHERE_wr3
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1551 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1735 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1863 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1655 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1878 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1515 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1779 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1519 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1695 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1943 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1859 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#459 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1807 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1983 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1675 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1703 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1702 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1067 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1794 .WHERE_wr1
-+
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1038 .WHERE_wr2
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1067 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1038 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1690 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1870 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1823 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1678 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1659 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1938 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1539 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1978 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1883 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1974 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#435 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1630 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1958 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1814 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1994 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1634 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1998 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1646 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1710 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1738 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1682 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1718 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1074 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1074 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1694 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#434 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1774 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1638 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1742 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1550 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2010 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1042 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1042 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1942 .WHERE_wr1
-
-FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#46 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1822 .WHERE_wr1
-3
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1786 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1674 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2018 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1750 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1766 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1714 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1046 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1046 .WHERE_wr2
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1910 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1726 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1922 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#442 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1886 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1050 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1050 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1862 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1518 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1758 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1930 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1846 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1554 .WHERE_wr3
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1966 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1898 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1918 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1734 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1498 .WHERE_wr3
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#458 .WHERE_wr1
-+
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1914 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1962 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1666 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1030 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1030 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1815 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1034 .WHERE_wr2
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1034 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#426 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2010 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1039 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1039 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1954 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1950 .WHERE_wr1
 .
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1078 .WHERE_wr2
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1702 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1078 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1670 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1026 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1026 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1058 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1058 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1946 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1650 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1854 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1890 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2006 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1746 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1906 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1902 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1538 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1866 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1970 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1494 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1782 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1774 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1974 .WHERE_wr1
 .
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#482 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1806 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1874 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1898 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1818 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1990 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1802 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1530 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1778 .WHERE_wr1
 .
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1086 .WHERE_wr2
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1638 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1086 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1906 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1490 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1770 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1526 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1914 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1842 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2002 .WHERE_wr1
 
-FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#50 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1550 .WHERE_wr3
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1654 .WHERE_wr1
-4
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1022 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2026 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1022 .WHERE_wr2
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1050 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1050 .WHERE_wr2
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1630 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1046 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1046 .WHERE_wr1
+3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1902 .WHERE_wr1
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1810 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1762 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1542 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1990 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1534 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1506 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1730 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1698 .WHERE_wr1
 .
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1514 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1962 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1714 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1642 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#442 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1910 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1490 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1554 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1894 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1710 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1746 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1874 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1738 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1674 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1646 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1882 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1842 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2014 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1670 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1946 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1498 .WHERE_wr3
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1758 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1814 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1722 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1942 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1922 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2006 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1538 .WHERE_wr3
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1678 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1786 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1822 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1626 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#466 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1522 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1726 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1526 .WHERE_wr3
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#422 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1022 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1022 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1878 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1766 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1718 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1502 .WHERE_wr3
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#434 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#470 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1862 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1838 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1510 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1966 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1038 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1038 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1742 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1654 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1938 .WHERE_wr1
+
 FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1686 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#458 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1662 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#482 .WHERE_wr1
+
+FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#50 .WHERE_wr1
+4
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1650 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1062 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1062 .WHERE_wr2
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2018 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1082 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1082 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1882 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1530 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1698 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1982 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#446 .WHERE_wr1
-.
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1926 .WHERE_wr1
 
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#470 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1918 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1950 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1854 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1894 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1054 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2002 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1802 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1506 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1826 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1054 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1790 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1042 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2014 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1778 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1062 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1062 .WHERE_wr2
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2022 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1830 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1838 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1542 .WHERE_wr3
-+
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1934 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1754 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1818 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1642 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1042 .WHERE_wr2
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1706 .WHERE_wr1
 
+FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#42 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1682 .WHERE_wr1
+
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1850 .WHERE_wr1
 .
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1514 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1694 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1626 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1634 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1546 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1858 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1534 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1954 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1522 .WHERE_wr3
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1510 .WHERE_wr3
-
-FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#42 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1666 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1834 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1730 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1806 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#426 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1798 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1070 .WHERE_wr2
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1870 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1070 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1770 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1070 .WHERE_wr2
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1662 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1754 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1890 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1994 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1690 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1830 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1998 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1066 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1066 .WHERE_wr2
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1066 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1502 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1982 .WHERE_wr1
 
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#422 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1762 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1054 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1030 .WHERE_wr2
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1054 .WHERE_wr2
-.
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#466 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1030 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1986 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2022 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1970 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1858 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1722 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1934 .WHERE_wr1
++
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1546 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1958 .WHERE_wr1
 
 FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1658 .WHERE_wr1
-5
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2026 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1973 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1074 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1801 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1074 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1729 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1026 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1949 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1026 .WHERE_wr2
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1866 .WHERE_wr1
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1665 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1794 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1889 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1734 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1841 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1518 .WHERE_wr3
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1533 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1805 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2021 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1977 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1886 .WHERE_wr1
 .
-FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#41 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#446 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1517 .WHERE_wr3
+FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#46 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1821 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1750 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1933 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1826 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1725 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1865 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1721 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1930 .WHERE_wr1
 .
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1058 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1058 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1798 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1986 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1086 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1086 .WHERE_wr2
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1790 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1846 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1978 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1078 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1078 .WHERE_wr2
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1834 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1782 .WHERE_wr1
+
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1853 .WHERE_wr1
+5
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1489 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1753 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1693 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1777 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1961 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1673 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1953 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1085 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1085 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1649 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1817 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1549 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1733 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2001 .WHERE_wr1
-+
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1645 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1069 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1069 .WHERE_wr2
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1709 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1965 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1797 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1873 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1077 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1077 .WHERE_wr2
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1845 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1945 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1633 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1761 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1057 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1057 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1689 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1053 .WHERE_wr2
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1669 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1053 .WHERE_wr1
 
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1053 .WHERE_wr2
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1677 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1497 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1981 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1733 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1997 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#453 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1637 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1993 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1661 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1533 .WHERE_wr3
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#441 .WHERE_wr1
+
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1877 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1653 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1065 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1065 .WHERE_wr2
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1789 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1813 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1809 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1765 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1717 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1881 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1905 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1681 .WHERE_wr1
-
-FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#49 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1045 .WHERE_wr2
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1697 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1045 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1521 .WHERE_wr3
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1045 .WHERE_wr2
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1493 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1881 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1657 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1709 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1081 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1969 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1081 .WHERE_wr2
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#445 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1489 .WHERE_wr3
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#465 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1089 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1809 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1089 .WHERE_wr2
-6
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1745 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1785 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2017 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2025 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#481 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1769 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1629 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1849 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1625 .WHERE_wr1
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1757 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1825 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1793 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1677 .WHERE_wr1
 .
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1501 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1789 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1057 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1057 .WHERE_wr2
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1837 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1041 .WHERE_wr2
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1041 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1985 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1701 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1545 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1957 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2001 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1717 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2017 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1029 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1029 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1549 .WHERE_wr3
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1861 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1801 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1693 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1901 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2005 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1553 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1749 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1753 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1869 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1909 .WHERE_wr1
+
+FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#49 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1929 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1937 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1785 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1977 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1049 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1049 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1885 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1069 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1069 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1073 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1073 .WHERE_wr2
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#469 .WHERE_wr1
+
+FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#41 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1673 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2021 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1505 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1065 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1065 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1537 .WHERE_wr3
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1645 .WHERE_wr1
+6
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1737 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1705 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1493 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1529 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1813 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1629 .WHERE_wr1
 .
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1025 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1913 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1905 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1861 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1721 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1033 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1033 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1541 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1825 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#437 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1833 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1525 .WHERE_wr3
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#481 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1657 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1025 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1697 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1025 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1513 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1817 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1085 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1085 .WHERE_wr2
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1633 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1641 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1857 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1781 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1649 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1689 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1765 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1829 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1841 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1989 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1545 .WHERE_wr3
+.
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1509 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1945 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1921 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1953 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1517 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1849 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1793 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2009 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1773 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2029 .WHERE_wr1
 
 FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#53 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1921 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1725 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1665 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1949 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1713 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1821 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1681 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1805 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1749 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1797 .WHERE_wr1
+.
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1501 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1965 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1985 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1973 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2025 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1761 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1865 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1729 .WHERE_wr1
+7
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1933 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1769 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1889 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1521 .WHERE_wr3
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1685 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1925 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2005 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1741 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1037 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1037 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1913 .WHERE_wr1
-+
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1641 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1653 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1885 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1077 .WHERE_wr2
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1637 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1077 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1537 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2013 .WHERE_wr1
 
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#437 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1033 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1033 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1845 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1901 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1873 .WHERE_wr1
 
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#441 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1941 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1701 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1089 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1705 .WHERE_wr1
-
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1089 .WHERE_wr2
+.
 FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#45 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1541 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1893 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1969 .WHERE_wr1
-.
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1897 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1061 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1061 .WHERE_wr2
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1029 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1029 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2029 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1777 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1857 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1081 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1509 .WHERE_wr3
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1081 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1869 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1961 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1525 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1745 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1773 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1829 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1997 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#453 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1529 .WHERE_wr3
-.
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#469 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1929 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1957 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1497 .WHERE_wr3
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1049 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1049 .WHERE_wr2
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1625 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1941 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1553 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1833 .WHERE_wr1
-7
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1669 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1989 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1741 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1993 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1925 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1737 .WHERE_wr1
-.
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1917 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1781 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2009 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1073 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1073 .WHERE_wr2
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1909 .WHERE_wr1
-.
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#465 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1893 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1981 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#445 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2013 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1513 .WHERE_wr3
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1661 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1837 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1685 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1937 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1976 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2028 .WHERE_wr1
 +
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1713 .WHERE_wr1
-
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2004 .WHERE_wr1
 
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1756 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1892 .WHERE_wr1
+
 FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#472 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1504 .WHERE_wr3
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1868 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1964 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1500 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1836 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2024 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1852 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1536 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1712 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1740 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1744 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1060 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1060 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1968 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1628 .WHERE_wr1
-.
-FAILED:  GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_stc_10_asme1.PRIMARY#2032 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1828 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#444 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#464 .WHERE_wr1
 
 FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#468 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1752 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1728 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1932 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1832 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1776 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1056 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1056 .WHERE_wr2
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1716 .WHERE_wr1
 .
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1724 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1956 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2000 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1624 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1888 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1816 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1036 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1036 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1788 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1952 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#444 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1688 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1796 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1920 .WHERE_wr1
+8
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1988 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1760 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1804 .WHERE_wr1
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1644 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1940 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1516 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1488 .WHERE_wr3
+
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1084 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1084 .WHERE_wr2
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1028 .WHERE_wr1
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#452 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1028 .WHERE_wr2
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1684 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1852 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1704 .WHERE_wr1
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1652 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1676 .WHERE_wr1
 
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#460 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1520 .WHERE_wr3
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1876 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1780 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1800 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1808 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1024 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1024 .WHERE_wr2
+.
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1072 .WHERE_wr2
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1072 .WHERE_wr1
 
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#448 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1844 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1940 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1996 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1960 .WHERE_wr1
-8
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1076 .WHERE_wr2
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1492 .WHERE_wr3
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1076 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1864 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1796 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1924 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1956 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1876 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1820 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1524 .WHERE_wr3
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#460 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1764 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1488 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2008 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1516 .WHERE_wr3
-.
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1552 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1984 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1700 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1808 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#452 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1768 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1044 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1044 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1660 .WHERE_wr1
-.
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#424 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1548 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1732 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1624 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1032 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1032 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1040 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1040 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1716 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1912 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#436 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1936 .WHERE_wr1
-+
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1944 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1036 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1036 .WHERE_wr2
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1904 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1064 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1064 .WHERE_wr2
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1760 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1884 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#456 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1816 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1720 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1748 .WHERE_wr1
 
 FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1632 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1708 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1948 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2008 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2016 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1696 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1680 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1500 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1980 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1068 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1068 .WHERE_wr2
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1048 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1048 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1780 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1064 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1024 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1024 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1088 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1088 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1064 .WHERE_wr2
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1712 .WHERE_wr1
+FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#48 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1900 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1708 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1692 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1056 .WHERE_wr2
 
-FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#52 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1056 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1764 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1544 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2024 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1068 .WHERE_wr2
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1068 .WHERE_wr1
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1524 .WHERE_wr3
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1772 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1860 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1044 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1928 .WHERE_wr1
-
-FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#48 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1044 .WHERE_wr1
 .
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1080 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1080 .WHERE_wr2
-
 FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1512 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1792 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1520 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1888 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1676 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1744 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1664 .WHERE_wr1
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1840 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1540 .WHERE_wr3
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1536 .WHERE_wr3
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1756 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1752 .WHERE_wr1
 
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1492 .WHERE_wr3
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2028 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1896 .WHERE_wr1
-9
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1672 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2016 .WHERE_wr1
+
+FAILED:  GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_stc_10_asme1.PRIMARY#2032 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1548 .WHERE_wr3
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1700 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1812 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1052 .WHERE_wr1
 
 FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1052 .WHERE_wr2
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1872 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1628 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1664 .WHERE_wr1
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1684 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1532 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1800 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1784 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1972 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2000 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1908 .WHERE_wr1
-.
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1504 .WHERE_wr3
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1496 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1964 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1528 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1864 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1636 .WHERE_wr1
-+
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1748 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1648 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1736 .WHERE_wr1
-
-FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1508 .WHERE_wr3
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1704 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#428 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1668 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1996 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1988 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1992 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1688 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1804 .WHERE_wr1
-.
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1848 .WHERE_wr1
 
-FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#464 .WHERE_wr1
-.
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1916 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1960 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2020 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1884 .WHERE_wr1
 
 FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#44 .WHERE_wr1
 
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1820 .WHERE_wr1
+9
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1936 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1736 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1660 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1976 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#436 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1740 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1860 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1992 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1784 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1904 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1528 .WHERE_wr3
+
+FAILED:  CAMERA_MODEL-> nist_stc_10_asme1.PRIMARY#52 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1552 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1532 .WHERE_wr3
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1896 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1984 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1732 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1928 .WHERE_wr1
+
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1856 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1880 .WHERE_wr1
 .
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1724 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1680 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1844 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1640 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1952 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1696 .WHERE_wr1
-
-SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_42203]
- complex cache[11677]:	 #lookups: 46326056, #hits: 46314379, %hit rate: 99.974794%
- model   cache[2]:	 #lookups: 125418, #hits: 125416, %hit rate: 99.998405%
-
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_47]
- complex cache[11604]:	 #lookups: 19986488, #hits: 19974884, %hit rate: 99.941941%
- model   cache[2]:	 #lookups: 65327, #hits: 65325, %hit rate: 99.996938%
-
-SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_11773]
- complex cache[11582]:	 #lookups: 19952541, #hits: 19940959, %hit rate: 99.941952%
- model   cache[2]:	 #lookups: 64634, #hits: 64632, %hit rate: 99.996906%
-
-SDAI Thread Local Cache Statistics [SDAI.UniqueRuleValidation_1]
- complex cache[11771]:	 #lookups: 20012580, #hits: 20000809, %hit rate: 99.941182%
- model   cache[2]:	 #lookups: 65826, #hits: 65824, %hit rate: 99.996962%
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1892 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1644 .WHERE_wr1
-.
-
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_15]
- complex cache[11602]:	 #lookups: 20188319, #hits: 20176717, %hit rate: 99.942531%
- model   cache[2]:	 #lookups: 66060, #hits: 66058, %hit rate: 99.996972%
-
-SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_41885]
- complex cache[11621]:	 #lookups: 46926105, #hits: 46914484, %hit rate: 99.975236%
- model   cache[2]:	 #lookups: 140167, #hits: 140165, %hit rate: 99.998573%
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1656 .WHERE_wr1
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1948 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1968 .WHERE_wr1
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1824 .WHERE_wr1
 
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_7]
- complex cache[11590]:	 #lookups: 20448194, #hits: 20436604, %hit rate: 99.94332%
- model   cache[2]:	 #lookups: 67546, #hits: 67544, %hit rate: 99.997039%
-
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1788 .WHERE_wr1
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1916 .WHERE_wr1
 
 FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2012 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1836 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1076 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1812 .WHERE_wr1
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1076 .WHERE_wr2
+.
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1672 .WHERE_wr1
 
-FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1920 .WHERE_wr1
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1636 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#2020 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1872 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1652 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1900 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1088 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1088 .WHERE_wr2
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1668 .WHERE_wr1
++
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1908 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1648 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1728 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1692 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1828 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1972 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#428 .WHERE_wr1
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#448 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1032 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1032 .WHERE_wr2
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1932 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1496 .WHERE_wr3
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1944 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1792 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1060 .WHERE_wr2
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1060 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1640 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1868 .WHERE_wr1
+.
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#424 .WHERE_wr1
+
+FAILED:  ANNOTATION_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1656 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1508 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1720 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1924 .WHERE_wr1
+.
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1776 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1028 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1028 .WHERE_wr2
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1768 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1544 .WHERE_wr3
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1040 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1040 .WHERE_wr2
+
+FAILED:  REPRESENTATION_ITEM-> nist_stc_10_asme1.PRIMARY#456 .WHERE_wr1
+
+SDAI Thread Local Cache Statistics [SDAI.UniqueRuleValidation_41]
+ complex cache[5527]:	 #lookups: 9299340, #hits: 9293813, %hit rate: 99.940566%
+ model   cache[2]:	 #lookups: 55012, #hits: 55010, %hit rate: 99.996364%
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1080 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_10_asme1.PRIMARY#1080 .WHERE_wr2
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1912 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1832 .WHERE_wr1
+
+FAILED:  ANNOTATION_PLANE-> nist_stc_10_asme1.PRIMARY#1540 .WHERE_wr3
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1980 .WHERE_wr1
+
+FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1880 .WHERE_wr1
 10
- duration: 0:49:17
+ duration: 0:15:48
 
 
  SCHEMA INSTANCE VALIDATION RESULT
@@ -1712,8 +1726,8 @@ FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1920 .WHERE_wr1
 
 
  globalRuleValidationRecord: GlobalRuleValidationResult 2 records
-[0]LOGICAL(FALSE)	VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES:	(WHERE_wr1: LOGICAL(FALSE)) 
-[1]LOGICAL(FALSE)	AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED:	(WHERE_wr1: LOGICAL(FALSE)) 
+[0]LOGICAL(FALSE)	AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED:	(WHERE_wr1: LOGICAL(FALSE)) 
+[1]LOGICAL(FALSE)	VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES:	(WHERE_wr1: LOGICAL(FALSE)) 
 
 
 
@@ -2392,32 +2406,32 @@ FAILED:  TESSELLATED_ITEM-> nist_stc_10_asme1.PRIMARY#1920 .WHERE_wr1
 
 
 
+SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_11780]
+ complex cache[5541]:	 #lookups: 9323816, #hits: 9318275, %hit rate: 99.940572%
+ model   cache[1]:	 #lookups: 54753, #hits: 54751, %hit rate: 99.996347%
+
 (3) validation complete
 
 
-
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_0]
- complex cache[11607]:	 #lookups: 20396837, #hits: 20385230, %hit rate: 99.943094%
- model   cache[1]:	 #lookups: 69590, #hits: 69588, %hit rate: 99.997126%
 #29: source = simpleRecord(SimpleRecord(keyword:MODEL_GEOMETRIC_VIEW, parameters:[STRING(Top), STRING(), #41, #1446]), p21DataSection(PRIMARY))
  complex = nist_stc_10_asme1.PRIMARY#29
  [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CHARACTERIZED_OBJECT
 	_name: 	Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLABEL(rep: STRING(Top)))
 	_description: 	Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tTEXT(rep: STRING()))
 
- [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CHARACTERIZED_ITEM_WITHIN_REPRESENTATION
-	_item: 	SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eREPRESENTATION_ITEM>
-	_rep: 	SwiftSDAIcore.SDAI.PersistentEntityReference<SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.eREPRESENTATION>
+ [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.MODEL_GEOMETRIC_VIEW
 
- [2]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.MODEL_GEOMETRIC_VIEW
-
-
+ [2]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CHARACTERIZED_ITEM_WITHIN_REPRESENTATION
+	_item: 	REPRESENTATION_ITEM.PRef=> #41_m42AC2938-E20A-483F-B210-75526FC73F2B
+	_rep: 	REPRESENTATION.PRef=> #1446_m42AC2938-E20A-483F-B210-75526FC73F2B
 
 
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_23]
- complex cache[11580]:	 #lookups: 20567520, #hits: 20555940, %hit rate: 99.943698%
- model   cache[2]:	 #lookups: 67781, #hits: 67779, %hit rate: 99.997049%
+
+
+SDAI Thread Local Cache Statistics [SdaiTransactionVA]
+ complex cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
+ model   cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
 normal end of execution
-2025/12/18 12:07
-total duration: 2:05:15
+2025/12/27 19:29
+total duration: 0:19:31
 Program ended with exit code: 0

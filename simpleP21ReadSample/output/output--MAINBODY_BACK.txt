@@ -1,4 +1,4 @@
-2025/12/18 17:32
+2025/12/27 19:08
 
  input: MAINBODY_BACK.stp
 
@@ -12,7 +12,7 @@
 
  source p21 file: FILE_NAME(headerEntity: SimpleRecord(keyword:FILE_NAME, parameters:[STRING(E:\Public\Archive_PDES\TR22\NativeFiles\s1\MAINBODY_BACK.stp), STRING(2008-08-18T12:41:46+00:00), [STRING(none)], [STRING(none)], STRING(CATIA Version 5 Release 19 SP 1 (IN-PROTO)), STRING(CATIA V5 STEP AP214), STRING(none)]))
 
- created models: ["MAINBODY_BACK.stp.PRIMARY"]
+ created models: [(name: "MAINBODY_BACK.stp.PRIMARY", modeID: E4AF5831-D271-4C27-920A-4F20950E843E)]
 
 (1) decode complete
 
@@ -34,19 +34,19 @@ product identification[0] [PRODUCT_DEFINITION-> MAINBODY_BACK.stp.PRIMARY#10] id
 
 	product property[0.0][PRODUCT_DEFINITION_SHAPE-> MAINBODY_BACK.stp.PRIMARY#11] name:' '
 		[SHAPE_REPRESENTATION-> MAINBODY_BACK.stp.PRIMARY#23] name:' '
-			[GEOMETRIC_REPRESENTATION_CONTEXT-> MAINBODY_BACK.stp.PRIMARY#20, GLOBAL_UNIT_ASSIGNED_CONTEXT-> MAINBODY_BACK.stp.PRIMARY#20, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> MAINBODY_BACK.stp.PRIMARY#20] type:' '
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> MAINBODY_BACK.stp.PRIMARY#20, GEOMETRIC_REPRESENTATION_CONTEXT-> MAINBODY_BACK.stp.PRIMARY#20, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> MAINBODY_BACK.stp.PRIMARY#20] type:' '
 0.				unit:[CONVERSION_BASED_UNIT-> MAINBODY_BACK.stp.PRIMARY#18, LENGTH_UNIT-> MAINBODY_BACK.stp.PRIMARY#18]
 0.					INCH factor:Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(25.4)))) times ...
 0.						unit:[LENGTH_UNIT-> MAINBODY_BACK.stp.PRIMARY#12, SI_UNIT-> MAINBODY_BACK.stp.PRIMARY#12]
 0.							Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-1.				unit:[SI_UNIT-> MAINBODY_BACK.stp.PRIMARY#15, SOLID_ANGLE_UNIT-> MAINBODY_BACK.stp.PRIMARY#15]
-1.					nil STERADIAN
-2.				unit:[SI_UNIT-> MAINBODY_BACK.stp.PRIMARY#13, PLANE_ANGLE_UNIT-> MAINBODY_BACK.stp.PRIMARY#13]
-2.					nil RADIAN
+1.				unit:[PLANE_ANGLE_UNIT-> MAINBODY_BACK.stp.PRIMARY#13, SI_UNIT-> MAINBODY_BACK.stp.PRIMARY#13]
+1.					nil RADIAN
+2.				unit:[SI_UNIT-> MAINBODY_BACK.stp.PRIMARY#15, SOLID_ANGLE_UNIT-> MAINBODY_BACK.stp.PRIMARY#15]
+2.					nil STERADIAN
 
 			rep[0.0.0][AXIS2_PLACEMENT_3D-> MAINBODY_BACK.stp.PRIMARY#22]
 
-	product shape:PRODUCT_DEFINITION_SHAPE.PRef=> #11_mFA7979A8-34F4-4353-8C54-1CFDE1E53D87
+	product shape:PRODUCT_DEFINITION_SHAPE.PRef=> #11_mE4AF5831-D271-4C27-920A-4F20950E843E
 
 
 
@@ -55,18 +55,20 @@ product identification[0] [PRODUCT_DEFINITION-> MAINBODY_BACK.stp.PRIMARY#10] id
 
 
 SDAI Thread Local Cache Statistics [SdaiTransactionRO]
- complex cache[17]:	 #lookups: 53, #hits: 36, %hit rate: 67.924528%
+ complex cache[17]:	 #lookups: 46, #hits: 29, %hit rate: 63.043478%
  model   cache[2]:	 #lookups: 54, #hits: 52, %hit rate: 96.296296%
 
  validating instance reference domain for 6091 application instances:
  ....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....10
- duration: 0:01:56
+ duration: 0:00:01
 
 
  validating 55 global rules:
- .....
+ .........+.........
 FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
-....+.........+.........+.........+.........+.....
++.........+.........+..
+FAILED: VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES
+.......+.....
  duration: 0:00:01
 
 
@@ -76,8 +78,39 @@ FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
 
 
  validating where rules for 1487 complex entities:
- ....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....10
- duration: 0:02:42
+ ....+..
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_5360]
+ complex cache[141]:	 #lookups: 428, #hits: 287, %hit rate: 67.056075%
+ model   cache[2]:	 #lookups: 187, #hits: 185, %hit rate: 98.930481%
+.
+
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[136]:	 #lookups: 441, #hits: 305, %hit rate: 69.160998%
+ model   cache[2]:	 #lookups: 166, #hits: 164, %hit rate: 98.795181%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_5594]
+ complex cache[150]:	 #lookups: 381, #hits: 231, %hit rate: 60.629921%
+ model   cache[2]:	 #lookups: 174, #hits: 172, %hit rate: 98.850575%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_6016]
+ complex cache[80]:	 #lookups: 284, #hits: 204, %hit rate: 71.830986%
+ model   cache[2]:	 #lookups: 110, #hits: 108, %hit rate: 98.181818%
+.1..
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_1842]
+ complex cache[993]:	 #lookups: 1080, #hits: 87, %hit rate: 8.055556%
+ model   cache[2]:	 #lookups: 1030, #hits: 1028, %hit rate: 99.805825%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_6061]
+ complex cache[100]:	 #lookups: 408, #hits: 308, %hit rate: 75.490196%
+ model   cache[2]:	 #lookups: 178, #hits: 176, %hit rate: 98.876404%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_6046]
+ complex cache[99]:	 #lookups: 344, #hits: 245, %hit rate: 71.22093%
+ model   cache[2]:	 #lookups: 126, #hits: 124, %hit rate: 98.412698%
+..+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....10
+ duration: 0:00:22
 
 
  SCHEMA INSTANCE VALIDATION RESULT
@@ -87,8 +120,9 @@ FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
 
 
 
- globalRuleValidationRecord: GlobalRuleValidationResult 1 records
+ globalRuleValidationRecord: GlobalRuleValidationResult 2 records
 [0]LOGICAL(FALSE)	AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED:	(WHERE_wr1: LOGICAL(FALSE)) 
+[1]LOGICAL(FALSE)	VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES:	(WHERE_wr1: LOGICAL(FALSE)) 
 
 
 
@@ -104,49 +138,29 @@ FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
 
 
 
-SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_5941]
- complex cache[1481]:	 #lookups: 219625, #hits: 218144, %hit rate: 99.325669%
- model   cache[1]:	 #lookups: 7877, #hits: 7875, %hit rate: 99.97461%
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_5916]
+ complex cache[540]:	 #lookups: 16577, #hits: 16037, %hit rate: 96.742475%
+ model   cache[1]:	 #lookups: 7185, #hits: 7183, %hit rate: 99.972164%
 #29: source = simpleRecord(SimpleRecord(keyword:SURFACE_STYLE_FILL_AREA, parameters:[#28]), p21DataSection(PRIMARY))
  complex = MAINBODY_BACK.stp.PRIMARY#29
- [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.FOUNDED_ITEM
+ [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SURFACE_STYLE_FILL_AREA
+	_fill_area: 	FILL_AREA_STYLE.PRef=> #28_mE4AF5831-D271-4C27-920A-4F20950E843E
 
- [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SURFACE_STYLE_FILL_AREA
-	_fill_area: 	FILL_AREA_STYLE.PRef=> #28_mFA7979A8-34F4-4353-8C54-1CFDE1E53D87
+ [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.FOUNDED_ITEM
 
 
 
 users.count = 5
 [0] user = #[33]
-[1] user = #[30]
-[2] user = #[32]
-[3] user = #[31]
-[4] user = #[28]
+[1] user = #[31]
+[2] user = #[28]
+[3] user = #[32]
+[4] user = #[30]
 normal end of execution
 
-SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_5986]
- complex cache[1481]:	 #lookups: 223192, #hits: 221711, %hit rate: 99.336446%
- model   cache[2]:	 #lookups: 10166, #hits: 10164, %hit rate: 99.980327%
-2025/12/18 17:36
-total duration: 0:04:43
-
-SDAI Thread Local Cache Statistics [SdaiTransactionVA]
- complex cache[1482]:	 #lookups: 521664, #hits: 520182, %hit rate: 99.715909%
- model   cache[2]:	 #lookups: 20087, #hits: 20085, %hit rate: 99.990043%
-
-SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_1407]
- complex cache[1481]:	 #lookups: 322266, #hits: 320785, %hit rate: 99.540442%
- model   cache[2]:	 #lookups: 12434, #hits: 12432, %hit rate: 99.983915%
-
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_23]
- complex cache[1482]:	 #lookups: 326115, #hits: 324633, %hit rate: 99.545559%
- model   cache[2]:	 #lookups: 12734, #hits: 12732, %hit rate: 99.984294%
-
-SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_1415]
- complex cache[1482]:	 #lookups: 325461, #hits: 323979, %hit rate: 99.544646%
- model   cache[2]:	 #lookups: 12291, #hits: 12289, %hit rate: 99.983728%
-
-SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_5956]
- complex cache[1483]:	 #lookups: 530315, #hits: 528832, %hit rate: 99.720355%
- model   cache[2]:	 #lookups: 23945, #hits: 23943, %hit rate: 99.991648%
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_1938]
+ complex cache[519]:	 #lookups: 16389, #hits: 15870, %hit rate: 96.833242%
+ model   cache[2]:	 #lookups: 7426, #hits: 7424, %hit rate: 99.973068%
+2025/12/27 19:08
+total duration: 0:00:27
 Program ended with exit code: 0

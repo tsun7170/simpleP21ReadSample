@@ -68,8 +68,10 @@ let session = SDAI.openSession(
 let _ = session.startEventRecording()
 session.open(repository: repository)
 
-//MARK: start RW transaction
-let exchange = await session.performTransactionRW(output: P21Decode.ExchangeStructure.self) { transaction in
+//MARK: - start RW transaction
+let disposition = await session.performTransactionRW(
+  output: P21Decode.ExchangeStructure.self)
+{ transaction in
 
 	//MARK: prepare the acceptable step schema list
 	let schemaList: P21Decode.SchemaList = [
@@ -87,7 +89,10 @@ let exchange = await session.performTransactionRW(output: P21Decode.ExchangeStru
 	let p21monitor = MyActivityMonitor()
 	
 	// create a decoder
-	guard let decoder = P21Decode.Decoder(output: repository, schemaList: schemaList, monitor: p21monitor)
+	guard let decoder = P21Decode.Decoder(
+    output: repository,
+    schemaList: schemaList,
+    monitor: p21monitor)
 	else {
 		SDAI.raiseErrorAndTrap(.SY_ERR, detail: "decoder initialization error")
 	}
@@ -122,9 +127,14 @@ let exchange = await session.performTransactionRW(output: P21Decode.ExchangeStru
 
 	return .commit(exchange)
 }
-
+guard case .commit(let exchange) = disposition
+else {
+  fatalError("transaction aborted")
+}
+//MARK: end RW transaction
 print("\n(1) decode complete\n\n")
 
+//MARK: - start RO transaction
 await session.performTransactionRO { transaction in
 	guard let schemaInstance = repository.contents.findSchemaInstance(named: schemaInstanceName)
 	else {
@@ -309,11 +319,10 @@ await session.performTransactionRO { transaction in
 
 	return .commit(Void())
 }
-
+//MARK: end RO transaction
 print("\n(2) inspection complete\n\n")
 
-//MARK: - validations
-
+//MARK: - start VA transaction for validation
 await session.performTransactionVA { transaction in
 	guard
 	let si = repository.contents.findSchemaInstance(named: schemaInstanceName),
@@ -471,11 +480,12 @@ await session.performTransactionVA { transaction in
 
 	return .commit
 }
+//MARK: end VA transaction
 print("\n(3) validation complete\n\n")
 
 
 await session.performTransactionRO { transaction in
-	guard case .commit(let exchange) = exchange else { return .abort }
+//	guard case .commit(let exchange) = exchange else { return .abort }
 
 	//MARK: - entity look up
 	var name = 29
@@ -515,7 +525,7 @@ print("total duration: \(durationRun.formatted())")
 
 
 //MARK: -
-func printUnit(indent:String, unit:ap242.sUNIT) {
+@Sendable func printUnit(indent:String, unit:ap242.sUNIT) {
   if let namedUnit = unit.super_eNAMED_UNIT.eval {
     print(indent+"unit:\(namedUnit.complexEntity.leafEntityReferences)")
 

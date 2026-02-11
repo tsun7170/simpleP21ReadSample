@@ -1,11 +1,15 @@
-2025/12/17 10:33
+2026/2/8 8:31
+
+ input: nist_ctc_05_asme1_ap242-e1.stp
+
+
 
  parsing header section: 
  parsing data section: .........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+..
  completed parsing.
- resolving entity instances: .
+ resolving entity instances: ...
 
-VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-17 01:34:00 +0000 
+VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 92] @2026-02-07 23:31:19 +0000 
 missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering required parameter of type(SET<sPRESENTATION_STYLE_SELECT>),
  while resolving external mapping [
@@ -15,7 +19,7 @@ missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  Fall back to utilize the default initialized data instance.
 ..
 
-VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-17 01:34:01 +0000 
+VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 92] @2026-02-07 23:31:20 +0000 
 missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering required parameter of type(tLABEL),
  while resolving external mapping [
@@ -25,7 +29,7 @@ missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  ].
  Fall back to utilize the default initialized data instance.
 
-VA_NSET [430]: Value not set. #recoverOmittableParameter(as:from:) [in SwiftSDAIcore/ParameterRecovery.swift: line 122] @2025-12-17 01:34:01 +0000 
+VA_NSET [430]: Value not set. #recoverOmittableParameter(as:from:) [in SwiftSDAIcore/ParameterRecovery.swift: line 146] @2026-02-07 23:31:20 +0000 
 missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering omittable parameter of type(PersistentEntityReference<ePRODUCT_DEFINITION_SHAPE>),
  while resolving external mapping [
@@ -35,7 +39,7 @@ missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  ].
  Assume omitted parameter (*) being specified in place.
 
-VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 76] @2025-12-17 01:34:01 +0000 
+VA_NSET [430]: Value not set. #_recoverRequiredParameter(as:from:fallback:) [in SwiftSDAIcore/ParameterRecovery.swift: line 92] @2026-02-07 23:31:20 +0000 
 missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering required parameter of type(tLABEL),
  while resolving external mapping [
@@ -45,7 +49,7 @@ missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  ].
  Fall back to utilize the default initialized data instance.
 
-VA_NSET [430]: Value not set. #recoverOmittableParameter(as:from:) [in SwiftSDAIcore/ParameterRecovery.swift: line 122] @2025-12-17 01:34:01 +0000 
+VA_NSET [430]: Value not set. #recoverOmittableParameter(as:from:) [in SwiftSDAIcore/ParameterRecovery.swift: line 146] @2026-02-07 23:31:20 +0000 
 missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering omittable parameter of type(PersistentEntityReference<ePRODUCT_DEFINITION_SHAPE>),
  while resolving external mapping [
@@ -54,7 +58,7 @@ missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
 	SimpleRecord(keyword:DATUM_REFERENCE_ELEMENT, parameters:[])
  ].
  Assume omitted parameter (*) being specified in place.
-......*.........*.........*.........
+....*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.......
  error detected on exchange structure: missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21]
 
  error detected on decoder: resolve error:
@@ -64,13 +68,13 @@ missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering constituent entity[2],
  while resolving entity instance simple record #111
 
-SY_ERR [1000]: Underlying system error. #simpleP21ReadSample [in SwiftSDAIcore/SdaiErrorEvent.swift: line 92] @2025-12-17 01:34:01 +0000 
+SY_ERR [1000]: Underlying system error. #simpleP21ReadSample [in SwiftSDAIcore/SdaiErrorEvent.swift: line 92] @2026-02-07 23:31:20 +0000 
 decoder error: resolve error:
 missing attribute value ($) is detected [ref. 12.2.2 of ISO 10303-21],
  while recovering required parameter of type(PersistentEntityReference<eSTYLED_ITEM>),
  while recovering parameter [0]OVER_RIDDEN_STYLE for partial entity(OVER_RIDING_STYLED_ITEM) constructor,
  while recovering constituent entity[2],
  while resolving entity instance simple record #111
-simpleP21ReadSample/main.swift:94: Fatal error: SDAI runtime is trapped by the error event in simpleP21ReadSample.
+simpleP21ReadSample/main.swift:105: Fatal error: SDAI runtime is trapped by the error event in simpleP21ReadSample.
 Message from debugger: killed
 Program ended with exit code: 9

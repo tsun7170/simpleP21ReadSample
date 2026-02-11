@@ -1,4 +1,4 @@
-2025/12/18 7:58
+2026/2/8 15:46
 
  input: nist_stc_07_asme1_ap242-e3.stp
 
@@ -8,64 +8,18 @@
  parsing data section: .........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+....
  completed parsing.
  resolving entity instances: 
- error detected on exchange structure: entity name(ANNOTATION_PLACEHOLDER_OCCURRENCE_WITH_LEADER_LINE) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF)
+ error detected on exchange structure: entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF)
 
  error detected on decoder: resolve error:
-entity name(ANNOTATION_PLACEHOLDER_OCCURRENCE_WITH_LEADER_LINE) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF),
+entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF),
  while converting internal mapping to external mapping,
- while resolving entity instance simple record #14535,
- while resolving DRAUGHTING_CALLOUT_ELEMENT instance,
- while resolving SET element value,
- while recovering required parameter of type(SET<sDRAUGHTING_CALLOUT_ELEMENT>),
- while recovering parameter [0]CONTENTS for partial entity(DRAUGHTING_CALLOUT) constructor,
- while recovering constituent entity[2],
- while resolving entity instance simple record #14532,
- while resolving ANNOTATION_PLANE_ELEMENT instance,
- while resolving SET element value,
- while recovering optional parameter of type(SET<sANNOTATION_PLANE_ELEMENT>),
- while recovering parameter [0]ELEMENTS for partial entity(ANNOTATION_PLANE) constructor,
- while recovering constituent entity[4],
- while resolving entity instance simple record #13975,
- while resolving REPRESENTATION_ITEM instance,
- while resolving SET element value,
- while recovering required parameter of type(SET<PersistentEntityReference<eREPRESENTATION_ITEM>>),
- while recovering parameter [1]ITEMS for partial entity(REPRESENTATION) constructor,
- while recovering constituent entity[1],
- while resolving entity instance subsuper record #11142,
- while resolving REPRESENTATION instance,
- while recovering required parameter of type(PersistentEntityReference<eREPRESENTATION>),
- while recovering parameter [3]USED_REPRESENTATION for partial entity(ITEM_IDENTIFIED_REPRESENTATION_USAGE) constructor,
- while recovering constituent entity[0],
- while resolving entity instance simple record #12839
+ while resolving entity instance simple record #16387
 
-SY_ERR [1000]: Underlying system error. #simpleP21ReadSample [in SwiftSDAIcore/SdaiErrorEvent.swift: line 92] @2025-12-17 22:59:28 +0000 
+SY_ERR [1000]: Underlying system error. #simpleP21ReadSample [in SwiftSDAIcore/SdaiErrorEvent.swift: line 92] @2026-02-08 06:46:55 +0000 
 decoder error: resolve error:
-entity name(ANNOTATION_PLACEHOLDER_OCCURRENCE_WITH_LEADER_LINE) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF),
+entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF),
  while converting internal mapping to external mapping,
- while resolving entity instance simple record #14535,
- while resolving DRAUGHTING_CALLOUT_ELEMENT instance,
- while resolving SET element value,
- while recovering required parameter of type(SET<sDRAUGHTING_CALLOUT_ELEMENT>),
- while recovering parameter [0]CONTENTS for partial entity(DRAUGHTING_CALLOUT) constructor,
- while recovering constituent entity[2],
- while resolving entity instance simple record #14532,
- while resolving ANNOTATION_PLANE_ELEMENT instance,
- while resolving SET element value,
- while recovering optional parameter of type(SET<sANNOTATION_PLANE_ELEMENT>),
- while recovering parameter [0]ELEMENTS for partial entity(ANNOTATION_PLANE) constructor,
- while recovering constituent entity[4],
- while resolving entity instance simple record #13975,
- while resolving REPRESENTATION_ITEM instance,
- while resolving SET element value,
- while recovering required parameter of type(SET<PersistentEntityReference<eREPRESENTATION_ITEM>>),
- while recovering parameter [1]ITEMS for partial entity(REPRESENTATION) constructor,
- while recovering constituent entity[1],
- while resolving entity instance subsuper record #11142,
- while resolving REPRESENTATION instance,
- while recovering required parameter of type(PersistentEntityReference<eREPRESENTATION>),
- while recovering parameter [3]USED_REPRESENTATION for partial entity(ITEM_IDENTIFIED_REPRESENTATION_USAGE) constructor,
- while recovering constituent entity[0],
- while resolving entity instance simple record #12839
-simpleP21ReadSample/main.swift:96: Fatal error: SDAI runtime is trapped by the error event in simpleP21ReadSample.
+ while resolving entity instance simple record #16387
+simpleP21ReadSample/main.swift:105: Fatal error: SDAI runtime is trapped by the error event in simpleP21ReadSample.
 Message from debugger: killed
 Program ended with exit code: 9

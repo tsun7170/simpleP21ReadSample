@@ -1,4 +1,4 @@
-2025/12/18 8:00
+2026/2/8 15:48
 
  input: nist_stc_08_asme1_ap242-e3.stp
 
@@ -13,13 +13,13 @@
  error detected on decoder: resolve error:
 entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF),
  while converting internal mapping to external mapping,
- while resolving entity instance simple record #740
+ while resolving entity instance simple record #764
 
-SY_ERR [1000]: Underlying system error. #simpleP21ReadSample [in SwiftSDAIcore/SdaiErrorEvent.swift: line 92] @2025-12-17 23:01:31 +0000 
+SY_ERR [1000]: Underlying system error. #simpleP21ReadSample [in SwiftSDAIcore/SdaiErrorEvent.swift: line 92] @2026-02-08 06:48:40 +0000 
 decoder error: resolve error:
 entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF),
  while converting internal mapping to external mapping,
- while resolving entity instance simple record #740
-simpleP21ReadSample/main.swift:96: Fatal error: SDAI runtime is trapped by the error event in simpleP21ReadSample.
+ while resolving entity instance simple record #764
+simpleP21ReadSample/main.swift:105: Fatal error: SDAI runtime is trapped by the error event in simpleP21ReadSample.
 Message from debugger: killed
 Program ended with exit code: 9

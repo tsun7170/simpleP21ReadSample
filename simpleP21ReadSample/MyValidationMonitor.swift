@@ -216,30 +216,30 @@ class MyValidationMonitor: SDAIPopulationSchema.ValidationMonitor, @unchecked Se
       }
 		}
 	}
-	
-	override func didValidateWhereRule(
-		for complexEntity: SDAI.ComplexEntity,
-		result: SDAIPopulationSchema.WhereRuleValidationRecords)
-	{
-		complexValidated += 1
+  
+  override func didValidateWhereRule(
+    for complexEntity: SDAI.ComplexEntity,
+    result: SDAIPopulationSchema.WhereRuleValidationRecords)
+  {
+    complexValidated += 1
     if let marker = progressMarker(completed: complexValidated, total: complexCount) {
       print(marker, terminator: "")
     }
 
-		var failed = false
-		for (label,whereResult) in result {
-			if whereResult == SDAI.FALSE {
-				failed = true
-				if confirmFailedCase {
-					print("\nFAILED: \(label)")
-					let _ = complexEntity.validateEntityWhereRules(prefix: "again", recording: .recordFailureOnly)
-				}
-			}
-		}
-		if failed && (!confirmFailedCase) {
-			print("/", terminator: "")
-		}
-	}
+    var failed = false
+    for (label,whereResult) in result {
+      if whereResult == SDAI.FALSE {
+        failed = true
+        if confirmFailedCase {
+          print("\nFAILED: \(label)")
+          let _ = complexEntity.validateEntityWhereRules(prefix: "again", recording: .recordFailureOnly)
+        }
+      }
+    }
+    if failed && (!confirmFailedCase) {
+      print("/", terminator: "")
+    }
+  }	
 
 	override func didValidateInstanceReferenceDomain(
 		for schemaInstance: SDAIPopulationSchema.SchemaInstance,

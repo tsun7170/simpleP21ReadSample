@@ -1,4 +1,4 @@
-2025/12/27 18:07
+2026/2/8 15:29
 
  input: nist_ftc_11_asme1_ap242-e2.stp
 
@@ -12,7 +12,7 @@
 
  source p21 file: FILE_NAME(headerEntity: SimpleRecord(keyword:FILE_NAME, parameters:[STRING(nist_ftc_11_asme1_ap242-e1.stp), STRING(2022-02-16T17:24:26+06:00), [STRING()], [STRING()], STRING(), STRING(), STRING()]))
 
- created models: [(name: "nist_ftc_11_asme1_ap242-e1.stp.PRIMARY", modeID: 25F98E26-21AD-40C6-8667-0DDDB3AC738B)]
+ created models: [(name: "nist_ftc_11_asme1_ap242-e1.stp.PRIMARY", modeID: DEEF41CA-BD57-485D-925B-30BE30F750EB)]
 
 (1) decode complete
 
@@ -34,40 +34,40 @@ product identification[0] [PRODUCT_DEFINITION-> nist_ftc_11_asme1_ap242-e1.stp.P
 
 	product property[0.0][PRODUCT_DEFINITION_SHAPE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2032] name:''
 		[SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#1301] name:'nist_ftc_11_asme1_rb'
-			[GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2027, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2027, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2027] type:'TOP_LEVEL_ASSEMBLY_PART'
-0.				unit:[SI_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2031, LENGTH_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2031]
+			[GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2027, GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2027, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2027] type:'TOP_LEVEL_ASSEMBLY_PART'
+0.				unit:[LENGTH_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2031, SI_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2031]
 0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
-1.				unit:[SI_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2029, SOLID_ANGLE_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2029]
-1.					nil STERADIAN
-2.				unit:[SI_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2030, PLANE_ANGLE_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2030]
-2.					nil RADIAN
+1.				unit:[SI_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2030, PLANE_ANGLE_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2030]
+1.					nil RADIAN
+2.				unit:[SI_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2029, SOLID_ANGLE_UNIT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#2029]
+2.					nil STERADIAN
 
 			rep[0.0.0][AXIS2_PLACEMENT_3D-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#1302]
 
-	product shape:PRODUCT_DEFINITION_SHAPE.PRef=> #2032_m25F98E26-21AD-40C6-8667-0DDDB3AC738B
-	shape aspect[0.0][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#284] name:''
-	shape aspect[0.1][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#70] name:'Radial Dimension (21)'
-	shape aspect[0.2][DATUM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#73] name:''
-	shape aspect[0.3][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#71] name:'Linear Dimension (19)'
-	shape aspect[0.4][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#76] name:''
-	shape aspect[0.5][DATUM_SYSTEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#77] name:''
-	shape aspect[0.6][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#289] name:''
-	shape aspect[0.7][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#75] name:''
-	shape aspect[0.8][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#68] name:'Arc Length Dimension (14)'
+	product shape:PRODUCT_DEFINITION_SHAPE.PRef=> #2032_mDEEF41CA-BD57-485D-925B-30BE30F750EB
+	shape aspect[0.0][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#291] name:''
+	shape aspect[0.1][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#284] name:''
+	shape aspect[0.2][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#68] name:'Arc Length Dimension (14)'
+	shape aspect[0.3][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#75] name:''
+	shape aspect[0.4][DATUM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#73] name:''
+	shape aspect[0.5][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#70] name:'Radial Dimension (21)'
+	shape aspect[0.6][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#290] name:''
+	shape aspect[0.7][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#287] name:''
+	shape aspect[0.8][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#69] name:'Radial Dimension (11)'
 	shape aspect[0.9][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#288] name:''
-	shape aspect[0.10][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#286] name:''
+	shape aspect[0.10][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#281] name:''
 	shape aspect[0.11][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#285] name:''
-	shape aspect[0.12][DATUM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#74] name:''
-	shape aspect[0.13][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#290] name:''
-	shape aspect[0.14][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#281] name:''
-	shape aspect[0.15][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#69] name:'Radial Dimension (11)'
-	shape aspect[0.16][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#291] name:''
+	shape aspect[0.12][DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#11] name:''
+	shape aspect[0.13][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#286] name:''
+	shape aspect[0.14][DATUM_REFERENCE_COMPARTMENT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#76] name:''
+	shape aspect[0.15][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#289] name:''
+	shape aspect[0.16][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#71] name:'Linear Dimension (19)'
 	shape aspect[0.17][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#283] name:''
-	shape aspect[0.18][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#287] name:''
-	shape aspect[0.19][DATUM_FEATURE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#54] name:'Datum Feature Symbol B (10)'
+	shape aspect[0.18][DATUM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#74] name:''
+	shape aspect[0.19][DATUM_SYSTEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#77] name:''
 	shape aspect[0.20][SHAPE_ASPECT-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#282] name:''
-	shape aspect[0.21][DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#11] name:''
-	shape aspect[0.22][DATUM_FEATURE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#55] name:'Datum Feature Symbol A (17)'
+	shape aspect[0.21][DATUM_FEATURE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#55] name:'Datum Feature Symbol A (17)'
+	shape aspect[0.22][DATUM_FEATURE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#54] name:'Datum Feature Symbol B (10)'
 
 
 
@@ -85,140 +85,138 @@ SDAI Thread Local Cache Statistics [SdaiTransactionRO]
 
 
  validating 55 global rules:
- .........+.........+.......
+ .........+.........+.
 FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
-..+.........+.
+........+.........+.........+...
 FAILED: VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES
-........+.....
- duration: 0:00:01
+..
+ duration: 0:00:02
 
 
  validating 49 uniqueness rules:
- ........
-FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2)
-.
+ .........+
 FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1)
-+.........+.........+.........+.........
+.
+FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2)
+........+.........+.........+.........
  duration: 0:00:00
 
 
  validating where rules for 2032 complex entities:
  .
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#367 .WHERE_wr1
 
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_15]
- complex cache[743]:	 #lookups: 8538, #hits: 7795, %hit rate: 91.297728%
- model   cache[2]:	 #lookups: 766, #hits: 764, %hit rate: 99.738903%
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_7056]
+ complex cache[365]:	 #lookups: 74906, #hits: 74541, %hit rate: 99.512723%
+ model   cache[2]:	 #lookups: 668, #hits: 666, %hit rate: 99.700599%
 
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_7]
- complex cache[128]:	 #lookups: 8007, #hits: 7879, %hit rate: 98.401399%
- model   cache[2]:	 #lookups: 186, #hits: 184, %hit rate: 98.924731%
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[293]:	 #lookups: 70996, #hits: 70703, %hit rate: 99.587301%
+ model   cache[2]:	 #lookups: 572, #hits: 570, %hit rate: 99.65035%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_4898]
+ complex cache[128]:	 #lookups: 17622, #hits: 17494, %hit rate: 99.273635%
+ model   cache[1]:	 #lookups: 128, #hits: 127, %hit rate: 99.21875%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_7107]
+ complex cache[417]:	 #lookups: 75895, #hits: 75478, %hit rate: 99.450557%
+ model   cache[2]:	 #lookups: 1731, #hits: 1729, %hit rate: 99.88446%
 ..
-
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_39]
- complex cache[171]:	 #lookups: 6690, #hits: 6519, %hit rate: 97.443946%
- model   cache[2]:	 #lookups: 259, #hits: 257, %hit rate: 99.227799%
-
-SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_7192]
- complex cache[300]:	 #lookups: 63189, #hits: 62889, %hit rate: 99.525234%
- model   cache[2]:	 #lookups: 560, #hits: 558, %hit rate: 99.642857%
 
 SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_7246]
- complex cache[310]:	 #lookups: 63224, #hits: 62914, %hit rate: 99.50968%
- model   cache[2]:	 #lookups: 559, #hits: 557, %hit rate: 99.642218%
+ complex cache[329]:	 #lookups: 74774, #hits: 74445, %hit rate: 99.560007%
+ model   cache[2]:	 #lookups: 614, #hits: 612, %hit rate: 99.674267%
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#379 .WHERE_wr1
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_15]
+ complex cache[786]:	 #lookups: 2385, #hits: 1599, %hit rate: 67.044025%
+ model   cache[2]:	 #lookups: 802, #hits: 800, %hit rate: 99.750623%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_7246]
+ complex cache[348]:	 #lookups: 72875, #hits: 72527, %hit rate: 99.52247%
+ model   cache[2]:	 #lookups: 589, #hits: 587, %hit rate: 99.660441%
 +.
-
-SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_7210]
- complex cache[391]:	 #lookups: 67904, #hits: 67513, %hit rate: 99.424187%
- model   cache[2]:	 #lookups: 1312, #hits: 1310, %hit rate: 99.847561%
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#295 .WHERE_wr2
 .
+FAILED: CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#27 .WHERE_wr1
+.
+FAILED: DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#11 .WHERE_wr3
 
-SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_23]
- complex cache[248]:	 #lookups: 2042, #hits: 1794, %hit rate: 87.855044%
- model   cache[2]:	 #lookups: 409, #hits: 407, %hit rate: 99.511002%
+FAILED: DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#11 .WHERE_wr2
+.1.
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#299 .WHERE_wr2
+...+
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#375 .WHERE_wr1
+
+FAILED: CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#23 .WHERE_wr1
+....2..
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#379 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#371 .WHERE_wr1
+..+
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#302 .WHERE_wr2
+.
+FAILED: CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#26 .WHERE_wr1
+.
+FAILED: REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#126 .WHERE_wr1
 ..
-FAILED:  CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#27 .WHERE_wr1
-1..
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#367 .WHERE_wr1
+FAILED: CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#22 .WHERE_wr1
+3...
+FAILED: REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#122 .WHERE_wr1
+.+..
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#298 .WHERE_wr2
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#375 .WHERE_wr1
-.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#295 .WHERE_wr2
-.+
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#299 .WHERE_wr2
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#371 .WHERE_wr1
-...
-FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#11 .WHERE_wr3
-
-FAILED:  DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#11 .WHERE_wr2
-.2.
-FAILED:  CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#23 .WHERE_wr1
-...+....
-FAILED:  CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#26 .WHERE_wr1
-3
-FAILED:  CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#10 .WHERE_wr1
-....
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#378 .WHERE_wr1
-+
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#370 .WHERE_wr1
-...
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#374 .WHERE_wr1
-.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#302 .WHERE_wr2
-4....
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#126 .WHERE_wr1
-
-FAILED:  CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#30 .WHERE_wr1
-+.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#298 .WHERE_wr2
-...
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#294 .WHERE_wr2
-5
-FAILED:  CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#22 .WHERE_wr1
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#374 .WHERE_wr1
 ..
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#122 .WHERE_wr1
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#294 .WHERE_wr2
+4..
+FAILED: CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#10 .WHERE_wr1
+.
+FAILED: CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#30 .WHERE_wr1
+.+..
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#370 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#378 .WHERE_wr1
+.5.
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#301 .WHERE_wr2
+...+..
+FAILED: CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#29 .WHERE_wr1
+..
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#377 .WHERE_wr1
+6
+FAILED: CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#25 .WHERE_wr1
+..
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#297 .WHERE_wr2
 ..+.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#297 .WHERE_wr2
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#293 .WHERE_wr2
+...7.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#373 .WHERE_wr1
 ..
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#369 .WHERE_wr1
-.6..
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#293 .WHERE_wr2
-
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#301 .WHERE_wr2
-
-FAILED:  CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#25 .WHERE_wr1
-..
-FAILED:  CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#29 .WHERE_wr1
-+..
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#377 .WHERE_wr1
-
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#121 .WHERE_wr1
+FAILED: REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#121 .WHERE_wr1
 .
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#373 .WHERE_wr1
-.7....+.
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#300 .WHERE_wr2
-.
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#368 .WHERE_wr1
-..
-FAILED:  CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#28 .WHERE_wr1
-8..
-FAILED:  CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#24 .WHERE_wr1
-
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#380 .WHERE_wr1
-..
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#376 .WHERE_wr1
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#292 .WHERE_wr2
 +.
-FAILED:  REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#128 .WHERE_wr1
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#369 .WHERE_wr1
+...8
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#300 .WHERE_wr2
+....
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#380 .WHERE_wr1
 
-FAILED:  ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#372 .WHERE_wr1
-...9..
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#292 .WHERE_wr2
-..+...
-FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#296 .WHERE_wr2
-.10
- duration: 0:00:38
+FAILED: CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#28 .WHERE_wr1
++..
+FAILED: CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#24 .WHERE_wr1
+..9
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#372 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#376 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#368 .WHERE_wr1
+...+
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#296 .WHERE_wr2
+..
+FAILED: REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#128 .WHERE_wr1
+..10
+ duration: 0:00:42
 
 
  SCHEMA INSTANCE VALIDATION RESULT
@@ -235,53 +233,53 @@ FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMA
 
 
  uniquenessRuleValidationRecord: UniquenessRuleValidationResult  2 records
-[0]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2): #duplicates(4) / #instances(41)
-[1]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1): #duplicates(18) / #instances(41)
+[0]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1): #duplicates(18) / #instances(41)
+[1]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2): #duplicates(4) / #instances(41)
 
 
 
  whereRuleValidationRecord: WhereRuleValidationResult( result:LOGICAL(FALSE)
-[0]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#367 .WHERE_wr1: LOGICAL(FALSE)
-[1]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#368 .WHERE_wr1: LOGICAL(FALSE)
-[2]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#369 .WHERE_wr1: LOGICAL(FALSE)
-[3]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#370 .WHERE_wr1: LOGICAL(FALSE)
-[4]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#371 .WHERE_wr1: LOGICAL(FALSE)
-[5]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#372 .WHERE_wr1: LOGICAL(FALSE)
-[6]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#373 .WHERE_wr1: LOGICAL(FALSE)
-[7]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#374 .WHERE_wr1: LOGICAL(FALSE)
-[8]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#375 .WHERE_wr1: LOGICAL(FALSE)
-[9]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#376 .WHERE_wr1: LOGICAL(FALSE)
-[10]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#377 .WHERE_wr1: LOGICAL(FALSE)
-[11]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#378 .WHERE_wr1: LOGICAL(FALSE)
-[12]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#379 .WHERE_wr1: LOGICAL(FALSE)
-[13]	 ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#380 .WHERE_wr1: LOGICAL(FALSE)
-[14]	 CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#10 .WHERE_wr1: LOGICAL(FALSE)
-[15]	 CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#22 .WHERE_wr1: LOGICAL(FALSE)
-[16]	 CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#23 .WHERE_wr1: LOGICAL(FALSE)
-[17]	 CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#24 .WHERE_wr1: LOGICAL(FALSE)
-[18]	 CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#25 .WHERE_wr1: LOGICAL(FALSE)
-[19]	 CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#26 .WHERE_wr1: LOGICAL(FALSE)
-[20]	 CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#27 .WHERE_wr1: LOGICAL(FALSE)
-[21]	 CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#28 .WHERE_wr1: LOGICAL(FALSE)
-[22]	 CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#29 .WHERE_wr1: LOGICAL(FALSE)
-[23]	 CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#30 .WHERE_wr1: LOGICAL(FALSE)
-[24]	 DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#11 .WHERE_wr2: LOGICAL(FALSE)
-[25]	 DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#11 .WHERE_wr3: LOGICAL(FALSE)
-[26]	 REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#121 .WHERE_wr1: LOGICAL(FALSE)
-[27]	 REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#122 .WHERE_wr1: LOGICAL(FALSE)
-[28]	 REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#126 .WHERE_wr1: LOGICAL(FALSE)
-[29]	 REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#128 .WHERE_wr1: LOGICAL(FALSE)
-[30]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#292 .WHERE_wr2: LOGICAL(FALSE)
-[31]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#293 .WHERE_wr2: LOGICAL(FALSE)
-[32]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#294 .WHERE_wr2: LOGICAL(FALSE)
-[33]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#295 .WHERE_wr2: LOGICAL(FALSE)
-[34]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#296 .WHERE_wr2: LOGICAL(FALSE)
-[35]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#297 .WHERE_wr2: LOGICAL(FALSE)
-[36]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#298 .WHERE_wr2: LOGICAL(FALSE)
-[37]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#299 .WHERE_wr2: LOGICAL(FALSE)
-[38]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#300 .WHERE_wr2: LOGICAL(FALSE)
-[39]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#301 .WHERE_wr2: LOGICAL(FALSE)
-[40]	 TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#302 .WHERE_wr2: LOGICAL(FALSE)
+[0]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#367 .WHERE_wr1: LOGICAL(FALSE)
+[1]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#368 .WHERE_wr1: LOGICAL(FALSE)
+[2]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#369 .WHERE_wr1: LOGICAL(FALSE)
+[3]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#370 .WHERE_wr1: LOGICAL(FALSE)
+[4]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#371 .WHERE_wr1: LOGICAL(FALSE)
+[5]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#372 .WHERE_wr1: LOGICAL(FALSE)
+[6]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#373 .WHERE_wr1: LOGICAL(FALSE)
+[7]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#374 .WHERE_wr1: LOGICAL(FALSE)
+[8]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#375 .WHERE_wr1: LOGICAL(FALSE)
+[9]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#376 .WHERE_wr1: LOGICAL(FALSE)
+[10]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#377 .WHERE_wr1: LOGICAL(FALSE)
+[11]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#378 .WHERE_wr1: LOGICAL(FALSE)
+[12]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#379 .WHERE_wr1: LOGICAL(FALSE)
+[13]	ANNOTATION_OCCURRENCE-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#380 .WHERE_wr1: LOGICAL(FALSE)
+[14]	CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#10 .WHERE_wr1: LOGICAL(FALSE)
+[15]	CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#22 .WHERE_wr1: LOGICAL(FALSE)
+[16]	CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#23 .WHERE_wr1: LOGICAL(FALSE)
+[17]	CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#24 .WHERE_wr1: LOGICAL(FALSE)
+[18]	CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#25 .WHERE_wr1: LOGICAL(FALSE)
+[19]	CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#26 .WHERE_wr1: LOGICAL(FALSE)
+[20]	CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#27 .WHERE_wr1: LOGICAL(FALSE)
+[21]	CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#28 .WHERE_wr1: LOGICAL(FALSE)
+[22]	CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#29 .WHERE_wr1: LOGICAL(FALSE)
+[23]	CAMERA_MODEL-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#30 .WHERE_wr1: LOGICAL(FALSE)
+[24]	DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#11 .WHERE_wr2: LOGICAL(FALSE)
+[25]	DEFAULT_MODEL_GEOMETRIC_VIEW-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#11 .WHERE_wr3: LOGICAL(FALSE)
+[26]	REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#121 .WHERE_wr1: LOGICAL(FALSE)
+[27]	REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#122 .WHERE_wr1: LOGICAL(FALSE)
+[28]	REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#126 .WHERE_wr1: LOGICAL(FALSE)
+[29]	REPRESENTATION_ITEM-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#128 .WHERE_wr1: LOGICAL(FALSE)
+[30]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#292 .WHERE_wr2: LOGICAL(FALSE)
+[31]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#293 .WHERE_wr2: LOGICAL(FALSE)
+[32]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#294 .WHERE_wr2: LOGICAL(FALSE)
+[33]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#295 .WHERE_wr2: LOGICAL(FALSE)
+[34]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#296 .WHERE_wr2: LOGICAL(FALSE)
+[35]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#297 .WHERE_wr2: LOGICAL(FALSE)
+[36]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#298 .WHERE_wr2: LOGICAL(FALSE)
+[37]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#299 .WHERE_wr2: LOGICAL(FALSE)
+[38]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#300 .WHERE_wr2: LOGICAL(FALSE)
+[39]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#301 .WHERE_wr2: LOGICAL(FALSE)
+[40]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#302 .WHERE_wr2: LOGICAL(FALSE)
 
 
 
@@ -289,29 +287,29 @@ FAILED:  TESSELLATED_SHAPE_REPRESENTATION-> nist_ftc_11_asme1_ap242-e1.stp.PRIMA
 
 
 
-SDAI Thread Local Cache Statistics [SdaiTransactionRO]
- complex cache[346]:	 #lookups: 88167, #hits: 87821, %hit rate: 99.607563%
- model   cache[1]:	 #lookups: 748, #hits: 746, %hit rate: 99.73262%
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_7073]
+ complex cache[1057]:	 #lookups: 350409, #hits: 349352, %hit rate: 99.698352%
+ model   cache[1]:	 #lookups: 9318, #hits: 9316, %hit rate: 99.978536%
 #29: source = simpleRecord(SimpleRecord(keyword:CAMERA_MODEL_D3, parameters:[STRING(Trimetric), #1406, #38]), p21DataSection(PRIMARY))
  complex = nist_ftc_11_asme1_ap242-e1.stp.PRIMARY#29
  [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CAMERA_MODEL_D3
-	_view_reference_system: 	AXIS2_PLACEMENT_3D.PRef=> #1406_m25F98E26-21AD-40C6-8667-0DDDB3AC738B
-	_perspective_of_volume: 	VIEW_VOLUME.PRef=> #38_m25F98E26-21AD-40C6-8667-0DDDB3AC738B
+	_view_reference_system: 	AXIS2_PLACEMENT_3D.PRef=> #1406_mDEEF41CA-BD57-485D-925B-30BE30F750EB
+	_perspective_of_volume: 	VIEW_VOLUME.PRef=> #38_mDEEF41CA-BD57-485D-925B-30BE30F750EB
 
- [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.GEOMETRIC_REPRESENTATION_ITEM
+ [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CAMERA_MODEL
 
  [2]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.REPRESENTATION_ITEM
 	_name: 	tLABEL(rep: STRING(Trimetric))
 
- [3]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CAMERA_MODEL
+ [3]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.GEOMETRIC_REPRESENTATION_ITEM
 
 
 
 
-SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_1936]
- complex cache[1007]:	 #lookups: 295901, #hits: 294894, %hit rate: 99.659683%
- model   cache[2]:	 #lookups: 8375, #hits: 8373, %hit rate: 99.976119%
+SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_1960]
+ complex cache[837]:	 #lookups: 278595, #hits: 277758, %hit rate: 99.699564%
+ model   cache[2]:	 #lookups: 8157, #hits: 8155, %hit rate: 99.975481%
 normal end of execution
-2025/12/27 18:08
-total duration: 0:01:19
+2026/2/8 15:30
+total duration: 0:01:22
 Program ended with exit code: 0

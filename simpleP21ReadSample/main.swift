@@ -451,13 +451,14 @@ await session.performTransactionVA { transaction in
 		print("\n uniquenessRuleValidationRecord(\(uniquenessResult.count)):\n\(uniquenessResult)")
 	}
 
-	//MARK: all where rules validation
-	let doWhereRuleValidation = false
-	if doWhereRuleValidation {
-		let whereResult = schemaInstance.validateAllWhereRules(
-			recording: .recordFailureOnly, monitor:validationMonitor)
-		print("\n whereRuleValidationRecord:\n\(whereResult)" )
-	}
+  //MARK: all where rules validation
+  let doWhereRuleValidation = false
+  if doWhereRuleValidation {
+    let whereResult = schemaInstance.validateAllWhereRules(
+      recording: .recordFailureOnly, monitor:validationMonitor)
+    print("\n whereRuleValidationRecord:\n\(whereResult)" )
+  }
+
 
 	//MARK: all validations
 	let doAllValidation = true
@@ -475,7 +476,8 @@ await session.performTransactionVA { transaction in
 
 		print("\n uniquenessRuleValidationRecord: \( schemaInstance.uniquenessRuleValidationRecordDescription)")
 
-		print("\n whereRuleValidationRecord: \( schemaInstance.whereRuleValidationRecord, default: "nil")" )
+    print("\n whereRuleValidationRecord: \( schemaInstance.whereRuleValidationRecord, default: "nil")" )
+
 	}
 
 	return .commit

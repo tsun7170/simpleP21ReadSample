@@ -21,7 +21,9 @@ print(Date.now.formatted())
 let testDataFolder = ProcessInfo.processInfo.environment["TEST_DATA_FOLDER"]!
 
 
-///https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+/*
+ https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+ */
 let url = URL(fileURLWithPath: testDataFolder + "NIST-PMI-STEP-Files/" +
               "nist_ctc_01_asme1_ap242-e1.stp"
 //              "nist_ctc_02_asme1_ap242-e2.stp"
@@ -42,8 +44,10 @@ let url = URL(fileURLWithPath: testDataFolder + "NIST-PMI-STEP-Files/" +
 //              "nist_stc_10_asme1_ap242-e2.stp"
 )
 
-///https://www.cax-if.org/cax/cax_stepLib.php
-///(not accessible any more.)
+/*
+https://www.cax-if.org/cax/cax_stepLib.php
+(not accessible any more.)
+ */
 //let url = URL(fileURLWithPath: testDataFolder + "CAx STEP FILE LIBRARY/" +
 //              "s1-c5-214/MAINBODY_BACK.stp"
 //)

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,12 +28,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F424069B2ED3BAE60088CE1D /* output--nist_stc_10_asme1_ap242-e2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "output--nist_stc_10_asme1_ap242-e2.txt"; sourceTree = "<group>"; };
+		F424069C2ED43B550088CE1D /* output--nist_ctc_01_asme1_ap242-e1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "output--nist_ctc_01_asme1_ap242-e1.txt"; sourceTree = "<group>"; };
+		F424069D2ED6B24E0088CE1D /* output--nist_ctc_02_asme1_ap242-e2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "output--nist_ctc_02_asme1_ap242-e2.txt"; sourceTree = "<group>"; };
+		F424069E2EE6C5310088CE1D /* output--nist_ctc_03_asme1_ap242-e2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "output--nist_ctc_03_asme1_ap242-e2.txt"; sourceTree = "<group>"; };
+		F424069F2EE791DF0088CE1D /* output--nist_ctc_04_asme1_ap242-e1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "output--nist_ctc_04_asme1_ap242-e1.txt"; sourceTree = "<group>"; };
+		F42406A02EE8C84C0088CE1D /* output--nist_ctc_05_asme1_ap242-e1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "output--nist_ctc_05_asme1_ap242-e1.txt"; sourceTree = "<group>"; };
+		F42406A12EE8DA6B0088CE1D /* output--nist_ftc_06_asme1_ap242-e2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "output--nist_ftc_06_asme1_ap242-e2.txt"; sourceTree = "<group>"; };
+		F42406A22EE99C590088CE1D /* output--nist_ftc_07_asme1_ap242-e2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "output--nist_ftc_07_asme1_ap242-e2.txt"; sourceTree = "<group>"; };
+		F42406A32EEA8F120088CE1D /* output--nist_ftc_08_asme1_ap242-e1-tg.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "output--nist_ftc_08_asme1_ap242-e1-tg.txt"; sourceTree = "<group>"; };
+		F42406A42EEACF8D0088CE1D /* output--nist_ftc_08_asme1_ap242-e2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "output--nist_ftc_08_asme1_ap242-e2.txt"; sourceTree = "<group>"; };
+		F42406A52EEAD0670088CE1D /* output--nist_ftc_09_asme1_ap242-e1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "output--nist_ftc_09_asme1_ap242-e1.txt"; sourceTree = "<group>"; };
+		F42406A62EEB8C2B0088CE1D /* output--nist_ftc_10_asme1_ap242-e2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "output--nist_ftc_10_asme1_ap242-e2.txt"; sourceTree = "<group>"; };
+		F42406A72EEC04AD0088CE1D /* output--nist_ftc_11_asme1_ap242-e2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "output--nist_ftc_11_asme1_ap242-e2.txt"; sourceTree = "<group>"; };
+		F42406A82EEC08DD0088CE1D /* output--nist_stc_06_asme1_ap242-e3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "output--nist_stc_06_asme1_ap242-e3.txt"; sourceTree = "<group>"; };
+		F42406A92EEC095E0088CE1D /* output--nist_stc_07_asme1_ap242-e3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "output--nist_stc_07_asme1_ap242-e3.txt"; sourceTree = "<group>"; };
+		F42406AA2EEC09D00088CE1D /* output--nist_stc_08_asme1_ap242-e3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "output--nist_stc_08_asme1_ap242-e3.txt"; sourceTree = "<group>"; };
+		F42406AB2EEC0A4A0088CE1D /* output--nist_stc_09_asme1_ap242-e3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "output--nist_stc_09_asme1_ap242-e3.txt"; sourceTree = "<group>"; };
 		F4245EED270B9F2E000E728C /* simpleP21ReadSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = simpleP21ReadSample; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4245EF0270B9F2E000E728C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F46CE5F1271188CB004A122F /* MyValidationMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyValidationMonitor.swift; sourceTree = "<group>"; };
 		F46CE5F2271188CB004A122F /* MyActivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityMonitor.swift; sourceTree = "<group>"; };
+		F489196027B8F14200D23FC0 /* CAx STEP FILE LIBRARY */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "CAx STEP FILE LIBRARY"; path = "../TestCases/CAx STEP FILE LIBRARY"; sourceTree = "<group>"; };
+		F48BB2B52EC717E900A1B4AA /* output--MAINBODY_BACK.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "output--MAINBODY_BACK.txt"; sourceTree = "<group>"; };
 		F4A35134270E4B1B0020434A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F4C0F1522746E88800EC7C18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4C778BC278122CB00E07768 /* SwiftSDAIcore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftSDAIcore; path = ../SwiftSDAIcore; sourceTree = "<group>"; };
+		F4C778BE278122D700E07768 /* SwiftSDAIap242 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftSDAIap242; path = ../SwiftSDAIap242; sourceTree = "<group>"; };
+		F4C778C02781237D00E07768 /* SwiftAP242PDMkit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftAP242PDMkit; path = ../SwiftAP242PDMkit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +79,10 @@
 				F4A35134270E4B1B0020434A /* LICENSE */,
 				F4245EEF270B9F2E000E728C /* simpleP21ReadSample */,
 				F4245EEE270B9F2E000E728C /* Products */,
+				F489196027B8F14200D23FC0 /* CAx STEP FILE LIBRARY */,
+				F4C778C02781237D00E07768 /* SwiftAP242PDMkit */,
+				F4C778BC278122CB00E07768 /* SwiftSDAIcore */,
+				F4C778BE278122D700E07768 /* SwiftSDAIap242 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,11 +97,37 @@
 		F4245EEF270B9F2E000E728C /* simpleP21ReadSample */ = {
 			isa = PBXGroup;
 			children = (
+				F48BB2B42EC717A900A1B4AA /* output */,
 				F4245EF0270B9F2E000E728C /* main.swift */,
 				F46CE5F2271188CB004A122F /* MyActivityMonitor.swift */,
 				F46CE5F1271188CB004A122F /* MyValidationMonitor.swift */,
 			);
 			path = simpleP21ReadSample;
+			sourceTree = "<group>";
+		};
+		F48BB2B42EC717A900A1B4AA /* output */ = {
+			isa = PBXGroup;
+			children = (
+				F424069C2ED43B550088CE1D /* output--nist_ctc_01_asme1_ap242-e1.txt */,
+				F424069D2ED6B24E0088CE1D /* output--nist_ctc_02_asme1_ap242-e2.txt */,
+				F424069E2EE6C5310088CE1D /* output--nist_ctc_03_asme1_ap242-e2.txt */,
+				F424069F2EE791DF0088CE1D /* output--nist_ctc_04_asme1_ap242-e1.txt */,
+				F42406A02EE8C84C0088CE1D /* output--nist_ctc_05_asme1_ap242-e1.txt */,
+				F42406A12EE8DA6B0088CE1D /* output--nist_ftc_06_asme1_ap242-e2.txt */,
+				F42406A22EE99C590088CE1D /* output--nist_ftc_07_asme1_ap242-e2.txt */,
+				F42406A32EEA8F120088CE1D /* output--nist_ftc_08_asme1_ap242-e1-tg.txt */,
+				F42406A42EEACF8D0088CE1D /* output--nist_ftc_08_asme1_ap242-e2.txt */,
+				F42406A52EEAD0670088CE1D /* output--nist_ftc_09_asme1_ap242-e1.txt */,
+				F42406A62EEB8C2B0088CE1D /* output--nist_ftc_10_asme1_ap242-e2.txt */,
+				F42406A72EEC04AD0088CE1D /* output--nist_ftc_11_asme1_ap242-e2.txt */,
+				F42406A82EEC08DD0088CE1D /* output--nist_stc_06_asme1_ap242-e3.txt */,
+				F42406A92EEC095E0088CE1D /* output--nist_stc_07_asme1_ap242-e3.txt */,
+				F42406AA2EEC09D00088CE1D /* output--nist_stc_08_asme1_ap242-e3.txt */,
+				F42406AB2EEC0A4A0088CE1D /* output--nist_stc_09_asme1_ap242-e3.txt */,
+				F48BB2B52EC717E900A1B4AA /* output--MAINBODY_BACK.txt */,
+				F424069B2ED3BAE60088CE1D /* output--nist_stc_10_asme1_ap242-e2.txt */,
+			);
+			path = output;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,8 +161,9 @@
 		F4245EE5270B9F2E000E728C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 2610;
 				TargetAttributes = {
 					F4245EEC270B9F2E000E728C = {
 						CreatedOnToolsVersion = 12.4;
@@ -158,6 +211,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -188,9 +242,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZX793TWQF2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -210,6 +267,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -219,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -249,9 +308,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZX793TWQF2;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -264,6 +326,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -273,8 +336,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZX793TWQF2;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -284,8 +348,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZX793TWQF2;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -320,7 +385,7 @@
 			repositoryURL = "https://github.com/tsun7170/SwiftSDAIcore.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 2.0.0;
 			};
 		};
 		F46CE5E9271184CE004A122F /* XCRemoteSwiftPackageReference "SwiftSDAIap242" */ = {
@@ -328,7 +393,7 @@
 			repositoryURL = "https://github.com/tsun7170/SwiftSDAIap242.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 2.0.0;
 			};
 		};
 		F46CE5ED271184E5004A122F /* XCRemoteSwiftPackageReference "SwiftAP242PDMkit" */ = {
@@ -336,7 +401,7 @@
 			repositoryURL = "https://github.com/tsun7170/SwiftAP242PDMkit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

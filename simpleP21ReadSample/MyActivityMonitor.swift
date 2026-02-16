@@ -10,21 +10,23 @@ import Foundation
 import SwiftSDAIcore
 
 //MARK: - activity monitor
-class MyActivityMonitor: P21Decode.ActivityMonitor {
+class MyActivityMonitor:
+	P21Decode.ActivityMonitor, @unchecked Sendable
+{
 	override func tokenStreamDidSet(error p21Error: P21Decode.P21Error) {
-		print("error detected on token stream: \(p21Error)")
+		print("\n error detected on token stream: \(p21Error)")
 	}
 	
 	override func parserDidSet(error p21Error: P21Decode.P21Error) {
-		print("error detected on parser: \(p21Error)")
+		print("\n error detected on parser: \(p21Error)")
 	}
 	
 	override func exchangeStructureDidSet(error exError: String) {
-		print("error detected on exchange structure: \(exError)")
+		print("\n error detected on exchange structure: \(exError)")
 	}
 	
 	override func decoderDidSet(error decoderError: P21Decode.Decoder.Error) {
-		print("error detected on decoder: \(decoderError)")
+		print("\n error detected on decoder: \(decoderError)")
 	}
 	
 	override func scannerDidDetectNewLine(lineNumber: Int) {
@@ -33,7 +35,7 @@ class MyActivityMonitor: P21Decode.ActivityMonitor {
 	}
 	
 	var entityCount = 0
-	override func decoderResolved(entiyInstanceName: P21Decode.ExchangeStructure.EntityInstanceName) {
+	override func decoderResolved(entityInstanceName: P21Decode.ExchangeStructure.EntityInstanceName) {
 		entityCount += 1
 		if entityCount % 1000 == 0 			{ print("*", terminator: "") }
 		else if entityCount % 100 == 0 	{ print(".", terminator: "") }		

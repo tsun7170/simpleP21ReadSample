@@ -1,0 +1,1118 @@
+2026/2/8 7:32
+
+ input: nist_ctc_04_asme1_ap242-e1.stp
+
+
+
+ parsing header section: 
+ parsing data section: .........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+....
+ completed parsing.
+ resolving entity instances: .........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*....
+ completed resolving.
+
+ source p21 file: FILE_NAME(headerEntity: SimpleRecord(keyword:FILE_NAME, parameters:[STRING(nist_ctc_04_asme1_ap242-e1.stp), STRING(2020-05-01T09:17:13), [STRING()], [STRING()], STRING(), STRING(), STRING()]))
+
+ created models: [(name: "nist_ctc_04_asme1_ap242-e1.stp.PRIMARY", modeID: B5A28CE3-868E-4A31-8D7F-999B2763E66D)]
+
+(1) decode complete
+
+
+APPLICATION_CONTEXT[0] #1: APPLICATION(tLABEL(rep: STRING(Managed model based 3d engineering))), ID(nil), DESCRIPTION(nil) 
+
+APPLICATION_PROTOCOL_DEFINITION #2: tLABEL(rep: STRING(ap242_managed_model_based_3d_engineering))
+
+
+
+product identification[0] [PRODUCT_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#11] id:'design'
+	[PRODUCT_DEFINITION_FORMATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#9] id:'D'
+	[PRODUCT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#8] id:'2012_CTC_04_ASME1_RD', name:'NIST PMI Test Case 4 Complex Model'
+
+	product category:[PRODUCT_RELATED_PRODUCT_CATEGORY-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#14] name:'part'
+	product context:[PRODUCT_DEFINITION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#10] name:'part definition'
+
+	*** TOP LEVEL ASSEMBLY ***
+
+	product property[0.0][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18297] name:'attribute validation property'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18298] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+0.					nil RADIAN
+1.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+1.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.0.0][INTEGER_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18294]
+			rep[0.0.1][INTEGER_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18292]
+			rep[0.0.2][INTEGER_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18296]
+			rep[0.0.3][INTEGER_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18293]
+			rep[0.0.4][INTEGER_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18295]
+	product property[0.1][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18266] name:'ZAxisX'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18267] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.1.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18265]
+	product property[0.2][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18246] name:'ZAxisZ'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18247] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.2.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18245]
+	product property[0.3][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18271] name:'ZAxisY'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18272] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.3.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18270]
+	product property[0.4][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18135] name:'Iyx'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18136] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.4.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18134]
+	product property[0.5][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18213] name:'OriginZ'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18214] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.5.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18212]
+	product property[0.6][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18171] name:'Iyz'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18172] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.6.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18170]
+	product property[0.7][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18225] name:'YAxisY'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18226] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.7.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18224]
+	product property[0.8][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18087] name:'Volume'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18088] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.8.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18086]
+	product property[0.9][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18165] name:'Ixz'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18166] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.9.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18164]
+	product property[0.10][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18231] name:'YAxisZ'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18232] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.10.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18230]
+	product property[0.11][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18056] name:'Modeled By'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18057] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.11.0][DESCRIPTIVE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18055]
+	product property[0.12][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18256] name:'OriginY'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18257] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.12.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18255]
+	product property[0.13][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18129] name:'Ixx'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18130] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.13.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18128]
+	product property[0.14][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18183] name:'ZAxisX'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18184] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.14.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18182]
+	product property[0.15][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18261] name:'OriginZ'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18262] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.15.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18260]
+	product property[0.16][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18079] name:'Density'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18080] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.16.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18078]
+	product property[0.17][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18101] name:'Surface'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18102] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.17.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18100]
+	product property[0.18][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18241] name:'ZAxisY'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18242] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.18.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18240]
+	product property[0.19][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18177] name:'Izz'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18178] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.19.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18176]
+	product property[0.20][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18251] name:'OriginX'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18252] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.20.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18250]
+	product property[0.21][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18113] name:'yCenterOfGravity'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18114] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.21.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18112]
+	product property[0.22][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18141] name:'Izx'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18142] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.22.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18140]
+	product property[0.23][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18062] name:'CAGE Code'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18063] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.23.0][DESCRIPTIVE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18061]
+	product property[0.24][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18119] name:'zCenterOfGravity'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18120] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.24.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18118]
+	product property[0.25][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18147] name:'Ixy'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18148] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.25.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18146]
+	product property[0.26][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18207] name:'OriginY'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18208] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.26.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18206]
+	product property[0.27][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18276] name:'ZAxisZ'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18277] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.27.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18275]
+	product property[0.28][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18219] name:'YAxisX'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18220] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.28.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18218]
+	product property[0.29][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18093] name:'Mass'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18094] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.29.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18092]
+	product property[0.30][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18159] name:'Izy'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18160] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.30.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18158]
+	product property[0.31][PRODUCT_DEFINITION_SHAPE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#12] name:''
+		[SHAPE_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18049] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.31.0][AXIS2_PLACEMENT_3D-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18026]
+	product property[0.32][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18068] name:'Company'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18069] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.32.0][DESCRIPTIVE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18067]
+	product property[0.33][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18153] name:'Iyy'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18154] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.33.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18152]
+	product property[0.34][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18195] name:'ZAxisZ'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18196] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.34.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18194]
+	product property[0.35][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18201] name:'OriginX'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18202] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.35.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18200]
+	product property[0.36][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18189] name:'ZAxisY'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18190] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.36.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18188]
+	product property[0.37][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18236] name:'ZAxisX'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18237] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.37.0][REAL_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18235]
+	product property[0.38][PROPERTY_DEFINITION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18107] name:'xCenterOfGravity'
+		[REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18108] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#5] type:'3D Context with UNIT and UNCERTAINTY'
+0.				unit:[SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3, LENGTH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#3]
+0.					Optional(SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+1.				unit:[PLANE_ANGLE_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4, SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#4]
+1.					nil RADIAN
+
+			rep[0.38.0][MEASURE_REPRESENTATION_ITEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18106]
+
+	product shape:PRODUCT_DEFINITION_SHAPE.PRef=> #12_mB5A28CE3-868E-4A31-8D7F-999B2763E66D
+	shape aspect[0.0][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19790] name:'Angular Size.1'
+	shape aspect[0.1][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19445] name:'Linear Size.15'
+	shape aspect[0.2][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18641] name:'Position.2'
+	shape aspect[0.3][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18656] name:'Position.2'
+	shape aspect[0.4][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19713] name:'Angular Size.1'
+	shape aspect[0.5][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19631] name:'Angular Size.1'
+	shape aspect[0.6][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19281] name:'Linear Size.11'
+	shape aspect[0.7][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19288] name:'Linear Size.11'
+	shape aspect[0.8][DATUM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18558] name:''
+	shape aspect[0.9][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19159] name:'Linear Size.11'
+	shape aspect[0.10][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19085] name:'Linear Size.11'
+	shape aspect[0.11][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19834] name:'Angular Size.1'
+	shape aspect[0.12][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19660] name:'Angular Size.1'
+	shape aspect[0.13][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19242] name:'Linear Size.11'
+	shape aspect[0.14][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18866] name:'Position.3'
+	shape aspect[0.15][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19022] name:'Dimension.1'
+	shape aspect[0.16][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19347] name:'Linear Size.11'
+	shape aspect[0.17][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20249] name:'Linear Size.18'
+	shape aspect[0.18][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20022] name:'Linear Size.17'
+	shape aspect[0.19][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18767] name:'Position surfacic profile.3'
+	shape aspect[0.20][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18676] name:'Position.2'
+	shape aspect[0.21][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19752] name:'Angular Size.1'
+	shape aspect[0.22][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19438] name:'Linear Size.15'
+	shape aspect[0.23][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18654] name:'Position.2'
+	shape aspect[0.24][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19222] name:'Linear Size.11'
+	shape aspect[0.25][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18700] name:'Position.2'
+	shape aspect[0.26][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19177] name:'Linear Size.11'
+	shape aspect[0.27][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19774] name:'Angular Size.1'
+	shape aspect[0.28][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19153] name:'Linear Size.11'
+	shape aspect[0.29][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20082] name:'Linear Size.17'
+	shape aspect[0.30][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19454] name:'Linear Size.15'
+	shape aspect[0.31][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20090] name:'Linear Size.17'
+	shape aspect[0.32][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19277] name:'Linear Size.11'
+	shape aspect[0.33][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19781] name:'Angular Size.1'
+	shape aspect[0.34][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20014] name:'Linear Size.17'
+	shape aspect[0.35][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19785] name:'Angular Size.1'
+	shape aspect[0.36][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19845] name:'Angular Size.1'
+	shape aspect[0.37][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20304] name:'Dimension.2'
+	shape aspect[0.38][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18678] name:'Position.2'
+	shape aspect[0.39][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20118] name:'Linear Size.17'
+	shape aspect[0.40][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19671] name:'Angular Size.1'
+	shape aspect[0.41][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19118] name:'Linear Size.11'
+	shape aspect[0.42][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#573] name:''
+	shape aspect[0.43][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19990] name:'Linear Size.17'
+	shape aspect[0.44][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20186] name:'Linear Size.17'
+	shape aspect[0.45][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19107] name:'Linear Size.11'
+	shape aspect[0.46][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20110] name:'Linear Size.17'
+	shape aspect[0.47][DATUM_FEATURE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18457] name:'Simple Datum.5'
+	shape aspect[0.48][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18981] name:'Dimension.1'
+	shape aspect[0.49][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19275] name:'Linear Size.11'
+	shape aspect[0.50][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19867] name:'Angular Size.1'
+	shape aspect[0.51][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19310] name:'Linear Size.11'
+	shape aspect[0.52][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20142] name:'Linear Size.17'
+	shape aspect[0.53][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#542] name:''
+	shape aspect[0.54][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#621] name:''
+	shape aspect[0.55][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20130] name:'Linear Size.17'
+	shape aspect[0.56][DATUM_SYSTEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18728] name:''
+	shape aspect[0.57][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19680] name:'Angular Size.1'
+	shape aspect[0.58][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19958] name:'Linear Size.17'
+	shape aspect[0.59][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18789] name:''
+	shape aspect[0.60][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19970] name:'Linear Size.17'
+	shape aspect[0.61][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19102] name:'Linear Size.11'
+	shape aspect[0.62][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20194] name:'Linear Size.17'
+	shape aspect[0.63][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18876] name:'Position.3'
+	shape aspect[0.64][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20002] name:'Linear Size.17'
+	shape aspect[0.65][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19614] name:'Angular Size.1'
+	shape aspect[0.66][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#17421] name:''
+	shape aspect[0.67][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19823] name:'Angular Size.1'
+	shape aspect[0.68][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19974] name:'Linear Size.17'
+	shape aspect[0.69][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19193] name:'Linear Size.11'
+	shape aspect[0.70][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18665] name:'Position.2'
+	shape aspect[0.71][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20257] name:'Linear Size.18'
+	shape aspect[0.72][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18384] name:'Simple Datum.8'
+	shape aspect[0.73][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19682] name:'Angular Size.1'
+	shape aspect[0.74][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19708] name:'Angular Size.1'
+	shape aspect[0.75][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19583] name:'Angular Size.1'
+	shape aspect[0.76][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20054] name:'Linear Size.17'
+	shape aspect[0.77][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18704] name:'Position.2'
+	shape aspect[0.78][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18388] name:'Simple Datum.8'
+	shape aspect[0.79][TOLERANCE_ZONE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18732] name:''
+	shape aspect[0.80][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19620] name:'Angular Size.1'
+	shape aspect[0.81][DATUM_FEATURE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18491] name:'Simple Datum.6'
+	shape aspect[0.82][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20174] name:'Linear Size.17'
+	shape aspect[0.83][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19512] name:'Linear Size.16'
+	shape aspect[0.84][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18726] name:''
+	shape aspect[0.85][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20066] name:'Linear Size.17'
+	shape aspect[0.86][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19076] name:'Linear Size.11'
+	shape aspect[0.87][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19884] name:'Angular Size.1'
+	shape aspect[0.88][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19449] name:'Linear Size.15'
+	shape aspect[0.89][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19264] name:'Linear Size.11'
+	shape aspect[0.90][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19209] name:'Linear Size.11'
+	shape aspect[0.91][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18687] name:'Position.2'
+	shape aspect[0.92][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18594] name:'Position.1'
+	shape aspect[0.93][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19369] name:'Linear Size.11'
+	shape aspect[0.94][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20146] name:'Linear Size.17'
+	shape aspect[0.95][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19129] name:'Linear Size.11'
+	shape aspect[0.96][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19325] name:'Linear Size.11'
+	shape aspect[0.97][DATUM_SYSTEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18606] name:''
+	shape aspect[0.98][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19332] name:'Linear Size.11'
+	shape aspect[0.99][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19341] name:'Linear Size.11'
+	shape aspect[0.100][TOLERANCE_ZONE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18610] name:''
+	shape aspect[0.101][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20062] name:'Linear Size.17'
+	shape aspect[0.102][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19170] name:'Linear Size.11'
+	shape aspect[0.103][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20158] name:'Linear Size.17'
+	shape aspect[0.104][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20150] name:'Linear Size.17'
+	shape aspect[0.105][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19187] name:'Linear Size.11'
+	shape aspect[0.106][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20190] name:'Linear Size.17'
+	shape aspect[0.107][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19829] name:'Angular Size.1'
+	shape aspect[0.108][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19730] name:'Angular Size.1'
+	shape aspect[0.109][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18671] name:'Position.2'
+	shape aspect[0.110][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19763] name:'Angular Size.1'
+	shape aspect[0.111][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20042] name:'Linear Size.17'
+	shape aspect[0.112][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19746] name:'Angular Size.1'
+	shape aspect[0.113][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19526] name:'Linear Size.16'
+	shape aspect[0.114][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20046] name:'Linear Size.17'
+	shape aspect[0.115][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19579] name:'Angular Size.1'
+	shape aspect[0.116][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19175] name:'Linear Size.11'
+	shape aspect[0.117][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19510] name:'Linear Size.16'
+	shape aspect[0.118][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19255] name:'Linear Size.11'
+	shape aspect[0.119][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19704] name:'Angular Size.1'
+	shape aspect[0.120][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20154] name:'Linear Size.17'
+	shape aspect[0.121][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18682] name:'Position.2'
+	shape aspect[0.122][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19625] name:'Angular Size.1'
+	shape aspect[0.123][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19587] name:'Angular Size.1'
+	shape aspect[0.124][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19862] name:'Angular Size.1'
+	shape aspect[0.125][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18645] name:'Position.2'
+	shape aspect[0.126][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19233] name:'Linear Size.11'
+	shape aspect[0.127][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19358] name:'Linear Size.11'
+	shape aspect[0.128][DATUM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18524] name:''
+	shape aspect[0.129][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19962] name:'Linear Size.17'
+	shape aspect[0.130][DATUM_FEATURE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18341, COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18341] name:'Simple Datum.9'
+	shape aspect[0.131][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19686] name:'Angular Size.1'
+	shape aspect[0.132][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20299] name:'Linear Size.18'
+	shape aspect[0.133][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19792] name:'Angular Size.1'
+	shape aspect[0.134][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19303] name:'Linear Size.11'
+	shape aspect[0.135][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19856] name:'Angular Size.1'
+	shape aspect[0.136][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19609] name:'Angular Size.1'
+	shape aspect[0.137][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19074] name:'Linear Size.11'
+	shape aspect[0.138][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19900] name:'Angular Size.1'
+	shape aspect[0.139][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19226] name:'Linear Size.11'
+	shape aspect[0.140][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20070] name:'Linear Size.17'
+	shape aspect[0.141][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18894] name:''
+	shape aspect[0.142][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19231] name:'Linear Size.11'
+	shape aspect[0.143][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19292] name:'Linear Size.11'
+	shape aspect[0.144][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18975] name:'Dimension.1'
+	shape aspect[0.145][DATUM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18301] name:''
+	shape aspect[0.146][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#207] name:''
+	shape aspect[0.147][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18725] name:''
+	shape aspect[0.148][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18693] name:'Position.2'
+	shape aspect[0.149][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19880] name:'Angular Size.1'
+	shape aspect[0.150][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19818] name:'Angular Size.1'
+	shape aspect[0.151][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18689] name:'Position.2'
+	shape aspect[0.152][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19354] name:'Linear Size.11'
+	shape aspect[0.153][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20253] name:'Linear Size.18'
+	shape aspect[0.154][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18971] name:'Dimension.1'
+	shape aspect[0.155][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20162] name:'Linear Size.17'
+	shape aspect[0.156][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18880] name:'Position.3'
+	shape aspect[0.157][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19726] name:'Angular Size.1'
+	shape aspect[0.158][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19873] name:'Angular Size.1'
+	shape aspect[0.159][DATUM_FEATURE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18423] name:'Simple Datum.4'
+	shape aspect[0.160][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19248] name:'Linear Size.11'
+	shape aspect[0.161][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20243] name:'Linear Size.18'
+	shape aspect[0.162][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18985] name:'Dimension.1'
+	shape aspect[0.163][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18698] name:'Position.2'
+	shape aspect[0.164][DATUM_SYSTEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18713] name:''
+	shape aspect[0.165][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20245] name:'Linear Size.18'
+	shape aspect[0.166][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20034] name:'Linear Size.17'
+	shape aspect[0.167][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19966] name:'Linear Size.17'
+	shape aspect[0.168][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19181] name:'Linear Size.11'
+	shape aspect[0.169][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20134] name:'Linear Size.17'
+	shape aspect[0.170][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19155] name:'Linear Size.11'
+	shape aspect[0.171][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19779] name:'Angular Size.1'
+	shape aspect[0.172][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19144] name:'Linear Size.11'
+	shape aspect[0.173][DATUM_FEATURE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18559] name:'Simple Datum.11'
+	shape aspect[0.174][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19434] name:'Linear Size.15'
+	shape aspect[0.175][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19986] name:'Linear Size.17'
+	shape aspect[0.176][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19460] name:'Linear Size.15'
+	shape aspect[0.177][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19259] name:'Linear Size.11'
+	shape aspect[0.178][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19796] name:'Angular Size.1'
+	shape aspect[0.179][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19994] name:'Linear Size.17'
+	shape aspect[0.180][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#387] name:''
+	shape aspect[0.181][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19836] name:'Angular Size.1'
+	shape aspect[0.182][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#463] name:''
+	shape aspect[0.183][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19343] name:'Linear Size.11'
+	shape aspect[0.184][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18868] name:'Position.3'
+	shape aspect[0.185][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19592] name:'Angular Size.1'
+	shape aspect[0.186][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20038] name:'Linear Size.17'
+	shape aspect[0.187][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19321] name:'Linear Size.11'
+	shape aspect[0.188][TOLERANCE_ZONE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18717] name:''
+	shape aspect[0.189][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19891] name:'Angular Size.1'
+	shape aspect[0.190][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19605] name:'Angular Size.1'
+	shape aspect[0.191][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19211] name:'Linear Size.11'
+	shape aspect[0.192][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19266] name:'Linear Size.11'
+	shape aspect[0.193][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19244] name:'Linear Size.11'
+	shape aspect[0.194][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19847] name:'Angular Size.1'
+	shape aspect[0.195][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19715] name:'Angular Size.1'
+	shape aspect[0.196][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18660] name:'Position.2'
+	shape aspect[0.197][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19801] name:'Angular Size.1'
+	shape aspect[0.198][DATUM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18490] name:''
+	shape aspect[0.199][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19768] name:'Angular Size.1'
+	shape aspect[0.200][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19365] name:'Linear Size.11'
+	shape aspect[0.201][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19120] name:'Linear Size.11'
+	shape aspect[0.202][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18777] name:''
+	shape aspect[0.203][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20114] name:'Linear Size.17'
+	shape aspect[0.204][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20178] name:'Linear Size.17'
+	shape aspect[0.205][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18710] name:''
+	shape aspect[0.206][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19522] name:'Linear Size.16'
+	shape aspect[0.207][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19869] name:'Angular Size.1'
+	shape aspect[0.208][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18649] name:'Position.2'
+	shape aspect[0.209][DATUM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18340] name:''
+	shape aspect[0.210][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19627] name:'Angular Size.1'
+	shape aspect[0.211][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18711] name:''
+	shape aspect[0.212][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19581] name:'Angular Size.1'
+	shape aspect[0.213][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#352] name:''
+	shape aspect[0.214][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19253] name:'Linear Size.11'
+	shape aspect[0.215][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19956] name:'Linear Size.17'
+	shape aspect[0.216][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19825] name:'Angular Size.1'
+	shape aspect[0.217][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19812] name:'Angular Size.1'
+	shape aspect[0.218][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19697] name:'Angular Size.1'
+	shape aspect[0.219][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20102] name:'Linear Size.17'
+	shape aspect[0.220][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19113] name:'Linear Size.11'
+	shape aspect[0.221][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19189] name:'Linear Size.11'
+	shape aspect[0.222][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19198] name:'Linear Size.11'
+	shape aspect[0.223][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19270] name:'Linear Size.11'
+	shape aspect[0.224][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19314] name:'Linear Size.11'
+	shape aspect[0.225][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19658] name:'Angular Size.1'
+	shape aspect[0.226][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20166] name:'Linear Size.17'
+	shape aspect[0.227][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19902] name:'Angular Size.1'
+	shape aspect[0.228][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20074] name:'Linear Size.17'
+	shape aspect[0.229][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19148] name:'Linear Size.11'
+	shape aspect[0.230][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20310] name:'Dimension.2'
+	shape aspect[0.231][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19319] name:'Linear Size.11'
+	shape aspect[0.232][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19080] name:'Linear Size.11'
+	shape aspect[0.233][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19748] name:'Angular Size.1'
+	shape aspect[0.234][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19638] name:'Angular Size.1'
+	shape aspect[0.235][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#426] name:''
+	shape aspect[0.236][DATUM_SYSTEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18791] name:''
+	shape aspect[0.237][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18979] name:'Dimension.1'
+	shape aspect[0.238][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18643] name:'Position.2'
+	shape aspect[0.239][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19530] name:'Linear Size.16'
+	shape aspect[0.240][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19982] name:'Linear Size.17'
+	shape aspect[0.241][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19091] name:'Linear Size.11'
+	shape aspect[0.242][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19675] name:'Angular Size.1'
+	shape aspect[0.243][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19131] name:'Linear Size.11'
+	shape aspect[0.244][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18765] name:'Position surfacic profile.3'
+	shape aspect[0.245][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19423] name:'Linear Size.15'
+	shape aspect[0.246][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19998] name:'Linear Size.17'
+	shape aspect[0.247][DATUM_SYSTEM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18779] name:''
+	shape aspect[0.248][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20182] name:'Linear Size.17'
+	shape aspect[0.249][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19124] name:'Linear Size.11'
+	shape aspect[0.250][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20106] name:'Linear Size.17'
+	shape aspect[0.251][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18969] name:'Dimension.1'
+	shape aspect[0.252][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19427] name:'Linear Size.15'
+	shape aspect[0.253][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19737] name:'Angular Size.1'
+	shape aspect[0.254][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19096] name:'Linear Size.11'
+	shape aspect[0.255][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19574] name:'Linear Size.16'
+	shape aspect[0.256][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19978] name:'Linear Size.17'
+	shape aspect[0.257][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#17374] name:''
+	shape aspect[0.258][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19215] name:'Linear Size.11'
+	shape aspect[0.259][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19691] name:'Angular Size.1'
+	shape aspect[0.260][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19237] name:'Linear Size.11'
+	shape aspect[0.261][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19814] name:'Angular Size.1'
+	shape aspect[0.262][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19598] name:'Angular Size.1'
+	shape aspect[0.263][DATUM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18456] name:''
+	shape aspect[0.264][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19603] name:'Angular Size.1'
+	shape aspect[0.265][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19432] name:'Linear Size.15'
+	shape aspect[0.266][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#511] name:''
+	shape aspect[0.267][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19735] name:'Angular Size.1'
+	shape aspect[0.268][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19098] name:'Linear Size.11'
+	shape aspect[0.269][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18709] name:''
+	shape aspect[0.270][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19200] name:'Linear Size.11'
+	shape aspect[0.271][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20006] name:'Linear Size.17'
+	shape aspect[0.272][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19649] name:'Angular Size.1'
+	shape aspect[0.273][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19072] name:'Linear Size.11'
+	shape aspect[0.274][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19421] name:'Linear Size.15'
+	shape aspect[0.275][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19330] name:'Linear Size.11'
+	shape aspect[0.276][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19456] name:'Linear Size.15'
+	shape aspect[0.277][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19719] name:'Angular Size.1'
+	shape aspect[0.278][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19647] name:'Angular Size.1'
+	shape aspect[0.279][COMPOSITE_GROUP_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19419] name:'Linear Size.15'
+	shape aspect[0.280][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19109] name:'Linear Size.11'
+	shape aspect[0.281][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20058] name:'Linear Size.17'
+	shape aspect[0.282][DATUM_FEATURE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18525] name:'Simple Datum.10'
+	shape aspect[0.283][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#316] name:''
+	shape aspect[0.284][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18776] name:''
+	shape aspect[0.285][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#591] name:''
+	shape aspect[0.286][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19220] name:'Linear Size.11'
+	shape aspect[0.287][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20094] name:'Linear Size.17'
+	shape aspect[0.288][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19166] name:'Linear Size.11'
+	shape aspect[0.289][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19889] name:'Angular Size.1'
+	shape aspect[0.290][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#93] name:''
+	shape aspect[0.291][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19352] name:'Linear Size.11'
+	shape aspect[0.292][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19308] name:'Linear Size.11'
+	shape aspect[0.293][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19724] name:'Angular Size.1'
+	shape aspect[0.294][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19669] name:'Angular Size.1'
+	shape aspect[0.295][DATUM_FEATURE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18302] name:'Simple Datum.1'
+	shape aspect[0.296][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20170] name:'Linear Size.17'
+	shape aspect[0.297][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18872] name:'Position.3'
+	shape aspect[0.298][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20122] name:'Linear Size.17'
+	shape aspect[0.299][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20138] name:'Linear Size.17'
+	shape aspect[0.300][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19851] name:'Angular Size.1'
+	shape aspect[0.301][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19142] name:'Linear Size.11'
+	shape aspect[0.302][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20098] name:'Linear Size.17'
+	shape aspect[0.303][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18343] name:'Simple Datum.9'
+	shape aspect[0.304][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19803] name:'Angular Size.1'
+	shape aspect[0.305][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19443] name:'Linear Size.15'
+	shape aspect[0.306][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19759] name:'Angular Size.1'
+	shape aspect[0.307][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19807] name:'Angular Size.1'
+	shape aspect[0.308][TOLERANCE_ZONE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18893] name:''
+	shape aspect[0.309][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18603] name:''
+	shape aspect[0.310][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19858] name:'Angular Size.1'
+	shape aspect[0.311][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19594] name:'Angular Size.1'
+	shape aspect[0.312][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18771] name:'Position surfacic profile.3'
+	shape aspect[0.313][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19840] name:'Angular Size.1'
+	shape aspect[0.314][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#17413] name:''
+	shape aspect[0.315][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20030] name:'Linear Size.17'
+	shape aspect[0.316][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20010] name:'Linear Size.17'
+	shape aspect[0.317][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20078] name:'Linear Size.17'
+	shape aspect[0.318][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19878] name:'Angular Size.1'
+	shape aspect[0.319][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19520] name:'Linear Size.16'
+	shape aspect[0.320][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19164] name:'Linear Size.11'
+	shape aspect[0.321][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19516] name:'Linear Size.16'
+	shape aspect[0.322][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19297] name:'Linear Size.11'
+	shape aspect[0.323][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18592] name:'Position.1'
+	shape aspect[0.324][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19693] name:'Angular Size.1'
+	shape aspect[0.325][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19757] name:'Angular Size.1'
+	shape aspect[0.326][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19616] name:'Angular Size.1'
+	shape aspect[0.327][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19286] name:'Linear Size.11'
+	shape aspect[0.328][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19636] name:'Angular Size.1'
+	shape aspect[0.329][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20086] name:'Linear Size.17'
+	shape aspect[0.330][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20050] name:'Linear Size.17'
+	shape aspect[0.331][DATUM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18422] name:''
+	shape aspect[0.332][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20026] name:'Linear Size.17'
+	shape aspect[0.333][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#606] name:''
+	shape aspect[0.334][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#527] name:''
+	shape aspect[0.335][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18667] name:'Position.2'
+	shape aspect[0.336][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19087] name:'Linear Size.11'
+	shape aspect[0.337][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20018] name:'Linear Size.17'
+	shape aspect[0.338][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#254] name:''
+	shape aspect[0.339][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19642] name:'Angular Size.1'
+	shape aspect[0.340][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18604] name:''
+	shape aspect[0.341][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19653] name:'Angular Size.1'
+	shape aspect[0.342][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19363] name:'Linear Size.11'
+	shape aspect[0.343][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19895] name:'Angular Size.1'
+	shape aspect[0.344][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19770] name:'Angular Size.1'
+	shape aspect[0.345][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20306] name:'Dimension.2'
+	shape aspect[0.346][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18826] name:'Position surfacic profile.2'
+	shape aspect[0.347][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18602] name:''
+	shape aspect[0.348][DATUM_FEATURE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18382, COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18382] name:'Simple Datum.8'
+	shape aspect[0.349][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19741] name:'Angular Size.1'
+	shape aspect[0.350][DATUM_REFERENCE_COMPARTMENT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18775] name:''
+	shape aspect[0.351][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18598] name:'Position.1'
+	shape aspect[0.352][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#558] name:''
+	shape aspect[0.353][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19299] name:'Linear Size.11'
+	shape aspect[0.354][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20126] name:'Linear Size.17'
+	shape aspect[0.355][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19204] name:'Linear Size.11'
+	shape aspect[0.356][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19534] name:'Linear Size.16'
+	shape aspect[0.357][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18347] name:'Simple Datum.9'
+	shape aspect[0.358][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19336] name:'Linear Size.11'
+	shape aspect[0.359][DATUM-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18381] name:''
+	shape aspect[0.360][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19664] name:'Angular Size.1'
+	shape aspect[0.361][COMPOSITE_SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19702] name:'Angular Size.1'
+	shape aspect[0.362][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19906] name:'Angular Size.1'
+	shape aspect[0.363][SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19135] name:'Linear Size.11'
+
+
+
+(2) inspection complete
+
+
+
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[565]:	 #lookups: 1701, #hits: 1136, %hit rate: 66.784245%
+ model   cache[2]:	 #lookups: 1901, #hits: 1899, %hit rate: 99.894792%
+
+ validating instance reference domain for 78141 application instances:
+ ....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_76025]
+ complex cache[2819]:	 #lookups: 302738, #hits: 299919, %hit rate: 99.068832%
+ model   cache[2]:	 #lookups: 6191, #hits: 6189, %hit rate: 99.967695%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_77172]
+ complex cache[2205]:	 #lookups: 291269, #hits: 289064, %hit rate: 99.242968%
+ model   cache[2]:	 #lookups: 4200, #hits: 4198, %hit rate: 99.952381%
+10
+ duration: 0:02:34
+
+
+ validating 55 global rules:
+ .........+.........+.........+..
+FAILED: VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_22108]
+ complex cache[748]:	 #lookups: 5727, #hits: 4979, %hit rate: 86.939061%
+ model   cache[2]:	 #lookups: 1491, #hits: 1489, %hit rate: 99.865862%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_0]
+ complex cache[12]:	 #lookups: 100, #hits: 88, %hit rate: 88%
+ model   cache[2]:	 #lookups: 20, #hits: 18, %hit rate: 90%
+
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[3323]:	 #lookups: 394299, #hits: 390976, %hit rate: 99.157239%
+ model   cache[2]:	 #lookups: 6347, #hits: 6345, %hit rate: 99.968489%
+.......+.........+.
+FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
+....
+ duration: 0:00:12
+
+
+ validating 49 uniqueness rules:
+ .........+
+FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1)
+.
+FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2)
+...
+FAILED: UniquenessRule(DATUM_SYSTEM.UNIQUE_ur1)
+.....+.........+.........+.........
+ duration: 0:00:01
+
+
+ validating where rules for 20456 complex entities:
+ 
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_15]
+ complex cache[1466]:	 #lookups: 17226, #hits: 15760, %hit rate: 91.489609%
+ model   cache[2]:	 #lookups: 3518, #hits: 3516, %hit rate: 99.94315%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_59678]
+ complex cache[728]:	 #lookups: 28153, #hits: 27425, %hit rate: 97.41413%
+ model   cache[1]:	 #lookups: 728, #hits: 727, %hit rate: 99.862637%
+
+SDAI Thread Local Cache Statistics [SDAI.usedIn _18750]
+ complex cache[916]:	 #lookups: 138040, #hits: 137124, %hit rate: 99.336424%
+ model   cache[2]:	 #lookups: 1222, #hits: 1220, %hit rate: 99.836334%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_76215]
+ complex cache[3666]:	 #lookups: 403048, #hits: 399382, %hit rate: 99.090431%
+ model   cache[2]:	 #lookups: 5511, #hits: 5509, %hit rate: 99.963709%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_77752]
+ complex cache[3494]:	 #lookups: 406326, #hits: 402832, %hit rate: 99.140099%
+ model   cache[2]:	 #lookups: 5735, #hits: 5733, %hit rate: 99.965126%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_76597]
+ complex cache[3099]:	 #lookups: 384226, #hits: 381127, %hit rate: 99.193443%
+ model   cache[2]:	 #lookups: 4542, #hits: 4540, %hit rate: 99.955967%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_77365]
+ complex cache[4001]:	 #lookups: 413950, #hits: 409949, %hit rate: 99.033458%
+ model   cache[2]:	 #lookups: 7496, #hits: 7494, %hit rate: 99.973319%
+b
+...
+FAILED: CAMERA_MODEL-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20491 .WHERE_wr1
+.+...
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20279 .WHERE_wr1
+.1
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20231 .WHERE_wr3
+.
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20287 .WHERE_wr3
+..
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20223 .WHERE_wr1
+.+
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19563 .WHERE_wr3
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19399 .WHERE_wr1
+
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19011 .WHERE_wr3
+...2.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19555 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19407 .WHERE_wr3
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19003 .WHERE_wr1
+.
+FAILED: MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18158 .WHERE_wr1
++.
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18854 .WHERE_wr3
+
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19498 .WHERE_wr3
+...
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19490 .WHERE_wr1
+3.
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18546 .WHERE_wr3
+.
+FAILED: MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18134 .WHERE_wr1
+.
+FAILED: CONSTRUCTIVE_GEOMETRY_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18290 .WHERE_wr2
+.
+FAILED: MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18146 .WHERE_wr1
++.
+FAILED: MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18078 .WHERE_wr1
+.
+FAILED: MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18170 .WHERE_wr1
+..4
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18846 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18478 .WHERE_wr3
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18470 .WHERE_wr1
+...
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18402 .WHERE_wr1
+
+VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 375] @2026-02-07 23:13:45 +0000 
+failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
++
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20498 .WHERE_wr2
+.
+FAILED: VIEW_VOLUME-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20490 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18538 .WHERE_wr1
+..
+FAILED: SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18606 .WHERE_wr1
+
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18410 .WHERE_wr3
+.5.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20449 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20373 .WHERE_wr3
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20421 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18369 .WHERE_wr3
+.
+FAILED: GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18029 .WHERE_wr4
+
+FAILED: GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18029 .WHERE_wr3
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20393 .WHERE_wr1
++
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18805 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18621 .WHERE_wr1
+...6
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20401 .WHERE_wr3
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20365 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18957 .WHERE_wr3
+...
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18813 .WHERE_wr3
++.
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20429 .WHERE_wr3
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18949 .WHERE_wr1
+..7
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20457 .WHERE_wr3
+....
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18361 .WHERE_wr1
+
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18629 .WHERE_wr3
++
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20344 .WHERE_wr3
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20336 .WHERE_wr1
+
+VA_NEXS [420]: Value does not exist. #_description__getter(SELF:) [in SwiftSDAIap242/characterized_representation.swift: line 375] @2026-02-07 23:23:41 +0000 
+failed to unwrap tTEXT optional value; fall back to the default value[tTEXT(rep: STRING())]
+.
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18300 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18504 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18908 .WHERE_wr1
+
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19944 .WHERE_wr3
+.8
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18572 .WHERE_wr1
+
+FAILED: SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18124 .WHERE_wr1
+.
+FAILED: MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18176 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18320 .WHERE_wr1
+
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18580 .WHERE_wr3
+..+
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18744 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18916 .WHERE_wr3
+
+FAILED: MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18164 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19936 .WHERE_wr1
+
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19060 .WHERE_wr3
+..
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18444 .WHERE_wr3
+
+FAILED: MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18128 .WHERE_wr1
+9
+FAILED: MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18140 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19052 .WHERE_wr1
+.
+FAILED: MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18152 .WHERE_wr1
+..+
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18328 .WHERE_wr3
+..
+FAILED: ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18436 .WHERE_wr1
+
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18752 .WHERE_wr3
+..
+FAILED: ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18512 .WHERE_wr3
+10
+ duration: 0:54:02
+
+
+ SCHEMA INSTANCE VALIDATION RESULT
+ validationPassed?: LOGICAL(FALSE)
+
+ instanceReferenceDomainValidationRecord: InstanceReferenceDomainValidationResult( result:LOGICAL(UNKNOWN)
+
+
+
+ globalRuleValidationRecord: GlobalRuleValidationResult 2 records
+[0]LOGICAL(FALSE)	VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES:	(WHERE_wr1: LOGICAL(FALSE)) 
+[1]LOGICAL(FALSE)	AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED:	(WHERE_wr1: LOGICAL(FALSE)) 
+
+
+
+ uniquenessRuleValidationRecord: UniquenessRuleValidationResult  3 records
+[0]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1): #duplicates(29) / #instances(304)
+[1]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur2): #duplicates(14) / #instances(304)
+[2]LOGICAL(FALSE)	UniquenessRule(DATUM_SYSTEM.UNIQUE_ur1): #duplicates(4) / #instances(5)
+
+
+
+ whereRuleValidationRecord: WhereRuleValidationResult( result:LOGICAL(FALSE)
+[0]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18320 .WHERE_wr1: LOGICAL(FALSE)
+[1]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18361 .WHERE_wr1: LOGICAL(FALSE)
+[2]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18402 .WHERE_wr1: LOGICAL(FALSE)
+[3]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18436 .WHERE_wr1: LOGICAL(FALSE)
+[4]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18470 .WHERE_wr1: LOGICAL(FALSE)
+[5]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18504 .WHERE_wr1: LOGICAL(FALSE)
+[6]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18538 .WHERE_wr1: LOGICAL(FALSE)
+[7]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18572 .WHERE_wr1: LOGICAL(FALSE)
+[8]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18621 .WHERE_wr1: LOGICAL(FALSE)
+[9]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18744 .WHERE_wr1: LOGICAL(FALSE)
+[10]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18805 .WHERE_wr1: LOGICAL(FALSE)
+[11]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18846 .WHERE_wr1: LOGICAL(FALSE)
+[12]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18908 .WHERE_wr1: LOGICAL(FALSE)
+[13]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18949 .WHERE_wr1: LOGICAL(FALSE)
+[14]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19003 .WHERE_wr1: LOGICAL(FALSE)
+[15]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19052 .WHERE_wr1: LOGICAL(FALSE)
+[16]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19399 .WHERE_wr1: LOGICAL(FALSE)
+[17]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19490 .WHERE_wr1: LOGICAL(FALSE)
+[18]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19555 .WHERE_wr1: LOGICAL(FALSE)
+[19]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19936 .WHERE_wr1: LOGICAL(FALSE)
+[20]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20223 .WHERE_wr1: LOGICAL(FALSE)
+[21]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20279 .WHERE_wr1: LOGICAL(FALSE)
+[22]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20336 .WHERE_wr1: LOGICAL(FALSE)
+[23]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20365 .WHERE_wr1: LOGICAL(FALSE)
+[24]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20393 .WHERE_wr1: LOGICAL(FALSE)
+[25]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20421 .WHERE_wr1: LOGICAL(FALSE)
+[26]	ANNOTATION_OCCURRENCE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20449 .WHERE_wr1: LOGICAL(FALSE)
+[27]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18328 .WHERE_wr3: LOGICAL(FALSE)
+[28]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18369 .WHERE_wr3: LOGICAL(FALSE)
+[29]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18410 .WHERE_wr3: LOGICAL(FALSE)
+[30]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18444 .WHERE_wr3: LOGICAL(FALSE)
+[31]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18478 .WHERE_wr3: LOGICAL(FALSE)
+[32]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18512 .WHERE_wr3: LOGICAL(FALSE)
+[33]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18546 .WHERE_wr3: LOGICAL(FALSE)
+[34]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18580 .WHERE_wr3: LOGICAL(FALSE)
+[35]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18629 .WHERE_wr3: LOGICAL(FALSE)
+[36]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18752 .WHERE_wr3: LOGICAL(FALSE)
+[37]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18813 .WHERE_wr3: LOGICAL(FALSE)
+[38]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18854 .WHERE_wr3: LOGICAL(FALSE)
+[39]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18916 .WHERE_wr3: LOGICAL(FALSE)
+[40]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18957 .WHERE_wr3: LOGICAL(FALSE)
+[41]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19011 .WHERE_wr3: LOGICAL(FALSE)
+[42]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19060 .WHERE_wr3: LOGICAL(FALSE)
+[43]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19407 .WHERE_wr3: LOGICAL(FALSE)
+[44]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19498 .WHERE_wr3: LOGICAL(FALSE)
+[45]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19563 .WHERE_wr3: LOGICAL(FALSE)
+[46]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#19944 .WHERE_wr3: LOGICAL(FALSE)
+[47]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20231 .WHERE_wr3: LOGICAL(FALSE)
+[48]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20287 .WHERE_wr3: LOGICAL(FALSE)
+[49]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20344 .WHERE_wr3: LOGICAL(FALSE)
+[50]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20373 .WHERE_wr3: LOGICAL(FALSE)
+[51]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20401 .WHERE_wr3: LOGICAL(FALSE)
+[52]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20429 .WHERE_wr3: LOGICAL(FALSE)
+[53]	ANNOTATION_PLANE-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20457 .WHERE_wr3: LOGICAL(FALSE)
+[54]	CAMERA_MODEL-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20491 .WHERE_wr1: LOGICAL(FALSE)
+[55]	CONSTRUCTIVE_GEOMETRY_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18290 .WHERE_wr2: LOGICAL(FALSE)
+[56]	GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18029 .WHERE_wr3: LOGICAL(FALSE)
+[57]	GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18029 .WHERE_wr4: LOGICAL(FALSE)
+[58]	MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18078 .WHERE_wr1: LOGICAL(FALSE)
+[59]	MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18128 .WHERE_wr1: LOGICAL(FALSE)
+[60]	MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18134 .WHERE_wr1: LOGICAL(FALSE)
+[61]	MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18140 .WHERE_wr1: LOGICAL(FALSE)
+[62]	MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18146 .WHERE_wr1: LOGICAL(FALSE)
+[63]	MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18152 .WHERE_wr1: LOGICAL(FALSE)
+[64]	MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18158 .WHERE_wr1: LOGICAL(FALSE)
+[65]	MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18164 .WHERE_wr1: LOGICAL(FALSE)
+[66]	MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18170 .WHERE_wr1: LOGICAL(FALSE)
+[67]	MEASURE_WITH_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18176 .WHERE_wr1: LOGICAL(FALSE)
+[68]	SHAPE_ASPECT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18606 .WHERE_wr1: LOGICAL(FALSE)
+[69]	SI_UNIT-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18124 .WHERE_wr1: LOGICAL(FALSE)
+[70]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#18300 .WHERE_wr2: LOGICAL(FALSE)
+[71]	TESSELLATED_SHAPE_REPRESENTATION-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20498 .WHERE_wr2: LOGICAL(FALSE)
+[72]	VIEW_VOLUME-> nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#20490 .WHERE_wr2: LOGICAL(FALSE)
+
+
+
+(3) validation complete
+
+
+
+SDAI Thread Local Cache Statistics [SDAI.UniqueRuleValidation_1]
+ complex cache[8831]:	 #lookups: 7822333, #hits: 7813502, %hit rate: 99.887105%
+ model   cache[1]:	 #lookups: 147231, #hits: 147229, %hit rate: 99.998642%
+#29: source = simpleRecord(SimpleRecord(keyword:INVISIBILITY, parameters:[[#28]]), p21DataSection(PRIMARY))
+ complex = nist_ctc_04_asme1_ap242-e1.stp.PRIMARY#29
+ [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.INVISIBILITY
+	_invisible_items: 	SET<sINVISIBLE_ITEM>(rep: Set([SwiftSDAIap242.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sINVISIBLE_ITEM._PRESENTATION_LAYER_ASSIGNMENT(PRESENTATION_LAYER_ASSIGNMENT.PRef=> #28_mB5A28CE3-868E-4A31-8D7F-999B2763E66D)]), bound1: 1, bound2: nil)
+
+
+
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_4840]
+ complex cache[9117]:	 #lookups: 7970236, #hits: 7961119, %hit rate: 99.885612%
+ model   cache[2]:	 #lookups: 152790, #hits: 152788, %hit rate: 99.998691%
+normal end of execution
+2026/2/8 8:30
+total duration: 0:57:14
+Program ended with exit code: 0

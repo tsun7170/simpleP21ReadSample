@@ -1,4 +1,4 @@
-2026/2/8 15:48
+2026/3/3 17:05
 
  input: nist_stc_08_asme1_ap242-e3.stp
 
@@ -7,19 +7,2655 @@
  parsing header section: 
  parsing data section: .........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+
  completed parsing.
- resolving entity instances: 
- error detected on exchange structure: entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF)
+ resolving entity instances: .........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.........*.....
+ completed resolving.
 
- error detected on decoder: resolve error:
-entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF),
- while converting internal mapping to external mapping,
- while resolving entity instance simple record #764
+ source p21 file: FILE_NAME(headerEntity: SimpleRecord(keyword:FILE_NAME, parameters:[STRING(nist_stc_08-242.stp), STRING(2024-02-02T19:13:38+09:00), [STRING()], [STRING()], STRING(), STRING(), STRING()]))
 
-SY_ERR [1000]: Underlying system error. #simpleP21ReadSample [in SwiftSDAIcore/SdaiErrorEvent.swift: line 92] @2026-02-08 06:48:40 +0000 
-decoder error: resolve error:
-entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF),
- while converting internal mapping to external mapping,
- while resolving entity instance simple record #764
-simpleP21ReadSample/main.swift:105: Fatal error: SDAI runtime is trapped by the error event in simpleP21ReadSample.
-Message from debugger: killed
-Program ended with exit code: 9
+ created models: [(name: "nist_stc_08-242.stp.PRIMARY", modeID: 05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE)]
+
+(1) decode complete
+
+
+APPLICATION_CONTEXT[0] #11557: APPLICATION(tLABEL(rep: STRING(managed model based 3d engineering))), ID(nil), DESCRIPTION(nil) 
+
+APPLICATION_PROTOCOL_DEFINITION #11556: tLABEL(rep: STRING(ap242_managed_model_based_3d_engineering_mim_lf))
+
+
+
+product identification[0] [PRODUCT_DEFINITION-> nist_stc_08-242.stp.PRIMARY#11549] id:''
+	[PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE-> nist_stc_08-242.stp.PRIMARY#11550] id:''
+	[PRODUCT-> nist_stc_08-242.stp.PRIMARY#11555] id:'NIST PMI STC 08 ASME1', name:''
+
+	product category:[PRODUCT_RELATED_PRODUCT_CATEGORY-> nist_stc_08-242.stp.PRIMARY#11553] name:'detail'
+	product context:[PRODUCT_DEFINITION_CONTEXT-> nist_stc_08-242.stp.PRIMARY#11548] name:'part definition'
+
+	*** TOP LEVEL ASSEMBLY ***
+
+	product property[0.0][PROPERTY_DEFINITION-> nist_stc_08-242.stp.PRIMARY#2710] name:'attribute validation property'
+		[REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#2604] name:''
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_stc_08-242.stp.PRIMARY#11489, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_stc_08-242.stp.PRIMARY#11489, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_stc_08-242.stp.PRIMARY#11489] type:'3D'
+0.				unit:[SI_UNIT-> nist_stc_08-242.stp.PRIMARY#11491, SOLID_ANGLE_UNIT-> nist_stc_08-242.stp.PRIMARY#11491]
+0.					nil STERADIAN
+1.				unit:[PLANE_ANGLE_UNIT-> nist_stc_08-242.stp.PRIMARY#11494, CONVERSION_BASED_UNIT-> nist_stc_08-242.stp.PRIMARY#11494]
+1.					DEGREE factor:Optional(SwiftSDAIap242ed4.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._PLANE_ANGLE_MEASURE(SwiftSDAIap242ed4.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tPLANE_ANGLE_MEASURE(rep: REAL(0.0174532925199433)))) times ...
+1.						unit:[PLANE_ANGLE_UNIT-> nist_stc_08-242.stp.PRIMARY#11492, SI_UNIT-> nist_stc_08-242.stp.PRIMARY#11492]
+1.							nil RADIAN
+2.				unit:[LENGTH_UNIT-> nist_stc_08-242.stp.PRIMARY#11546, CONVERSION_BASED_UNIT-> nist_stc_08-242.stp.PRIMARY#11546]
+2.					MILLIMETRE factor:Optional(SwiftSDAIap242ed4.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242ed4.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(1.0)))) times ...
+2.						unit:[LENGTH_UNIT-> nist_stc_08-242.stp.PRIMARY#11495, SI_UNIT-> nist_stc_08-242.stp.PRIMARY#11495]
+2.							Optional(SwiftSDAIap242ed4.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+
+			rep[0.0.0][INTEGER_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#584]
+			rep[0.0.1][INTEGER_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#585]
+			rep[0.0.2][INTEGER_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#582]
+			rep[0.0.3][INTEGER_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#583]
+			rep[0.0.4][INTEGER_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#579]
+			rep[0.0.5][INTEGER_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#578]
+			rep[0.0.6][INTEGER_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#580]
+			rep[0.0.7][INTEGER_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#581]
+	product property[0.1][PRODUCT_DEFINITION_SHAPE-> nist_stc_08-242.stp.PRIMARY#11488] name:''
+		[SHAPE_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#11472] name:'NIST PMI STC 08 ASME1'
+			[GLOBAL_UNIT_ASSIGNED_CONTEXT-> nist_stc_08-242.stp.PRIMARY#11489, GEOMETRIC_REPRESENTATION_CONTEXT-> nist_stc_08-242.stp.PRIMARY#11489, GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT-> nist_stc_08-242.stp.PRIMARY#11489] type:'3D'
+0.				unit:[SI_UNIT-> nist_stc_08-242.stp.PRIMARY#11491, SOLID_ANGLE_UNIT-> nist_stc_08-242.stp.PRIMARY#11491]
+0.					nil STERADIAN
+1.				unit:[LENGTH_UNIT-> nist_stc_08-242.stp.PRIMARY#11546, CONVERSION_BASED_UNIT-> nist_stc_08-242.stp.PRIMARY#11546]
+1.					MILLIMETRE factor:Optional(SwiftSDAIap242ed4.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._LENGTH_MEASURE(SwiftSDAIap242ed4.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tLENGTH_MEASURE(rep: REAL(1.0)))) times ...
+1.						unit:[LENGTH_UNIT-> nist_stc_08-242.stp.PRIMARY#11495, SI_UNIT-> nist_stc_08-242.stp.PRIMARY#11495]
+1.							Optional(SwiftSDAIap242ed4.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.nSI_PREFIX.MILLI) METRE
+2.				unit:[PLANE_ANGLE_UNIT-> nist_stc_08-242.stp.PRIMARY#11494, CONVERSION_BASED_UNIT-> nist_stc_08-242.stp.PRIMARY#11494]
+2.					DEGREE factor:Optional(SwiftSDAIap242ed4.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.sMEASURE_VALUE._PLANE_ANGLE_MEASURE(SwiftSDAIap242ed4.AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.tPLANE_ANGLE_MEASURE(rep: REAL(0.0174532925199433)))) times ...
+2.						unit:[PLANE_ANGLE_UNIT-> nist_stc_08-242.stp.PRIMARY#11492, SI_UNIT-> nist_stc_08-242.stp.PRIMARY#11492]
+2.							nil RADIAN
+
+			rep[0.1.0][AXIS2_PLACEMENT_3D-> nist_stc_08-242.stp.PRIMARY#10598]
+
+	product shape:PRODUCT_DEFINITION_SHAPE.PRef=> #11488_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE
+	shape aspect[0.0][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2128] name:''
+	shape aspect[0.1][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2218] name:''
+	shape aspect[0.2][DATUM_SYSTEM-> nist_stc_08-242.stp.PRIMARY#222] name:'Datum System .9'
+	shape aspect[0.3][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2183] name:''
+	shape aspect[0.4][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2127] name:''
+	shape aspect[0.5][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#199] name:''
+	shape aspect[0.6][DATUM_FEATURE-> nist_stc_08-242.stp.PRIMARY#449] name:'Simple Datum.13'
+	shape aspect[0.7][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2250] name:''
+	shape aspect[0.8][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#197] name:''
+	shape aspect[0.9][DATUM_SYSTEM-> nist_stc_08-242.stp.PRIMARY#221] name:'Datum System .8'
+	shape aspect[0.10][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#175] name:''
+	shape aspect[0.11][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2245] name:''
+	shape aspect[0.12][DATUM-> nist_stc_08-242.stp.PRIMARY#240] name:''
+	shape aspect[0.13][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#185] name:''
+	shape aspect[0.14][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2209] name:''
+	shape aspect[0.15][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#201] name:''
+	shape aspect[0.16][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2268] name:''
+	shape aspect[0.17][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2216] name:''
+	shape aspect[0.18][DATUM_SYSTEM-> nist_stc_08-242.stp.PRIMARY#219] name:'Datum System .6'
+	shape aspect[0.19][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2282] name:''
+	shape aspect[0.20][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#195] name:''
+	shape aspect[0.21][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2219] name:''
+	shape aspect[0.22][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2264] name:''
+	shape aspect[0.23][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2269] name:''
+	shape aspect[0.24][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2202] name:''
+	shape aspect[0.25][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2126] name:''
+	shape aspect[0.26][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2087] name:'MBD_A_GEOM'
+	shape aspect[0.27][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2237] name:''
+	shape aspect[0.28][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2131] name:''
+	shape aspect[0.29][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2205] name:''
+	shape aspect[0.30][ALL_AROUND_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#78] name:''
+	shape aspect[0.31][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2271] name:''
+	shape aspect[0.32][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2112] name:''
+	shape aspect[0.33][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2290] name:''
+	shape aspect[0.34][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2144] name:''
+	shape aspect[0.35][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2263] name:''
+	shape aspect[0.36][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2213] name:''
+	shape aspect[0.37][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2270] name:''
+	shape aspect[0.38][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2232] name:''
+	shape aspect[0.39][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2101] name:''
+	shape aspect[0.40][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2299] name:''
+	shape aspect[0.41][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2239] name:''
+	shape aspect[0.42][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2146] name:''
+	shape aspect[0.43][DATUM_SYSTEM-> nist_stc_08-242.stp.PRIMARY#216] name:'Datum System .3'
+	shape aspect[0.44][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2248] name:''
+	shape aspect[0.45][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2136] name:''
+	shape aspect[0.46][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2104] name:''
+	shape aspect[0.47][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2150] name:''
+	shape aspect[0.48][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2222] name:''
+	shape aspect[0.49][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2186] name:''
+	shape aspect[0.50][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2298] name:''
+	shape aspect[0.51][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2259] name:''
+	shape aspect[0.52][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#177] name:''
+	shape aspect[0.53][DATUM-> nist_stc_08-242.stp.PRIMARY#238] name:''
+	shape aspect[0.54][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2305] name:''
+	shape aspect[0.55][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#211] name:''
+	shape aspect[0.56][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#196] name:''
+	shape aspect[0.57][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2119] name:''
+	shape aspect[0.58][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2292] name:''
+	shape aspect[0.59][TOLERANCE_ZONE-> nist_stc_08-242.stp.PRIMARY#126] name:''
+	shape aspect[0.60][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2168] name:''
+	shape aspect[0.61][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#210] name:''
+	shape aspect[0.62][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2162] name:''
+	shape aspect[0.63][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2254] name:''
+	shape aspect[0.64][DATUM_FEATURE-> nist_stc_08-242.stp.PRIMARY#448] name:'Simple Datum.3'
+	shape aspect[0.65][DATUM-> nist_stc_08-242.stp.PRIMARY#241] name:''
+	shape aspect[0.66][TOLERANCE_ZONE-> nist_stc_08-242.stp.PRIMARY#124] name:''
+	shape aspect[0.67][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#173] name:''
+	shape aspect[0.68][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2214] name:''
+	shape aspect[0.69][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2231] name:''
+	shape aspect[0.70][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2133] name:''
+	shape aspect[0.71][DATUM_FEATURE-> nist_stc_08-242.stp.PRIMARY#450] name:'Datum Feature.15'
+	shape aspect[0.72][DATUM_REFERENCE_ELEMENT-> nist_stc_08-242.stp.PRIMARY#73] name:''
+	shape aspect[0.73][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2193] name:''
+	shape aspect[0.74][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2181] name:''
+	shape aspect[0.75][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#207] name:''
+	shape aspect[0.76][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2170] name:''
+	shape aspect[0.77][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2156] name:''
+	shape aspect[0.78][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2277] name:''
+	shape aspect[0.79][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2284] name:''
+	shape aspect[0.80][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2211] name:''
+	shape aspect[0.81][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2173] name:''
+	shape aspect[0.82][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2230] name:''
+	shape aspect[0.83][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2236] name:''
+	shape aspect[0.84][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2153] name:''
+	shape aspect[0.85][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2091] name:'MBD_C'
+	shape aspect[0.86][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2138] name:''
+	shape aspect[0.87][DATUM_SYSTEM-> nist_stc_08-242.stp.PRIMARY#220] name:'Datum System .7'
+	shape aspect[0.88][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2281] name:''
+	shape aspect[0.89][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2294] name:''
+	shape aspect[0.90][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2196] name:''
+	shape aspect[0.91][TOLERANCE_ZONE-> nist_stc_08-242.stp.PRIMARY#120] name:''
+	shape aspect[0.92][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2147] name:''
+	shape aspect[0.93][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2113] name:''
+	shape aspect[0.94][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2201] name:''
+	shape aspect[0.95][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2115] name:''
+	shape aspect[0.96][TOLERANCE_ZONE-> nist_stc_08-242.stp.PRIMARY#125] name:''
+	shape aspect[0.97][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2198] name:''
+	shape aspect[0.98][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2141] name:''
+	shape aspect[0.99][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2280] name:''
+	shape aspect[0.100][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2164] name:''
+	shape aspect[0.101][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#179] name:''
+	shape aspect[0.102][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2161] name:''
+	shape aspect[0.103][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2204] name:''
+	shape aspect[0.104][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2273] name:''
+	shape aspect[0.105][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2179] name:''
+	shape aspect[0.106][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2157] name:''
+	shape aspect[0.107][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2109] name:''
+	shape aspect[0.108][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#191] name:''
+	shape aspect[0.109][DATUM-> nist_stc_08-242.stp.PRIMARY#235] name:''
+	shape aspect[0.110][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2185] name:''
+	shape aspect[0.111][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#212] name:''
+	shape aspect[0.112][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2188] name:''
+	shape aspect[0.113][DATUM_FEATURE-> nist_stc_08-242.stp.PRIMARY#451] name:'Datum Feature.12'
+	shape aspect[0.114][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2137] name:''
+	shape aspect[0.115][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2178] name:''
+	shape aspect[0.116][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2184] name:''
+	shape aspect[0.117][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2140] name:''
+	shape aspect[0.118][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2217] name:''
+	shape aspect[0.119][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2103] name:''
+	shape aspect[0.120][DATUM_FEATURE-> nist_stc_08-242.stp.PRIMARY#446] name:'Simple Datum.1'
+	shape aspect[0.121][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2255] name:''
+	shape aspect[0.122][TOLERANCE_ZONE-> nist_stc_08-242.stp.PRIMARY#122] name:''
+	shape aspect[0.123][TOLERANCE_ZONE-> nist_stc_08-242.stp.PRIMARY#129] name:''
+	shape aspect[0.124][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#190] name:''
+	shape aspect[0.125][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2154] name:''
+	shape aspect[0.126][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2296] name:''
+	shape aspect[0.127][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2304] name:''
+	shape aspect[0.128][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#200] name:''
+	shape aspect[0.129][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2265] name:''
+	shape aspect[0.130][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2256] name:''
+	shape aspect[0.131][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2215] name:''
+	shape aspect[0.132][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#189] name:''
+	shape aspect[0.133][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#203] name:''
+	shape aspect[0.134][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2148] name:''
+	shape aspect[0.135][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2088] name:'Geometrical Set.3'
+	shape aspect[0.136][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2212] name:''
+	shape aspect[0.137][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2279] name:''
+	shape aspect[0.138][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2107] name:''
+	shape aspect[0.139][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2176] name:''
+	shape aspect[0.140][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2194] name:''
+	shape aspect[0.141][ALL_AROUND_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#80] name:''
+	shape aspect[0.142][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2097] name:''
+	shape aspect[0.143][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#180] name:''
+	shape aspect[0.144][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2244] name:''
+	shape aspect[0.145][DATUM-> nist_stc_08-242.stp.PRIMARY#236] name:''
+	shape aspect[0.146][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2171] name:''
+	shape aspect[0.147][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2297] name:''
+	shape aspect[0.148][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2114] name:''
+	shape aspect[0.149][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2095] name:''
+	shape aspect[0.150][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2180] name:''
+	shape aspect[0.151][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2191] name:''
+	shape aspect[0.152][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2190] name:''
+	shape aspect[0.153][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2233] name:''
+	shape aspect[0.154][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2243] name:''
+	shape aspect[0.155][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2086] name:''
+	shape aspect[0.156][ALL_AROUND_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#79] name:''
+	shape aspect[0.157][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2278] name:''
+	shape aspect[0.158][DATUM_SYSTEM-> nist_stc_08-242.stp.PRIMARY#214] name:'Datum System .1'
+	shape aspect[0.159][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2286] name:''
+	shape aspect[0.160][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2252] name:''
+	shape aspect[0.161][DATUM_SYSTEM-> nist_stc_08-242.stp.PRIMARY#218] name:'Datum System .5'
+	shape aspect[0.162][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2253] name:''
+	shape aspect[0.163][DATUM_FEATURE-> nist_stc_08-242.stp.PRIMARY#447] name:'Simple Datum.2'
+	shape aspect[0.164][ALL_AROUND_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#77] name:''
+	shape aspect[0.165][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2125] name:''
+	shape aspect[0.166][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2111] name:''
+	shape aspect[0.167][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2105] name:''
+	shape aspect[0.168][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2206] name:''
+	shape aspect[0.169][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#198] name:''
+	shape aspect[0.170][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2182] name:''
+	shape aspect[0.171][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2093] name:''
+	shape aspect[0.172][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2210] name:''
+	shape aspect[0.173][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#188] name:''
+	shape aspect[0.174][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2166] name:''
+	shape aspect[0.175][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2260] name:''
+	shape aspect[0.176][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2261] name:''
+	shape aspect[0.177][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2139] name:''
+	shape aspect[0.178][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2241] name:''
+	shape aspect[0.179][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2122] name:''
+	shape aspect[0.180][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2225] name:''
+	shape aspect[0.181][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#176] name:''
+	shape aspect[0.182][TOLERANCE_ZONE-> nist_stc_08-242.stp.PRIMARY#127] name:''
+	shape aspect[0.183][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#174] name:''
+	shape aspect[0.184][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2197] name:''
+	shape aspect[0.185][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2228] name:''
+	shape aspect[0.186][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2288] name:''
+	shape aspect[0.187][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2272] name:''
+	shape aspect[0.188][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2229] name:''
+	shape aspect[0.189][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2242] name:''
+	shape aspect[0.190][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2192] name:''
+	shape aspect[0.191][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2223] name:''
+	shape aspect[0.192][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2130] name:''
+	shape aspect[0.193][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2258] name:''
+	shape aspect[0.194][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2267] name:''
+	shape aspect[0.195][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2117] name:''
+	shape aspect[0.196][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2165] name:''
+	shape aspect[0.197][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2262] name:''
+	shape aspect[0.198][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2251] name:''
+	shape aspect[0.199][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2098] name:''
+	shape aspect[0.200][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2247] name:''
+	shape aspect[0.201][TOLERANCE_ZONE-> nist_stc_08-242.stp.PRIMARY#121] name:''
+	shape aspect[0.202][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#184] name:''
+	shape aspect[0.203][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2274] name:''
+	shape aspect[0.204][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#208] name:''
+	shape aspect[0.205][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2175] name:''
+	shape aspect[0.206][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2221] name:''
+	shape aspect[0.207][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2177] name:''
+	shape aspect[0.208][TOLERANCE_ZONE-> nist_stc_08-242.stp.PRIMARY#128] name:''
+	shape aspect[0.209][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2257] name:''
+	shape aspect[0.210][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#186] name:''
+	shape aspect[0.211][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2099] name:''
+	shape aspect[0.212][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2235] name:''
+	shape aspect[0.213][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2145] name:''
+	shape aspect[0.214][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2300] name:''
+	shape aspect[0.215][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2167] name:''
+	shape aspect[0.216][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2301] name:''
+	shape aspect[0.217][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2108] name:''
+	shape aspect[0.218][DATUM_FEATURE-> nist_stc_08-242.stp.PRIMARY#453] name:'Datum Feature.16'
+	shape aspect[0.219][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2249] name:''
+	shape aspect[0.220][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2220] name:''
+	shape aspect[0.221][DATUM-> nist_stc_08-242.stp.PRIMARY#237] name:''
+	shape aspect[0.222][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2116] name:''
+	shape aspect[0.223][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2090] name:'MBD_B'
+	shape aspect[0.224][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2224] name:''
+	shape aspect[0.225][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2234] name:''
+	shape aspect[0.226][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2124] name:''
+	shape aspect[0.227][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#183] name:''
+	shape aspect[0.228][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2085] name:''
+	shape aspect[0.229][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2227] name:''
+	shape aspect[0.230][DATUM_FEATURE-> nist_stc_08-242.stp.PRIMARY#452] name:'Datum Feature.15'
+	shape aspect[0.231][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2295] name:''
+	shape aspect[0.232][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2121] name:''
+	shape aspect[0.233][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#182] name:''
+	shape aspect[0.234][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2195] name:''
+	shape aspect[0.235][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2187] name:''
+	shape aspect[0.236][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2306] name:''
+	shape aspect[0.237][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2275] name:''
+	shape aspect[0.238][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2142] name:''
+	shape aspect[0.239][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#192] name:''
+	shape aspect[0.240][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#178] name:''
+	shape aspect[0.241][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2287] name:''
+	shape aspect[0.242][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#205] name:''
+	shape aspect[0.243][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2134] name:''
+	shape aspect[0.244][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2207] name:''
+	shape aspect[0.245][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#204] name:''
+	shape aspect[0.246][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2238] name:''
+	shape aspect[0.247][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2132] name:''
+	shape aspect[0.248][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2266] name:''
+	shape aspect[0.249][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2240] name:''
+	shape aspect[0.250][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#202] name:''
+	shape aspect[0.251][ALL_AROUND_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#76] name:''
+	shape aspect[0.252][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2089] name:'MBD_A'
+	shape aspect[0.253][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2172] name:''
+	shape aspect[0.254][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#181] name:''
+	shape aspect[0.255][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2152] name:''
+	shape aspect[0.256][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2246] name:''
+	shape aspect[0.257][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2092] name:'MBD_D'
+	shape aspect[0.258][COMPOSITE_SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#187] name:''
+	shape aspect[0.259][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2291] name:''
+	shape aspect[0.260][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2151] name:''
+	shape aspect[0.261][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2096] name:''
+	shape aspect[0.262][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2143] name:''
+	shape aspect[0.263][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2129] name:''
+	shape aspect[0.264][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2160] name:''
+	shape aspect[0.265][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2106] name:''
+	shape aspect[0.266][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2199] name:''
+	shape aspect[0.267][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2094] name:''
+	shape aspect[0.268][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2155] name:''
+	shape aspect[0.269][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2163] name:''
+	shape aspect[0.270][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2285] name:''
+	shape aspect[0.271][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2276] name:''
+	shape aspect[0.272][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2200] name:''
+	shape aspect[0.273][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2283] name:''
+	shape aspect[0.274][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2118] name:''
+	shape aspect[0.275][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2120] name:''
+	shape aspect[0.276][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2102] name:''
+	shape aspect[0.277][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2158] name:''
+	shape aspect[0.278][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2189] name:''
+	shape aspect[0.279][DATUM_REFERENCE_ELEMENT-> nist_stc_08-242.stp.PRIMARY#74] name:''
+	shape aspect[0.280][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2174] name:''
+	shape aspect[0.281][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2293] name:''
+	shape aspect[0.282][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2203] name:''
+	shape aspect[0.283][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#206] name:''
+	shape aspect[0.284][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2110] name:''
+	shape aspect[0.285][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2302] name:''
+	shape aspect[0.286][DATUM_SYSTEM-> nist_stc_08-242.stp.PRIMARY#217] name:'Datum System .4'
+	shape aspect[0.287][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#213] name:''
+	shape aspect[0.288][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2169] name:''
+	shape aspect[0.289][DATUM_SYSTEM-> nist_stc_08-242.stp.PRIMARY#215] name:'Datum System .2'
+	shape aspect[0.290][DATUM-> nist_stc_08-242.stp.PRIMARY#239] name:''
+	shape aspect[0.291][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2289] name:''
+	shape aspect[0.292][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2149] name:''
+	shape aspect[0.293][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2208] name:''
+	shape aspect[0.294][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2123] name:''
+	shape aspect[0.295][DATUM-> nist_stc_08-242.stp.PRIMARY#242] name:''
+	shape aspect[0.296][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2159] name:''
+	shape aspect[0.297][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2226] name:''
+	shape aspect[0.298][TOLERANCE_ZONE-> nist_stc_08-242.stp.PRIMARY#123] name:''
+	shape aspect[0.299][DATUM_REFERENCE_COMPARTMENT-> nist_stc_08-242.stp.PRIMARY#209] name:''
+	shape aspect[0.300][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2100] name:''
+	shape aspect[0.301][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2303] name:''
+	shape aspect[0.302][SHAPE_ASPECT-> nist_stc_08-242.stp.PRIMARY#2135] name:''
+
+
+
+(2) inspection complete
+
+
+
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[353]:	 #lookups: 1006, #hits: 653, %hit rate: 64.910537%
+ model   cache[2]:	 #lookups: 1362, #hits: 1360, %hit rate: 99.853157%
+
+ validating instance reference domain for 41472 application instances:
+ ....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....
+
+SDAI Thread Local Cache Statistics [SdaiTransactionVA]
+ complex cache[3273]:	 #lookups: 2033805, #hits: 2030532, %hit rate: 99.83907%
+ model   cache[2]:	 #lookups: 9564, #hits: 9562, %hit rate: 99.979088%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_40857]
+ complex cache[3455]:	 #lookups: 2108046, #hits: 2104591, %hit rate: 99.836104%
+ model   cache[2]:	 #lookups: 11666, #hits: 11664, %hit rate: 99.982856%
+10
+ duration: 0:12:05
+
+
+ validating 58 global rules:
+ .........+.........+.
+FAILED: AP242_SUBTYPE_MANDATORY_SHAPE_REPRESENTATION
+........+....
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_40251]
+ complex cache[3576]:	 #lookups: 2162190, #hits: 2158614, %hit rate: 99.834612%
+ model   cache[2]:	 #lookups: 12333, #hits: 12331, %hit rate: 99.983783%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_18]
+ complex cache[339]:	 #lookups: 2002, #hits: 1663, %hit rate: 83.066933%
+ model   cache[2]:	 #lookups: 369, #hits: 367, %hit rate: 99.457995%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_0]
+ complex cache[11]:	 #lookups: 47, #hits: 36, %hit rate: 76.595745%
+ model   cache[2]:	 #lookups: 18, #hits: 16, %hit rate: 88.888889%
+
+SDAI Thread Local Cache Statistics [SDAI.usedIn _4840]
+ complex cache[2251]:	 #lookups: 1416891, #hits: 1414640, %hit rate: 99.841131%
+ model   cache[1]:	 #lookups: 2251, #hits: 2250, %hit rate: 99.955575%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_40452]
+ complex cache[3210]:	 #lookups: 3555822, #hits: 3552612, %hit rate: 99.909726%
+ model   cache[2]:	 #lookups: 10006, #hits: 10004, %hit rate: 99.980012%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_41061]
+ complex cache[3537]:	 #lookups: 3576065, #hits: 3572528, %hit rate: 99.901092%
+ model   cache[2]:	 #lookups: 11880, #hits: 11878, %hit rate: 99.983165%
+.....+.........+
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_26]
+ complex cache[849]:	 #lookups: 4926, #hits: 4077, %hit rate: 82.764921%
+ model   cache[2]:	 #lookups: 4302, #hits: 4300, %hit rate: 99.95351%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_42]
+ complex cache[2]:	 #lookups: 5, #hits: 3, %hit rate: 60%
+ model   cache[2]:	 #lookups: 18, #hits: 16, %hit rate: 88.888889%
+..
+FAILED: VALID_DATUM_GEOMETRY_CORRELATION
+......
+ duration: 0:00:31
+
+
+ validating 59 uniqueness rules:
+ ....
+FAILED: UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1)
+.....+.........+.........+.........+.........+.........
+ duration: 0:00:00
+
+
+ validating where rules for 11548 complex entities:
+ 
+
+SDAI Thread Local Cache Statistics [SDAI.usedIn _9702]
+ complex cache[2251]:	 #lookups: 1556342, #hits: 1554091, %hit rate: 99.855366%
+ model   cache[1]:	 #lookups: 2251, #hits: 2250, %hit rate: 99.955575%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_40351]
+ complex cache[3002]:	 #lookups: 3606341, #hits: 3603339, %hit rate: 99.916758%
+ model   cache[2]:	 #lookups: 36269, #hits: 36267, %hit rate: 99.994486%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_10]
+ complex cache[10015]:	 #lookups: 130642, #hits: 120627, %hit rate: 92.334012%
+ model   cache[2]:	 #lookups: 10027, #hits: 10025, %hit rate: 99.980054%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_50]
+ complex cache[2315]:	 #lookups: 149796, #hits: 147481, %hit rate: 98.454565%
+ model   cache[2]:	 #lookups: 2405, #hits: 2403, %hit rate: 99.91684%
+
+SDAI Thread Local Cache Statistics [SDAI.usedIn _10584]
+ complex cache[2635]:	 #lookups: 1659420, #hits: 1656785, %hit rate: 99.84121%
+ model   cache[2]:	 #lookups: 3712, #hits: 3710, %hit rate: 99.946121%
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1139 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1343 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#695 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#695 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#695 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1347 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1315 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1215 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1395 .WHERE_wr1
+.
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#795 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#687 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#687 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#687 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1431 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#675 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#675 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#675 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1291 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1143 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1551 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1447 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1311 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1359 .WHERE_wr1
++
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1171 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1479 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1479 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1123 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1475 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1475 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1231 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1439 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#791 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1223 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1427 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1463 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1463 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1211 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1227 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1423 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1131 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#691 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#691 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#691 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1575 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1267 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1399 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1167 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1491 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1491 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#455 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#455 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#455 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#463 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#463 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#463 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1403 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#467 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#467 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#467 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1487 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1487 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1543 .WHERE_wr2
+1
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1295 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1279 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1243 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1379 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1539 .WHERE_wr2
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#799 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#679 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#679 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#679 .WHERE_wr2
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#811 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1199 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1355 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1187 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1203 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1351 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1259 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1371 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#783 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#783 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#783 .WHERE_wr1
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#783 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#783 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1391 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1339 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1191 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1483 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1483 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1571 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1263 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1151 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#195 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1319 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1455 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1455 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1443 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1287 .WHERE_wr1
++
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1335 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1415 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#699 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#699 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#699 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1559 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1303 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1275 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#207 .WHERE_wr3
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1235 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1147 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1183 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1467 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1467 .WHERE_wr2
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#211 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1367 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1307 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1375 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#459 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#459 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#459 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1247 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1299 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1323 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1471 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1471 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1579 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1135 .WHERE_wr1
+2
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#203 .WHERE_wr3
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#683 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#683 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#683 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1155 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1159 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1567 .WHERE_wr2
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#787 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1407 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1239 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#199 .WHERE_wr3
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1547 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1163 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1283 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1363 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1175 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1563 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1195 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1271 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1555 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1387 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1383 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1459 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1459 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1251 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1207 .WHERE_wr1
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#807 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#807 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#807 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#807 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#807 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1219 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1451 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1451 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1419 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#779 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1127 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1255 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1411 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1478 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1478 .WHERE_wr1
++
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#686 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#686 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#686 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1578 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1430 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1458 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1458 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1179 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1435 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#803 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1410 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#810 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1394 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1254 .WHERE_wr1
+.
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#786 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#786 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#786 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#786 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#786 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#74 .WHERE_wr3
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1538 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1214 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1482 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1482 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1414 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1278 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1282 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1454 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1454 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1138 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#814 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1310 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1202 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#466 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#466 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#466 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#462 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#462 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#462 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1338 .WHERE_wr1
+.
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#802 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#802 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#802 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#802 .WHERE_wr1
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#802 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1566 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1546 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1438 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1558 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1158 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#694 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#694 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#694 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1306 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#690 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#690 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#690 .WHERE_wr2
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1422 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1238 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1262 .WHERE_wr1
+3
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1166 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1462 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1462 .WHERE_wr2
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#782 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#782 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#782 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#782 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#782 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1178 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#206 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1442 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1190 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1366 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1170 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1346 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1122 .WHERE_wr1
+.
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#790 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1434 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1218 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1542 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1318 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1226 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1374 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#698 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#698 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#698 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1354 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1286 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1426 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1562 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1198 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1250 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1398 .WHERE_wr1
++
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1470 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1470 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1154 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1390 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1230 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1142 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1174 .WHERE_wr1
+..
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#806 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#806 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#806 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#806 .WHERE_wr1
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#806 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#794 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#210 .WHERE_wr3
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1450 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1450 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1290 .WHERE_wr1
+.
+FAILED: DRAUGHTING_MODEL-> nist_stc_08-242.stp.PRIMARY#1626 .WHERE_wr2
+
+FAILED: TESSELLATED_SHAPE_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#1626 .WHERE_wr2
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#798 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1134 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1418 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1466 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1466 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1302 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1146 .WHERE_wr1
+4
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#674 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#674 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#674 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1382 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1242 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1258 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1234 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1206 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1570 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1194 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1294 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1150 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1130 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1126 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1554 .WHERE_wr2
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1314 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#678 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#678 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#678 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1162 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1322 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1246 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1446 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#458 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#458 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#458 .WHERE_wr2
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#778 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1274 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1186 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1402 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1550 .WHERE_wr2
++
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1370 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1490 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1490 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#454 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#454 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#454 .WHERE_wr2
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1474 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1474 .WHERE_wr2
+
+FAILED: SURFACE_STYLE_RENDERING_WITH_PROPERTIES-> nist_stc_08-242.stp.PRIMARY#1778 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1298 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1358 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1342 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#198 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1210 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1266 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1486 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1486 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1326 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1222 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1378 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1574 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1406 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#682 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#682 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#682 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#702 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#702 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#702 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1386 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1270 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1182 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1350 .WHERE_wr1
+.
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#202 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1362 .WHERE_wr1
+5
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1437 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1441 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1217 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1429 .WHERE_wr1
+.
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#797 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#797 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#797 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#797 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#797 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1545 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1449 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1449 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#809 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#809 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#809 .WHERE_wr1
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#809 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#809 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1157 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1249 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1301 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1141 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1293 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1409 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1569 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1385 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1537 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#685 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#685 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#685 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1309 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1405 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1233 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1393 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1261 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1397 .WHERE_wr1
+.
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#205 .WHERE_wr3
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#681 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#681 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#681 .WHERE_wr1
++
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#697 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#697 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#697 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1353 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1273 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1345 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1265 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1181 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1453 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1453 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#461 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#461 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#461 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1305 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1485 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1485 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1565 .WHERE_wr2
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1281 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#805 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1241 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1573 .WHERE_wr2
+.
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#213 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1317 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#465 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#465 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#465 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#677 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#677 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#677 .WHERE_wr2
+6
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1461 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1461 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1425 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#793 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1269 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#197 .WHERE_wr3
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1189 .WHERE_wr1
+
+FAILED: CONSTRUCTIVE_GEOMETRY_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#1773 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1193 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1445 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1237 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1161 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1313 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1185 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1421 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1125 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1153 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1373 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#785 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#785 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#785 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#785 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#785 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1549 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1129 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1489 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1489 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1133 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1477 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1477 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1321 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1541 .WHERE_wr2
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#813 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1365 .WHERE_wr1
++
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1377 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1561 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1417 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1177 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1201 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1145 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1289 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#693 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#693 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#693 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1465 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1465 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#701 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#701 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#701 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1209 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1337 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1285 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1325 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1469 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1469 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#201 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1413 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1165 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1221 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#689 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#689 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#689 .WHERE_wr2
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#781 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#781 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#781 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#781 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#781 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1481 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1481 .WHERE_wr1
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#801 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#801 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#801 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#801 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#801 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1349 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1297 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#209 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1137 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1369 .WHERE_wr1
+7
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#789 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1557 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1229 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1277 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1205 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1357 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1381 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1169 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1245 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1401 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#457 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#457 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#457 .WHERE_wr2
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1197 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1473 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1473 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1389 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1433 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1149 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1121 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1225 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1213 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1553 .WHERE_wr2
+.
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#73 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1253 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1341 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1577 .WHERE_wr2
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1457 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1457 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1361 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1257 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1173 .WHERE_wr1
++
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#196 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1372 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1368 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1152 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1200 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1160 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1352 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#696 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#696 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#696 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1572 .WHERE_wr2
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1464 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1464 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#812 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1568 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1124 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1380 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1304 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1428 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#676 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#676 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#676 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1184 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1144 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1312 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#464 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#464 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#464 .WHERE_wr2
+.
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#204 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1280 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1484 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1484 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1276 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1408 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#804 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#692 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#692 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#692 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1396 .WHERE_wr1
+8.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1436 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1192 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1216 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1560 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1444 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1540 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1388 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1252 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1468 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1468 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1376 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1176 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1356 .WHERE_wr1
+.
+FAILED: GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#1640 .WHERE_wr3
+
+FAILED: GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#1640 .WHERE_wr4
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1384 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1452 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1452 .WHERE_wr2
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1132 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1456 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1456 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1292 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1296 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1364 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1460 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1460 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1232 .WHERE_wr1
++
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1556 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1212 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1172 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1260 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#700 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#700 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#700 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1264 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#800 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1544 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1236 .WHERE_wr1
+.
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#788 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1420 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1180 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1392 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1308 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1320 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1324 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1552 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1360 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1576 .WHERE_wr2
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1240 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1336 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#460 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#460 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#460 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1268 .WHERE_wr1
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#796 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#796 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#796 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#796 .WHERE_wr1
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#796 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1564 .WHERE_wr2
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#792 .WHERE_wr1
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#808 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#808 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#808 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#808 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#808 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1412 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1220 .WHERE_wr1
+9
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1580 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#456 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#456 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#456 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1140 .WHERE_wr1
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#784 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#784 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#784 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#784 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2)
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#784 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#688 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#688 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#688 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#684 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#684 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#684 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1340 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1288 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1284 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#208 .WHERE_wr3
+
+FAILED: ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#780 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#468 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#468 .WHERE_wr2
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#468 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1548 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1224 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1196 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1448 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1348 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1244 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1208 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1316 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1440 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1204 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1300 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1148 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1480 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1480 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1164 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1168 .WHERE_wr1
+.
+FAILED: CONSTRUCTIVE_GEOMETRY_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#1772 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1476 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1476 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1256 .WHERE_wr1
++
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1188 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1248 .WHERE_wr1
+.
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1472 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1472 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1488 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1488 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1128 .WHERE_wr1
+.
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#680 .WHERE_wr1
+
+FAILED: ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#680 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#680 .WHERE_wr2
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1424 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1272 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1404 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1344 .WHERE_wr1
+.
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1400 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1416 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1136 .WHERE_wr1
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1432 .WHERE_wr1
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#200 .WHERE_wr3
+.
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_18]
+ complex cache[7419]:	 #lookups: 26177297, #hits: 26169878, %hit rate: 99.971659%
+ model   cache[2]:	 #lookups: 2059594, #hits: 2059592, %hit rate: 99.999903%
+
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[3161]:	 #lookups: 3743135, #hits: 3739974, %hit rate: 99.915552%
+ model   cache[2]:	 #lookups: 8516, #hits: 8514, %hit rate: 99.976515%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_40959]
+ complex cache[3672]:	 #lookups: 3683867, #hits: 3680195, %hit rate: 99.900322%
+ model   cache[2]:	 #lookups: 12231, #hits: 12229, %hit rate: 99.983648%
+
+FAILED: GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#212 .WHERE_wr3
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1156 .WHERE_wr1
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1492 .WHERE_wr2
+
+FAILED: ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1492 .WHERE_wr1
+
+SDAI Thread Local Cache Statistics [SDAI.UniqueRuleValidation_43]
+ complex cache[7369]:	 #lookups: 26171442, #hits: 26164073, %hit rate: 99.971843%
+ model   cache[2]:	 #lookups: 1986117, #hits: 1986115, %hit rate: 99.999899%
+
+SDAI Thread Local Cache Statistics [SDAI.WhereRuleValidation_11268]
+ complex cache[6786]:	 #lookups: 25757361, #hits: 25750575, %hit rate: 99.973654%
+ model   cache[2]:	 #lookups: 2036895, #hits: 2036893, %hit rate: 99.999902%
+
+FAILED: TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1228 .WHERE_wr1
+10
+ duration: 1:49:59
+
+
+ SCHEMA INSTANCE VALIDATION RESULT
+ validationPassed?: LOGICAL(FALSE)
+
+ instanceReferenceDomainValidationRecord: InstanceReferenceDomainValidationResult( result:LOGICAL(UNKNOWN)
+
+
+
+ globalRuleValidationRecord: GlobalRuleValidationResult 2 records
+[0]LOGICAL(FALSE)	AP242_SUBTYPE_MANDATORY_SHAPE_REPRESENTATION:	(WHERE_wr1: LOGICAL(FALSE)) 
+[1]LOGICAL(FALSE)	VALID_DATUM_GEOMETRY_CORRELATION:	(WHERE_wr1: LOGICAL(FALSE)) 
+
+
+
+ uniquenessRuleValidationRecord: UniquenessRuleValidationResult  1 records
+[0]LOGICAL(FALSE)	UniquenessRule(ITEM_IDENTIFIED_REPRESENTATION_USAGE.UNIQUE_ur1): #duplicates(130) / #instances(308)
+
+
+
+ whereRuleValidationRecord: WhereRuleValidationResult( result:LOGICAL(FALSE)
+[0]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1449 .WHERE_wr1: LOGICAL(FALSE)
+[1]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1449 .WHERE_wr2: LOGICAL(FALSE)
+[2]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1450 .WHERE_wr1: LOGICAL(FALSE)
+[3]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1450 .WHERE_wr2: LOGICAL(FALSE)
+[4]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1451 .WHERE_wr1: LOGICAL(FALSE)
+[5]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1451 .WHERE_wr2: LOGICAL(FALSE)
+[6]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1452 .WHERE_wr1: LOGICAL(FALSE)
+[7]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1452 .WHERE_wr2: LOGICAL(FALSE)
+[8]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1453 .WHERE_wr1: LOGICAL(FALSE)
+[9]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1453 .WHERE_wr2: LOGICAL(FALSE)
+[10]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1454 .WHERE_wr1: LOGICAL(FALSE)
+[11]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1454 .WHERE_wr2: LOGICAL(FALSE)
+[12]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1455 .WHERE_wr1: LOGICAL(FALSE)
+[13]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1455 .WHERE_wr2: LOGICAL(FALSE)
+[14]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1456 .WHERE_wr1: LOGICAL(FALSE)
+[15]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1456 .WHERE_wr2: LOGICAL(FALSE)
+[16]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1457 .WHERE_wr1: LOGICAL(FALSE)
+[17]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1457 .WHERE_wr2: LOGICAL(FALSE)
+[18]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1458 .WHERE_wr1: LOGICAL(FALSE)
+[19]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1458 .WHERE_wr2: LOGICAL(FALSE)
+[20]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1459 .WHERE_wr1: LOGICAL(FALSE)
+[21]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1459 .WHERE_wr2: LOGICAL(FALSE)
+[22]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1460 .WHERE_wr1: LOGICAL(FALSE)
+[23]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1460 .WHERE_wr2: LOGICAL(FALSE)
+[24]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1461 .WHERE_wr1: LOGICAL(FALSE)
+[25]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1461 .WHERE_wr2: LOGICAL(FALSE)
+[26]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1462 .WHERE_wr1: LOGICAL(FALSE)
+[27]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1462 .WHERE_wr2: LOGICAL(FALSE)
+[28]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1463 .WHERE_wr1: LOGICAL(FALSE)
+[29]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1463 .WHERE_wr2: LOGICAL(FALSE)
+[30]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1464 .WHERE_wr1: LOGICAL(FALSE)
+[31]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1464 .WHERE_wr2: LOGICAL(FALSE)
+[32]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1465 .WHERE_wr1: LOGICAL(FALSE)
+[33]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1465 .WHERE_wr2: LOGICAL(FALSE)
+[34]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1466 .WHERE_wr1: LOGICAL(FALSE)
+[35]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1466 .WHERE_wr2: LOGICAL(FALSE)
+[36]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1467 .WHERE_wr1: LOGICAL(FALSE)
+[37]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1467 .WHERE_wr2: LOGICAL(FALSE)
+[38]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1468 .WHERE_wr1: LOGICAL(FALSE)
+[39]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1468 .WHERE_wr2: LOGICAL(FALSE)
+[40]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1469 .WHERE_wr1: LOGICAL(FALSE)
+[41]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1469 .WHERE_wr2: LOGICAL(FALSE)
+[42]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1470 .WHERE_wr1: LOGICAL(FALSE)
+[43]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1470 .WHERE_wr2: LOGICAL(FALSE)
+[44]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1471 .WHERE_wr1: LOGICAL(FALSE)
+[45]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1471 .WHERE_wr2: LOGICAL(FALSE)
+[46]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1472 .WHERE_wr1: LOGICAL(FALSE)
+[47]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1472 .WHERE_wr2: LOGICAL(FALSE)
+[48]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1473 .WHERE_wr1: LOGICAL(FALSE)
+[49]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1473 .WHERE_wr2: LOGICAL(FALSE)
+[50]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1474 .WHERE_wr1: LOGICAL(FALSE)
+[51]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1474 .WHERE_wr2: LOGICAL(FALSE)
+[52]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1475 .WHERE_wr1: LOGICAL(FALSE)
+[53]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1475 .WHERE_wr2: LOGICAL(FALSE)
+[54]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1476 .WHERE_wr1: LOGICAL(FALSE)
+[55]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1476 .WHERE_wr2: LOGICAL(FALSE)
+[56]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1477 .WHERE_wr1: LOGICAL(FALSE)
+[57]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1477 .WHERE_wr2: LOGICAL(FALSE)
+[58]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1478 .WHERE_wr1: LOGICAL(FALSE)
+[59]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1478 .WHERE_wr2: LOGICAL(FALSE)
+[60]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1479 .WHERE_wr1: LOGICAL(FALSE)
+[61]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1479 .WHERE_wr2: LOGICAL(FALSE)
+[62]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1480 .WHERE_wr1: LOGICAL(FALSE)
+[63]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1480 .WHERE_wr2: LOGICAL(FALSE)
+[64]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1481 .WHERE_wr1: LOGICAL(FALSE)
+[65]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1481 .WHERE_wr2: LOGICAL(FALSE)
+[66]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1482 .WHERE_wr1: LOGICAL(FALSE)
+[67]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1482 .WHERE_wr2: LOGICAL(FALSE)
+[68]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1483 .WHERE_wr1: LOGICAL(FALSE)
+[69]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1483 .WHERE_wr2: LOGICAL(FALSE)
+[70]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1484 .WHERE_wr1: LOGICAL(FALSE)
+[71]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1484 .WHERE_wr2: LOGICAL(FALSE)
+[72]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1485 .WHERE_wr1: LOGICAL(FALSE)
+[73]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1485 .WHERE_wr2: LOGICAL(FALSE)
+[74]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1486 .WHERE_wr1: LOGICAL(FALSE)
+[75]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1486 .WHERE_wr2: LOGICAL(FALSE)
+[76]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1487 .WHERE_wr1: LOGICAL(FALSE)
+[77]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1487 .WHERE_wr2: LOGICAL(FALSE)
+[78]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1488 .WHERE_wr1: LOGICAL(FALSE)
+[79]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1488 .WHERE_wr2: LOGICAL(FALSE)
+[80]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1489 .WHERE_wr1: LOGICAL(FALSE)
+[81]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1489 .WHERE_wr2: LOGICAL(FALSE)
+[82]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1490 .WHERE_wr1: LOGICAL(FALSE)
+[83]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1490 .WHERE_wr2: LOGICAL(FALSE)
+[84]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1491 .WHERE_wr1: LOGICAL(FALSE)
+[85]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1491 .WHERE_wr2: LOGICAL(FALSE)
+[86]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1492 .WHERE_wr1: LOGICAL(FALSE)
+[87]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1492 .WHERE_wr2: LOGICAL(FALSE)
+[88]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1537 .WHERE_wr2: LOGICAL(FALSE)
+[89]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1538 .WHERE_wr2: LOGICAL(FALSE)
+[90]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1539 .WHERE_wr2: LOGICAL(FALSE)
+[91]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1540 .WHERE_wr2: LOGICAL(FALSE)
+[92]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1541 .WHERE_wr2: LOGICAL(FALSE)
+[93]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1542 .WHERE_wr2: LOGICAL(FALSE)
+[94]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1543 .WHERE_wr2: LOGICAL(FALSE)
+[95]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1544 .WHERE_wr2: LOGICAL(FALSE)
+[96]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1545 .WHERE_wr2: LOGICAL(FALSE)
+[97]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1546 .WHERE_wr2: LOGICAL(FALSE)
+[98]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1547 .WHERE_wr2: LOGICAL(FALSE)
+[99]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1548 .WHERE_wr2: LOGICAL(FALSE)
+[100]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1549 .WHERE_wr2: LOGICAL(FALSE)
+[101]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1550 .WHERE_wr2: LOGICAL(FALSE)
+[102]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1551 .WHERE_wr2: LOGICAL(FALSE)
+[103]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1552 .WHERE_wr2: LOGICAL(FALSE)
+[104]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1553 .WHERE_wr2: LOGICAL(FALSE)
+[105]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1554 .WHERE_wr2: LOGICAL(FALSE)
+[106]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1555 .WHERE_wr2: LOGICAL(FALSE)
+[107]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1556 .WHERE_wr2: LOGICAL(FALSE)
+[108]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1557 .WHERE_wr2: LOGICAL(FALSE)
+[109]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1558 .WHERE_wr2: LOGICAL(FALSE)
+[110]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1559 .WHERE_wr2: LOGICAL(FALSE)
+[111]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1560 .WHERE_wr2: LOGICAL(FALSE)
+[112]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1561 .WHERE_wr2: LOGICAL(FALSE)
+[113]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1562 .WHERE_wr2: LOGICAL(FALSE)
+[114]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1563 .WHERE_wr2: LOGICAL(FALSE)
+[115]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1564 .WHERE_wr2: LOGICAL(FALSE)
+[116]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1565 .WHERE_wr2: LOGICAL(FALSE)
+[117]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1566 .WHERE_wr2: LOGICAL(FALSE)
+[118]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1567 .WHERE_wr2: LOGICAL(FALSE)
+[119]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1568 .WHERE_wr2: LOGICAL(FALSE)
+[120]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1569 .WHERE_wr2: LOGICAL(FALSE)
+[121]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1570 .WHERE_wr2: LOGICAL(FALSE)
+[122]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1571 .WHERE_wr2: LOGICAL(FALSE)
+[123]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1572 .WHERE_wr2: LOGICAL(FALSE)
+[124]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1573 .WHERE_wr2: LOGICAL(FALSE)
+[125]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1574 .WHERE_wr2: LOGICAL(FALSE)
+[126]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1575 .WHERE_wr2: LOGICAL(FALSE)
+[127]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1576 .WHERE_wr2: LOGICAL(FALSE)
+[128]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1577 .WHERE_wr2: LOGICAL(FALSE)
+[129]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1578 .WHERE_wr2: LOGICAL(FALSE)
+[130]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1579 .WHERE_wr2: LOGICAL(FALSE)
+[131]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#1580 .WHERE_wr2: LOGICAL(FALSE)
+[132]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#454 .WHERE_wr2: LOGICAL(FALSE)
+[133]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#455 .WHERE_wr2: LOGICAL(FALSE)
+[134]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#456 .WHERE_wr2: LOGICAL(FALSE)
+[135]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#457 .WHERE_wr2: LOGICAL(FALSE)
+[136]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#458 .WHERE_wr2: LOGICAL(FALSE)
+[137]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#459 .WHERE_wr2: LOGICAL(FALSE)
+[138]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#460 .WHERE_wr2: LOGICAL(FALSE)
+[139]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#461 .WHERE_wr2: LOGICAL(FALSE)
+[140]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#462 .WHERE_wr2: LOGICAL(FALSE)
+[141]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#463 .WHERE_wr2: LOGICAL(FALSE)
+[142]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#464 .WHERE_wr2: LOGICAL(FALSE)
+[143]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#465 .WHERE_wr2: LOGICAL(FALSE)
+[144]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#466 .WHERE_wr2: LOGICAL(FALSE)
+[145]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#467 .WHERE_wr2: LOGICAL(FALSE)
+[146]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#468 .WHERE_wr2: LOGICAL(FALSE)
+[147]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#674 .WHERE_wr2: LOGICAL(FALSE)
+[148]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#675 .WHERE_wr2: LOGICAL(FALSE)
+[149]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#676 .WHERE_wr2: LOGICAL(FALSE)
+[150]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#677 .WHERE_wr2: LOGICAL(FALSE)
+[151]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#678 .WHERE_wr2: LOGICAL(FALSE)
+[152]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#679 .WHERE_wr2: LOGICAL(FALSE)
+[153]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#680 .WHERE_wr2: LOGICAL(FALSE)
+[154]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#681 .WHERE_wr2: LOGICAL(FALSE)
+[155]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#682 .WHERE_wr2: LOGICAL(FALSE)
+[156]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#683 .WHERE_wr2: LOGICAL(FALSE)
+[157]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#684 .WHERE_wr2: LOGICAL(FALSE)
+[158]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#685 .WHERE_wr2: LOGICAL(FALSE)
+[159]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#686 .WHERE_wr2: LOGICAL(FALSE)
+[160]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#687 .WHERE_wr2: LOGICAL(FALSE)
+[161]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#688 .WHERE_wr2: LOGICAL(FALSE)
+[162]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#689 .WHERE_wr2: LOGICAL(FALSE)
+[163]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#690 .WHERE_wr2: LOGICAL(FALSE)
+[164]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#691 .WHERE_wr2: LOGICAL(FALSE)
+[165]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#692 .WHERE_wr2: LOGICAL(FALSE)
+[166]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#693 .WHERE_wr2: LOGICAL(FALSE)
+[167]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#694 .WHERE_wr2: LOGICAL(FALSE)
+[168]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#695 .WHERE_wr2: LOGICAL(FALSE)
+[169]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#696 .WHERE_wr2: LOGICAL(FALSE)
+[170]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#697 .WHERE_wr2: LOGICAL(FALSE)
+[171]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#698 .WHERE_wr2: LOGICAL(FALSE)
+[172]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#699 .WHERE_wr2: LOGICAL(FALSE)
+[173]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#700 .WHERE_wr2: LOGICAL(FALSE)
+[174]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#701 .WHERE_wr2: LOGICAL(FALSE)
+[175]	ANNOTATION_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#702 .WHERE_wr2: LOGICAL(FALSE)
+[176]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#781 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[177]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#782 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[178]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#783 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[179]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#784 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[180]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#785 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[181]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#786 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[182]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#796 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[183]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#797 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[184]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#801 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[185]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#802 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[186]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#806 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[187]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#807 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[188]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#808 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[189]	ANNOTATION_PLACEHOLDER_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#809 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[190]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#454 .WHERE_wr1: LOGICAL(FALSE)
+[191]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#454 .WHERE_wr2: LOGICAL(FALSE)
+[192]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#455 .WHERE_wr1: LOGICAL(FALSE)
+[193]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#455 .WHERE_wr2: LOGICAL(FALSE)
+[194]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#456 .WHERE_wr1: LOGICAL(FALSE)
+[195]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#456 .WHERE_wr2: LOGICAL(FALSE)
+[196]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#457 .WHERE_wr1: LOGICAL(FALSE)
+[197]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#457 .WHERE_wr2: LOGICAL(FALSE)
+[198]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#458 .WHERE_wr1: LOGICAL(FALSE)
+[199]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#458 .WHERE_wr2: LOGICAL(FALSE)
+[200]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#459 .WHERE_wr1: LOGICAL(FALSE)
+[201]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#459 .WHERE_wr2: LOGICAL(FALSE)
+[202]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#460 .WHERE_wr1: LOGICAL(FALSE)
+[203]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#460 .WHERE_wr2: LOGICAL(FALSE)
+[204]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#461 .WHERE_wr1: LOGICAL(FALSE)
+[205]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#461 .WHERE_wr2: LOGICAL(FALSE)
+[206]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#462 .WHERE_wr1: LOGICAL(FALSE)
+[207]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#462 .WHERE_wr2: LOGICAL(FALSE)
+[208]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#463 .WHERE_wr1: LOGICAL(FALSE)
+[209]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#463 .WHERE_wr2: LOGICAL(FALSE)
+[210]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#464 .WHERE_wr1: LOGICAL(FALSE)
+[211]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#464 .WHERE_wr2: LOGICAL(FALSE)
+[212]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#465 .WHERE_wr1: LOGICAL(FALSE)
+[213]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#465 .WHERE_wr2: LOGICAL(FALSE)
+[214]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#466 .WHERE_wr1: LOGICAL(FALSE)
+[215]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#466 .WHERE_wr2: LOGICAL(FALSE)
+[216]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#467 .WHERE_wr1: LOGICAL(FALSE)
+[217]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#467 .WHERE_wr2: LOGICAL(FALSE)
+[218]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#468 .WHERE_wr1: LOGICAL(FALSE)
+[219]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#468 .WHERE_wr2: LOGICAL(FALSE)
+[220]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#674 .WHERE_wr1: LOGICAL(FALSE)
+[221]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#674 .WHERE_wr2: LOGICAL(FALSE)
+[222]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#675 .WHERE_wr1: LOGICAL(FALSE)
+[223]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#675 .WHERE_wr2: LOGICAL(FALSE)
+[224]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#676 .WHERE_wr1: LOGICAL(FALSE)
+[225]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#676 .WHERE_wr2: LOGICAL(FALSE)
+[226]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#677 .WHERE_wr1: LOGICAL(FALSE)
+[227]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#677 .WHERE_wr2: LOGICAL(FALSE)
+[228]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#678 .WHERE_wr1: LOGICAL(FALSE)
+[229]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#678 .WHERE_wr2: LOGICAL(FALSE)
+[230]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#679 .WHERE_wr1: LOGICAL(FALSE)
+[231]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#679 .WHERE_wr2: LOGICAL(FALSE)
+[232]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#680 .WHERE_wr1: LOGICAL(FALSE)
+[233]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#680 .WHERE_wr2: LOGICAL(FALSE)
+[234]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#681 .WHERE_wr1: LOGICAL(FALSE)
+[235]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#681 .WHERE_wr2: LOGICAL(FALSE)
+[236]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#682 .WHERE_wr1: LOGICAL(FALSE)
+[237]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#682 .WHERE_wr2: LOGICAL(FALSE)
+[238]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#683 .WHERE_wr1: LOGICAL(FALSE)
+[239]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#683 .WHERE_wr2: LOGICAL(FALSE)
+[240]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#684 .WHERE_wr1: LOGICAL(FALSE)
+[241]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#684 .WHERE_wr2: LOGICAL(FALSE)
+[242]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#685 .WHERE_wr1: LOGICAL(FALSE)
+[243]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#685 .WHERE_wr2: LOGICAL(FALSE)
+[244]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#686 .WHERE_wr1: LOGICAL(FALSE)
+[245]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#686 .WHERE_wr2: LOGICAL(FALSE)
+[246]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#687 .WHERE_wr1: LOGICAL(FALSE)
+[247]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#687 .WHERE_wr2: LOGICAL(FALSE)
+[248]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#688 .WHERE_wr1: LOGICAL(FALSE)
+[249]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#688 .WHERE_wr2: LOGICAL(FALSE)
+[250]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#689 .WHERE_wr1: LOGICAL(FALSE)
+[251]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#689 .WHERE_wr2: LOGICAL(FALSE)
+[252]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#690 .WHERE_wr1: LOGICAL(FALSE)
+[253]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#690 .WHERE_wr2: LOGICAL(FALSE)
+[254]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#691 .WHERE_wr1: LOGICAL(FALSE)
+[255]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#691 .WHERE_wr2: LOGICAL(FALSE)
+[256]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#692 .WHERE_wr1: LOGICAL(FALSE)
+[257]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#692 .WHERE_wr2: LOGICAL(FALSE)
+[258]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#693 .WHERE_wr1: LOGICAL(FALSE)
+[259]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#693 .WHERE_wr2: LOGICAL(FALSE)
+[260]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#694 .WHERE_wr1: LOGICAL(FALSE)
+[261]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#694 .WHERE_wr2: LOGICAL(FALSE)
+[262]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#695 .WHERE_wr1: LOGICAL(FALSE)
+[263]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#695 .WHERE_wr2: LOGICAL(FALSE)
+[264]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#696 .WHERE_wr1: LOGICAL(FALSE)
+[265]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#696 .WHERE_wr2: LOGICAL(FALSE)
+[266]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#697 .WHERE_wr1: LOGICAL(FALSE)
+[267]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#697 .WHERE_wr2: LOGICAL(FALSE)
+[268]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#698 .WHERE_wr1: LOGICAL(FALSE)
+[269]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#698 .WHERE_wr2: LOGICAL(FALSE)
+[270]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#699 .WHERE_wr1: LOGICAL(FALSE)
+[271]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#699 .WHERE_wr2: LOGICAL(FALSE)
+[272]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#700 .WHERE_wr1: LOGICAL(FALSE)
+[273]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#700 .WHERE_wr2: LOGICAL(FALSE)
+[274]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#701 .WHERE_wr1: LOGICAL(FALSE)
+[275]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#701 .WHERE_wr2: LOGICAL(FALSE)
+[276]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#702 .WHERE_wr1: LOGICAL(FALSE)
+[277]	ANNOTATION_PLACEHOLDER_OCCURRENCE-> nist_stc_08-242.stp.PRIMARY#702 .WHERE_wr2: LOGICAL(FALSE)
+[278]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#778 .WHERE_wr1: LOGICAL(FALSE)
+[279]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#779 .WHERE_wr1: LOGICAL(FALSE)
+[280]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#780 .WHERE_wr1: LOGICAL(FALSE)
+[281]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#781 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[282]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#781 .WHERE_wr1: LOGICAL(FALSE)
+[283]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#782 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[284]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#782 .WHERE_wr1: LOGICAL(FALSE)
+[285]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#783 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[286]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#783 .WHERE_wr1: LOGICAL(FALSE)
+[287]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#784 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[288]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#784 .WHERE_wr1: LOGICAL(FALSE)
+[289]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#785 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[290]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#785 .WHERE_wr1: LOGICAL(FALSE)
+[291]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#786 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[292]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#786 .WHERE_wr1: LOGICAL(FALSE)
+[293]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#787 .WHERE_wr1: LOGICAL(FALSE)
+[294]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#788 .WHERE_wr1: LOGICAL(FALSE)
+[295]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#789 .WHERE_wr1: LOGICAL(FALSE)
+[296]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#790 .WHERE_wr1: LOGICAL(FALSE)
+[297]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#791 .WHERE_wr1: LOGICAL(FALSE)
+[298]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#792 .WHERE_wr1: LOGICAL(FALSE)
+[299]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#793 .WHERE_wr1: LOGICAL(FALSE)
+[300]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#794 .WHERE_wr1: LOGICAL(FALSE)
+[301]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#795 .WHERE_wr1: LOGICAL(FALSE)
+[302]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#796 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[303]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#796 .WHERE_wr1: LOGICAL(FALSE)
+[304]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#797 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[305]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#797 .WHERE_wr1: LOGICAL(FALSE)
+[306]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#798 .WHERE_wr1: LOGICAL(FALSE)
+[307]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#799 .WHERE_wr1: LOGICAL(FALSE)
+[308]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#800 .WHERE_wr1: LOGICAL(FALSE)
+[309]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#801 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[310]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#801 .WHERE_wr1: LOGICAL(FALSE)
+[311]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#802 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[312]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#802 .WHERE_wr1: LOGICAL(FALSE)
+[313]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#803 .WHERE_wr1: LOGICAL(FALSE)
+[314]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#804 .WHERE_wr1: LOGICAL(FALSE)
+[315]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#805 .WHERE_wr1: LOGICAL(FALSE)
+[316]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#806 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[317]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#806 .WHERE_wr1: LOGICAL(FALSE)
+[318]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#807 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[319]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#807 .WHERE_wr1: LOGICAL(FALSE)
+[320]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#808 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[321]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#808 .WHERE_wr1: LOGICAL(FALSE)
+[322]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#809 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[323]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#809 .WHERE_wr1: LOGICAL(FALSE)
+[324]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#810 .WHERE_wr1: LOGICAL(FALSE)
+[325]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#811 .WHERE_wr1: LOGICAL(FALSE)
+[326]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#812 .WHERE_wr1: LOGICAL(FALSE)
+[327]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#813 .WHERE_wr1: LOGICAL(FALSE)
+[328]	ANNOTATION_TO_MODEL_LEADER_LINE-> nist_stc_08-242.stp.PRIMARY#814 .WHERE_wr1: LOGICAL(FALSE)
+[329]	CONSTRUCTIVE_GEOMETRY_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#1772 .WHERE_wr2: LOGICAL(FALSE)
+[330]	CONSTRUCTIVE_GEOMETRY_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#1773 .WHERE_wr2: LOGICAL(FALSE)
+[331]	DRAUGHTING_MODEL-> nist_stc_08-242.stp.PRIMARY#1626 .WHERE_wr2: LOGICAL(FALSE)
+[332]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#195 .WHERE_wr3: LOGICAL(FALSE)
+[333]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#196 .WHERE_wr3: LOGICAL(FALSE)
+[334]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#197 .WHERE_wr3: LOGICAL(FALSE)
+[335]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#198 .WHERE_wr3: LOGICAL(FALSE)
+[336]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#199 .WHERE_wr3: LOGICAL(FALSE)
+[337]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#200 .WHERE_wr3: LOGICAL(FALSE)
+[338]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#201 .WHERE_wr3: LOGICAL(FALSE)
+[339]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#202 .WHERE_wr3: LOGICAL(FALSE)
+[340]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#203 .WHERE_wr3: LOGICAL(FALSE)
+[341]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#204 .WHERE_wr3: LOGICAL(FALSE)
+[342]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#205 .WHERE_wr3: LOGICAL(FALSE)
+[343]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#206 .WHERE_wr3: LOGICAL(FALSE)
+[344]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#207 .WHERE_wr3: LOGICAL(FALSE)
+[345]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#208 .WHERE_wr3: LOGICAL(FALSE)
+[346]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#209 .WHERE_wr3: LOGICAL(FALSE)
+[347]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#210 .WHERE_wr3: LOGICAL(FALSE)
+[348]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#211 .WHERE_wr3: LOGICAL(FALSE)
+[349]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#212 .WHERE_wr3: LOGICAL(FALSE)
+[350]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#213 .WHERE_wr3: LOGICAL(FALSE)
+[351]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#73 .WHERE_wr3: LOGICAL(FALSE)
+[352]	GENERAL_DATUM_REFERENCE-> nist_stc_08-242.stp.PRIMARY#74 .WHERE_wr3: LOGICAL(FALSE)
+[353]	GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#1640 .WHERE_wr3: LOGICAL(FALSE)
+[354]	GEOMETRICALLY_BOUNDED_WIREFRAME_SHAPE_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#1640 .WHERE_wr4: LOGICAL(FALSE)
+[355]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#781 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[356]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#782 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[357]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#783 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[358]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#784 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[359]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#785 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[360]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#786 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[361]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#796 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[362]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#797 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[363]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#801 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[364]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#802 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[365]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#806 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[366]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#807 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[367]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#808 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[368]	GEOMETRIC_REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#809 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[369]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#781 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[370]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#782 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[371]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#783 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[372]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#784 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[373]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#785 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[374]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#786 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[375]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#796 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[376]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#797 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[377]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#801 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[378]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#802 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[379]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#806 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[380]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#807 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[381]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#808 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[382]	REPRESENTATION_ITEM-> nist_stc_08-242.stp.PRIMARY#809 .GEOMETRIC_ELEMENTS(LIST)\LIST.loBound(2): LOGICAL(FALSE)
+[383]	SURFACE_STYLE_RENDERING_WITH_PROPERTIES-> nist_stc_08-242.stp.PRIMARY#1778 .WHERE_wr1: LOGICAL(FALSE)
+[384]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1121 .WHERE_wr1: LOGICAL(FALSE)
+[385]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1122 .WHERE_wr1: LOGICAL(FALSE)
+[386]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1123 .WHERE_wr1: LOGICAL(FALSE)
+[387]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1124 .WHERE_wr1: LOGICAL(FALSE)
+[388]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1125 .WHERE_wr1: LOGICAL(FALSE)
+[389]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1126 .WHERE_wr1: LOGICAL(FALSE)
+[390]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1127 .WHERE_wr1: LOGICAL(FALSE)
+[391]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1128 .WHERE_wr1: LOGICAL(FALSE)
+[392]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1129 .WHERE_wr1: LOGICAL(FALSE)
+[393]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1130 .WHERE_wr1: LOGICAL(FALSE)
+[394]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1131 .WHERE_wr1: LOGICAL(FALSE)
+[395]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1132 .WHERE_wr1: LOGICAL(FALSE)
+[396]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1133 .WHERE_wr1: LOGICAL(FALSE)
+[397]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1134 .WHERE_wr1: LOGICAL(FALSE)
+[398]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1135 .WHERE_wr1: LOGICAL(FALSE)
+[399]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1136 .WHERE_wr1: LOGICAL(FALSE)
+[400]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1137 .WHERE_wr1: LOGICAL(FALSE)
+[401]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1138 .WHERE_wr1: LOGICAL(FALSE)
+[402]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1139 .WHERE_wr1: LOGICAL(FALSE)
+[403]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1140 .WHERE_wr1: LOGICAL(FALSE)
+[404]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1141 .WHERE_wr1: LOGICAL(FALSE)
+[405]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1142 .WHERE_wr1: LOGICAL(FALSE)
+[406]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1143 .WHERE_wr1: LOGICAL(FALSE)
+[407]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1144 .WHERE_wr1: LOGICAL(FALSE)
+[408]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1145 .WHERE_wr1: LOGICAL(FALSE)
+[409]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1146 .WHERE_wr1: LOGICAL(FALSE)
+[410]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1147 .WHERE_wr1: LOGICAL(FALSE)
+[411]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1148 .WHERE_wr1: LOGICAL(FALSE)
+[412]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1149 .WHERE_wr1: LOGICAL(FALSE)
+[413]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1150 .WHERE_wr1: LOGICAL(FALSE)
+[414]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1151 .WHERE_wr1: LOGICAL(FALSE)
+[415]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1152 .WHERE_wr1: LOGICAL(FALSE)
+[416]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1153 .WHERE_wr1: LOGICAL(FALSE)
+[417]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1154 .WHERE_wr1: LOGICAL(FALSE)
+[418]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1155 .WHERE_wr1: LOGICAL(FALSE)
+[419]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1156 .WHERE_wr1: LOGICAL(FALSE)
+[420]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1157 .WHERE_wr1: LOGICAL(FALSE)
+[421]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1158 .WHERE_wr1: LOGICAL(FALSE)
+[422]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1159 .WHERE_wr1: LOGICAL(FALSE)
+[423]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1160 .WHERE_wr1: LOGICAL(FALSE)
+[424]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1161 .WHERE_wr1: LOGICAL(FALSE)
+[425]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1162 .WHERE_wr1: LOGICAL(FALSE)
+[426]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1163 .WHERE_wr1: LOGICAL(FALSE)
+[427]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1164 .WHERE_wr1: LOGICAL(FALSE)
+[428]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1165 .WHERE_wr1: LOGICAL(FALSE)
+[429]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1166 .WHERE_wr1: LOGICAL(FALSE)
+[430]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1167 .WHERE_wr1: LOGICAL(FALSE)
+[431]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1168 .WHERE_wr1: LOGICAL(FALSE)
+[432]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1169 .WHERE_wr1: LOGICAL(FALSE)
+[433]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1170 .WHERE_wr1: LOGICAL(FALSE)
+[434]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1171 .WHERE_wr1: LOGICAL(FALSE)
+[435]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1172 .WHERE_wr1: LOGICAL(FALSE)
+[436]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1173 .WHERE_wr1: LOGICAL(FALSE)
+[437]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1174 .WHERE_wr1: LOGICAL(FALSE)
+[438]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1175 .WHERE_wr1: LOGICAL(FALSE)
+[439]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1176 .WHERE_wr1: LOGICAL(FALSE)
+[440]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1177 .WHERE_wr1: LOGICAL(FALSE)
+[441]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1178 .WHERE_wr1: LOGICAL(FALSE)
+[442]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1179 .WHERE_wr1: LOGICAL(FALSE)
+[443]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1180 .WHERE_wr1: LOGICAL(FALSE)
+[444]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1181 .WHERE_wr1: LOGICAL(FALSE)
+[445]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1182 .WHERE_wr1: LOGICAL(FALSE)
+[446]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1183 .WHERE_wr1: LOGICAL(FALSE)
+[447]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1184 .WHERE_wr1: LOGICAL(FALSE)
+[448]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1185 .WHERE_wr1: LOGICAL(FALSE)
+[449]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1186 .WHERE_wr1: LOGICAL(FALSE)
+[450]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1187 .WHERE_wr1: LOGICAL(FALSE)
+[451]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1188 .WHERE_wr1: LOGICAL(FALSE)
+[452]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1189 .WHERE_wr1: LOGICAL(FALSE)
+[453]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1190 .WHERE_wr1: LOGICAL(FALSE)
+[454]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1191 .WHERE_wr1: LOGICAL(FALSE)
+[455]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1192 .WHERE_wr1: LOGICAL(FALSE)
+[456]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1193 .WHERE_wr1: LOGICAL(FALSE)
+[457]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1194 .WHERE_wr1: LOGICAL(FALSE)
+[458]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1195 .WHERE_wr1: LOGICAL(FALSE)
+[459]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1196 .WHERE_wr1: LOGICAL(FALSE)
+[460]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1197 .WHERE_wr1: LOGICAL(FALSE)
+[461]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1198 .WHERE_wr1: LOGICAL(FALSE)
+[462]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1199 .WHERE_wr1: LOGICAL(FALSE)
+[463]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1200 .WHERE_wr1: LOGICAL(FALSE)
+[464]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1201 .WHERE_wr1: LOGICAL(FALSE)
+[465]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1202 .WHERE_wr1: LOGICAL(FALSE)
+[466]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1203 .WHERE_wr1: LOGICAL(FALSE)
+[467]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1204 .WHERE_wr1: LOGICAL(FALSE)
+[468]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1205 .WHERE_wr1: LOGICAL(FALSE)
+[469]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1206 .WHERE_wr1: LOGICAL(FALSE)
+[470]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1207 .WHERE_wr1: LOGICAL(FALSE)
+[471]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1208 .WHERE_wr1: LOGICAL(FALSE)
+[472]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1209 .WHERE_wr1: LOGICAL(FALSE)
+[473]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1210 .WHERE_wr1: LOGICAL(FALSE)
+[474]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1211 .WHERE_wr1: LOGICAL(FALSE)
+[475]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1212 .WHERE_wr1: LOGICAL(FALSE)
+[476]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1213 .WHERE_wr1: LOGICAL(FALSE)
+[477]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1214 .WHERE_wr1: LOGICAL(FALSE)
+[478]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1215 .WHERE_wr1: LOGICAL(FALSE)
+[479]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1216 .WHERE_wr1: LOGICAL(FALSE)
+[480]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1217 .WHERE_wr1: LOGICAL(FALSE)
+[481]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1218 .WHERE_wr1: LOGICAL(FALSE)
+[482]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1219 .WHERE_wr1: LOGICAL(FALSE)
+[483]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1220 .WHERE_wr1: LOGICAL(FALSE)
+[484]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1221 .WHERE_wr1: LOGICAL(FALSE)
+[485]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1222 .WHERE_wr1: LOGICAL(FALSE)
+[486]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1223 .WHERE_wr1: LOGICAL(FALSE)
+[487]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1224 .WHERE_wr1: LOGICAL(FALSE)
+[488]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1225 .WHERE_wr1: LOGICAL(FALSE)
+[489]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1226 .WHERE_wr1: LOGICAL(FALSE)
+[490]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1227 .WHERE_wr1: LOGICAL(FALSE)
+[491]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1228 .WHERE_wr1: LOGICAL(FALSE)
+[492]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1229 .WHERE_wr1: LOGICAL(FALSE)
+[493]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1230 .WHERE_wr1: LOGICAL(FALSE)
+[494]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1231 .WHERE_wr1: LOGICAL(FALSE)
+[495]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1232 .WHERE_wr1: LOGICAL(FALSE)
+[496]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1233 .WHERE_wr1: LOGICAL(FALSE)
+[497]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1234 .WHERE_wr1: LOGICAL(FALSE)
+[498]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1235 .WHERE_wr1: LOGICAL(FALSE)
+[499]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1236 .WHERE_wr1: LOGICAL(FALSE)
+[500]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1237 .WHERE_wr1: LOGICAL(FALSE)
+[501]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1238 .WHERE_wr1: LOGICAL(FALSE)
+[502]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1239 .WHERE_wr1: LOGICAL(FALSE)
+[503]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1240 .WHERE_wr1: LOGICAL(FALSE)
+[504]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1241 .WHERE_wr1: LOGICAL(FALSE)
+[505]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1242 .WHERE_wr1: LOGICAL(FALSE)
+[506]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1243 .WHERE_wr1: LOGICAL(FALSE)
+[507]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1244 .WHERE_wr1: LOGICAL(FALSE)
+[508]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1245 .WHERE_wr1: LOGICAL(FALSE)
+[509]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1246 .WHERE_wr1: LOGICAL(FALSE)
+[510]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1247 .WHERE_wr1: LOGICAL(FALSE)
+[511]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1248 .WHERE_wr1: LOGICAL(FALSE)
+[512]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1249 .WHERE_wr1: LOGICAL(FALSE)
+[513]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1250 .WHERE_wr1: LOGICAL(FALSE)
+[514]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1251 .WHERE_wr1: LOGICAL(FALSE)
+[515]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1252 .WHERE_wr1: LOGICAL(FALSE)
+[516]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1253 .WHERE_wr1: LOGICAL(FALSE)
+[517]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1254 .WHERE_wr1: LOGICAL(FALSE)
+[518]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1255 .WHERE_wr1: LOGICAL(FALSE)
+[519]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1256 .WHERE_wr1: LOGICAL(FALSE)
+[520]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1257 .WHERE_wr1: LOGICAL(FALSE)
+[521]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1258 .WHERE_wr1: LOGICAL(FALSE)
+[522]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1259 .WHERE_wr1: LOGICAL(FALSE)
+[523]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1260 .WHERE_wr1: LOGICAL(FALSE)
+[524]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1261 .WHERE_wr1: LOGICAL(FALSE)
+[525]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1262 .WHERE_wr1: LOGICAL(FALSE)
+[526]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1263 .WHERE_wr1: LOGICAL(FALSE)
+[527]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1264 .WHERE_wr1: LOGICAL(FALSE)
+[528]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1265 .WHERE_wr1: LOGICAL(FALSE)
+[529]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1266 .WHERE_wr1: LOGICAL(FALSE)
+[530]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1267 .WHERE_wr1: LOGICAL(FALSE)
+[531]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1268 .WHERE_wr1: LOGICAL(FALSE)
+[532]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1269 .WHERE_wr1: LOGICAL(FALSE)
+[533]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1270 .WHERE_wr1: LOGICAL(FALSE)
+[534]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1271 .WHERE_wr1: LOGICAL(FALSE)
+[535]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1272 .WHERE_wr1: LOGICAL(FALSE)
+[536]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1273 .WHERE_wr1: LOGICAL(FALSE)
+[537]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1274 .WHERE_wr1: LOGICAL(FALSE)
+[538]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1275 .WHERE_wr1: LOGICAL(FALSE)
+[539]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1276 .WHERE_wr1: LOGICAL(FALSE)
+[540]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1277 .WHERE_wr1: LOGICAL(FALSE)
+[541]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1278 .WHERE_wr1: LOGICAL(FALSE)
+[542]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1279 .WHERE_wr1: LOGICAL(FALSE)
+[543]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1280 .WHERE_wr1: LOGICAL(FALSE)
+[544]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1281 .WHERE_wr1: LOGICAL(FALSE)
+[545]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1282 .WHERE_wr1: LOGICAL(FALSE)
+[546]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1283 .WHERE_wr1: LOGICAL(FALSE)
+[547]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1284 .WHERE_wr1: LOGICAL(FALSE)
+[548]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1285 .WHERE_wr1: LOGICAL(FALSE)
+[549]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1286 .WHERE_wr1: LOGICAL(FALSE)
+[550]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1287 .WHERE_wr1: LOGICAL(FALSE)
+[551]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1288 .WHERE_wr1: LOGICAL(FALSE)
+[552]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1289 .WHERE_wr1: LOGICAL(FALSE)
+[553]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1290 .WHERE_wr1: LOGICAL(FALSE)
+[554]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1291 .WHERE_wr1: LOGICAL(FALSE)
+[555]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1292 .WHERE_wr1: LOGICAL(FALSE)
+[556]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1293 .WHERE_wr1: LOGICAL(FALSE)
+[557]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1294 .WHERE_wr1: LOGICAL(FALSE)
+[558]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1295 .WHERE_wr1: LOGICAL(FALSE)
+[559]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1296 .WHERE_wr1: LOGICAL(FALSE)
+[560]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1297 .WHERE_wr1: LOGICAL(FALSE)
+[561]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1298 .WHERE_wr1: LOGICAL(FALSE)
+[562]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1299 .WHERE_wr1: LOGICAL(FALSE)
+[563]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1300 .WHERE_wr1: LOGICAL(FALSE)
+[564]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1301 .WHERE_wr1: LOGICAL(FALSE)
+[565]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1302 .WHERE_wr1: LOGICAL(FALSE)
+[566]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1303 .WHERE_wr1: LOGICAL(FALSE)
+[567]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1304 .WHERE_wr1: LOGICAL(FALSE)
+[568]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1305 .WHERE_wr1: LOGICAL(FALSE)
+[569]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1306 .WHERE_wr1: LOGICAL(FALSE)
+[570]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1307 .WHERE_wr1: LOGICAL(FALSE)
+[571]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1308 .WHERE_wr1: LOGICAL(FALSE)
+[572]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1309 .WHERE_wr1: LOGICAL(FALSE)
+[573]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1310 .WHERE_wr1: LOGICAL(FALSE)
+[574]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1311 .WHERE_wr1: LOGICAL(FALSE)
+[575]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1312 .WHERE_wr1: LOGICAL(FALSE)
+[576]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1313 .WHERE_wr1: LOGICAL(FALSE)
+[577]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1314 .WHERE_wr1: LOGICAL(FALSE)
+[578]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1315 .WHERE_wr1: LOGICAL(FALSE)
+[579]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1316 .WHERE_wr1: LOGICAL(FALSE)
+[580]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1317 .WHERE_wr1: LOGICAL(FALSE)
+[581]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1318 .WHERE_wr1: LOGICAL(FALSE)
+[582]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1319 .WHERE_wr1: LOGICAL(FALSE)
+[583]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1320 .WHERE_wr1: LOGICAL(FALSE)
+[584]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1321 .WHERE_wr1: LOGICAL(FALSE)
+[585]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1322 .WHERE_wr1: LOGICAL(FALSE)
+[586]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1323 .WHERE_wr1: LOGICAL(FALSE)
+[587]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1324 .WHERE_wr1: LOGICAL(FALSE)
+[588]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1325 .WHERE_wr1: LOGICAL(FALSE)
+[589]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1326 .WHERE_wr1: LOGICAL(FALSE)
+[590]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1335 .WHERE_wr1: LOGICAL(FALSE)
+[591]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1336 .WHERE_wr1: LOGICAL(FALSE)
+[592]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1337 .WHERE_wr1: LOGICAL(FALSE)
+[593]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1338 .WHERE_wr1: LOGICAL(FALSE)
+[594]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1339 .WHERE_wr1: LOGICAL(FALSE)
+[595]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1340 .WHERE_wr1: LOGICAL(FALSE)
+[596]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1341 .WHERE_wr1: LOGICAL(FALSE)
+[597]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1342 .WHERE_wr1: LOGICAL(FALSE)
+[598]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1343 .WHERE_wr1: LOGICAL(FALSE)
+[599]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1344 .WHERE_wr1: LOGICAL(FALSE)
+[600]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1345 .WHERE_wr1: LOGICAL(FALSE)
+[601]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1346 .WHERE_wr1: LOGICAL(FALSE)
+[602]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1347 .WHERE_wr1: LOGICAL(FALSE)
+[603]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1348 .WHERE_wr1: LOGICAL(FALSE)
+[604]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1349 .WHERE_wr1: LOGICAL(FALSE)
+[605]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1350 .WHERE_wr1: LOGICAL(FALSE)
+[606]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1351 .WHERE_wr1: LOGICAL(FALSE)
+[607]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1352 .WHERE_wr1: LOGICAL(FALSE)
+[608]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1353 .WHERE_wr1: LOGICAL(FALSE)
+[609]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1354 .WHERE_wr1: LOGICAL(FALSE)
+[610]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1355 .WHERE_wr1: LOGICAL(FALSE)
+[611]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1356 .WHERE_wr1: LOGICAL(FALSE)
+[612]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1357 .WHERE_wr1: LOGICAL(FALSE)
+[613]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1358 .WHERE_wr1: LOGICAL(FALSE)
+[614]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1359 .WHERE_wr1: LOGICAL(FALSE)
+[615]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1360 .WHERE_wr1: LOGICAL(FALSE)
+[616]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1361 .WHERE_wr1: LOGICAL(FALSE)
+[617]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1362 .WHERE_wr1: LOGICAL(FALSE)
+[618]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1363 .WHERE_wr1: LOGICAL(FALSE)
+[619]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1364 .WHERE_wr1: LOGICAL(FALSE)
+[620]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1365 .WHERE_wr1: LOGICAL(FALSE)
+[621]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1366 .WHERE_wr1: LOGICAL(FALSE)
+[622]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1367 .WHERE_wr1: LOGICAL(FALSE)
+[623]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1368 .WHERE_wr1: LOGICAL(FALSE)
+[624]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1369 .WHERE_wr1: LOGICAL(FALSE)
+[625]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1370 .WHERE_wr1: LOGICAL(FALSE)
+[626]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1371 .WHERE_wr1: LOGICAL(FALSE)
+[627]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1372 .WHERE_wr1: LOGICAL(FALSE)
+[628]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1373 .WHERE_wr1: LOGICAL(FALSE)
+[629]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1374 .WHERE_wr1: LOGICAL(FALSE)
+[630]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1375 .WHERE_wr1: LOGICAL(FALSE)
+[631]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1376 .WHERE_wr1: LOGICAL(FALSE)
+[632]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1377 .WHERE_wr1: LOGICAL(FALSE)
+[633]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1378 .WHERE_wr1: LOGICAL(FALSE)
+[634]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1379 .WHERE_wr1: LOGICAL(FALSE)
+[635]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1380 .WHERE_wr1: LOGICAL(FALSE)
+[636]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1381 .WHERE_wr1: LOGICAL(FALSE)
+[637]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1382 .WHERE_wr1: LOGICAL(FALSE)
+[638]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1383 .WHERE_wr1: LOGICAL(FALSE)
+[639]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1384 .WHERE_wr1: LOGICAL(FALSE)
+[640]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1385 .WHERE_wr1: LOGICAL(FALSE)
+[641]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1386 .WHERE_wr1: LOGICAL(FALSE)
+[642]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1387 .WHERE_wr1: LOGICAL(FALSE)
+[643]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1388 .WHERE_wr1: LOGICAL(FALSE)
+[644]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1389 .WHERE_wr1: LOGICAL(FALSE)
+[645]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1390 .WHERE_wr1: LOGICAL(FALSE)
+[646]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1391 .WHERE_wr1: LOGICAL(FALSE)
+[647]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1392 .WHERE_wr1: LOGICAL(FALSE)
+[648]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1393 .WHERE_wr1: LOGICAL(FALSE)
+[649]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1394 .WHERE_wr1: LOGICAL(FALSE)
+[650]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1395 .WHERE_wr1: LOGICAL(FALSE)
+[651]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1396 .WHERE_wr1: LOGICAL(FALSE)
+[652]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1397 .WHERE_wr1: LOGICAL(FALSE)
+[653]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1398 .WHERE_wr1: LOGICAL(FALSE)
+[654]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1399 .WHERE_wr1: LOGICAL(FALSE)
+[655]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1400 .WHERE_wr1: LOGICAL(FALSE)
+[656]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1401 .WHERE_wr1: LOGICAL(FALSE)
+[657]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1402 .WHERE_wr1: LOGICAL(FALSE)
+[658]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1403 .WHERE_wr1: LOGICAL(FALSE)
+[659]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1404 .WHERE_wr1: LOGICAL(FALSE)
+[660]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1405 .WHERE_wr1: LOGICAL(FALSE)
+[661]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1406 .WHERE_wr1: LOGICAL(FALSE)
+[662]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1407 .WHERE_wr1: LOGICAL(FALSE)
+[663]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1408 .WHERE_wr1: LOGICAL(FALSE)
+[664]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1409 .WHERE_wr1: LOGICAL(FALSE)
+[665]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1410 .WHERE_wr1: LOGICAL(FALSE)
+[666]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1411 .WHERE_wr1: LOGICAL(FALSE)
+[667]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1412 .WHERE_wr1: LOGICAL(FALSE)
+[668]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1413 .WHERE_wr1: LOGICAL(FALSE)
+[669]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1414 .WHERE_wr1: LOGICAL(FALSE)
+[670]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1415 .WHERE_wr1: LOGICAL(FALSE)
+[671]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1416 .WHERE_wr1: LOGICAL(FALSE)
+[672]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1417 .WHERE_wr1: LOGICAL(FALSE)
+[673]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1418 .WHERE_wr1: LOGICAL(FALSE)
+[674]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1419 .WHERE_wr1: LOGICAL(FALSE)
+[675]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1420 .WHERE_wr1: LOGICAL(FALSE)
+[676]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1421 .WHERE_wr1: LOGICAL(FALSE)
+[677]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1422 .WHERE_wr1: LOGICAL(FALSE)
+[678]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1423 .WHERE_wr1: LOGICAL(FALSE)
+[679]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1424 .WHERE_wr1: LOGICAL(FALSE)
+[680]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1425 .WHERE_wr1: LOGICAL(FALSE)
+[681]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1426 .WHERE_wr1: LOGICAL(FALSE)
+[682]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1427 .WHERE_wr1: LOGICAL(FALSE)
+[683]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1428 .WHERE_wr1: LOGICAL(FALSE)
+[684]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1429 .WHERE_wr1: LOGICAL(FALSE)
+[685]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1430 .WHERE_wr1: LOGICAL(FALSE)
+[686]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1431 .WHERE_wr1: LOGICAL(FALSE)
+[687]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1432 .WHERE_wr1: LOGICAL(FALSE)
+[688]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1433 .WHERE_wr1: LOGICAL(FALSE)
+[689]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1434 .WHERE_wr1: LOGICAL(FALSE)
+[690]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1435 .WHERE_wr1: LOGICAL(FALSE)
+[691]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1436 .WHERE_wr1: LOGICAL(FALSE)
+[692]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1437 .WHERE_wr1: LOGICAL(FALSE)
+[693]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1438 .WHERE_wr1: LOGICAL(FALSE)
+[694]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1439 .WHERE_wr1: LOGICAL(FALSE)
+[695]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1440 .WHERE_wr1: LOGICAL(FALSE)
+[696]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1441 .WHERE_wr1: LOGICAL(FALSE)
+[697]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1442 .WHERE_wr1: LOGICAL(FALSE)
+[698]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1443 .WHERE_wr1: LOGICAL(FALSE)
+[699]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1444 .WHERE_wr1: LOGICAL(FALSE)
+[700]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1445 .WHERE_wr1: LOGICAL(FALSE)
+[701]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1446 .WHERE_wr1: LOGICAL(FALSE)
+[702]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1447 .WHERE_wr1: LOGICAL(FALSE)
+[703]	TESSELLATED_ITEM-> nist_stc_08-242.stp.PRIMARY#1448 .WHERE_wr1: LOGICAL(FALSE)
+[704]	TESSELLATED_SHAPE_REPRESENTATION-> nist_stc_08-242.stp.PRIMARY#1626 .WHERE_wr2: LOGICAL(FALSE)
+
+
+
+(3) validation complete
+
+
+SDAI Thread Local Cache Statistics [SDAI.usedIn _10584]
+ complex cache[2251]:	 #lookups: 31859, #hits: 29608, %hit rate: 92.934493%
+ model   cache[0]:	 #lookups: 2251, #hits: 2250, %hit rate: 99.955575%
+
+#29: source = simpleRecord(SimpleRecord(keyword:DRAUGHTING_MODEL, parameters:[STRING(MBD_D), [#41, #67, #1573, #1618, #1574, #1619, #1571, #1616, #1575, #1620, #1572, #1617, #1576, #1621, #1577, #1622, #1578, #1623], #11489]), p21DataSection(PRIMARY))
+ complex = nist_stc_08-242.stp.PRIMARY#29
+ [0]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DRAUGHTING_MODEL
+
+ [1]	AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.REPRESENTATION
+	_name: 	tLABEL(rep: STRING(MBD_D))
+	_items: 	SET<PersistentEntityReference<eREPRESENTATION_ITEM>>(rep: Set([REPRESENTATION_ITEM.PRef=> #1574_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1575_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1573_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1571_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1619_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1572_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1618_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1616_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1620_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1617_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #67_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1577_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1622_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1576_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1578_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1621_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #41_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE, REPRESENTATION_ITEM.PRef=> #1623_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE]), bound1: 1, bound2: nil)
+	_context_of_items: 	Optional(REPRESENTATION_CONTEXT.PRef=> #11489_m05E1AFBA-2454-4752-A0CE-DAE0F11C3CDE)
+
+
+
+
+SDAI Thread Local Cache Statistics [SDAI.UniqueRuleValidation_11]
+ complex cache[7026]:	 #lookups: 26177598, #hits: 26170572, %hit rate: 99.97316%
+ model   cache[2]:	 #lookups: 2048130, #hits: 2048128, %hit rate: 99.999902%
+normal end of execution
+2026/3/3 19:08
+total duration: 2:03:15
+Program ended with exit code: 0

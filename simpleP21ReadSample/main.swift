@@ -8,8 +8,10 @@
 
 import Foundation
 import SwiftSDAIcore
-import SwiftSDAIap242
+import SwiftSDAIap242ed4
 import SwiftAP242PDMkit
+
+typealias ap242 = ap242ed4
 
 let na = "n/a"
 

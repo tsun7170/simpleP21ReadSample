@@ -1,25 +1,21 @@
-2026/2/8 15:46
+2026/3/4 18:13
 
  input: nist_stc_07_asme1_ap242-e3.stp
 
 
 
  parsing header section: 
- parsing data section: .........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+....
- completed parsing.
- resolving entity instances: 
- error detected on exchange structure: entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF)
+ parsing data section: .........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+.........+......
+ error detected on exchange structure: invalid entity internal mapping record detected for name(14028) with parameters([STRING(User Surface.6), STRING(single feature), #11, .T., #14028, STRING(diameter)]); circular reference to the defining entity at parameter[4]; data section:p21DataSection(PRIMARY)
 
- error detected on decoder: resolve error:
-entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF),
- while converting internal mapping to external mapping,
- while resolving entity instance simple record #16387
+ error detected on parser: P21Error(message: "invalid entity internal mapping record detected for name(14028) with parameters([STRING(User Surface.6), STRING(single feature), #11, .T., #14028, STRING(diameter)]); circular reference to the defining entity at parameter[4]; data section:p21DataSection(PRIMARY)", lineNumber: 15675)
 
-SY_ERR [1000]: Underlying system error. #simpleP21ReadSample [in SwiftSDAIcore/SdaiErrorEvent.swift: line 92] @2026-02-08 06:46:55 +0000 
-decoder error: resolve error:
-entity name(APLL_POINT) not found in schema(AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF),
- while converting internal mapping to external mapping,
- while resolving entity instance simple record #16387
-simpleP21ReadSample/main.swift:105: Fatal error: SDAI runtime is trapped by the error event in simpleP21ReadSample.
+ error detected on decoder: parser error:
+P21Error(message: "invalid entity internal mapping record detected for name(14028) with parameters([STRING(User Surface.6), STRING(single feature), #11, .T., #14028, STRING(diameter)]); circular reference to the defining entity at parameter[4]; data section:p21DataSection(PRIMARY), while parsing data section simple entity instance, while parsing end of exchange structure", lineNumber: 15675)
+
+SY_ERR [1000]: Underlying system error. #simpleP21ReadSample [in SwiftSDAIcore/SdaiErrorEvent.swift: line 92] @2026-03-04 09:15:10 +0000 
+decoder error: parser error:
+P21Error(message: "invalid entity internal mapping record detected for name(14028) with parameters([STRING(User Surface.6), STRING(single feature), #11, .T., #14028, STRING(diameter)]); circular reference to the defining entity at parameter[4]; data section:p21DataSection(PRIMARY), while parsing data section simple entity instance, while parsing end of exchange structure", lineNumber: 15675)
+simpleP21ReadSample/main.swift:111: Fatal error: SDAI runtime is trapped by the error event in simpleP21ReadSample.
 Message from debugger: killed
 Program ended with exit code: 9

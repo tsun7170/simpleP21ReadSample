@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import SwiftSDAIcore
-import SwiftSDAIap242ed4
+//import SwiftSDAIcore
+//import SwiftSDAIap242ed4
 import SwiftAP242PDMkit
 
 typealias ap242 = ap242ed4
@@ -75,8 +75,7 @@ let _ = session.startEventRecording()
 session.open(repository: repository)
 
 //MARK: - start RW transaction
-let disposition = await session.performTransactionRW(
-  output: P21Decode.ExchangeStructure.self)
+let disposition = await session.performTransactionRW//(
 { transaction in
 
 	//MARK: prepare the acceptable step schema list
@@ -133,7 +132,7 @@ let disposition = await session.performTransactionRW(
 
 	return .commit(exchange)
 }
-guard case .commit(let exchange) = disposition
+guard let exchange = disposition.output
 else {
   fatalError("transaction aborted")
 }
@@ -199,9 +198,9 @@ await session.performTransactionRO { transaction in
 					if let repRelationWithTransformation = repRelation?.super_eREPRESENTATION_RELATIONSHIP?.sub_eREPRESENTATION_RELATIONSHIP_WITH_TRANSFORMATION {
 						let transOp = repRelationWithTransformation.TRANSFORMATION_OPERATOR
 						print("\t\ttransformation:\(transOp)")
-						let itemDefTrans = transOp.super_eITEM_DEFINED_TRANSFORMATION
-						print("\t\tsource:\(itemDefTrans.TRANSFORM_ITEM_1?.complexEntity?.leafEntityReferences, default: "nil")")
-						print("\t\ttarget:\(itemDefTrans.TRANSFORM_ITEM_2?.complexEntity?.leafEntityReferences, default: "nil")")
+						let itemDefTrans = transOp.underlying_eITEM_DEFINED_TRANSFORMATION
+						print("\t\tsource:\(itemDefTrans?.TRANSFORM_ITEM_1?.complexEntity?.leafEntityReferences, default: "nil")")
+						print("\t\ttarget:\(itemDefTrans?.TRANSFORM_ITEM_2?.complexEntity?.leafEntityReferences, default: "nil")")
 					}
 					print("")
 				}
@@ -335,7 +334,7 @@ await session.performTransactionVA { transaction in
 	let schemaInstance = transaction.promoteSchemaInstanceToReadWrite(instance: si)
 	else {
 		SDAI.raiseErrorAndContinue(.SY_ERR, detail: "could not obtain schema instance[\(schemaInstanceName)] in RW mode")
-		return .abort
+    return SDAI.Disposition<Void>.abort
 	}
 
 	let validationMonitor = MyValidationMonitor()
@@ -486,7 +485,7 @@ await session.performTransactionVA { transaction in
 
 	}
 
-	return .commit
+	return .commit(Void())
 }
 //MARK: end VA transaction
 print("\n(3) validation complete\n\n")
@@ -522,7 +521,7 @@ await session.performTransactionRO { transaction in
 	}
 
 
-	return .commit
+	return .commit(Void())
 }
 
 
@@ -534,7 +533,7 @@ print("total duration: \(durationRun.formatted())")
 
 //MARK: -
 @Sendable func printUnit(indent:String, unit:ap242.sUNIT) {
-  if let namedUnit = unit.super_eNAMED_UNIT.eval {
+  if let namedUnit = unit.underlying_eNAMED_UNIT?.eval {
     print(indent+"unit:\(namedUnit.complexEntity.leafEntityReferences)")
 
     if let siUnit = namedUnit.sub_eSI_UNIT {
@@ -548,7 +547,7 @@ print("total duration: \(durationRun.formatted())")
     }
   }
 
-  else if let derivedUnit = unit.super_eDERIVED_UNIT.eval {
+  else if let derivedUnit = unit.underlying_eDERIVED_UNIT?.eval {
     print(indent+"unit:\(derivedUnit.NAME?.asSwiftString ?? "<no name>" )\t\(derivedUnit.complexEntity.leafEntityReferences)")
 
     for (m,elem) in derivedUnit.ELEMENTS.enumerated() {
